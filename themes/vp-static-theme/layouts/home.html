@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}">
+
+<head>
+  {{- partial "head.html" . -}}
+  <link rel="stylesheet" href="css/home.css" />
+</head>
+
+
+<body>
+  <div class="hero">
+    {{- partial "langs-list-h.html" . -}}
+    {{- partial "mobile-nav.html" . -}}
+    {{- partial "icons/hero-logo.html" . -}}
+    <a class="hero-portfolio-link no-hover" href="/">
+      <span class="hero-portfolio-link-line"></span><span>Портфоліо</span>
+    </a>
+
+    <ul class="hero-social-links-list">
+      <li>
+        <a class="hero-social-link no-external-icon no-hover" href="https://www.facebook.com/vpproduction.audio"
+          target="_blank" rel="noopener noreferrer nofollow" aria-label="VP Production Facebook">
+          facebook
+          <span class="hero-social-link-arrow" aria-hidden="true"></span>
+        </a>
+      </li>
+      <li role="presentation" aria-hidden="true">/</li>
+      <li>
+        <a class="hero-social-link no-external-icon no-hover" href="https://www.instagram.com/vpproduction.audio"
+          target="_blank" rel="noopener noreferrer nofollow" aria-label="VP Production Instagram">
+          instagram
+          <span class="hero-social-link-arrow" aria-hidden="true"></span>
+        </a>
+      </li>
+      <li role="presentation" aria-hidden="true">/</li>
+      <li>
+        <a class="hero-social-link no-external-icon no-hover" href="https://www.linkedin.com/company/vpproduction-audio"
+          target="_blank" rel="noopener noreferrer nofollow" aria-label="VP Production LinkedIn">
+          linkedin
+          <span class="hero-social-link-arrow" aria-hidden="true"></span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="about-section container inline-gap">
+    <div class="about-section-img-container">
+      <h1 class="page-title about-section-title">VP Production</h1>
+      <div class="small-container">
+        <picture>
+          <source srcset="/images/home/about.webp" type="image/webp">
+          <img class="about-section-img" src="/images/home/about.jpg"
+            alt="Іміджове зображенні навушників які лежать на фоні">
+        </picture>
+      </div>
+    </div>
+    <div class="small-container d-f f-c f-c-h-r">
+      <p class="about-section-text">Ми – незалежна аудіоагенція, яка створює звукову айдентику для ігор,
+        брендів і
+        застосунків. Із нами можна не
+        соромитися зарядженої музики, концептуальних звуків і самобутніх голосів — усе заради того, щоби стати значущою
+        частиною життя вашої аудиторії.</p>
+
+      <a class="btn no-hover" href="/about">Про нас</a>
+    </div>
+  </div>
+  <div class="why-section inline-gap">
+    <div class="container">
+      <h2 class="section-title">Чому ми?</h2>
+    </div>
+    <div class="small-container">
+      <ul class="why-section-list">
+        <li>
+          <div class="why-section-list-item">
+            <img src="images/home/time-icon.svg" alt="Дедлайни — наше все." />
+            <p>
+              <strong>Дедлайни — наше все.</strong> За 6 років ми зірвали 0 дедлайнів.
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="why-section-list-item">
+            <img src="images/home/audio-icon.svg" alt="" />
+            <p>
+              <strong>Аудиторія + наше аудіо = ❤️.</strong> Наші роботи вже чули мільйони людей і багацько залишилися
+              настільки
+              небайдужими, що написали про нас таке.
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="why-section-list-item">
+            <img src="images/home/document-icon.svg" alt="Зрозумілий процес роботи." />
+            <p>
+              <strong>Зрозумілий процес роботи.</strong> Ми стежимо, щоби на кожному етапі у вас було чітке розуміння
+              того, що
+              відбувається, і повний контроль над ним. У цьому нам допомагають вивірені пайплайни, аудіальні мудборди й
+              наша методика фідбеку.
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="why-section-list-item">
+            <img src="images/home/idea-icon.svg" alt="" />
+            <p>
+              <strong>Створюємо актив бренду.</strong> Ми детально вивчаємо ваш продукт, аналізуємо ринок і цільову
+              аудиторію, щоби розробити загальну концепцію і створити працюючий аудіоконтент.
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="why-section-list-item">
+            <img src="images/home/dialog-icon.svg" alt="Ми спілкуємося простою мовою." />
+            <p>
+              <strong>Ми спілкуємося простою мовою.</strong> Вам не потрібно використовувати аудіо термінологію, щоби ми
+              зрозуміли, що потрібно вашому проєкту.
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="why-section-list-item">
+            <img src="images/home/lamp-icon.svg" alt="" />
+            <p>
+              <strong>Ми — відкриті</strong> і з радістю ділимося корисними для вашого продукту знаннями на безплатній
+              консультації та у
+              перевіреному роками темплейті ТЗ.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="servies-section inline-gap">
+    <div class="container">
+      <h2 class="servies-section-title section-title">Наші послуги</h2>
+    </div>
+    <div class="small-container">
+      <ul class="servies-list">
+        <li>
+          <a class="servies-list-item no-hover" href="#">
+            <img src="images/home/piano-icon.svg" alt="" class="servies-list-item-image">
+            <h3 class="servies-list-item-title">Створення музики</h3>
+          </a>
+        </li>
+        <li>
+          <a class="servies-list-item no-hover" href="#">
+            <img src="images/home/pulse-icon.svg" alt="" class="servies-list-item-image">
+            <h3 class="servies-list-item-title">Аудіобрендинг</h3>
+          </a>
+        </li>
+        <li>
+          <a class="servies-list-item no-hover" href="#">
+            <img src="images/home/note-icon.svg" alt="" class="servies-list-item-image">
+            <h3 class="servies-list-item-title">Звуковий дизайн</h3>
+          </a>
+        </li>
+        <li>
+          <a class="servies-list-item no-hover" href="#">
+            <img src="images/home/mic-icon.svg" alt="" class="servies-list-item-image">
+            <h3 class="servies-list-item-title">Голосове озвучення</h3>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="works-section inline-gap">
+    <div class="container">
+      <h2 class="servies-section-title section-title" id="works-title">Вибрані роботи</h2>
+    </div>
+    <div class="works-list grid" role="list" aria-labelledby="works-title">
+      {{ range $work := .Site.Data.works }}
+      <div class="column">
+        <a class="works-list-item no-hover grid-item" href="#" aria-label="{{ $work.title }}">
+          <img src="{{ $work.img }}" alt="{{ $work.title }}" />
+          <h4 class="works-list-item-title grid-item-title" role="presentation">{{ $work.title }}</h4>
+        </a>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  {{- partial "footer.html" . -}}
+  <script type="module" src="/js/main.js"></script>
+  <script type="module" src="/js/home.js"></script>
+</body>
+
+</html>

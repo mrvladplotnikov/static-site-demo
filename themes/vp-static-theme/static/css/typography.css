@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat/Montserrat-VF.woff2") format("woff2-variations");
+    font-weight: 300 800;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    color: var(--clr-white);
+    line-height: 1.5;
+}
+
+body p {
+    font-size: .875rem;
+    font-weight: var(--fw-light);
+    margin-block-end: calc(var(--gutter) * 2);
+}
+
+body a {
+    font-weight: var(--fw-bold);
+    color: var(--clr-white);
+}
+
+body a[href]:not(:where([href^="#"],
+        [href^="/"]:not([href^="//"]),
+        [href*="//vp-production.com"],
+        .no-external-icon,
+    )) {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+body a[href]:not(:where([href^="#"],
+        [href^="/"]:not([href^="//"]),
+        [href*="//vp-production.com"],
+        .no-external-icon,
+    ))::after {
+    color: var(--clr-white);
+    display: inline-flex;
+    content: "";
+    background-image: url('/images/external-link.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 1em;
+    height: 0.85em;
+    margin-left: calc(var(--gutter) * 0.25);
+}
+
+body a:not(.no-hover):hover {
+    background: var(--gradient);
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+body strong {
+    font-weight: var(--fw-bold);
+}
+
+.page-title,
+.page-title--large {
+    font-weight: var(--fw-extra);
+    font-size: 2rem;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-block-end: 1.2em;
+    text-wrap: balance;
+}
+
+.section-title {
+    font-weight: var(--fw-extra);
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin-block-end: 1em;
+    text-wrap: balance;
+}
+
+.sub-section-title {
+    font-weight: var(--fw-bold);
+    font-size: 1.125rem;
+    line-height: 1.2;
+    margin-block-end: 1.2em;
+    text-wrap: balance;
+}
+
+/* Tabled width */
+@media (width >=48em) {
+    body p {
+        font-size: 1.375rem;
+        margin-block-end: clamp(calc(var(--gutter) * 1.75), 4vw + 0.2rem, calc(var(--gutter) * 3));
+    }
+
+    .page-title {
+        font-size: clamp(2rem, 4vw + 0.2rem, 4.375rem);
+    }
+
+    .page-title--large {
+        font-size: clamp(2rem, 4vw + 0.2rem, 6.25rem);
+    }
+
+    .section-title {
+        font-size: clamp(1.5rem, 4vw + 0.2rem, 4.375rem);
+        margin-block-end: clamp(calc(var(--gutter) * 2), 4vw + 1.5rem, 1.25em);
+    }
+
+    .sub-section-title {
+        font-size: clamp(1.125rem, 4vw + 0.2rem, 2rem);
+        margin-block-end: 1em;
+    }
+}

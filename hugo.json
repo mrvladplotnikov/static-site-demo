@@ -1,0 +1,29 @@
+{
+  "baseURL": "https://vp-production.com/",
+  "title": "VP Production",
+  "theme": "vp-static-theme",
+  "defaultContentLanguage": "uk",
+  "defaultContentLanguageInSubdir": false,
+  "languages": {
+    "uk": {
+      "contentDir": "content",
+      "languageCode": "uk",
+      "languageDirection": "ltr",
+      "languageName": "Українська",
+      "title": "VP Production",
+      "params": {
+        "wight": 1
+      }
+    },
+    "en": {
+      "contentDir": "content/en",
+      "languageCode": "en",
+      "languageDirection": "ltr",
+      "languageName": "Англійська",
+      "title": "VP Production",
+      "params": {
+        "wight": 2
+      }
+    }
+  }
+}

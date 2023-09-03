@@ -1,0 +1,43 @@
+.btn {
+    --btn-gutter: var(--gutter) calc(var(--gutter) * 1.5);
+
+    cursor: pointer;
+    padding: var(--btn-gutter);
+    font-weight: var(--fw-regular);
+    line-height: 1;
+    font-size: .875rem;
+    border: 1px solid var(--clr-grey);
+    background: none;
+    color: var(--clr-white);
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: var(--gradient);
+}
+
+.btn-text {
+    border: none;
+    display: inline-block;
+    padding: unset;
+    font-weight: var(--fw-bold);
+}
+
+.btn-text:hover {
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-arror {
+    position: relative;
+}
+
+@media (width >=48em) {
+    .btn {
+        font-size: clamp(.875rem, 2vw, 1.25rem);
+        min-width: 177px;
+    }
+}

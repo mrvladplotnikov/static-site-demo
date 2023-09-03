@@ -1,0 +1,18 @@
+{{ $siteLanguages := site.Languages}}
+{{ $pageLang := .Page.Lang}}
+<nav class="langs-menu-list" aria-label="Список мов">
+    {{- range .Page.AllTranslations }}
+    {{ $translation := . }}
+    {{- range sort $siteLanguages "Weight" "asc" }}
+    {{- if eq $translation.Lang .Lang }}
+    <a {{ if eq $pageLang .Lang}}aria-current="page" {{ end }}
+        aria-label="{{ $translation.Language.LanguageName }} мова {{ if eq $pageLang .Lang}}(вибрано){{ end }}"
+        title="{{ $translation.Language.LanguageName }} мова" href="{{ $translation.Permalink | relURL }}"
+        lang="{{ $translation.Language.LanguageCode }}" hreflang="{{ $translation.Language.LanguageCode }}">
+        {{ $translation.Language.LanguageCode }}
+    </a>
+    <span role="presentation" aria-hidden="true">/</span>
+    {{- end }}
+    {{- end }}
+    {{- end }}
+</nav>

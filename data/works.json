@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Work 1",
+    "img": "images/dummy-works/work-1.webp"
+  },
+  {
+    "title": "Work 2",
+    "img": "images/dummy-works/work-2.webp"
+  },
+  {
+    "title": "Work 3",
+    "img": "images/dummy-works/work-3.webp"
+  },
+  {
+    "title": "Work 4",
+    "img": "images/dummy-works/work-4.webp"
+  },
+  {
+    "title": "Work 5",
+    "img": "images/dummy-works/work-5.webp"
+  },
+  {
+    "title": "Work 6",
+    "img": "images/dummy-works/work-6.webp"
+  },
+  {
+    "title": "Work 7",
+    "img": "images/dummy-works/work-7.webp"
+  },
+  {
+    "title": "Work 8",
+    "img": "images/dummy-works/work-8.webp"
+  },
+  {
+    "title": "Work 9",
+    "img": "images/dummy-works/work-9.webp"
+  },
+  {
+    "title": "Work 10",
+    "img": "images/dummy-works/work-10.webp"
+  }
+]
