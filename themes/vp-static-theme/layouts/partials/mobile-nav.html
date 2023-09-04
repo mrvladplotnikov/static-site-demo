@@ -32,7 +32,8 @@
   <ul class="soc-links-list" aria-label="Посилання на соціальні мережі">
     {{ range $SocialLink := .Site.Data.SocialLinks }}
     <li>
-      <a class="no-external-icon no-hover" href="{{ $SocialLink.link }}" title="{{ $SocialLink.title }}">
+      <a class="no-external-icon no-hover" href="{{ $SocialLink.link }}" title="{{ $SocialLink.title }}" target="_blank"
+        rel="noopener noreferrer nofollow">
         {{ $path := printf "icons/%s-icon.html" $SocialLink.icon }}
         {{- partial $path . -}}
       </a>

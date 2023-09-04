@@ -8,6 +8,7 @@
 
 
 <body>
+  <!--  hero section starts here  -->
   <div class="hero">
     {{- partial "langs-list-h.html" . -}}
     {{- partial "mobile-nav.html" . -}}
@@ -42,6 +43,9 @@
       </li>
     </ul>
   </div>
+  <!--  hero section ends here  -->
+
+  <!--  about section starts here  -->
   <div class="about-section container inline-gap">
     <div class="about-section-img-container">
       <h1 class="page-title about-section-title">VP Production</h1>
@@ -63,6 +67,9 @@
       <a class="btn no-hover" href="/about">Про нас</a>
     </div>
   </div>
+  <!--  about section ends here  -->
+
+  <!--  why section starts here  -->
   <div class="why-section inline-gap">
     <div class="container">
       <h2 class="section-title">Чому ми?</h2>
@@ -129,6 +136,9 @@
       </ul>
     </div>
   </div>
+  <!--  why section ends here  -->
+
+  <!--  servies section starts here  -->
   <div class="servies-section inline-gap">
     <div class="container">
       <h2 class="servies-section-title section-title">Наші послуги</h2>
@@ -162,6 +172,9 @@
       </ul>
     </div>
   </div>
+  <!--  servies section ends here  -->
+
+  <!--  works section starts here  -->
   <div class="works-section inline-gap">
     <div class="container">
       <h2 class="servies-section-title section-title" id="works-title">Вибрані роботи</h2>
@@ -176,7 +189,64 @@
       </div>
       {{ end }}
     </div>
+    <div class="small-container t-a-r">
+      <a class="btn no-hover" href="/portfolio">Портфоліо</a>
+    </div>
   </div>
+  <!--  works section ends here  -->
+
+  <!-- big text section starts here -->
+  <div class="big-text-section inline-gap">
+    <img height="70px" width="70px" class="box-image" src="images/home/box-with-dots.svg" alt="" role="presentation"
+      aria-hidden="true">
+    <img height="70px" width="70px" class="box-image" src="images/home/box-with-dots.svg" alt="" role="presentation"
+      aria-hidden="true">
+    <img height="70px" width="70px" class="box-image" src="images/home/box-with-dots.svg" alt="" role="presentation"
+      aria-hidden="true">
+    <img height="70px" width="70px" class="box-image" src="images/home/box-with-dots.svg" alt="" role="presentation"
+      aria-hidden="true">
+    <div class="container">
+      <h3 class="section-title">Ми створюємо захоплююче емоційне аудіо, що надихає людей виражати себе.</h3>
+
+    </div>
+    <div class="container t-a-r">
+      <a class="btn no-hover" href="/portfolio">Наші цінності</a>
+    </div>
+  </div>
+  <!-- big text section ends here -->
+
+
+  <div class="contact-us-section inline-gap">
+    <div class="small-container contact-us-columns">
+      <div class="contact-us-column">
+        <h2 class="section-title contact-us-section-title">Напишіть нам</h2>
+        <p class="contact-us-section-text">
+          Розкажіть нам про свій проєкт, продукт або ідею. Запитайте пораду або отримайте повноцінну безплатну
+          консультацію. Дізнайтеся вартість, уточніть важливе питання, та що завгодно! Ми будемо раді з вами
+          познайомитися
+          й допомогти.
+        </p>
+        <a class="no-external-icon contact-us-section-mail"
+          href="mailto:connect@vp-production.com">connect@vp-production.com</a>
+      </div>
+      <div class="contact-us-column">
+        <ul class="contact-us-soc-links">
+          {{ range $SocialLink := .Site.Data.SocialLinks }}
+          <li>
+            <a class="no-external-icon no-hover" href="{{ $SocialLink.link }}" title="{{ $SocialLink.title }}"
+              target="_blank" rel="noopener noreferrer nofollow">
+              {{ $SocialLink.icon }}
+              <img
+                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCA0MiAzOCI+CiAgPGRlZnMvPgogIDxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0yMi42IDBMNDIgMTkgMjIuNiAzOGwtMS44LTEuOCAxNi4yLTE2SDB2LTIuNWgzN0wyMC44IDEuOCAyMi42IDB6Ii8+Cjwvc3ZnPgo="
+                width="22" height="22" alt="" role="presentation" aria-hidden="true">
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+
   {{- partial "footer.html" . -}}
   <script type="module" src="/js/main.js"></script>
   <script type="module" src="/js/home.js"></script>
