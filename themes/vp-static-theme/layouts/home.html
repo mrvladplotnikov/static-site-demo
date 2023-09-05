@@ -3,7 +3,7 @@
 
 <head>
   {{- partial "head.html" . -}}
-  <link rel="stylesheet" href="css/home.css" />
+  <link rel="stylesheet" href="/css/home.css" />
 </head>
 
 
@@ -13,8 +13,10 @@
     {{- partial "langs-list-h.html" . -}}
     {{- partial "mobile-nav.html" . -}}
     {{- partial "icons/hero-logo.html" . -}}
-    <a class="hero-portfolio-link no-hover" href="/">
-      <span class="hero-portfolio-link-line"></span><span>Портфоліо</span>
+    <a class="hero-portfolio-link no-hover" href="{{ relLangURL "portfolio" }}">
+      <span class="hero-portfolio-link-line"></span><span>
+        {{ i18n "portfolio" }}
+      </span>
     </a>
 
     <ul class="hero-social-links-list">
@@ -78,7 +80,7 @@
       <ul class="why-section-list">
         <li>
           <div class="why-section-list-item">
-            <img src="images/home/time-icon.svg" alt="Дедлайни — наше все." />
+            <img src="/images/home/time-icon.svg" alt="Дедлайни — наше все." />
             <p>
               <strong>Дедлайни — наше все.</strong> За 6 років ми зірвали 0 дедлайнів.
             </p>
@@ -86,7 +88,7 @@
         </li>
         <li>
           <div class="why-section-list-item">
-            <img src="images/home/audio-icon.svg" alt="" />
+            <img src="/images/home/audio-icon.svg" alt="" />
             <p>
               <strong>Аудиторія + наше аудіо = ❤️.</strong> Наші роботи вже чули мільйони людей і багацько залишилися
               настільки
@@ -96,7 +98,7 @@
         </li>
         <li>
           <div class="why-section-list-item">
-            <img src="images/home/document-icon.svg" alt="Зрозумілий процес роботи." />
+            <img src="/images/home/document-icon.svg" alt="Зрозумілий процес роботи." />
             <p>
               <strong>Зрозумілий процес роботи.</strong> Ми стежимо, щоби на кожному етапі у вас було чітке розуміння
               того, що
@@ -107,7 +109,7 @@
         </li>
         <li>
           <div class="why-section-list-item">
-            <img src="images/home/idea-icon.svg" alt="" />
+            <img src="/images/home/idea-icon.svg" alt="" />
             <p>
               <strong>Створюємо актив бренду.</strong> Ми детально вивчаємо ваш продукт, аналізуємо ринок і цільову
               аудиторію, щоби розробити загальну концепцію і створити працюючий аудіоконтент.
@@ -116,7 +118,7 @@
         </li>
         <li>
           <div class="why-section-list-item">
-            <img src="images/home/dialog-icon.svg" alt="Ми спілкуємося простою мовою." />
+            <img src="/images/home/dialog-icon.svg" alt="Ми спілкуємося простою мовою." />
             <p>
               <strong>Ми спілкуємося простою мовою.</strong> Вам не потрібно використовувати аудіо термінологію, щоби ми
               зрозуміли, що потрібно вашому проєкту.
@@ -125,7 +127,7 @@
         </li>
         <li>
           <div class="why-section-list-item">
-            <img src="images/home/lamp-icon.svg" alt="" />
+            <img src="/images/home/lamp-icon.svg" alt="" />
             <p>
               <strong>Ми — відкриті</strong> і з радістю ділимося корисними для вашого продукту знаннями на безплатній
               консультації та у
@@ -147,25 +149,25 @@
       <ul class="servies-list">
         <li>
           <a class="servies-list-item no-hover" href="#">
-            <img src="images/home/piano-icon.svg" alt="" class="servies-list-item-image">
+            <img src="/images/home/piano-icon.svg" alt="" class="servies-list-item-image">
             <h3 class="servies-list-item-title">Створення музики</h3>
           </a>
         </li>
         <li>
           <a class="servies-list-item no-hover" href="#">
-            <img src="images/home/pulse-icon.svg" alt="" class="servies-list-item-image">
+            <img src="/images/home/pulse-icon.svg" alt="" class="servies-list-item-image">
             <h3 class="servies-list-item-title">Аудіобрендинг</h3>
           </a>
         </li>
         <li>
           <a class="servies-list-item no-hover" href="#">
-            <img src="images/home/note-icon.svg" alt="" class="servies-list-item-image">
+            <img src="/images/home/note-icon.svg" alt="" class="servies-list-item-image">
             <h3 class="servies-list-item-title">Звуковий дизайн</h3>
           </a>
         </li>
         <li>
           <a class="servies-list-item no-hover" href="#">
-            <img src="images/home/mic-icon.svg" alt="" class="servies-list-item-image">
+            <img src="/images/home/mic-icon.svg" alt="" class="servies-list-item-image">
             <h3 class="servies-list-item-title">Голосове озвучення</h3>
           </a>
         </li>
@@ -197,13 +199,13 @@
 
   <!-- big text section starts here -->
   <div class="big-text-section inline-gap">
-    <img height="70px" width="70px" class="box-image" src="images/home/box-with-dots.svg" alt="" role="presentation"
+    <img height="70px" width="70px" class="box-image" src="/images/home/box-with-dots.svg" alt="" role="presentation"
       aria-hidden="true">
-    <img height="70px" width="70px" class="box-image" src="images/home/box-with-dots.svg" alt="" role="presentation"
+    <img height="70px" width="70px" class="box-image" src="/images/home/box-with-dots.svg" alt="" role="presentation"
       aria-hidden="true">
-    <img height="70px" width="70px" class="box-image" src="images/home/box-with-dots.svg" alt="" role="presentation"
+    <img height="70px" width="70px" class="box-image" src="/images/home/box-with-dots.svg" alt="" role="presentation"
       aria-hidden="true">
-    <img height="70px" width="70px" class="box-image" src="images/home/box-with-dots.svg" alt="" role="presentation"
+    <img height="70px" width="70px" class="box-image" src="/images/home/box-with-dots.svg" alt="" role="presentation"
       aria-hidden="true">
     <div class="container">
       <h3 class="section-title">Ми створюємо захоплююче емоційне аудіо, що надихає людей виражати себе.</h3>
@@ -215,7 +217,7 @@
   </div>
   <!-- big text section ends here -->
 
-
+  <!-- contact-us-section starts here -->
   <div class="contact-us-section inline-gap">
     <div class="small-container contact-us-columns">
       <div class="contact-us-column">
@@ -246,10 +248,11 @@
       </div>
     </div>
   </div>
+  <!-- contact-us-section ends here -->
 
   {{- partial "footer.html" . -}}
-  <script type="module" src="/js/main.js"></script>
-  <script type="module" src="/js/home.js"></script>
+  <script async type="module" src="/js/main.js"></script>
+  <script async type="module" src="/js/home.js"></script>
 </body>
 
 </html>
