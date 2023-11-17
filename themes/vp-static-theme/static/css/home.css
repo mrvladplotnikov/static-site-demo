@@ -237,60 +237,6 @@
 
 /* hero end */
 
-
-/* container start */
-
-.container {
-    margin: auto;
-}
-
-.small-container {
-    margin: auto;
-}
-
-.inline-gap {
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-@media (min-width: 48rem) {
-    .container {
-        max-width: 740px;
-    }
-
-    .small-container {
-        max-width: 720px;
-    }
-}
-
-@media (min-width: 62rem) {
-    .container {
-        max-width: 980px;
-    }
-
-    .small-container {
-        max-width: 960px;
-    }
-}
-
-@media (min-width: 75rem) {
-    .container {
-        max-width: 1160px;
-    }
-}
-
-@media (min-width: 100rem) {
-    .container {
-        max-width: 1570px;
-    }
-
-    .small-container {
-        max-width: 1168px;
-    }
-}
-
-/* container end */
-
 /* about start */
 
 .about-section {

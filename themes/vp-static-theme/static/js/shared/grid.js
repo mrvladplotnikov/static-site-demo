@@ -11,6 +11,8 @@ class Grid {
     this.gridEl = gridEl;
     this.dataNodes = dataNodes;
     this.columnsCount = count;
+
+    return this;
   }
 
   init(breakPoints = {}) {
@@ -33,6 +35,8 @@ class Grid {
     } else {
       this.generateColumns();
     }
+
+    return this;
   }
 
   clearGrid() {
@@ -74,6 +78,12 @@ class Grid {
     }
 
     this.gridEl.appendChild(fragment);
+  }
+
+  updateGrid(dataNodes = []) {
+    this.dataNodes = dataNodes;
+
+    this.generateColumns();
   }
 }
 

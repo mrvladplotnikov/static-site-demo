@@ -4,6 +4,10 @@
   "theme": "vp-static-theme",
   "defaultContentLanguage": "uk",
   "defaultContentLanguageInSubdir": false,
+  "taxonomies": {
+    "category": "categories",
+    "service": "services"
+  },
   "languages": {
     "uk": {
       "contentDir": "content",

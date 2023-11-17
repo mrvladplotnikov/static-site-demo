@@ -1,0 +1,14 @@
+.work h1 {
+    font-size: 4.4rem;
+    font-weight: 900;
+}
+
+.work h2 {
+    font-size: 4.375rem;
+    font-weight: 900;
+}
+
+.work ul,
+ol {
+    list-style: initial;
+}
