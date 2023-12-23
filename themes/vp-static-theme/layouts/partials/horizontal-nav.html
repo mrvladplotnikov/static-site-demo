@@ -1,0 +1,24 @@
+<div id="horizontal-nav" class="horizontal-menu" aria-label="Меню навігації по сайту">
+  <nav class="horizontal-menu-nav" aria-label="Список сторінок">
+    <ul>
+      <li><a class="horizontal-menu-link" href="#">Портфоліо</a></li>
+      <li>
+        <details>
+          <summary class="horizontal-menu-summary">Послуги {{- partial "icons/arrow-down.html" . -}}</summary>
+          <ul>
+            <li><a class="horizontal-menu-link" href="#">Створення музики</a></li>
+            <li><a class="horizontal-menu-link" href="#">Аудіобрендинг</a></li>
+            <li><a class="horizontal-menu-link" href="#">Звуковий дизайн</a></li>
+            <li><a class="horizontal-menu-link" href="#">Голосове озвучення</a></li>
+            <li><a class="horizontal-menu-link" href="#">Аудіо-рев’ю та консультації</a></li>
+          </ul>
+        </details>
+      </li>
+      <li><a class="horizontal-menu-link" href="#">FAQ</a></li>
+      <li><a class="horizontal-menu-link" href="#">Про нас</a></li>
+      <li><a class="horizontal-menu-link" href="#">Наші цінності</a></li>
+      <li><a class="horizontal-menu-link" href="#">Відгуки</a></li>
+    </ul>
+  </nav>
+  {{- partial "langs-list-h.html" . -}}
+</div>

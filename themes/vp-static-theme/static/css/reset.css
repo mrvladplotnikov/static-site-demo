@@ -16,6 +16,7 @@ img, picture, svg, video {
 
 html {
     color-scheme: dark light;
+    font-size: 100%;
 }
 
 body {

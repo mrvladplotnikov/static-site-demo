@@ -84,11 +84,11 @@ function updateSelectedWorks(params = {}) {
     grid.updateGrid(updatedWorks);
 }
 
-const worksCategorySelectEl = document.querySelector < HTMLSelectElement > ("#works-category-select");
-const worksCategoryResetEl = document.querySelector < HTMLButtonElement > ("#works-category-reset");
-const worksServiceSelectEl = document.querySelector < HTMLSelectElement > ("#works-service-select");
-const worksServiceRestEl = document.querySelector < HTMLButtonElement > ("#works-service-reset");
-const worksRestEl = document.querySelector < HTMLButtonElement > ("#works-reset");
+const worksCategorySelectEl = document.querySelector("#works-category-select");
+const worksCategoryResetEl = document.querySelector("#works-category-reset");
+const worksServiceSelectEl = document.querySelector("#works-service-select");
+const worksServiceRestEl = document.querySelector("#works-service-reset");
+const worksRestEl = document.querySelector("#works-reset");
 
 if (worksCategorySelectEl && worksServiceSelectEl) {
     worksCategorySelectEl.value = initialCategory;
@@ -118,5 +118,4 @@ if (worksCategorySelectEl && worksServiceSelectEl) {
         worksServiceSelectEl.value = "";
         updateSelectedWorks({ service: "", category: "" });
     });
-
 }
