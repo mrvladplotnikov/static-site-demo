@@ -13,6 +13,7 @@
   --clr-grey: #747474;
   --clr-black: #000000;
   --clr-grey-text: #C2C2C2;
+  --clr-dark-op: rgba(0,0,0,.94);
 
   --gradient: linear-gradient(270deg, var(--clr-blue) 0%, var(--clr-ember) 100%);
 
@@ -25,7 +26,7 @@
   /* font sizes */
   --fz-regular: .875rem;
   --fz-large: 2rem;
-  --fz-extra: 4.375rem;
+  --fz-extra: 1.375rem;
 
 
   /* theme layout */
@@ -60,9 +61,71 @@ body {
 
 :focus-visible {
   outline-color: var(--clr-ember);
-  outline-offset: 1px;
-  outline-style: auto;
+  outline-offset: 3px;
+  outline-width: 2px;
+  outline-style: solid;
 }
+
+body .hidden {
+  display: none;
+}
+
+/* modal start */
+body.has-modal {
+  overflow: hidden;
+}
+
+.modal-back {
+  display: none;
+  position: fixed;
+  overflow-y: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: var(--layer-over-menu);
+  background-color: rgba(0, 0, 0, 0.94);
+
+  backdrop-filter: blur(5px);
+}
+
+.modal-back.active {
+  display: block;
+}
+
+.modal {
+  box-sizing: border-box;
+  padding: 1rem;
+
+  display: grid;
+}
+
+.modal-close {
+  background-color: transparent;
+  border: none;
+  color: var(--clr-white);
+  cursor: pointer;
+  font-size: 1.125rem;
+  justify-self: end;
+}
+
+.modal-content {
+  padding: 1rem;
+
+}
+
+@media (min-width: 60em) {
+  .modal {
+    position: absolute;
+    top: 25svh;
+    left: 50svw;
+    transform: translateX(-50%);
+    width: clamp(calc(60em - (1rem * 2)), calc(100svw - (1rem * 2)), 100rem);
+    min-height: auto;
+  }
+}
+
+/* modal end */
 
 /* mobile main navigation */
 .mobile-menu-btn {
@@ -368,18 +431,99 @@ body {
   }
 }
 
+/* dropdown start */
+.dropdown {
+  position: relative;
+}
+
+.dropdown > .dropdown-options {
+  position: absolute;
+  top: 100%;
+  left: -5%;
+
+  display: none;
+  flex-direction: column;
+  align-items: start;
+  row-gap: 0.75em;
+  padding: 1.25rem 1.5rem 1rem 1.5rem;
+
+  font-size: 0.8em;
+  white-space: nowrap;
+  filter: brightness(80%);
+
+  background-color: var(--clr-dark-op);
+}
+
+.dropdown:focus-within > .dropdown-options,
+.dropdown:hover .dropdown-options {
+  display: flex;
+}
+/* dropdown end */
+
+.lang-select {
+  font-size: var(--fz-regular);
+  position: relative;
+}
+
+.lang-select .lang-select-button {
+  background-color: transparent;
+  border: 0;
+
+  padding: 0 .25em;
+}
+
+/* horizontal-menu start */
 .horizontal-menu {
   position: fixed;
   top: 0;
-  display: grid;
+  display: none;
   width: 100%;
+
+  grid-template-columns: 55px auto 70px;
+  align-items: center;
+  column-gap: 1.8em;
+
+  padding: 1.25rem 1rem;
+  background-color: var(--clr-dark-op);
+  z-index: var(--layer-menu);
 }
 
-.horizontal-menu .horizontal-menu-nav ul {
-  display: flex;
-  column-gap: 3.75em;
-  font-size: var(--fz-regular);
+.horizontal-menu a,
+.horizontal-menu button {
+  font-weight: var(--fw-regular);
+  text-decoration: none;
+
+  border: none;
+  background-color: transparent;
+
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.25em;
 }
+
+.horizontal-menu .horizontal-menu-nav {
+  justify-self: end;
+}
+
+.horizontal-menu .horizontal-menu-nav > ul {
+  display: flex;
+  column-gap: 1.8em;
+  font-size: var(--fz-regular);
+
+  align-items: center;
+}
+
+.horizontal-menu .horizontal-menu-nav svg {
+  font-size: 0.9rem;
+}
+
+@media (min-width: 75rem) {
+  .horizontal-menu {
+    display: grid; 
+  }
+}
+
+/* horizontal-menu end */
 
 /* container start */
 
@@ -857,6 +1001,23 @@ body {
   cursor: pointer;
 }
 
+.control-form {
+  display: flex;
+  flex-direction: column;
+  font-size: .875rem;
+  row-gap: 0.5em;
+  padding: 0;
+
+  cursor: initial;
+}
+
+.control-form input {
+  border: 1px solid var(--clr-white);
+  background-color: transparent;
+  line-height: 3rem;
+  padding: 0 0.5em;
+}
+
 .control-close {
   color: var(--clr-dark-red);
   display: inline-block;
@@ -896,6 +1057,12 @@ body {
 @media (min-width: 48em) {
   .control {
     font-size: 1.375rem;
+  }
+
+  .control-form {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.125rem;
   }
 }
 /* controls end */
@@ -984,3 +1151,29 @@ body {
 }
 
 /* iframe video end */
+
+/* tt-template start */
+
+.tt-template-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-bottom: 1.2rem;
+}
+
+.tt-template-description {
+  margin-bottom: 1.4em;
+  text-align: center;
+}
+
+.tt-template-form .control-form {
+  background-color: transparent;
+}
+
+@media (max-width: 40em) {
+  .tt-template-description {
+    font-size: .875rem;
+  }
+}
+
+
+/* tt-template end */

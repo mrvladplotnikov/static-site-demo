@@ -1,3 +1,5 @@
+'use strict';
+
 import Grid from "./shared/grid.js";
 
 const urlKeys = {

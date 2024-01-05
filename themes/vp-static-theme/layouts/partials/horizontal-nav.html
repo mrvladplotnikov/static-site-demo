@@ -1,11 +1,25 @@
 <div id="horizontal-nav" class="horizontal-menu" aria-label="Меню навігації по сайту">
+  <a href="/" aria-label="Головна сторінка">
+    <svg xmlns="http://www.w3.org/2000/svg" width="54" height="50" fill="none">
+      <path fill="url(#a)"
+        d="m54 .056-2.453 5.143-9.013 19.49-2.365 5.139H32.404l-.012.024-6.49 14.037v.001l-.133.3v.002L23.084 50 0 .029l5.55.013 17.498 37.721.037.08.037-.08 3.65-7.86v-.001l2.391-5.167H36.915l.011-.023 9.04-19.49.028-.06h-.065l-2.11-.014h-5.564l2.35-5.12 5.616.014V0v.042L54 .056Z" />
+      <defs>
+        <linearGradient id="a" x1="45.702" x2="-.096" y1="25.032" y2="25.032" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#0DA6F2" />
+          <stop offset=".385" stop-color="#209DDF" />
+          <stop offset=".542" stop-color="#F3461B" />
+          <stop offset="1" stop-color="#F2390B" />
+        </linearGradient>
+      </defs>
+    </svg>
+  </a>
   <nav class="horizontal-menu-nav" aria-label="Список сторінок">
     <ul>
       <li><a class="horizontal-menu-link" href="#">Портфоліо</a></li>
       <li>
-        <details>
-          <summary class="horizontal-menu-summary">Послуги {{- partial "icons/arrow-down.html" . -}}</summary>
-          <ul>
+        <div class="dropdown">
+          <button class="horizontal-menu-link vp-hover dropdown-button">Послуги {{- partial "icons/arrow-down.html" . -}}</button>
+          <ul class="dropdown-options">
             <li><a class="horizontal-menu-link" href="#">Створення музики</a></li>
             <li><a class="horizontal-menu-link" href="#">Аудіобрендинг</a></li>
             <li><a class="horizontal-menu-link" href="#">Звуковий дизайн</a></li>
@@ -20,5 +34,5 @@
       <li><a class="horizontal-menu-link" href="#">Відгуки</a></li>
     </ul>
   </nav>
-  {{- partial "langs-list-h.html" . -}}
+  {{- partial "langs-select.html" . -}}
 </div>

@@ -132,7 +132,6 @@ const findVideos = () => {
   videos.forEach((video) => setupVideo(video));
 }
 
-
 // Entry point
 (() => {
   findMobileMenuDialog();

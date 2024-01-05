@@ -1,3 +1,19 @@
+/* horizontal nav start */
+.horizontal-menu {
+    opacity: 0;
+    transform: translateY(-100%);
+
+    transition: transform 0.25s linear, opacity 0.15s linear;
+}
+
+.horizontal-menu.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* horizontal nav end */
+
+
 /* HERO start */
 
 .hero {
@@ -46,7 +62,7 @@
     z-index: var(--layer-main);
 }
 
-.hero>.langs-menu-list {
+.hero > .langs-menu-list {
     display: none;
 
     grid-column: 1 / 2;

@@ -11,7 +11,7 @@
   <!--  hero section starts here  -->
   <div class="hero">
     {{- partial "langs-list-h.html" . -}}
-    {{/*  {{- partial "horizontal-nav.html" . -}}  */}}
+    {{- partial "horizontal-nav.html" . -}}
     {{- partial "mobile-nav.html" . -}}
     {{- partial "icons/hero-logo.html" . -}}
     <a class="hero-portfolio-link no-hover" href="{{ relLangURL "portfolio" }}">
@@ -131,8 +131,7 @@
             <img src="/images/home/lamp-icon.svg" alt="" />
             <p>
               <strong>Ми — відкриті</strong> і з радістю ділимося корисними для вашого продукту знаннями на безплатній
-              консультації та у
-              перевіреному роками темплейті ТЗ.
+              консультації та у <a href="#tt-template">перевіреному роками темплейті ТЗ</a>.
             </p>
           </div>
         </li>
@@ -220,6 +219,8 @@
 
   {{- partial "contact-us-email.html" . -}}
   {{- partial "footer.html" . -}}
+
+  {{- partial "modal.html" . -}}
   <script async type="module" src="/js/main.js"></script>
   <script async type="module" src="/js/home.js"></script>
 </body>
