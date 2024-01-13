@@ -6,7 +6,7 @@
 
 body {
     font-family: "Montserrat", sans-serif;
-    color: var(--clr-white);
+    color: var(--clr-grey-text);
     line-height: 1.5;
 }
 
@@ -17,8 +17,8 @@ body p {
 }
 
 body a {
-    font-weight: var(--fw-bold);
     color: var(--clr-white);
+    transition: color 0.15s;
 }
 
 body a[href]:not(:where([href^="#"],
@@ -31,7 +31,8 @@ body a[href]:not(:where([href^="#"],
     align-items: center;
 }
 
-body a[href]:not(:where([href^="#"],
+body a[href]:not(:where(
+        [href^="#"],
         [href^="/"]:not([href^="//"]),
         [href*="//vp-production.com"],
         .no-external-icon,
@@ -47,12 +48,14 @@ body a[href]:not(:where([href^="#"],
     margin-left: calc(var(--gutter) * 0.25);
 }
 
+html body a:not(.no-hover):hover {
+    color: var(--clr-blue);
+}
+
 @media (hover: hover) {
-    body .vp-hover:hover,
-    body a:not(.no-hover):hover {
+    body .vp-hover:hover {
         background: var(--gradient);
         background-clip: text;
-        text-fill-color: transparent;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
@@ -64,6 +67,7 @@ body strong {
 
 .page-title,
 .page-title--large {
+    color: var(--clr-white);
     font-weight: var(--fw-extra);
     font-size: 2rem;
     text-transform: uppercase;
@@ -74,6 +78,7 @@ body strong {
 
 .section-title {
     font-weight: var(--fw-extra);
+    color: var(--clr-white);
     font-size: 1.5rem;
     line-height: 1.2;
     margin-block-end: 1em;

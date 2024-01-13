@@ -383,6 +383,26 @@
     text-decoration: none;
     width: 100%;
     z-index: 1;
+
+    background-image: url('/images/home/vp-service-1.jpg');
+}
+
+.servies-list-item::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    background: linear-gradient(90.21deg,rgba(242,57,11,.32) .07%,rgba(24,151,217,.32) 99.93%);
+
+    transition: opacity .5s ease;
+    z-index: -1;
+}
+
+.servies-list-item:hover::after {
+    opacity: 1;
 }
 
 .servies-list-item-image {
