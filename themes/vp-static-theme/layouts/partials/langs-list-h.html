@@ -6,8 +6,8 @@
     <a {{ if eq $pageLang .Lang }}aria-current="page" {{ end }}
         aria-label="{{ .Language.LanguageName }} мова {{ if eq $pageLang .Lang }}(вибрано){{ end }}"
         title="{{ .Language.LanguageName }} мова" href="{{ .Permalink | relURL }}"
-        lang="{{ .Language.LanguageCode }}" hreflang="{{ .Language.LanguageCode }}">
-        {{ .Language.LanguageCode }}
+        lang="{{ .Language.Params.LanguageCode }}" hreflang="{{ .Language.Params.LanguageCode }}">
+        {{ .Language.Params.LanguageCode }}
     </a>
     <span role="presentation" aria-hidden="true">/</span>
     {{- end }}

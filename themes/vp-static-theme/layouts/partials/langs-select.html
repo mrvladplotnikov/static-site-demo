@@ -7,10 +7,10 @@
     <ul class="dropdown-options">
         {{- range .Page.Translations }}
         <li>
-            <a aria-label="{{ .Language.LanguageName }} мова"
-                title="{{ .Language.LanguageName }} мова" href="{{ .Permalink | relURL }}"
-                lang="{{ .Language.LanguageCode }}" hreflang="{{ .Language.LanguageCode }}">
-                {{ .Language.LanguageCode }}
+            <a aria-label="{{ .Language.LanguageName }} мова" title="{{ .Language.LanguageName }} мова"
+                href="{{ .Permalink | relURL }}" lang="{{ .Language.Params.LanguageCode }}"
+                hreflang="{{ .Language.Params.LanguageCode }}">
+                {{ .Language.Params.LanguageCode }}
             </a>
         </li>
         {{- end }}
