@@ -13,7 +13,7 @@
   --clr-grey: #747474;
   --clr-black: #000000;
   --clr-grey-text: #C2C2C2;
-  --clr-dark-op: rgba(0,0,0,.94);
+  --clr-dark-op: rgba(0, 0, 0, .94);
 
   --gradient: linear-gradient(270deg, var(--clr-blue) 0%, var(--clr-ember) 100%);
 
@@ -190,7 +190,7 @@ body.has-modal {
   justify-content: flex-end;
   padding-top: calc(var(--mobile-menu-button-top-gutter) * 2.8);
   padding-right: var(--mobile-menu-button-right-gutter);
-  padding-left:calc( var(--mobile-menu-button-right-gutter) * 2.5);
+  padding-left: calc(var(--mobile-menu-button-right-gutter) * 2.5);
   padding-bottom: 2rem;
   position: fixed;
   top: 0;
@@ -420,7 +420,7 @@ body.has-modal {
     font-size: var(--fz-regular);
     overflow-x: initial;
   }
-  
+
   .mobile-menu-nav ul {
     row-gap: 1.5em;
   }
@@ -436,7 +436,7 @@ body.has-modal {
   position: relative;
 }
 
-.dropdown > .dropdown-options {
+.dropdown>.dropdown-options {
   position: absolute;
   top: 100%;
   left: -5%;
@@ -454,10 +454,11 @@ body.has-modal {
   background-color: var(--clr-dark-op);
 }
 
-.dropdown:focus-within > .dropdown-options,
+.dropdown:focus-within>.dropdown-options,
 .dropdown:hover .dropdown-options {
   display: flex;
 }
+
 /* dropdown end */
 
 .lang-select {
@@ -505,7 +506,7 @@ body.has-modal {
   justify-self: end;
 }
 
-.horizontal-menu .horizontal-menu-nav > ul {
+.horizontal-menu .horizontal-menu-nav>ul {
   display: flex;
   column-gap: 1.8em;
   font-size: var(--fz-regular);
@@ -519,7 +520,7 @@ body.has-modal {
 
 @media (min-width: 75rem) {
   .horizontal-menu {
-    display: grid; 
+    display: grid;
   }
 }
 
@@ -1036,7 +1037,7 @@ body.has-modal {
   margin: 0;
 }
 
-.control-select + .control {
+.control-select+.control {
   position: absolute;
   right: 0;
   top: 0;
@@ -1050,6 +1051,7 @@ body.has-modal {
 .control:hover {
   color: var(--clr-white);
 }
+
 .control:hover .control-close {
   color: var(--clr-red);
 }
@@ -1065,6 +1067,7 @@ body.has-modal {
     font-size: 1.125rem;
   }
 }
+
 /* controls end */
 
 /* iframe video start */
