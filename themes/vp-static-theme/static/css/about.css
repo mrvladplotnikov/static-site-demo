@@ -1,0 +1,212 @@
+.about-inner {
+    display: flex;
+}
+
+.box-image {
+    display: none;
+}
+
+.about-inner-image img {
+    display: none;
+    max-width: 21.4375rem;
+    margin-left: 9.875rem;
+    position: sticky;
+    top: 10rem;
+}
+
+.next-section {
+    background-color: var(--clr-dark);
+    padding: 7.3125rem .9375rem 13.3125rem;
+    position: relative;
+}
+
+/* our team section */
+
+.slider {
+    margin: 0 auto;
+    max-width: 1170px;
+    overflow: hidden;
+}
+
+.team-slides {
+    display: flex;
+}
+
+.team-inner {
+    width: 1140px;
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+    display: flex;
+    flex-wrap: wrap;
+    user-select: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.team-inner h2,
+.team-inner p {
+    margin: 32px 0 14px;
+}
+
+.team-inner h2 {
+    font-size: 24px;
+}
+
+.team-inner h3 {
+    font-size: 18px;
+}
+
+.team-inner p {
+    font-size: 14px;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.team-img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-bottom: 80%;
+}
+
+.team-img img {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: center center;
+    -webkit-user-drag: none;
+}
+
+.button-arrow {
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    padding: 0 6px;
+}
+
+.button-arrow:not(:hover) svg path {
+    stroke: currentColor;
+}
+
+.button-arrow-left svg {
+    transform: scaleX(-1);
+}
+
+.arrow-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 28px;
+    margin-top: 25px;
+}
+
+.slide-position {
+    font-size: 18px;
+}
+
+.arrow-section span {
+    font-weight: 700;
+}
+
+
+.swiper-pagination-fraction {
+    width: auto;
+}
+
+.slide-number-current {
+    background: var(--gradient);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+@media (min-width: 320px) {}
+
+@media (min-width: 768px) {
+
+    .team-inner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 14px;
+        flex-wrap: nowrap;
+    }
+
+    .team-img {
+        height: 350px;
+        width: 360px;
+        padding-bottom: 0;
+    }
+
+    .team-info {
+        max-width: 366px;
+    }
+
+
+}
+
+@media (min-width:1024px) {
+    .team-inner {
+        column-gap: 30px;
+    }
+
+    .team-img {
+        height: 500px;
+        width: 400px;
+        padding-bottom: 0;
+    }
+
+    .team-info {
+        max-width: 565px;
+    }
+
+    .team-inner h2 {
+        font-size: 70px;
+        font-weight: 700;
+    }
+
+    .team-inner h3 {
+        font-size: 32px;
+    }
+
+    .team-inner p {
+        font-size: 22px;
+    }
+
+    .slide-position {
+        font-size: 32px;
+    }
+
+    /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+}
+
+
+@media (min-width: 75rem) {
+    .team-img {
+        height: 700px;
+        width: 570px;
+    }
+}
+
+@media (min-width: 62rem) {
+    .about-inner-image img {
+        display: block;
+    }
+
+    .box-image {
+        display: block;
+        position: absolute;
+    }
+
+    .box-image-first {
+        right: 30%;
+        top: 28%;
+    }
+
+    .box-image-second {
+        right: 10%;
+        top: 15%;
+    }
+
+}

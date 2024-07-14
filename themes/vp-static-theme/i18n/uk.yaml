@@ -1,0 +1,14 @@
+portfolio: Портфоліо
+services:
+  one: Послуга
+  other: Послуги
+genres: 
+  one: Жанр
+  other: Жанри
+platforms:
+  one: Платформа
+  other: Платформи
+developers: 
+  one: Розробник
+  other: Розробники
+contributors: Робота над проєктом

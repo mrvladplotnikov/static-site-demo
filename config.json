@@ -2,16 +2,20 @@
   "baseURL": "https://vp-production.com/",
   "title": "VP Production",
   "theme": "vp-static-theme",
-  "defaultContentLanguage": "ukr",
+  "defaultContentLanguage": "uk",
   "defaultContentLanguageInSubdir": false,
   "taxonomies": {
     "category": "categories",
-    "service": "services"
+    "service": "services",
+    "genre": "genres",
+    "platform": "platforms",
+    "developer": "developers",
+    "contributor": "contributors"
   },
   "languages": {
-    "ukr": {
+    "uk": {
       "contentDir": "content",
-      "languageCode": "ukr",
+      "languageCode": "uk",
       "languageDirection": "ltr",
       "languageName": "Українська",
       "title": "VP Production",

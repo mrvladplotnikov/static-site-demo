@@ -1,0 +1,14 @@
+portfolio: Portfolio
+services:
+  one: Service
+  other: Services
+genres: 
+  one: Genre
+  other: Genres
+platforms:
+  one: Platform
+  other: Platforms
+developers: 
+  one: Developer
+  other: Developers
+contributors: Work on the project

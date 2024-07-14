@@ -8,15 +8,32 @@
 
 
 <body>
+  <!--  support section starts here  -->
+
+  <div class="ukraine-support-panel">
+    <div class="support-flag">
+      <img src="/images/home/flag.svg" alt="Ukraine">
+    </div>
+    <div class="support-text">
+      help Ukraine withstand russian aggression
+    </div>
+    <div class="support-button">
+      <a class="no-line no-external-icon" target="_blank" rel="nofollow noindex"
+        href="https://supportukrainenow.org/">help</a>
+    </div>
+  </div>
+
+  <!--  support section ends here  -->
+
   <!--  hero section starts here  -->
   <div class="hero">
     {{- partial "langs-list-h.html" . -}}
     {{- partial "horizontal-nav.html" . -}}
-    {{- partial "mobile-nav.html" . -}}
+    {{- partial "mobile-nav.html" (dict "context" . "className" "mobile-nav-home") -}}
     {{- partial "icons/hero-logo.html" . -}}
-    <a class="hero-portfolio-link no-hover" href="{{ relLangURL "portfolio" }}">
+    <a class="hero-portfolio-link no-hover" href="{{ relLangURL " portfolio" }}">
       <span class="hero-portfolio-link-line"></span><span>
-        {{ i18n "portfolio" }}
+        {{ T "portfolio" }}
       </span>
     </a>
 
@@ -51,7 +68,7 @@
   <!--  about section starts here  -->
   <div class="about-section container inline-gap">
     <div class="about-section-img-container">
-      <h1 class="page-title about-section-title">VP Production</h1>
+      <h1 class="page-title-large about-section-title">VP Production</h1>
       <div class="small-container">
         <picture>
           <source srcset="/images/home/about.webp" type="image/webp">
@@ -75,108 +92,10 @@
   <!--  about section ends here  -->
 
   <!--  why section starts here  -->
-  <div class="why-section inline-gap">
-    <div class="container">
-      <h2 class="section-title">Чому ми?</h2>
-    </div>
-    <div class="small-container">
-      <ul class="why-section-list">
-        <li>
-          <div class="why-section-list-item">
-            <img src="/images/home/time-icon.svg" alt="Дедлайни — наше все." />
-            <p>
-              <strong>Дедлайни — наше все.</strong> За 6 років ми зірвали 0 дедлайнів.
-            </p>
-          </div>
-        </li>
-        <li>
-          <div class="why-section-list-item">
-            <img src="/images/home/audio-icon.svg" alt="" />
-            <p>
-              <strong>Аудиторія + наше аудіо = ❤️.</strong> Наші роботи вже чули мільйони людей і багацько залишилися
-              настільки
-              небайдужими, що написали про нас таке.
-            </p>
-          </div>
-        </li>
-        <li>
-          <div class="why-section-list-item">
-            <img src="/images/home/document-icon.svg" alt="Зрозумілий процес роботи." />
-            <p>
-              <strong>Зрозумілий процес роботи.</strong> Ми стежимо, щоби на кожному етапі у вас було чітке розуміння
-              того, що
-              відбувається, і повний контроль над ним. У цьому нам допомагають вивірені пайплайни, аудіальні мудборди й
-              наша методика фідбеку.
-            </p>
-          </div>
-        </li>
-        <li>
-          <div class="why-section-list-item">
-            <img src="/images/home/idea-icon.svg" alt="" />
-            <p>
-              <strong>Створюємо актив бренду.</strong> Ми детально вивчаємо ваш продукт, аналізуємо ринок і цільову
-              аудиторію, щоби розробити загальну концепцію і створити працюючий аудіоконтент.
-            </p>
-          </div>
-        </li>
-        <li>
-          <div class="why-section-list-item">
-            <img src="/images/home/dialog-icon.svg" alt="Ми спілкуємося простою мовою." />
-            <p>
-              <strong>Ми спілкуємося простою мовою.</strong> Вам не потрібно використовувати аудіо термінологію, щоби ми
-              зрозуміли, що потрібно вашому проєкту.
-            </p>
-          </div>
-        </li>
-        <li>
-          <div class="why-section-list-item">
-            <img src="/images/home/lamp-icon.svg" alt="" />
-            <p>
-              <strong>Ми — відкриті</strong> і з радістю ділимося корисними для вашого продукту знаннями на <a class="no-external-icon" rel="nofollow noopener noreferrer" target="_blank" href="mailto:admin@mail.com">безплатній
-                консультації</a> та у <a href="#tt-template">перевіреному роками темплейті ТЗ</a>.
-            </p>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>
+  {{- partial "why.html" (dict "h2Text" "Чому ми" "className" "why-section-home") -}}
   <!--  why section ends here  -->
 
-  <!--  servies section starts here  -->
-  <div class="servies-section inline-gap">
-    <div class="container">
-      <h2 class="servies-section-title section-title">Наші послуги</h2>
-    </div>
-    <div class="small-container">
-      <ul class="servies-list">
-        <li>
-          <a class="servies-list-item no-hover" href="#">
-            <img src="/images/home/piano-icon.svg" alt="" class="servies-list-item-image">
-            <h3 class="servies-list-item-title">Створення музики</h3>
-          </a>
-        </li>
-        <li>
-          <a class="servies-list-item no-hover" href="#">
-            <img src="/images/home/pulse-icon.svg" alt="" class="servies-list-item-image">
-            <h3 class="servies-list-item-title">Аудіобрендинг</h3>
-          </a>
-        </li>
-        <li>
-          <a class="servies-list-item no-hover" href="#">
-            <img src="/images/home/note-icon.svg" alt="" class="servies-list-item-image">
-            <h3 class="servies-list-item-title">Звуковий дизайн</h3>
-          </a>
-        </li>
-        <li>
-          <a class="servies-list-item no-hover" href="#">
-            <img src="/images/home/mic-icon.svg" alt="" class="servies-list-item-image">
-            <h3 class="servies-list-item-title">Голосове озвучення</h3>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <!--  servies section ends here  -->
+  {{- partial "services.html" . -}}
 
   <!--  works section starts here  -->
   <div class="works-section inline-gap">
@@ -184,11 +103,15 @@
       <h2 class="servies-section-title section-title" id="works-title">Вибрані роботи</h2>
     </div>
     <div class="works-list grid" role="list" aria-labelledby="works-title">
-      {{ range $work := .Site.Data.works }}
+
+      {{ $homePageWorks := where .Site.RegularPages ".Params.homePageWeight" "ne" nil }}
+      {{ range first 10 ($homePageWorks.ByParam "homePageWeight") }}
       <div class="column">
-        <a class="works-list-item no-hover grid-item" href="#" aria-label="{{ $work.title }}">
-          <img src="{{ $work.img }}" alt="{{ $work.title }}" />
-          <h4 class="works-list-item-title grid-item-title" role="presentation">{{ $work.title }}</h4>
+        <a class="works-list-item no-hover grid-item" href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
+          {{ with resources.GetMatch .Params.image }}
+          <img src="{{ .RelPermalink }}" alt="{{ .Title }}" />
+          {{ end }}
+          <h4 class="works-list-item-title grid-item-title" role="presentation">{{ .Title }}</h4>
         </a>
       </div>
       {{ end }}
@@ -200,23 +123,7 @@
   <!--  works section ends here  -->
 
   <!-- big text section starts here -->
-  <div class="big-text-section inline-gap">
-    <img height="70px" width="70px" class="box-image" src="/images/home/box-with-dots.svg" alt="" role="presentation"
-      aria-hidden="true">
-    <img height="70px" width="70px" class="box-image" src="/images/home/box-with-dots.svg" alt="" role="presentation"
-      aria-hidden="true">
-    <img height="70px" width="70px" class="box-image" src="/images/home/box-with-dots.svg" alt="" role="presentation"
-      aria-hidden="true">
-    <img height="70px" width="70px" class="box-image" src="/images/home/box-with-dots.svg" alt="" role="presentation"
-      aria-hidden="true">
-    <div class="container">
-      <h3 class="section-title">Ми створюємо захоплююче емоційне аудіо, що надихає людей виражати себе.</h3>
-
-    </div>
-    <div class="container t-a-r">
-      <a class="btn btn-arrow no-hover" href="/portfolio">Наші цінності</a>
-    </div>
-  </div>
+  {{- partial "big-text-section.html" -}}
   <!-- big text section ends here -->
 
   {{- partial "contact-us-email.html" . -}}

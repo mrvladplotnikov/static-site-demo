@@ -10,15 +10,27 @@ body {
     line-height: 1.5;
 }
 
-body p {
+body p,
+.vp-details .answer {
     font-size: var(--fz-regular);
     font-weight: var(--fw-light);
-    margin-block-end: calc(var(--gutter) * 2);
+    /* margin-block-end: calc(var(--gutter) * 2); */
+    margin-block-end: 1em;
+}
+
+body b {
+    color: var(--clr-white);
+    font-weight: var(--fw-bolder);
 }
 
 body a {
     color: var(--clr-white);
     transition: color 0.15s;
+    text-decoration: none;
+}
+
+body a:not(:where( :hover, .no-line)) {
+    text-decoration: underline;
 }
 
 body a[href]:not(:where([href^="#"],
@@ -31,8 +43,7 @@ body a[href]:not(:where([href^="#"],
     align-items: center;
 }
 
-body a[href]:not(:where(
-        [href^="#"],
+body a[href]:not(:where([href^="#"],
         [href^="/"]:not([href^="//"]),
         [href*="//vp-production.com"],
         .no-external-icon,
@@ -66,55 +77,65 @@ body strong {
 }
 
 .page-title,
-.page-title--large {
+.page-title-large,
+h1:not([class]) {
     color: var(--clr-white);
     font-weight: var(--fw-extra);
-    font-size: 2rem;
-    text-transform: uppercase;
+    font-size: var(--fz-extra);
     line-height: 1.2;
     margin-block-end: 1.2em;
-    text-wrap: balance;
 }
 
-.section-title {
+.page-title-large {
+    text-transform: uppercase;
+}
+
+.section-title,
+h2:not([class]) {
     font-weight: var(--fw-extra);
     color: var(--clr-white);
-    font-size: 1.5rem;
+    font-size: var(--fz-large);
     line-height: 1.2;
     margin-block-end: 1em;
-    text-wrap: balance;
 }
 
-.sub-section-title {
+.sub-section-title,
+h3:not([class]) {
+    color: var(--clr-white);
     font-weight: var(--fw-bold);
-    font-size: 1.125rem;
+    font-size: var(--fz-medium);
     line-height: 1.2;
     margin-block-end: 1.2em;
-    text-wrap: balance;
 }
 
+
+
 /* Tabled width */
-@media (width >=48em) {
+@media (width > 48em) {
     body p {
         font-size: var(--fz-regular);
-        margin-block-end: clamp(calc(var(--gutter) * 1.75), 4vw + 0.2rem, calc(var(--gutter) * 3));
+        /* margin-block-end: clamp(calc(var(--gutter) * 1.75), 4vw + 0.2rem, calc(var(--gutter) * 3)); */
     }
 
-    .page-title {
-        font-size: clamp(var(--fz-large), 4vw + 0.2rem, var(--fz-extra));
+    .page-title-large {
+        font-size: 5rem;
     }
 
-    .page-title--large {
-        font-size: clamp(var(--fz-large), 4vw + 0.2rem, 6.25rem);
-    }
-
+    h2:not([class]),
     .section-title {
-        font-size: clamp(1.5rem, 4vw + 0.2rem, var(--fz-extra));
         margin-block-end: clamp(calc(var(--gutter) * 2), 4vw + 1.5rem, 1.25em);
     }
 
+    h3:not([class]),
     .sub-section-title {
-        font-size: clamp(1.125rem, 4vw + 0.2rem, var(--fz-large));
         margin-block-end: 1em;
     }
 }
+
+@media (width > 62rem) {
+    .page-title-large {
+        font-size: 6.25rem;
+    }
+}
+
+/* @media (min-width: 75rem) {} */

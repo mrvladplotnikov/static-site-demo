@@ -1,18 +1,18 @@
 [
     {
-        "title": "VP Production Facebook",
-        "link": "https://www.youtube.com/@vpproductionaudio/videos",
-        "icon": "facebook"
+        "title": "VP Production Tiktok",
+        "link": "https://www.tiktok.com/@vpproduction.audio",
+        "icon": "tiktok"
     },
     {
         "title": "VP Production Instagram",
-        "link": "https://www.youtube.com/@vpproductionaudio/videos",
+        "link": "https://www.instagram.com/vpproduction.audio/",
         "icon": "instagram"
     },
     {
-        "title": "VP Production Soundcloud",
-        "link": "https://www.youtube.com/@vpproductionaudio/videos",
-        "icon": "soundcloud"
+        "title": "VP Production Facebook",
+        "link": "https://www.facebook.com/vpproduction.audio/",
+        "icon": "facebook"
     },
     {
         "title": "VP Production Youtube",
@@ -20,13 +20,13 @@
         "icon": "youtube"
     },
     {
-        "title": "VP Production Twitter",
-        "link": "https://www.youtube.com/@vpproductionaudio/videos",
-        "icon": "twitter"
+        "title": "VP Production X",
+        "link": "https://x.com/vpprodaudio",
+        "icon": "x"
     },
     {
         "title": "VP Production LinkedIn",
-        "link": "https://www.youtube.com/@vpproductionaudio/videos",
+        "link": "https://ua.linkedin.com/company/vpproductionaudio",
         "icon": "linkedin"
     }
 ]

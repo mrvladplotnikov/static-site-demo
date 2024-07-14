@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}">
+
+<head>
+    {{- partial "head.html" . -}}
+    <link rel="stylesheet" href="/css/our-values.css" />
+
+
+</head>
+
+<body>
+    {{- partial "horizontal-nav.html" . -}}
+    {{- partial "mobile-nav.html" (dict "context" . "className" "") -}}
+
+
+    <div class="values-content">
+        <div class="first-section">
+            <div class="inner">
+                <h2>Наші цінності.</h2>
+                <h2>Наші погляди.</h2>
+                <h2>Наш маніфест.</h2>
+            </div>
+        </div>
+        <div class="values-container">
+            <div class="values-section vp-back">
+                <div class="inner">
+                    <h2>Ми віримо, що звук — це природний спосіб комунікації, а ми лише надаємо
+                        йому потрібну форму і
+                        вектор.</h2>
+                </div>
+            </div>
+            <div class="values-section">
+                <div class="inner">
+                    <h2>Ми — фанати системного підходу, у якому завжди є місце креативності.</h2>
+                </div>
+            </div>
+            <div class="values-section vp-back">
+                <div class="inner">
+                    <h2>Ми віримо в силу відкритого, щирого спілкування.</h2>
+                </div>
+            </div>
+            <div class="values-section">
+                <div class="inner">
+                    <h2>Ми цінуємо людей і людські стосунки.</h2>
+                </div>
+            </div>
+            <div class="values-section vp-back">
+                <div class="inner">
+                    <h2>Ми знаємо, що кожен із нас спроможний змінити світ, але тільки разом ми можемо дійсно домогтися
+                        змін.
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+
+
+        {{- partial "footer.html" . -}}
+
+        <script defer type="module" src="/js/main.js"></script>
+</body>
+</div>
+
+</html>

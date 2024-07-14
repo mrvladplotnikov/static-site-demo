@@ -23,11 +23,11 @@
     bottom: 0;
     left: 0;
     background: var(--gradient);
-    
+
     transform: scaleX(0);
     transform-origin: 0 50%;
-    transition: transform .6s cubic-bezier(.17,.67,0,1.01);
-    
+    transition: transform .6s cubic-bezier(.17, .67, 0, 1.01);
+
     z-index: -1;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .btn:hover::before {
-    transform: scaleX(1);  
+    transform: scaleX(1);
 }
 
 .btn-text {
@@ -70,7 +70,7 @@
     opacity: 1;
 }
 
-@media (width >=48em) {
+@media (width > 48em) {
     .btn {
         font-size: clamp(.875rem, 2vw, 1.25rem);
         min-width: 177px;

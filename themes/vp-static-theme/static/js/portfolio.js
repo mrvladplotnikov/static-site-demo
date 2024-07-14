@@ -86,28 +86,49 @@ import Grid from "./shared/grid.js";
         worksCategorySelectEl.addEventListener('change', (event) => {
             const category = event.target.value;
             updateSelectedWorks({ category });
+            updateSelectorWorks();
         });
 
         worksCategoryResetEl.addEventListener('click', () => {
             worksCategorySelectEl.value = "";
             updateSelectedWorks({ category: "" });
+            updateSelectorWorks();
         });
 
         worksServiceSelectEl.value = initialService;
         worksServiceSelectEl.addEventListener('change', (event) => {
             const service = event.target.value;
             updateSelectedWorks({ service });
+            updateSelectorWorks();
         });
 
         worksServiceRestEl.addEventListener('click', () => {
             worksServiceSelectEl.value = "";
             updateSelectedWorks({ service: "" });
+            updateSelectorWorks();
         });
 
         worksRestEl.addEventListener('click', () => {
             worksCategorySelectEl.value = "";
             worksServiceSelectEl.value = "";
             updateSelectedWorks({ service: "", category: "" });
+            updateSelectorWorks();
         });
+
+
+
+        function updateSelectorWorks() {
+            if (worksCategorySelectEl.value) {
+                worksCategoryResetEl.classList.toggle('hidden', false);
+            } else if (!worksCategorySelectEl.value) {
+                worksCategoryResetEl.classList.toggle('hidden', true);
+            }
+
+            if (worksServiceSelectEl.value) {
+                worksServiceRestEl.classList.toggle('hidden', false);
+            } else if (!worksServiceSelectEl.value) {
+                worksServiceRestEl.classList.toggle('hidden', true);
+            }
+        }
     }
 })();

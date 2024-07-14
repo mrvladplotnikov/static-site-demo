@@ -1,0 +1,26 @@
+{{ with .Site.GetPage "/reviews" }}
+{{ range .Pages }}
+<div class="review">
+    <h2 class="section-title">Відгук клієнта</h2>
+    <div class="review-content">
+        <div class="person">
+            <a href="{{ .Params.link }}" class="no-external-icon no-line">
+                <img src="{{ .Params.image }}" alt="{{ .Title }}">
+                <h3>{{ .Title }}, {{ .Params.position }}</h3>
+            </a>
+            <h4>{{ .Params.company }}</h4>
+        </div>
+        <blockquote class="review-text">
+            {{ if or (in (string .RawContent) "\n\n") (in (string .RawContent) "\r\n\r\n") }}
+            {{ .Summary }}
+            {{ else }}
+            <p>{{ .Summary }}</p>
+            {{ end }}
+            {{ if .Truncated }}
+            <button>More ...</button>
+            {{ end }}
+        </blockquote>
+    </div>
+</div>
+{{ end }}
+{{ end }}

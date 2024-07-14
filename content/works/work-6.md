@@ -8,6 +8,7 @@ services:
 - sound-design
 image: "/images/dummy-works/work-6.webp"
 draft: false
+weight: 
 ---
 
 test post

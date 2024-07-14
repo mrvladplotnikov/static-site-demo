@@ -1,48 +1,60 @@
-<button type="button" id="mobile-menu-button" class="mobile-menu-btn" aria-expanded="false" aria-haspopup="dialog"
-  aria-controls="mobile-menu-dialog" aria-label="Відкрити навігаційне меню сайту">
-  <span class="mobile-menu-btn-line" aria-hidden="true"></span>
-  <span class="mobile-menu-btn-line" aria-hidden="true"></span>
-  <span class="mobile-menu-btn-line" aria-hidden="true"></span>
-</button>
+<div id="mobile-nav" class="mobile-nav {{ .className }}">
+  <a href="/" aria-label="Головна сторінка" class="mobile-nav-logo">
+    <img src="/images/header-logo.svg" alt="">
+  </a>
 
-<div id="mobile-menu-dialog" role="dialog" aria-modal="true" class="mobile-menu" aria-label="Меню навігації по сайту"
-  data-modal-till="768px" inert>
-  <nav class="mobile-menu-nav" aria-label="Список сторінок">
-    <ul>
+  <button type="button" id="mobile-menu-button" class="mobile-menu-btn" aria-expanded="false" aria-haspopup="dialog"
+    aria-controls="mobile-menu-dialog" aria-label="Відкрити навігаційне меню сайту">
+    <span class="mobile-menu-btn-line" aria-hidden="true"></span>
+    <span class="mobile-menu-btn-line" aria-hidden="true"></span>
+    <span class="mobile-menu-btn-line" aria-hidden="true"></span>
+  </button>
+
+
+  <div id="mobile-menu-dialog" role="dialog" aria-modal="true" class="mobile-menu" aria-label="Меню навігації по сайту"
+    data-modal-till="768px" inert>
+    <nav class="mobile-menu-nav" aria-label="Список сторінок">
+      <ul>
+        <li>
+          <a class="mobile-menu-link" href="/portfolio">
+            Портфоліо
+            <span class="mobile-menu-link-arrow" aria-hidden="true"></span>
+          </a>
+        </li>
+        <li>
+          <details>
+            <summary class="mobile-menu-summary vp-hover">Послуги {{- partial "icons/arrow-down.html" . -}}</summary>
+            <ul>
+              <li><a class="mobile-menu-link" href="#">Створення музики</a></li>
+              <li><a class="mobile-menu-link" href="/audio-branding">Аудіобрендинг</a></li>
+              <li><a class="mobile-menu-link" href="#">Звуковий дизайн</a></li>
+              <li><a class="mobile-menu-link" href="#">Голосове озвучення</a></li>
+              <li><a class="mobile-menu-link" href="#">Аудіо-рев’ю та консультації</a></li>
+            </ul>
+          </details>
+        </li>
+        <li><a class="mobile-menu-link" href="/faq">FAQ<span class="mobile-menu-link-arrow"
+              aria-hidden="true"></span></a>
+        </li>
+        <li><a class="mobile-menu-link" href="/about">Про нас<span class="mobile-menu-link-arrow"
+              aria-hidden="true"></span></a></li>
+        <li><a class="mobile-menu-link" href="/our-values">Наші цінності<span class="mobile-menu-link-arrow"
+              aria-hidden="true"></span></a></li>
+        <li><a class="mobile-menu-link" href="#">Відгуки<span class="mobile-menu-link-arrow"
+              aria-hidden="true"></span></a></li>
+      </ul>
+    </nav>
+    {{- partial "langs-list-h.html" . -}}
+    <ul class="soc-links-list" aria-label="Посилання на соціальні мережі">
+      {{ range $SocialLink := .Site.Data.SocialLinks }}
       <li>
-        <a class="mobile-menu-link" href="#">
-          Портфоліо
-          <span class="mobile-menu-link-arrow" aria-hidden="true"></span>
+        <a class="no-external-icon no-hover" href="{{ $SocialLink.link }}" title="{{ $SocialLink.title }}"
+          target="_blank" rel="noopener noreferrer nofollow">
+          {{ $path := printf "icons/%s-icon.html" $SocialLink.icon }}
+          {{- partial $path . -}}
         </a>
       </li>
-      <li>
-        <details>
-          <summary class="mobile-menu-summary vp-hover">Послуги {{- partial "icons/arrow-down.html" . -}}</summary>
-          <ul>
-            <li><a class="mobile-menu-link" href="#">Створення музики</a></li>
-            <li><a class="mobile-menu-link" href="#">Аудіобрендинг</a></li>
-            <li><a class="mobile-menu-link" href="#">Звуковий дизайн</a></li>
-            <li><a class="mobile-menu-link" href="#">Голосове озвучення</a></li>
-            <li><a class="mobile-menu-link" href="#">Аудіо-рев’ю та консультації</a></li>
-          </ul>
-        </details>
-      </li>
-      <li><a class="mobile-menu-link" href="#">FAQ<span class="mobile-menu-link-arrow" aria-hidden="true"></span></a></li>
-      <li><a class="mobile-menu-link" href="#">Про нас<span class="mobile-menu-link-arrow" aria-hidden="true"></span></a></li>
-      <li><a class="mobile-menu-link" href="#">Наші цінності<span class="mobile-menu-link-arrow" aria-hidden="true"></span></a></li>
-      <li><a class="mobile-menu-link" href="#">Відгуки<span class="mobile-menu-link-arrow" aria-hidden="true"></span></a></li>
+      {{ end }}
     </ul>
-  </nav>
-  {{- partial "langs-list-h.html" . -}}
-  <ul class="soc-links-list" aria-label="Посилання на соціальні мережі">
-    {{ range $SocialLink := .Site.Data.SocialLinks }}
-    <li>
-      <a class="no-external-icon no-hover" href="{{ $SocialLink.link }}" title="{{ $SocialLink.title }}" target="_blank"
-        rel="noopener noreferrer nofollow">
-        {{ $path := printf "icons/%s-icon.html" $SocialLink.icon }}
-        {{- partial $path . -}}
-      </a>
-    </li>
-    {{ end }}
-  </ul>
+  </div>
 </div>

@@ -18,10 +18,11 @@
 </head>
 
 <body>
-    {{- partial "mobile-nav.html" . -}}
-    <div class="inline-gap">
+    {{- partial "horizontal-nav.html" . -}}
+    {{- partial "mobile-nav.html" (dict "context" . "className" "") -}}
+    <div class="inline-gap top-space-small">
         <div class="container">
-            <h1 class="page-title--large">{{ .Title | title }}</h1>
+            <h1 class="page-title-large">{{ .Title | title }}</h1>
         </div>
 
         <div class="work-list-controls">
@@ -35,7 +36,8 @@
                         <option value="theatre">theatre</option>
                         <option value="video">video</option>
                     </select>
-                    <button id="works-category-reset" type="button" class="control"><span class="control-close">{{-
+                    <button id="works-category-reset" type="button" class="control hidden"><span
+                            class="control-close">{{-
                             partial "icons/close-icon.html" . -}}</span></button>
                 </div>
                 <div class="control-container">
@@ -46,8 +48,8 @@
                         <option value="sound-design">sound design</option>
                         <option value="music-composing">music composing</option>
                     </select>
-                    <button id="works-service-reset" type="button" class="control"><span class="control-close">{{-
-                            partial "icons/close-icon.html" . -}}</span></button>
+                    <button id="works-service-reset" type="button" class="control hidden"><span
+                            class="control-close">{{- partial "icons/close-icon.html" . -}}</span></button>
                 </div>
                 <button id="works-reset" type="button" class="control"><span class="control-close">{{- partial
                         "icons/close-icon.html" . -}}</span> Скинути фільтри</button>
@@ -56,7 +58,9 @@
         <div class="works-list grid" role="list" aria-labelledby="works-title">
             {{ range .Pages }}
             <div class="column">
-                <a class="works-list-item no-hover grid-item" href="{{ .RelPermalink }}" aria-label="{{ .Title }}" data-categories="{{ delimit .Params.categories "," }}" data-services="{{ delimit .Params.services "," }}">
+                <a class="works-list-item no-hover grid-item" href="{{ .RelPermalink }}" aria-label="{{ .Title }}" {{ if
+                    isset .Params "categories" }}data-categories="{{ delimit .Params.categories ',' }}" {{ end }} {{ if
+                    isset .Params "services" }}data-services="{{ delimit .Params.services ',' }}" {{ end }}>
                     <img src="{{ .Params.image }}" alt="{{ .Title }}" />
                     <h4 class="works-list-item-title grid-item-title" role="presentation">{{ .Title }}</h4>
                 </a>
