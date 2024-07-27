@@ -55,11 +55,6 @@
         position: absolute;
     }
 
-    .faq-content h2 {
-        margin-top: 128px;
-        margin-bottom: 44px;
-    }
-
     .box-image-first {
         right: 570px;
         top: 228px;
@@ -69,6 +64,12 @@
         right: 175px;
         top: 157px;
     }
+
+    .faq-content h2 {
+        margin-top: 128px;
+        margin-bottom: 44px;
+    }
+
 
     .headline-questions {
         font-size: 70px;

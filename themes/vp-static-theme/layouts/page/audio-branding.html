@@ -3,7 +3,8 @@
 
 <head>
     {{- partial "head.html" . -}}
-    <link rel="stylesheet" href="/css/audio-branding.css" />
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/css/services.css" />
 </head>
 
 <body>
@@ -12,19 +13,20 @@
     {{- partial "mobile-nav.html" (dict "context" . "className" "") -}}
 
     <div class="audio-inner top-space service-page-content">
-        <aside class="sidebar">
+        <aside class="sidebar sidebar-audio-branding">
             <h1 class="audio-sidebar-title">Аудіобрендинг</h1>
             <figure>
-                <blockquote>У сучасному світі бренди повинні ставитися до звуку з тією ж ретельністю й дисципліною,
+                <blockquote class="sidebar-blockquote">У сучасному світі бренди повинні ставитися до звуку з тією ж
+                    ретельністю й дисципліною,
                     що й до графічних стандартів та візуальної побудови бренду. Якщо ви застрягли у світі виключно
                     візуального брендингу, то змагаєтеся ви з однією зав’язаною за спиною рукою.</blockquote>
             </figure>
             <figcaption class="sidebar-author">
-                <cite><a href="#">Лоуренс Мінскі, Коллін Фейхі</a></cite>
+                <cite>Лоуренс Мінскі, Коллін Фейхі</cite>
             </figcaption>
         </aside>
 
-        <div class="audio-content container inline-gap">
+        <div class="audio-content small-container inline-gap">
             <div class="audio-top-content-inside">
                 <img class="box-image box-top-left" src="/images/services/box-with-dots.svg" alt="">
                 <img class="box-image box-top-right" src="/images/services/box-with-dots.svg" alt="">
@@ -48,25 +50,25 @@
             </div>
         </div>
 
-        <div class="audio-content container inline-gap service-page-sections">
+        <div class="audio-content small-container inline-gap service-page-sections">
             <div class="service-section">
                 <h2>Що ми робимо?</h2>
                 <p>Ми створюємо:</p>
                 <ul class="what-we-do-list">
                     <li class="what-we-do-container">
-                        <img src="/images/services/headphones-icon.svg" alt="">
+                        <img src="/images/services/strategy-icon.svg" alt="">
                         <h4>Аудіо стратегії брендів</h4>
                     </li>
                     <li class="what-we-do-container">
-                        <img src="/images/services/light-icon.svg" alt="">
+                        <img src="/images/services/jingles-icon.svg" alt="">
                         <h4>Аудіо логотипи та джингли</h4>
                     </li>
                     <li class="what-we-do-container">
-                        <img src="/images/services/loudspeaker-icon.svg" alt="">
+                        <img src="/images/services/advertising-icon.svg" alt="">
                         <h4>Аудіорекламу та бренд-музику</h4>
                     </li>
                     <li class="what-we-do-container">
-                        <img src="/images/services/phone-icon.svg" alt="">
+                        <img src="/images/services/app-icon.svg" alt="">
                         <h4>Звукову айдентику для застосунків</h4>
                     </li>
                     <li class="what-we-do-container">
@@ -90,8 +92,24 @@
                     </div>
                     {{ end }}
                 </div>
-                <iframe title="Наші роботи" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay"
-                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/758338767&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+                <div class="video video-enabled" data-media-id="videoseries?list=PLkTzVtkdVRI1LabAPDrwi9oRRyTtX6mSm&si">
+                    <a class="video_link" href="https://youtu.be/videoseries?list=PLkTzVtkdVRI1LabAPDrwi9oRRyTtX6mSm&si"
+                        target="_blank" rel="noopener" data-media-link="">
+                        <picture>
+                            <source srcset="https://i.ytimg.com/vi_webp/E6mVCq5JAJo/maxresdefault.webp"
+                                type="image/webp">
+                            <img class="video_media" src="https://i.ytimg.com/vi/E6mVCq5JAJo/maxresdefault.jpg" alt="">
+                        </picture>
+                    </a>
+                    <button class="video_button" aria-label="Увімкнути відео" data-media-button="">
+                        <svg width="68" height="48" viewBox="0 0 68 48">
+                            <path class="video_button_shape"
+                                d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z">
+                            </path>
+                            <path class="video_button_icon" d="M 45,24 27,14 27,34"></path>
+                        </svg>
+                    </button>
+                </div>
                 <div class="container t-a-r">
                     <a class="btn btn-arrow no-hover" href="/portfolio">Портфоліо</a>
                 </div>
@@ -167,13 +185,32 @@
                 </ul>
                 <p>Як ми вже згадували, не існує універсального набору елементів аудіо бренда. Тому існує висока
                     вірогідність, що пакети вище не повністю відповідають вашим нинішнім потребам, і це нормально.</p>
-                <p><a href="#">Напишіть нам</a> і ми разом визначимося з вашою ідеальною формулою майбутнього аудіо
+                <p><a href="mailto:connect@vp-production.com">Напишіть нам</a> і ми разом визначимося з вашою ідеальною
+                    формулою майбутнього аудіо
                     бренда та допоможемо
                     з прорахунком проєкту. 🙌</p>
             </div>
+
+            {{ $serviceName := slice "audio-branding" }}
+            {{ with .Site.GetPage "/reviews" }}
+            {{ if (gt (where .Pages "Params.services" "intersect" $serviceName | len) 0) }}
             <div class="service-section">
                 <h2>Відгуки клієнтів</h2>
+
+                <div class="slider">
+                    <ul class="swiper-wrapper">
+                        {{ range first 10 (where .Pages "Params.services" "intersect" $serviceName) }}
+                        {{- partial "review.html" (dict "context" . "className" "swiper-slide") -}}
+                        {{ end }}
+                    </ul>
+                </div>
+                {{- partial "arrow-button.html" . -}}
             </div>
+
+            <div id="review-modal-"></div>
+
+            {{ end }}
+            {{ end }}
             {{- partial "contact-us-email.html" . -}}
             {{- partial "footer.html" . -}}
         </div>
@@ -183,8 +220,10 @@
 
 
     <script async type="module" src="/js/main.js"></script>
+    <script src="/js/swiper-bundle.min.js"></script>
     <script async type="module" src="/js/audio-branding.js"></script>
     <script async type="module" src="/js/details.js"></script>
+    <script async type="module" src="/js/slider.js"></script>
 </body>
 
 </html>

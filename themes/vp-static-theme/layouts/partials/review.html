@@ -1,0 +1,37 @@
+<li class="review-content {{ .className }}">
+    <div class="person">
+        <a href="{{ .context.Params.link }}" class="no-external-icon no-line no-hover">
+            <img src="{{ .context.Params.image }}" alt="{{ .context.Title }}">
+            <h3>{{ .context.Title }}, {{ .context.Params.position }}</h3>
+        </a>
+        <h4>{{ .context.Params.company }}</h4>
+    </div>
+    <blockquote class="review-text">
+        {{ if or (in (string .context.RawContent) "\n\n") (in (string .context.RawContent) "\r\n\r\n") }}
+        {{ .context.Summary }}
+        {{ else }}
+        <p>{{ .context.Summary }}</p>
+        {{ end }}
+        {{ if .context.Truncated }}
+        <button class="review-text-more" id="review-modal-open"
+            data-parent="{{ .context.Title }}"><span>Більше</span></button>
+        <div class="review-modal hidden" id="review-modal" data-parent="{{ .context.Title }}">
+            <div class="review-modal-content">
+                <button class="review-modal-btn" id="review-modal-close">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 352 512"
+                        class="react-icons" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z">
+                        </path>
+                    </svg>
+                </button>
+                <div class="review-modal-text">
+                    {{ .context.Content }}
+                    <h3>{{ .context.Title }}, {{ .context.Params.position }}</h3>
+                    <h4>{{ .context.Params.company }}</h4>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </blockquote>
+</li>

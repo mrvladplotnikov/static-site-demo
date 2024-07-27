@@ -25,7 +25,6 @@
 .slider {
     margin: 0 auto;
     max-width: 1170px;
-    overflow: hidden;
 }
 
 .team-slides {
@@ -79,7 +78,7 @@
     -webkit-user-drag: none;
 }
 
-.button-arrow {
+/* .button-arrow {
     background-color: inherit;
     border: none;
     cursor: pointer;
@@ -92,25 +91,25 @@
 
 .button-arrow-left svg {
     transform: scaleX(-1);
-}
+} */
 
-.arrow-section {
+/* .arrow-section {
     display: flex;
     justify-content: center;
     margin-bottom: 28px;
     margin-top: 25px;
-}
+} */
 
-.slide-position {
+/* .slide-position {
     font-size: 18px;
-}
+} */
 
-.arrow-section span {
+/* .arrow-section span {
     font-weight: 700;
-}
+} */
 
 
-.swiper-pagination-fraction {
+/* .swiper-pagination-fraction {
     width: auto;
 }
 
@@ -119,7 +118,7 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
-}
+} */
 
 @media (min-width: 320px) {}
 
@@ -172,10 +171,6 @@
 
     .team-inner p {
         font-size: 22px;
-    }
-
-    .slide-position {
-        font-size: 32px;
     }
 
     /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */

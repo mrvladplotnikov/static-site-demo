@@ -8,7 +8,7 @@
     top: 0;
     left: 0;
     right: 0;
-    z-index: var(--layer-menu);
+    z-index: var(--layer-under-menu);
     background-color: var(--clr-black);
     padding: .5em .7em;
     font-weight: 800;

@@ -29,7 +29,7 @@
     <source srcset="{{ .RelPermalink }}" type="image/webp">
     {{ end }}
     {{ with .Resize (printf "%dx" $imageSize) }}
-    <img src="{{ .RelPermalink }}" alt="{{ $imageAlt }}">
+    <img loading="lazy" src="{{ .RelPermalink }}" alt="{{ $imageAlt }}">
     {{ end }}
 </picture>
 {{ end }}

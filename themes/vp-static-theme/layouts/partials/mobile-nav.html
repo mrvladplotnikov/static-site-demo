@@ -25,11 +25,11 @@
           <details>
             <summary class="mobile-menu-summary vp-hover">Послуги {{- partial "icons/arrow-down.html" . -}}</summary>
             <ul>
-              <li><a class="mobile-menu-link" href="#">Створення музики</a></li>
+              <li><a class="mobile-menu-link" href="/music-composing">Створення музики</a></li>
               <li><a class="mobile-menu-link" href="/audio-branding">Аудіобрендинг</a></li>
-              <li><a class="mobile-menu-link" href="#">Звуковий дизайн</a></li>
-              <li><a class="mobile-menu-link" href="#">Голосове озвучення</a></li>
-              <li><a class="mobile-menu-link" href="#">Аудіо-рев’ю та консультації</a></li>
+              <li><a class="mobile-menu-link" href="/sound-design">Звуковий дизайн</a></li>
+              <li><a class="mobile-menu-link" href="/voice-casting">Голосове озвучення</a></li>
+              {{/* <li><a class="mobile-menu-link" href="#">Аудіо-рев’ю та консультації</a></li> */}}
             </ul>
           </details>
         </li>
@@ -40,13 +40,16 @@
               aria-hidden="true"></span></a></li>
         <li><a class="mobile-menu-link" href="/our-values">Наші цінності<span class="mobile-menu-link-arrow"
               aria-hidden="true"></span></a></li>
-        <li><a class="mobile-menu-link" href="#">Відгуки<span class="mobile-menu-link-arrow"
+        <li><a class="mobile-menu-link" href="/reviews">Відгуки<span class="mobile-menu-link-arrow"
+              aria-hidden="true"></span></a></li>
+        <li><a class="mobile-menu-link" href="/press-kit">Прес-кит<span class="mobile-menu-link-arrow"
               aria-hidden="true"></span></a></li>
       </ul>
     </nav>
-    {{- partial "langs-list-h.html" . -}}
+    {{- partial "langs-list-h.html" .context -}}
+
     <ul class="soc-links-list" aria-label="Посилання на соціальні мережі">
-      {{ range $SocialLink := .Site.Data.SocialLinks }}
+      {{ range $SocialLink := .context.Site.Data.SocialLinks }}
       <li>
         <a class="no-external-icon no-hover" href="{{ $SocialLink.link }}" title="{{ $SocialLink.title }}"
           target="_blank" rel="noopener noreferrer nofollow">
@@ -56,5 +59,6 @@
       </li>
       {{ end }}
     </ul>
+
   </div>
 </div>

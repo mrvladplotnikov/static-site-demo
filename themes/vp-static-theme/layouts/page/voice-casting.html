@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}">
+
+<head>
+    {{- partial "head.html" . -}}
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/css/services.css" />
+</head>
+
+<body>
+
+    {{- partial "horizontal-nav.html" . -}}
+    {{- partial "mobile-nav.html" (dict "context" . "className" "") -}}
+
+    <div class="audio-inner top-space service-page-content">
+        <aside class="sidebar sidebar-voice-casting">
+            <h1 class="audio-sidebar-title">Голосове озвучення</h1>
+            <figure>
+                <blockquote class="sidebar-blockquote">Людський голос — найкрасивіший інструмент з усіх, але на ньому
+                    найважче грати.
+                </blockquote>
+            </figure>
+            <figcaption class="sidebar-author">
+                <cite>Ріхард Штраус</cite>
+            </figcaption>
+        </aside>
+
+        <div class="audio-content small-container inline-gap">
+            <div class="audio-top-content-inside">
+                <img class="box-image box-top-left" src="/images/services/box-with-dots.svg" alt="">
+                <img class="box-image box-top-right" src="/images/services/box-with-dots.svg" alt="">
+                <img class="box-image box-bottom-left" src="/images/services/box-with-dots.svg" alt="">
+                <img class="box-image box-bottom-right" src="/images/services/box-with-dots.svg" alt="">
+                <h3 class="audio-content-title">Голос — не лише найперший, але й найбільш емоційний з усіх музичних
+                    інструментів.
+                </h3>
+                <p>Ніщо не здатне так точно передати інформацію, весь спектр емоцій і невловимі нюанси настрою, тож до
+                    голосового озвучення варто підходити дуже відповідально.</p>
+                <p>Замало просто озвучити потрібний текст добре поставленим або згенерованим ШІ голосом. Головні
+                    завдання голосового озвучення — захоплювати та направляти увагу слухача, створювати атмосферу та
+                    розкривати персонажів або ж цінності бренду. Щоби ефективно виконати ці завдання, вам знадобляться
+                    професійні актори озвучення.
+                </p>
+                <p>Правильне голосове озвучення — саме те, що змушує людину слухати і вірити почутому.
+                </p>
+            </div>
+        </div>
+
+        <div class="audio-content small-container inline-gap service-page-sections">
+            <div class="service-section">
+                <h2>Що ми робимо?</h2>
+                <p>Ми продюсуємо голосове озвучення, а конкретно відповідаємо за:</p>
+                <ul class="what-we-do-list">
+                    <li class="what-we-do-container">
+                        <img src="/images/services/voice-actor-icon.svg" alt="">
+                        <h4>Кастинг акторів голосового озвучення</h4>
+                    </li>
+                    <li class="what-we-do-container">
+                        <img src="/images/services/organization-icon.svg" alt="">
+                        <h4>Організацією і менеджментом проєкту</h4>
+                    </li>
+                    <li class="what-we-do-container">
+                        <img src="/images/services/audiofiles-icon.svg" alt="">
+                        <h4>Обробкою аудіо файлів</h4>
+                    </li>
+                </ul>
+                <p>А ще ми співпрацюємо з професійними вокалістами, щоби додати необхідну людяність та глибину <a
+                        href="/audio-branding">аудіо
+                        брендам</a> і <a href="/music-composing">музиці.</a></p>
+            </div>
+            <div class="service-section">
+                <h2>База голосів</h2>
+                <p>За роки роботи ми сформували базу акторів голосового озвучення та вокалістів. Кожен із них — носій
+                    найрізноманітніших мов і акцентів, тембрів і інтонацій. У цьому ви можете переконатися самі,
+                    плейлисти із прикладами голосів акторів і вокалістів ви знайдете нижче.</p>
+                <h3>Актори озвучення</h3>
+                <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay"
+                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/303617614%3Fsecret_token%3Ds-jgwUQD8Wr0W&color=%23f23b0d&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"></iframe>
+
+                <h3>Вокалісти</h3>
+                <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay"
+                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1259357083%3Fsecret_token%3Ds-vWRXTht4Qep&color=%23f23b0d&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"></iframe>
+            </div>
+            <div class="service-section">
+                <h2>Як проходить процес?</h2>
+                <p>За останні кілька років ми розробили зрозумілу й ефективну схему співпраці завдяки якій креативний
+                    процес іде швидко, цікаво, а головне — передбачувано. Усе задля того, щоби ми з вами мали змогу
+                    спільно створити те, що сподобається та запам’ятається вашій аудиторії.
+                </p>
+                {{ .Content }}
+            </div>
+            <div class="our-prices service-section">
+                <h2>Вартість</h2>
+                <p>Вартість проєкту залежить від вибору актора озвучення, базова обробка голосу (чистка, еквалізація,
+                    компресія, лімітування) включена у вартість, специфічна обробка (ефект радіо, ехо, голос робота
+                    тощо) обговорюється окремо.</p>
+                <h3>Українськи актори озвучення</h3>
+                <p>Доступні мови: українська, англійська.</p>
+                <p>Вартість — $300/год</p>
+                <h3>Іноземні актори озвучення</h3>
+                <p>Доступні мови: англійська, німецька, французька, іспанська, китайська.</p>
+                <p>Вартість — $400/год</p>
+                <p>Година роботи включає запис актора і базову обробку голосу. В середньому за одну годину роботи можна
+                    озвучити 800-1000 слів сценарію, але все залежить від специфіки проєкту.</p>
+                <p>Мінімальна сума замовлення складає вартість однієї години роботи.</p>
+                <p>Якщо в списку доступних мов ви не знайшли потрібну вам — обов’язково <a
+                        href="mailto:connect@vp-production.com">напишіть нам</a> і ми
+                    підберемо
+                    потрібного актора.</p>
+                <p>Вартість роботи вокалістів безпосередньо залежить від обсягу та складності проєкту й розраховується
+                    індивідуально. </p>
+            </div>
+
+            {{ $serviceName := slice "voice-casting" }}
+            {{ with .Site.GetPage "/reviews" }}
+            {{ if (gt (where .Pages "Params.services" "intersect" $serviceName | len) 0) }}
+            <div class="service-section">
+                <h2>Відгуки клієнтів</h2>
+
+                <div class="slider">
+                    <ul class="swiper-wrapper">
+                        {{ range first 10 (where .Pages "Params.services" "intersect" $serviceName) }}
+                        {{- partial "review.html" (dict "context" . "className" "swiper-slide") -}}
+                        {{ end }}
+                    </ul>
+                </div>
+                {{- partial "arrow-button.html" . -}}
+            </div>
+
+            <div class="review-modal hidden" id="review-modal">
+                <div class="review-modal-content">
+                    <button class="review-modal-btn">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 352 512"
+                            class="react-icons" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z">
+                            </path>
+                        </svg>
+                    </button>
+                    <div class="review-modal-text">
+                        <p>Рідко зустрічаєш людей ззовні, які настільки захоплені та люблять те, що роблять. Ще і ваш
+                            продукт починають сприймати з такою ж любов’ю, як і ви. Тому можу сказати: якщо ви
+                            задумалися
+                            про звуки у вашому продукті, вам потрібно до цієї команди. Навіть якщо ви мало що розумієте.
+                        </p>
+
+                        <p>Влад та Руслана доступною мовою розкажуть і закохають вас в аудіобрендинг і, повірте, після
+                            цього ви не захочете просто звуки сповіщень.</p>
+
+                        <p>А головне — те, що вийде, буде до вподоби вашим клієнтам. Ми все ще одержуємо позитивні
+                            відгуки,
+                            хоча минуло багато часу після релізу.</p>
+
+                        <p>Водночас не лише я читаю відгуки, а і власне команда VP Production продовжує активно
+                            моніторити
+                            зворотний зв’язок у маркетах і скидати мені їх навіть після завершення співпраці. Напевно,
+                            це
+                            один із найкрутіших чинників, який підтверджує щирість та професіоналізм та викликає бажання
+                            й
+                            далі розвивати наш аудіо бренд.</p>
+                        <h3>Ілона Бондар, РО</h3>
+                        <h4>ПУМБ Online</h4>
+                    </div>
+                </div>
+            </div>
+
+            {{ end }}
+            {{ end }}
+            {{- partial "contact-us-email.html" . -}}
+            {{- partial "footer.html" . -}}
+        </div>
+
+
+    </div>
+
+
+    <script async type="module" src="/js/main.js"></script>
+    <script src="/js/swiper-bundle.min.js"></script>
+    <script async type="module" src="/js/audio-branding.js"></script>
+    <script async type="module" src="/js/details.js"></script>
+    <script async type="module" src="/js/slider.js"></script>
+</body>
+
+</html>

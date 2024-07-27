@@ -15,6 +15,7 @@ body p,
     font-size: var(--fz-regular);
     font-weight: var(--fw-light);
     /* margin-block-end: calc(var(--gutter) * 2); */
+    margin-block-start: 1em;
     margin-block-end: 1em;
 }
 
@@ -43,7 +44,7 @@ body a[href]:not(:where([href^="#"],
     align-items: center;
 }
 
-body a[href]:not(:where([href^="#"],
+/* body a[href]:not(:where([href^="#"],
         [href^="/"]:not([href^="//"]),
         [href*="//vp-production.com"],
         .no-external-icon,
@@ -57,10 +58,13 @@ body a[href]:not(:where([href^="#"],
     width: 1em;
     height: 0.85em;
     margin-left: calc(var(--gutter) * 0.25);
-}
+} */
 
 html body a:not(.no-hover):hover {
-    color: var(--clr-blue);
+    background: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 @media (hover: hover) {

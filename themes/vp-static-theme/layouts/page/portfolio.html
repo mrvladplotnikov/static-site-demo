@@ -13,6 +13,7 @@
     <meta charset="utf-8" />
     <meta name="theme-color" content="#000000">
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link href="https://unpkg.com/slim-select@latest/dist/slimselect.css" rel="stylesheet" />
     <link rel="stylesheet" href="/css/main.css" />
     <link rel="stylesheet" href="/css/portfolio.css" />
 </head>
@@ -29,27 +30,23 @@
             <div class="container">
                 <div class="control-container">
                     <select name="category" id="works-category-select" class="control control-select">
-                        <option disabled selected value="">Категорія</option>
-                        <option value="app">app</option>
-                        <option value="brand">brand</option>
-                        <option value="gamedev">gamedev</option>
-                        <option value="theatre">theatre</option>
-                        <option value="video">video</option>
+                        <option disabled selected value="" data-placeholder="true">Категорія</option>
+                        <option value="app" data-html="<span>app</span>">app</option>
+                        <option value="brand" data-html="<span>brand</span>">brand</option>
+                        <option value="gamedev" data-html="<span>gamedev</span>">gamedev</option>
+                        <option value="theatre" data-html="<span>theatre</span>">theatre</option>
+                        <option value="video" data-html="<span>video</span>">video</option>
                     </select>
-                    <button id="works-category-reset" type="button" class="control hidden"><span
-                            class="control-close">{{-
-                            partial "icons/close-icon.html" . -}}</span></button>
                 </div>
                 <div class="control-container">
                     <select name="service" id="works-service-select" class="control control-select">
-                        <option disabled selected value="">Послуга</option>
-                        <option value="audiobranding">audiobranding</option>
-                        <option value="voice-over">voice over</option>
-                        <option value="sound-design">sound design</option>
-                        <option value="music-composing">music composing</option>
+                        <option disabled selected value="" data-placeholder="true">Послуга</option>
+                        <option value="audio-branding" data-html="<span>audio branding</span>">audio branding</option>
+                        <option value="voice-over" data-html="<span>voice over</span>">voice over</option>
+                        <option value="sound-design" data-html="<span>sound design</span>">sound design</option>
+                        <option value="music-composing" data-html="<span>music composing</span>">music composing
+                        </option>
                     </select>
-                    <button id="works-service-reset" type="button" class="control hidden"><span
-                            class="control-close">{{- partial "icons/close-icon.html" . -}}</span></button>
                 </div>
                 <button id="works-reset" type="button" class="control"><span class="control-close">{{- partial
                         "icons/close-icon.html" . -}}</span> Скинути фільтри</button>
@@ -71,6 +68,7 @@
 
     {{- partial "contact-us-email.html" . -}}
     {{- partial "footer.html" . -}}
+    <script src="https://unpkg.com/slim-select@latest/dist/slimselect.min.js"></script>
     <script async type="module" src="/js/main.js"></script>
     <script async type="module" src="/js/portfolio.js"></script>
 </body>

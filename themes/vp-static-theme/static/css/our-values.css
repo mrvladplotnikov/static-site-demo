@@ -19,11 +19,6 @@
     font-weight: 700;
 }
 
-.inner {
-    margin: 0 auto;
-    width: 100%;
-}
-
 .vp-back {
     background-color: var(--clr-dark);
 }
@@ -37,9 +32,7 @@
         padding: 185px 80px;
     }
 
-    .inner {
-        max-width: 768px;
-    }
+
 }
 
 @media (min-width:992px) {
@@ -71,15 +64,15 @@
     .first-section::before {
         content: url(/images/our-values/box-with-icons-min.svg);
         position: absolute;
-        right: 175px;
-        top: 165px;
+        right: 50px;
+        top: 240px;
     }
 
     .first-section::after {
         content: url(/images/our-values/box-with-icons-min.svg);
         position: absolute;
-        right: 290px;
-        bottom: 250px;
+        right: 240px;
+        bottom: 240px;
     }
 }
 

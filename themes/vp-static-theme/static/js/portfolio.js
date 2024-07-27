@@ -76,9 +76,7 @@ import Grid from "./shared/grid.js";
     }
 
     const worksCategorySelectEl = document.querySelector("#works-category-select");
-    const worksCategoryResetEl = document.querySelector("#works-category-reset");
     const worksServiceSelectEl = document.querySelector("#works-service-select");
-    const worksServiceRestEl = document.querySelector("#works-service-reset");
     const worksRestEl = document.querySelector("#works-reset");
 
     if (worksCategorySelectEl && worksServiceSelectEl) {
@@ -86,49 +84,56 @@ import Grid from "./shared/grid.js";
         worksCategorySelectEl.addEventListener('change', (event) => {
             const category = event.target.value;
             updateSelectedWorks({ category });
-            updateSelectorWorks();
-        });
-
-        worksCategoryResetEl.addEventListener('click', () => {
-            worksCategorySelectEl.value = "";
-            updateSelectedWorks({ category: "" });
-            updateSelectorWorks();
         });
 
         worksServiceSelectEl.value = initialService;
         worksServiceSelectEl.addEventListener('change', (event) => {
             const service = event.target.value;
             updateSelectedWorks({ service });
-            updateSelectorWorks();
-        });
-
-        worksServiceRestEl.addEventListener('click', () => {
-            worksServiceSelectEl.value = "";
-            updateSelectedWorks({ service: "" });
-            updateSelectorWorks();
         });
 
         worksRestEl.addEventListener('click', () => {
-            worksCategorySelectEl.value = "";
-            worksServiceSelectEl.value = "";
-            updateSelectedWorks({ service: "", category: "" });
-            updateSelectorWorks();
+            // worksCategorySelectEl.value = "";
+            // worksServiceSelectEl.value = "";
+            // updateSelectedWorks({ service: "", category: "" });
+            worksCategorySelect.setSelected('');
+            worksServiceSelect.setSelected('');
         });
 
-
-
-        function updateSelectorWorks() {
-            if (worksCategorySelectEl.value) {
-                worksCategoryResetEl.classList.toggle('hidden', false);
-            } else if (!worksCategorySelectEl.value) {
-                worksCategoryResetEl.classList.toggle('hidden', true);
-            }
-
-            if (worksServiceSelectEl.value) {
-                worksServiceRestEl.classList.toggle('hidden', false);
-            } else if (!worksServiceSelectEl.value) {
-                worksServiceRestEl.classList.toggle('hidden', true);
-            }
-        }
     }
+
+    var worksCategorySelect = new SlimSelect({
+        select: '#works-category-select',
+        settings: {
+            showSearch: false,
+            openPosition: 'down',
+            allowDeselect: true,
+            hideSelected: true,
+        },
+        // data: [
+        //     { 'placeholder': true, 'text': 'Категорія', value: '' },
+
+        //     { text: 'brand', html: '<span>brand</span>', value: 'brand' },
+        //     { text: 'gamedev', html: '<span>gamedev</span>', value: 'gamedev' },
+        //     { text: 'theatre', html: '<span>theatre</span>', value: 'theatre' },
+        //     { text: 'video', html: '<span>video</span>', value: 'video' }
+        // ],
+    })
+
+    var worksServiceSelect = new SlimSelect({
+        select: '#works-service-select',
+        settings: {
+            showSearch: false,
+            openPosition: 'down',
+            allowDeselect: true,
+            hideSelected: true,
+        },
+        // data: [
+        //     { 'placeholder': true, 'text': 'Послуга', value: '' },
+        //     { text: 'audio-branding', html: '<span>audio branding</span>', value: 'audio-branding' },
+        //     { text: 'voice-over', html: '<span>voice over</span>', value: 'voice-over' },
+        //     { text: 'sound-design', html: '<span>sound design</span>', value: 'sound-design' },
+        //     { text: 'music-composing', html: '<span>music composing</span>', value: 'music-composing' }
+        // ],
+    })
 })();

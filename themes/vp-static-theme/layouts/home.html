@@ -31,12 +31,14 @@
     {{- partial "horizontal-nav.html" . -}}
     {{- partial "mobile-nav.html" (dict "context" . "className" "mobile-nav-home") -}}
     {{- partial "icons/hero-logo.html" . -}}
-    <a class="hero-portfolio-link no-hover" href="{{ relLangURL " portfolio" }}">
+
+    {{ with (.Site.GetPage "section" "works") }}
+    <a class="hero-portfolio-link no-hover" href="{{ .CurrentSection.RelPermalink }}">
       <span class="hero-portfolio-link-line"></span><span>
         {{ T "portfolio" }}
       </span>
     </a>
-
+    {{ end }}
     <ul class="hero-social-links-list">
       <li>
         <a class="hero-social-link no-external-icon no-hover" href="https://www.facebook.com/vpproduction.audio"
@@ -78,11 +80,10 @@
       </div>
     </div>
     <div class="small-container d-f f-c f-c-h-r">
-      <p class="about-section-text">Ми – незалежна аудіоагенція, яка створює звукову айдентику для ігор,
-        брендів і
-        застосунків. Із нами можна не
-        соромитися зарядженої музики, концептуальних звуків і самобутніх голосів — усе заради того, щоби стати значущою
-        частиною життя вашої аудиторії.</p>
+      <p class="about-section-text">Ми –– українська аудіоагенція, яка створює знакове звучання для ігор, брендів та
+        застосунків. Ми розробляємо унікальне аудіо, щоби допомогти нашим клієнтам закарбувати їхній образ у головах і
+        серцях аудиторії.
+      </p>
 
       <a class="btn btn-arrow no-hover" href="/about">
         Про нас

@@ -1,0 +1,20 @@
+.box-image {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .box-image {
+        display: block;
+        position: absolute;
+    }
+
+    .box-image-first {
+        right: 570px;
+        top: 228px;
+    }
+
+    .box-image-second {
+        right: 175px;
+        top: 157px;
+    }
+}
