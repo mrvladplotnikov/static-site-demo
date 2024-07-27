@@ -2,8 +2,6 @@
   "baseURL": "https://vp-production.com/",
   "title": "VP Production",
   "theme": "vp-static-theme",
-  "defaultContentLanguage": "uk",
-  "defaultContentLanguageInSubdir": false,
   "taxonomies": {
     "category": "categories",
     "service": "services",
@@ -12,26 +10,19 @@
     "developer": "developers",
     "contributor": "contributors"
   },
+  "defaultContentLanguage": "uk",
   "languages": {
     "uk": {
-      "contentDir": "content",
+      "contentDir": "content/uk",
       "languageCode": "uk",
-      "languageDirection": "ltr",
       "languageName": "Українська",
-      "title": "VP Production",
-      "params": {
-        "wight": 1
-      }
+      "weight": 1
     },
     "en": {
       "contentDir": "content/en",
       "languageCode": "en",
-      "languageDirection": "ltr",
       "languageName": "Англійська",
-      "title": "VP Production",
-      "params": {
-        "wight": 2
-      }
+      "weight": 2
     }
   }
 }

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}">
+
+<head>
+    <title>{{ .Title | title }} | {{ .Site.Title }}</title>
+    <link rel="canonical" href="{{ .Site.BaseURL }}" />
+    {{- with .Params.description }}
+    <meta name="description" content="{{ . }}" />
+    {{- end }}
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <meta name="theme-color" content="#000000">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+
+    <link href="https://unpkg.com/slim-select@latest/dist/slimselect.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/portfolio.css" />
+</head>
+
+<body>
+    {{- partial "horizontal-nav.html" . -}}
+    {{- partial "mobile-nav.html" (dict "context" . "className" "") -}}
+    <div class="inline-gap top-space-small">
+        <div class="container">
+            <h1 class="page-title-large">{{ .Title | title }}</h1>
+        </div>
+
+        <div class="work-list-controls">
+            <div class="container">
+                <div class="control-container">
+                    <select name="category" id="works-category-select" class="control control-select">
+                        <option disabled selected value="" data-placeholder="true">{{ T "categories" 1 }}</option>
+                        <option value="app" data-html="<span>app</span>">{{ T "app" 1 }}</option>
+                        <option value="brand" data-html="<span>brand</span>">{{ T "brand" 1 }}</option>
+                        <option value="gamedev" data-html="<span>gamedev</span>">{{ T "gamedev" 1 }}</option>
+                        <option value="theatre" data-html="<span>theatre</span>">{{ T "theatre" 1 }}</option>
+                        <option value="video" data-html="<span>video</span>">{{ T "value" 1 }}</option>
+                    </select>
+                </div>
+                <div class="control-container">
+                    <select name="service" id="works-service-select" class="control control-select">
+                        <option disabled selected value="" data-placeholder="true">{{ T "services" 1 }}</option>
+                        <option value="audio-branding" data-html="<span>audio branding</span>">audio bra1nding</option>
+                        <option value="voice-casting" data-html="<span>voice casting</span>">voice casting</option>
+                        <option value="sound-design" data-html="<span>sound design</span>">sound design</option>
+                        <option value="music-composing" data-html="<span>music composing</span>">music composing
+                        </option>
+                    </select>
+                </div>
+
+                <button id="works-reset" type="button" class="control">
+                    <span class="control-close">{{- partial "icons/close-icon.html" . -}}</span> Скинути фільтри
+                </button>
+            </div>
+        </div>
+
+        <div class="works-list grid" role="list" aria-labelledby="works-title">
+            {{- range .Pages -}}
+
+            {{- $categories := "" -}}
+            {{- with .Params.categories -}}
+            {{- $categories = delimit . "," -}}
+            {{- end -}}
+
+            {{- $services := "" -}}
+            {{- with .Params.services -}}
+            {{- $services = delimit . "," -}}
+            {{- end -}}
+
+            <div class="column">
+                <a class="works-list-item no-hover grid-item" href="{{ .RelPermalink }}" aria-label="{{ .Title }}"
+                    data-categories="{{ $categories }}" data-services="{{ $services }}">
+                    <img src="{{ .Params.image }}" alt="{{ .Title }}" />
+                    <h4 class="works-list-item-title grid-item-title">{{ .Title }}</h4>
+                </a>
+            </div>
+            {{- end -}}
+        </div>
+    </div>
+
+    {{- partial "contact-us-email.html" . -}}
+    {{- partial "footer.html" . -}}
+
+    <script src="https://unpkg.com/slim-select@latest/dist/slimselect.min.js"></script>
+    <script async type="module" src="/js/main.js"></script>
+    <script async type="module" src="/js/portfolio.js"></script>
+</body>
+
+</html>

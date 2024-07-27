@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}">
+
+<head>
+  {{- partial "head.html" . -}}
+  <link rel="stylesheet" href="/css/home.css" />
+</head>
+
+{{- $works := where .Site.RegularPages ".Type" "work" -}}
+
+<body>
+  <!--  support section starts here  -->
+
+  <div class="ukraine-support-panel">
+    <div class="support-flag">
+      <img src="/images/home/flag.svg" alt="Ukraine">
+    </div>
+    <div class="support-text">
+      help Ukraine withstand russian aggression
+    </div>
+    <div class="support-button">
+      <a class="no-line no-external-icon" target="_blank" rel="nofollow noindex"
+        href="https://supportukrainenow.org/">help</a>
+    </div>
+  </div>
+
+  <!--  support section ends here  -->
+
+  <!--  hero section starts here  -->
+  <div class="hero">
+    {{- partial "langs-list-h.html" . -}}
+    {{- partial "horizontal-nav.html" . -}}
+    {{- partial "mobile-nav.html" (dict "context" . "className" "mobile-nav-home") -}}
+    {{- partial "icons/hero-logo.html" . -}}
+
+    {{ if $works }}
+    <a class="hero-portfolio-link no-hover" href={{ relLangURL "portfolio" }}>
+      <span class="hero-portfolio-link-line"></span><span>
+        {{ T "portfolio" }}
+      </span>
+    </a>
+    {{ end }}
+
+    <ul class="hero-social-links-list">
+      <li>
+        <a class="hero-social-link no-external-icon no-hover" href="https://www.facebook.com/vpproduction.audio"
+          target="_blank" rel="noopener noreferrer nofollow" aria-label="VP Production Facebook">
+          facebook
+          <span class="hero-social-link-arrow" aria-hidden="true"></span>
+        </a>
+      </li>
+      <li role="presentation" aria-hidden="true">/</li>
+      <li>
+        <a class="hero-social-link no-external-icon no-hover" href="https://www.instagram.com/vpproduction.audio"
+          target="_blank" rel="noopener noreferrer nofollow" aria-label="VP Production Instagram">
+          instagram
+          <span class="hero-social-link-arrow" aria-hidden="true"></span>
+        </a>
+      </li>
+      <li role="presentation" aria-hidden="true">/</li>
+      <li>
+        <a class="hero-social-link no-external-icon no-hover" href="https://www.linkedin.com/company/vpproduction-audio"
+          target="_blank" rel="noopener noreferrer nofollow" aria-label="VP Production LinkedIn">
+          linkedin
+          <span class="hero-social-link-arrow" aria-hidden="true"></span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <!--  hero section ends here  -->
+
+  <!--  about section starts here  -->
+  <div class="about-section container inline-gap">
+    <div class="about-section-img-container">
+      <h1 class="page-title-large about-section-title">VP Production</h1>
+      <div class="small-container">
+        <picture>
+          <source srcset="/images/home/about.webp" type="image/webp">
+          <img class="about-section-img" src="/images/home/about.jpg"
+            alt="Іміджове зображенні навушників які лежать на фоні">
+        </picture>
+      </div>
+    </div>
+    <div class="small-container d-f f-c f-c-h-r">
+      <p class="about-section-text">Ми –– українська аудіоагенція, яка створює знакове звучання для ігор, брендів та
+        застосунків. Ми розробляємо унікальне аудіо, щоби допомогти нашим клієнтам закарбувати їхній образ у головах і
+        серцях аудиторії.
+      </p>
+
+      <a class="btn btn-arrow no-hover" href={{ relLangURL "about" }}>
+        Про нас
+      </a>
+    </div>
+  </div>
+  <!--  about section ends here  -->
+
+  <!--  why section starts here  -->
+  {{- partial "why.html" (dict "h2Text" "Чому ми" "className" "why-section-home") -}}
+  <!--  why section ends here  -->
+
+  {{- partial "services.html" . -}}
+
+  {{- $homePageWorks := where $works ".Params.homePageWeight" "ne" nil -}}
+
+  {{- if $homePageWorks }}
+  <!--  works section starts here  -->
+  <div class="works-section inline-gap">
+    <div class="container">
+      <h2 class="servies-section-title section-title" id="works-title">Вибрані роботи</h2>
+    </div>
+    <div class="works-list grid" role="list" aria-labelledby="works-title">
+      {{- range first 10 ($homePageWorks.ByParam "homePageWeight") }}
+      <div class="column">
+        <a class="works-list-item no-hover grid-item" href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
+          {{- with resources.GetMatch .Params.image }}
+          <img src="{{ .RelPermalink }}" alt="{{ .Title }}" />
+          {{- end }}
+          <h4 class="works-list-item-title grid-item-title" role="presentation">{{ .Title }}</h4>
+        </a>
+      </div>
+      {{- end }}
+    </div>
+    <div class="container t-a-r">
+      <a class="btn btn-arrow no-hover" href={{ relLangURL "portfolio" }}>Портфоліо</a>
+    </div>
+  </div>
+  <!--  works section ends here  -->
+  {{- end -}}
+
+  <!-- big text section starts here -->
+  {{- partial "big-text-section.html" -}}
+  <!-- big text section ends here -->
+
+  {{- partial "contact-us-email.html" . -}}
+  {{- partial "footer.html" . -}}
+
+  {{- partial "modal.html" . -}}
+  <script async type="module" src="/js/main.js"></script>
+  <script async type="module" src="/js/home.js"></script>
+</body>
+
+</html>

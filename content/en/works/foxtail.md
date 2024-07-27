@@ -18,6 +18,7 @@ contributors:
 homePageWeight: 1
 weight: 1
 draft: true
+type: "work"
 ---
 
 Hello world

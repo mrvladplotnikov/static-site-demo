@@ -1,4 +1,7 @@
 portfolio: Портфоліо
+categories:
+  one: Категорія
+  other: Категорії
 services:
   one: Послуга
   other: Послуги

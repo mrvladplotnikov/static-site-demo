@@ -8,5 +8,6 @@
         "hint": "picture",
         "quality": 85,
         "resampleFilter": "box"
-    }
+    },
+    "defaultContentLanguageInSubdir": false
 }
