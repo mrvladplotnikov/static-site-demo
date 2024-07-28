@@ -1,6 +1,7 @@
 ---
-title: Аудіобрендинг
+title: Audio branding
 layout: audio-branding
+slug: audio-branding
 type: service
 ---
 

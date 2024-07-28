@@ -20,53 +20,57 @@
                 </ul>
             </li>
             {{ end }}
-            {{ with .GetTerms "genres" }}
+
+            {{ with .Params.genres }}
             <li>
                 <b>{{ T "genres" 1 }}:</b>
                 <ul>
                     {{ range $i, $e := . }}
                     <li>
                         {{ if $i }},{{ end }}
-                        <span>{{ .LinkTitle }}</span>
+                        <span>{{ $e }}</span>
                     </li>
                     {{ end }}
                 </ul>
             </li>
             {{ end }}
-            {{ with .GetTerms "platforms" }}
+
+            {{ with .Params.platforms }}
             <li>
                 <b>{{ T "platforms" 1 }}:</b>
                 <ul>
                     {{ range $i, $e := . }}
                     <li>
                         {{ if $i }},{{ end }}
-                        <span>{{ .LinkTitle }}</span>
+                        <span>{{ $e }}</span>
                     </li>
                     {{ end }}
                 </ul>
             </li>
             {{ end }}
-            {{ with .GetTerms "developers" }}
+
+            {{ with .Params.developers }}
             <li>
                 <b>{{ T "developers" 1 }}:</b>
                 <ul>
                     {{ range $i, $e := . }}
                     <li>
                         {{ if $i }},{{ end }}
-                        <span>{{ .LinkTitle }}</span>
+                        <span>{{ $e }}</span>
                     </li>
                     {{ end }}
                 </ul>
             </li>
             {{ end }}
-            {{ with .GetTerms "contributors" }}
+
+            {{ with .Params.contributors }}
             <li>
                 <b>{{ T "contributors" }}:</b>
                 <ul>
                     {{ range $i, $e := . }}
                     <li>
                         {{ if $i }},{{ end }}
-                        <span>{{ .LinkTitle }}</span>
+                        <span>{{ $e }}</span>
                     </li>
                     {{ end }}
                 </ul>

@@ -2,6 +2,7 @@
 title: Створення музики
 type: service
 layout: music-composing
+slug: music-composing
 ---
 
 {{< details "1" "Знайомство" >}}

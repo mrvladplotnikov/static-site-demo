@@ -2,6 +2,7 @@
 title: Голосове озвучення
 layout: voice-casting
 type: service
+slug: voice-casting
 ---
 
 {{< details "1" "Знайомство" >}}

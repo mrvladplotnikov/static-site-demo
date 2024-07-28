@@ -2,13 +2,11 @@
   "baseURL": "https://vp-production.com/",
   "title": "VP Production",
   "theme": "vp-static-theme",
+  "disableKinds": [
+    "rss"
+  ],
   "taxonomies": {
-    "category": "categories",
-    "service": "services",
-    "genre": "genres",
-    "platform": "platforms",
-    "developer": "developers",
-    "contributor": "contributors"
+    "service": "services"
   },
   "defaultContentLanguage": "uk",
   "languages": {

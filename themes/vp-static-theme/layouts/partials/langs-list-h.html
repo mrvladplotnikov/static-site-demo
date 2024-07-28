@@ -3,7 +3,7 @@
 {{- with .Page.AllTranslations }}
 <nav class="langs-menu-list" aria-label="Список мов">
     {{- range . }}
-    <a {{ if eq $pageLang .Lang }}aria-current="page" {{- end -}}
+    <a {{ if eq $pageLang .Lang }}aria-current="page" {{ end }}
         aria-label="{{ .Language.LanguageName }} мова {{ if eq $pageLang .Lang }}(вибрано){{ end }}"
         title="{{ .Language.LanguageName }} мова" href="{{ .Permalink | relURL }}" lang="{{ .Language.LanguageCode }}"
         hreflang="{{ .Language.LanguageCode }}">

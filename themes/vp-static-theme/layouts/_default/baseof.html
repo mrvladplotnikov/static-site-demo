@@ -1,10 +1,39 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language }}">
-  {{- partial "head.html" . -}}
-  <body>
-    {{- partial "header.html" . -}}
-    <div id="content">{{- block "main" . }}{{- end }}</div>
-    {{- partial "footer.html" . -}}
-    <script src="/js/main.js"></script>
-  </body>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8" />
+  <link rel="canonical" href="{{ .Site.BaseURL }}" />
+  <title>{{ if not .IsHome }}{{ .Title | title }} | {{ end }}{{ .Site.Title }}</title>
+
+  {{- with .Params.description }}
+  <meta name="description" content="{{ . }}" />
+  {{- end }}
+
+  {{ if isset .Params "tags" }}
+  {{ with .Params.tags }}
+  {{ $tags := delimit . "," }}
+  <meta name="keywords" content="{{ $tags }}">
+  {{ end }}
+  {{ end -}}
+
+  <meta name="theme-color" content="#000000">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+  {{- block "cssbeforemain" . }}{{ end -}}
+  <link rel="stylesheet" href="/css/main.css" />
+  {{- block "css" . }}{{ end -}}
+</head>
+
+<body>
+  {{- block "main" . }}{{ end -}}
+
+  {{- partial "contact-us-email.html" . -}}
+  {{- partial "footer.html" . -}}
+
+  {{- block "jsbeforemain" . }}{{ end -}}
+  <script defer type="module" src="/js/main.js"></script>
+  {{- block "js" . }}{{ end -}}
+</body>
+
 </html>

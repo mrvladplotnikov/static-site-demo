@@ -2,6 +2,7 @@
 title: Звуковий дизайн 
 type: service
 layout: sound-design
+slug: sound-design
 ---
 
 {{< details "1" "Знайомство" >}}
