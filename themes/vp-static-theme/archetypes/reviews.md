@@ -8,4 +8,5 @@ company:
 project:
 link:
 draft: true
+type: review
 ---
