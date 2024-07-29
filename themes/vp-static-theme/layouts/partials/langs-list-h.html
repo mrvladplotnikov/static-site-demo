@@ -1,8 +1,8 @@
-{{ $siteLanguages := site.Languages}}
-{{ $pageLang := .Page.Lang}}
+{{- $pageLang := .Page.Lang -}}
 
+{{- with .Page.AllTranslations }}
 <nav class="langs-menu-list" aria-label="Список мов">
-    {{- range .Page.AllTranslations }}
+    {{- range . }}
     <a {{ if eq $pageLang .Lang }}aria-current="page" {{ end }}
         aria-label="{{ .Language.LanguageName }} мова {{ if eq $pageLang .Lang }}(вибрано){{ end }}"
         title="{{ .Language.LanguageName }} мова" href="{{ .Permalink | relURL }}" lang="{{ .Language.LanguageCode }}"
@@ -12,3 +12,4 @@
     <span role="presentation" aria-hidden="true">/</span>
     {{- end }}
 </nav>
+{{- end }}

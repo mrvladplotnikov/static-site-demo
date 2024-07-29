@@ -1,12 +1,12 @@
 {
     "name": "Vp Static Theme",
     "description": "",
-    "min_version": "0.113.0",
-    "license": "MIT",
+    "min_version": "0.129.0",
     "imaging": {
         "bgColor": "#000",
         "hint": "picture",
         "quality": 85,
         "resampleFilter": "box"
-    }
+    },
+    "defaultContentLanguageInSubdir": false
 }

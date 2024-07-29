@@ -1,0 +1,102 @@
+{{ define "cssbeforemain" }}
+<link rel="stylesheet" href="/css/slimselect.css" />
+{{ end }}
+{{ define "css" }}
+<link rel="stylesheet" href="/css/portfolio.css" />
+{{ end }}
+
+{{ define "main" }}
+{{- partial "horizontal-nav.html" . -}}
+{{- partial "mobile-nav.html" (dict "context" . "className" "") -}}
+<div class="inline-gap top-space-small">
+    <div class="container">
+        <h1 class="page-title-large">{{ .Title | title }}</h1>
+    </div>
+
+    <div class="work-list-controls">
+        <div class="container">
+            {{- $categories := slice -}}
+
+            {{- range .Pages }}
+            {{- with .Params.categories }}
+            {{- range . }}
+            {{- $categories = $categories | append (replace . " " "-" | lower) -}}
+            {{- end }}
+            {{- end }}
+            {{- end }}
+
+            {{- with ($categories | uniq) }}
+            <div class="control-container">
+                <select name="category" id="works-category-select" class="control control-select">
+                    <option disabled selected value="" data-placeholder="true">{{ T "categories" 1 }}</option>
+                    {{- range . }}
+                    <option value="{{ . }}" data-html="<span>{{ . }}</span>">
+                        {{ . }}
+                    </option>
+                    {{- end }}
+                </select>
+            </div>
+            {{- end }}
+
+            {{- with .Site.Taxonomies.services }}
+            <div class="control-container">
+                <select name="service" id="works-service-select" class="control control-select">
+                    <option disabled selected value="" data-placeholder="true">{{ T "services" 1 }}</option>
+                    {{- range . }}
+                    {{- $value := replace .Page.LinkTitle " " "-" | lower -}}
+                    <option value="{{ $value }}" data-html="<span>{{ .Page.LinkTitle | lower }}</span>">
+                        {{ .Page.LinkTitle | lower }}
+                    </option>
+                    {{- end }}
+                </select>
+            </div>
+            {{- end }}
+
+            <button id="works-reset" type="button" class="control">
+                <span class="control-close">{{- partial "icons/close-icon.html" . -}}</span>
+                <span class="control-reset">Скинути фільтри</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="works-list grid" role="list" aria-labelledby="works-title">
+        {{- range .Pages }}
+
+        {{- $categoriesList := slice -}}
+        {{- with .Params.categories -}}
+        {{- range . -}}
+        {{- $categoriesList = $categoriesList | append (replace . " " "-" | lower) -}}
+        {{- end -}}
+        {{- end -}}
+
+        {{- $servicesList := slice -}}
+        {{- with .GetTerms "services" -}}
+        {{- range . -}}
+        {{- $servicesList = $servicesList | append (replace .Page.LinkTitle " " "-" | lower) -}}
+        {{- end -}}
+        {{- end -}}
+
+        {{- $workTitle := .Title -}}
+        {{- $categories := delimit $categoriesList "," -}}
+        {{- $services := delimit $servicesList "," -}}
+
+        <div class="column">
+            <a class="works-list-item no-hover grid-item" href="{{ .RelPermalink }}" aria-label="{{ $workTitle }}"
+                data-categories="{{ $categories }}" data-services="{{ $services }}">
+                {{ with resources.GetMatch .Params.image }}
+                <img loading="lazy" src="{{ .RelPermalink }}" alt="{{ $workTitle }}" />
+                {{ end }}
+                <h4 class="works-list-item-title grid-item-title">{{ $workTitle }}</h4>
+            </a>
+        </div>
+        {{- end }}
+    </div>
+</div>
+{{ end }}
+
+{{ define "jsbeforemain" }}
+<script defer src="/js/slimselect.min.js"></script>
+{{ end }}
+{{ define "js" }}
+<script defer type="module" src="/js/portfolio.js"></script>
+{{ end }}

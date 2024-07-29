@@ -1,8 +1,5 @@
-{{ $siteLanguages := site.Languages }}
-{{ $pageLang := .Page.Lang }}
-
 <div class="lang-select dropdown">
-    <button class="lang-select-button dropdown-button" type="button">/<span>{{ $pageLang }}</span>/</button>
+    <button class="lang-select-button dropdown-button" type="button">/<span>{{ .Page.Lang }}</span>/</button>
     <ul class="dropdown-options">
         {{- range .Page.Translations }}
         <li>

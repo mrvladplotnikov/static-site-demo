@@ -1,4 +1,7 @@
 portfolio: Portfolio
+categories:
+  one: Category
+  other: Categories
 services:
   one: Service
   other: Services

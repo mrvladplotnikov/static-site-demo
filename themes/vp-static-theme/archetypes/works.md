@@ -10,4 +10,5 @@ developers:
 contributors:
 homePageWeight:
 draft: true
+type: "work"
 ---
