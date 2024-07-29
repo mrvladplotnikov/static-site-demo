@@ -3,6 +3,7 @@
 
 <head>
     {{- partial "head.html" . -}}
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="/css/reviews-page.css" />
 
 
@@ -24,9 +25,14 @@
             <h2>Відгуки клієнтів і партнерів</h2>
 
             {{ with .Site.GetPage "/reviews" }}
-            {{ range first 10 .Pages }}
-            {{- partial "review.html" (dict "context" . "className" "") -}}
-            {{ end }}
+            <div class="slider">
+                <ul class="swiper-wrapper">
+                    {{ range first 10 .Pages }}
+                    {{- partial "review.html" (dict "context" . "className" "swiper-slide") -}}
+                    {{ end }}
+                </ul>
+            </div>
+            {{- partial "arrow-button.html" . -}}
             {{ end }}
 
         </div>
@@ -39,6 +45,8 @@
     {{- partial "footer.html" . -}}
 
     <script defer type="module" src="/js/main.js"></script>
+    <script src="/js/swiper-bundle.min.js"></script>
+    <script async type="module" src="/js/slider.js"></script>
 </body>
 </div>
 

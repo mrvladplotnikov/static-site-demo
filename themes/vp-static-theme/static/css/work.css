@@ -81,7 +81,7 @@ body {
     font-style: italic;
 }
 
-.work-content blockquote em {
+.work-content blockquote:not([class]) {
     margin-inline-start: 40px;
     margin-inline-end: 40px;
     font-style: italic;

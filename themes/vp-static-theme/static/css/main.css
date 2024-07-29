@@ -368,7 +368,7 @@ body.has-modal {
 }
 
 
-@media (min-width: 1200px) {
+@media (min-width: 65.125rem) {
   .mobile-nav {
     display: none;
   }
@@ -449,7 +449,7 @@ body.has-modal {
 
   /* onClick button animation */
   .mobile-menu-btn.open .mobile-menu-btn-line:nth-child(1) {
-    transform: translateY(11px) rotate(45deg);
+    transform: translateY(12px) rotate(45deg);
   }
 
   .mobile-menu-btn.open .mobile-menu-btn-line:nth-child(2) {
@@ -581,7 +581,7 @@ body.has-modal {
   font-size: 0.9rem;
 }
 
-@media (min-width: 75rem) {
+@media (min-width: 65.125rem) {
   .horizontal-menu {
     display: grid;
   }
@@ -1089,7 +1089,12 @@ body.has-modal {
 .control-close {
   color: var(--clr-dark-red);
   display: inline-block;
-  font-size: 0.75rem;
+  font-size: 0.90rem;
+  padding-right: 1em;
+}
+
+.control-reset {
+  display: none;
 }
 
 .control-select {
@@ -1206,6 +1211,10 @@ body.has-modal {
 @media (min-width: 62rem) {
   .control-container:first-of-type {
     margin-right: 53px;
+  }
+
+  .control-reset {
+    display: inline-block;
   }
 }
 
@@ -1628,8 +1637,30 @@ body .review-content {
   text-decoration: none;
   width: 100%;
   z-index: 1;
+}
 
-  background-image: url('/images/home/vp-service-1.jpg');
+.servies-list-item.music-composing-bg {
+  background-image: url(/images/home/vp-service-1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.servies-list-item.audio-branding-bg {
+  background-image: url(/images/home/vp-service-2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.servies-list-item.sound-design-bg {
+  background-image: url(/images/home/vp-service-3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.servies-list-item.voice-casting-bg {
+  background-image: url(/images/home/vp-service-4.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .servies-list-item::after {
@@ -1646,8 +1677,9 @@ body .review-content {
   z-index: -1;
 }
 
-.servies-list-item:hover::after {
+.servies-list-item:hover .servies-list-item-title:after {
   opacity: 1;
+  transform: translateX(0);
 }
 
 .servies-list-item-image {
@@ -1662,6 +1694,22 @@ body .review-content {
   font-size: 1.125rem;
   font-weight: var(--fw-bold);
   position: relative;
+}
+
+.servies-list-item-title:after {
+  background-image: url(/images/home/service-arrow.svg);
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  bottom: -1.7rem;
+  content: "";
+  height: 20px;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  transform: translateX(-30%);
+  transition: transform .3s, opacity .3s;
+  width: 100%;
 }
 
 @media (min-width: 62em) {
