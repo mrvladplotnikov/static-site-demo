@@ -1,0 +1,27 @@
+{{- define "css" }}
+<link rel="stylesheet" href="/css/reviews-page.css" />
+{{- end }}
+
+{{- define "main" }}
+{{- partial "horizontal-nav.html" . -}}
+{{- partial "mobile-nav.html" (dict "context" . "className" "") -}}
+
+<div class="inline-gap small-container top-space-medium">
+    <h1 class="page-title-large">{{ .Title }}</h1>
+    <img height="138px" width="148px" class="box-image box-image-first" src="/images/faq/box-with-icons.svg" alt=""
+        role="presentation" aria-hidden="true">
+    <img height="138px" width="148px" class="box-image box-image-second" src="/images/faq/box-with-icons.svg" alt=""
+        role="presentation" aria-hidden="true">
+    <div class="clients-section">
+        <h2>Відгуки клієнтів і партнерів</h2>
+
+        {{- range first 10 .Pages }}
+        {{- partial "review.html" (dict "context" . "className" "") -}}
+        {{- end }}
+    </div>
+    <div class="listeners-section">
+        <h2>Відгуки слухачів</h2>
+    </div>
+</div>
+
+{{- end }}

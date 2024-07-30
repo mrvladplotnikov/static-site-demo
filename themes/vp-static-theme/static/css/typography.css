@@ -60,14 +60,9 @@ body a[href]:not(:where([href^="#"],
     margin-left: calc(var(--gutter) * 0.25);
 } */
 
-html body a:not(.no-hover):hover {
-    background: var(--gradient);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 @media (hover: hover) {
+
+    html body a:not(.no-hover):hover,
     body .vp-hover:hover {
         background: var(--gradient);
         background-clip: text;
