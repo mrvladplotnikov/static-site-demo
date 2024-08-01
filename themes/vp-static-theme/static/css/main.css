@@ -1279,6 +1279,10 @@ body .review-content {
   font-size: var(--fz-regular)
 }
 
+.review-text-more:hover {
+  text-decoration: none;
+}
+
 .review-modal-btn {
   background-color: transparent;
   border: none;

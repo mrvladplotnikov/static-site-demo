@@ -115,11 +115,11 @@ const setupVideo = (video) => {
   const id = parseMediaURL(video);
 
   video.addEventListener('click', () => {
-      let iframe = createIframe(id);
+    let iframe = createIframe(id);
 
-      link.remove();
-      button.remove();
-      video.appendChild(iframe);
+    link.remove();
+    button.remove();
+    video.appendChild(iframe);
   });
 
   link.removeAttribute('href');
@@ -142,3 +142,31 @@ const findVideos = () => {
 window.addEventListener("load", () => {
   document.querySelector("body").classList.add("loaded");
 });
+
+const modals = () => {
+  const modalButtons = document.querySelectorAll("[data-modal-id]");
+  const modalRoot = document.querySelector("[data-modal-root]");
+
+  modalButtons.forEach(button => {
+    button.addEventListener("click", () => {
+      const modalID = button.dataset.modalId;
+      const modalContent = document.querySelector(`[data-modal="${modalID}"]`);
+
+
+      if (!modalContent || !modalRoot) {
+        return;
+      }
+
+      const content = modalContent.cloneNode(true);
+
+      content.querySelector("[data-modal-close]").addEventListener("click", () => {
+        modalRoot.replaceChildren();
+      });
+
+      content.classList.remove("hidden");
+      modalRoot.replaceChildren(content);
+    })
+  })
+}
+
+modals();

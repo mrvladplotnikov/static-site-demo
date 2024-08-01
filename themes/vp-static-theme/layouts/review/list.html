@@ -1,3 +1,7 @@
+{{- define "cssbeforemain" }}
+<link rel="stylesheet" href="/css/swiper-bundle.min.css" />
+{{- end }}
+
 {{- define "css" }}
 <link rel="stylesheet" href="/css/reviews-page.css" />
 {{- end }}
@@ -9,19 +13,33 @@
 <div class="inline-gap small-container top-space-medium">
     <h1 class="page-title-large">{{ .Title }}</h1>
     <img height="138px" width="148px" class="box-image box-image-first" src="/images/faq/box-with-icons.svg" alt=""
-        role="presentation" aria-hidden="true">
+        role="presentation" aria-hidden="true" loading="lazy">
     <img height="138px" width="148px" class="box-image box-image-second" src="/images/faq/box-with-icons.svg" alt=""
-        role="presentation" aria-hidden="true">
+        role="presentation" aria-hidden="true" loading="lazy">
     <div class="clients-section">
         <h2>Відгуки клієнтів і партнерів</h2>
 
-        {{- range first 10 .Pages }}
-        {{- partial "review.html" (dict "context" . "className" "") -}}
-        {{- end }}
+        {{ with .Pages }}
+        <div class="slider">
+            <ul class="swiper-wrapper">
+                {{ range first 10 . }}
+                {{- partial "review.html" (dict "context" . "className" "swiper-slide") -}}
+                {{ end }}
+            </ul>
+        </div>
+        {{- partial "arrow-button.html" . -}}
+        {{ end }}
     </div>
     <div class="listeners-section">
         <h2>Відгуки слухачів</h2>
     </div>
 </div>
 
+{{- end }}
+
+{{- define "jsbeforemain" }}
+<script defer src="/js/swiper-bundle.min.js"></script>
+{{- end }}
+{{- define "js" }}
+<script defer type="module" src="/js/slider.js"></script>
 {{- end }}

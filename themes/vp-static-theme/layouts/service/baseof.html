@@ -32,11 +32,10 @@
     <div class="audio-content small-container inline-gap service-page-sections">
       {{- block "main" . }}{{ end -}}
 
-
-      {{- $serviceName := slice .File.BaseFileName -}}
+      {{- $serviceName := slice .File.ContentBaseName -}}
 
       {{- $reviews := where .Site.RegularPages ".Type" "review" -}}
-      {{- $serviceReviews := where $reviews "Params.services" "intersect" (slice .File.BaseFileName) -}}
+      {{- $serviceReviews := where $reviews "Params.services" "intersect" $serviceName -}}
 
       {{- with $serviceReviews }}
       <div class="service-section">
@@ -50,23 +49,19 @@
         </div>
         {{- partial "arrow-button.html" . -}}
       </div>
-
-      <div id="review-modal-"></div>
       {{- end }}
 
       {{- partial "contact-us-email.html" . -}}
       {{- partial "footer.html" . -}}
     </div>
-
-
   </div>
 
-
-  <script async type="module" src="/js/main.js"></script>
-  <script src="/js/swiper-bundle.min.js"></script>
-  <script async type="module" src="/js/audio-branding.js"></script>
-  <script async type="module" src="/js/details.js"></script>
-  <script async type="module" src="/js/slider.js"></script>
+  <div data-modal-root=""></div>
+  <script defer src="/js/swiper-bundle.min.js"></script>
+  <script defer type="module" src="/js/main.js"></script>
+  <script defer type="module" src="/js/service.js"></script>
+  <script defer type="module" src="/js/details.js"></script>
+  <script defer type="module" src="/js/slider.js"></script>
 </body>
 
 </html>
