@@ -1,7 +1,4 @@
 /* support panel start */
-
-
-
 .ukraine-support-panel {
     height: 80px;
     position: fixed;
@@ -94,15 +91,17 @@
 /* mobile nav end*/
 
 /* horizontal nav start */
-.horizontal-menu {
+.horizontal-menu-container {
     top: 78px;
     opacity: 0;
     transform: translateY(-100%);
 
     transition: transform 0.25s linear, opacity 0.15s linear;
+
+    z-index: calc(var(--layer-under-menu) - 1);
 }
 
-.horizontal-menu.visible {
+.horizontal-menu-container.visible {
     opacity: 1;
     transform: translateY(0);
 }

@@ -31,6 +31,8 @@
   {{- partial "contact-us-email.html" . -}}
   {{- partial "footer.html" . -}}
 
+  <div data-modal-root=""></div>
+
   {{- block "jsbeforemain" . }}{{ end -}}
   <script defer type="module" src="/js/main.js"></script>
   {{- block "js" . }}{{ end -}}

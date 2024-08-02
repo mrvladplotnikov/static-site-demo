@@ -1,3 +1,5 @@
+{{- $page := .context }}
+
 <div id="mobile-nav" class="mobile-nav {{ .className }}">
   <a href={{ relLangURL "/" }} aria-label="Головна сторінка" class="mobile-nav-logo">
     <img src="/images/header-logo.svg" alt="">
@@ -13,45 +15,15 @@
 
   <div id="mobile-menu-dialog" role="dialog" aria-modal="true" class="mobile-menu" aria-label="Меню навігації по сайту"
     data-modal-till="768px" inert>
+
+    {{- with index .context.Site.Menus "main" }}
     <nav class="mobile-menu-nav" aria-label="Список сторінок">
       <ul>
-        <li>
-          <a class="mobile-menu-link" href={{ relLangURL "/portfolio" }}>
-            {{ T "portfolio" }}
-            <span class="mobile-menu-link-arrow" aria-hidden="true"></span>
-          </a>
-        </li>
-        <li>
-          <details>
-            <summary class="mobile-menu-summary vp-hover">{{ T "services" }} {{- partial "icons/arrow-down.html" . -}}
-            </summary>
-            <ul>
-              <li><a class="mobile-menu-link" href={{ relLangURL "/services/music-composing" }}>{{ T "music-composing"
-                  }}</a>
-              </li>
-              <li><a class="mobile-menu-link" href={{ relLangURL "/services/audio-branding" }}>{{ T "audio-branding"
-                  }}</a></li>
-              <li><a class="mobile-menu-link" href={{ relLangURL "/services/sound-design" }}>{{ T "sound-design" }}</a>
-              </li>
-              <li><a class="mobile-menu-link" href={{ relLangURL "/services/voice-casting" }}>{{ T "voice-casting"
-                  }}</a>
-              </li>
-            </ul>
-          </details>
-        </li>
-        <li><a class="mobile-menu-link" href={{ relLangURL "/faq" }}>FAQ<span class="mobile-menu-link-arrow"
-              aria-hidden="true"></span></a>
-        </li>
-        <li><a class="mobile-menu-link" href={{ relLangURL "/about" }}>{{ T "about" }}<span
-              class="mobile-menu-link-arrow" aria-hidden="true"></span></a></li>
-        <li><a class="mobile-menu-link" href={{ relLangURL "/our-values" }}>{{ T "our-values" }}<span
-              class="mobile-menu-link-arrow" aria-hidden="true"></span></a></li>
-        <li><a class="mobile-menu-link" href={{ relLangURL "/reviews" }}>{{ T "reviews" }}<span
-              class="mobile-menu-link-arrow" aria-hidden="true"></span></a></li>
-        <li><a class="mobile-menu-link" href={{ relLangURL "/press-kit" }}>{{ T "press-kit" }}<span
-              class="mobile-menu-link-arrow" aria-hidden="true"></span></a></li>
+        {{- partial "inline/mobile-menu/walk.html" (dict "page" $page "menuEntries" .) }}
       </ul>
     </nav>
+    {{- end }}
+
     {{- partial "langs-list-h.html" .context -}}
     <ul class="soc-links-list" aria-label="Посилання на соціальні мережі">
       {{ range .context.Site.Data.SocialLinks }}
@@ -66,3 +38,39 @@
     </ul>
   </div>
 </div>
+
+{{- define "partials/inline/mobile-menu/walk.html" }}
+{{- $page := .page }}
+{{- range .menuEntries }}
+{{- $attrs := dict "href" .URL }}
+{{- if $page.IsMenuCurrent .Menu . }}
+{{- $attrs = merge $attrs (dict "aria-current" "page") }}
+{{- else if $page.HasMenuCurrent .Menu .}}
+{{- $attrs = merge $attrs (dict "aria-current" "true") }}
+{{- end }}
+{{- $name := .Name }}
+{{- with .Identifier }}
+{{- with T . }}
+{{- $name = . }}
+{{- end }}
+{{- end }}
+{{- with .Children }}
+<li>
+  <details>
+    <summary class="mobile-menu-summary vp-hover">Послуги {{- partial "icons/arrow-down.html" . -}}</summary>
+    <ul>
+      {{- partial "inline/mobile-menu/walk.html" (dict "page" $page "menuEntries" .) }}
+    </ul>
+  </details>
+</li>
+{{- else }}
+<li>
+  <a {{- range $k, $v :=$attrs }} {{- with $v }} {{- printf " %s=%q" $k $v | safeHTMLAttr }} {{- end }} {{- end -}}
+    class="mobile-menu-link">
+    {{ $name }}
+    <span class="mobile-menu-link-arrow" aria-hidden="true"></span>
+  </a>
+</li>
+{{- end }}
+{{- end }}
+{{- end }}

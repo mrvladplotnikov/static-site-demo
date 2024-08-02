@@ -1,8 +1,4 @@
 ---
-build:
-  list: never
-  publishResources: false
-  render: never
-title: Reviews
-type: "review"
+title: Відгуки
+type: review
 ---

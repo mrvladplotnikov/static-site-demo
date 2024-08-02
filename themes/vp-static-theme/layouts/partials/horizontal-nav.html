@@ -1,34 +1,23 @@
-<div id="horizontal-nav" class="horizontal-menu" aria-label="Меню навігації по сайту">
+<div id="horizontal-nav" class="horizontal-menu-container" aria-label="Меню навігації по сайту">
   <a href={{ relLangURL "/" }} aria-label="Головна сторінка">
     <img src="/images/header-logo.svg" alt="">
   </a>
-  <nav class="horizontal-menu-nav" aria-label="Список сторінок">
-    <ul>
-      <li><a class="horizontal-menu-link" href={{ relLangURL "/portfolio" }}>{{ T "portfolio" }}</a></li>
-      <li>
-        <div class="dropdown">
-          <button class="horizontal-menu-link vp-hover dropdown-button">{{ T "services" }} {{- partial
-            "icons/arrow-down.html" .
-            -}}</button>
-          <ul class="dropdown-options">
-            <li><a class="horizontal-menu-link" href={{ relLangURL "/services/music-composing" }}>{{ T "music-composing"
-                }}</a>
-            </li>
-            <li><a class="horizontal-menu-link" href={{ relLangURL "/services/audio-branding" }}>{{ T "audio-branding"
-                }}</a>
-            </li>
-            <li><a class="horizontal-menu-link" href={{ relLangURL "/services/sound-design" }}>{{ T "sound-design"
-                }}</a></li>
-            <li><a class="horizontal-menu-link" href={{ relLangURL "/services/voice-casting" }}>{{ T "voice-casting"
-                }}</a></li>
-          </ul>
-        </div>
-      </li>
-      <li><a class="horizontal-menu-link" href={{ relLangURL "/faq" }}>FAQ</a></li>
-      <li><a class="horizontal-menu-link" href={{ relLangURL "/about" }}>{{ T "about" }}</a></li>
-      <li><a class="horizontal-menu-link" href={{ relLangURL "/our-values" }}>{{ T "our-values" }}</a></li>
-      <li><a class="horizontal-menu-link" href={{ relLangURL "/reviews" }}>{{ T "reviews" }}</a></li>
-    </ul>
-  </nav>
-  {{- partial "langs-select.html" . -}}
+
+  <div class="horizontal-menu">
+    {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+
+    <div class="dropdown">
+      <button class="vp-hover" type="button">/<span>{{ .Page.Lang }}</span>/</button>
+      <ul class="dropdown-options lang-options">
+        {{- range .Page.Translations }}
+        <li>
+          <a title="{{ .Language.LanguageName }}" href="{{ .Permalink | relURL }}" lang="{{ .Language.LanguageCode }}"
+            hreflang="{{ .Language.LanguageCode }}">
+            {{ .Language.LanguageCode }}
+          </a>
+        </li>
+        {{- end }}
+      </ul>
+    </div>
+  </div>
 </div>

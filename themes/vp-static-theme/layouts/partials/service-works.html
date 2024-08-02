@@ -1,7 +1,7 @@
-{{- $serviceName := slice .File.BaseFileName -}}
+{{- $serviceName := slice .File.ContentBaseName -}}
 
 {{- $works := where .Site.RegularPages ".Type" "work" -}}
-{{- $serviceWorks := where $works "Params.services" "intersect" (slice .File.BaseFileName) -}}
+{{- $serviceWorks := where $works "Params.services" "intersect" $serviceName -}}
 
 {{- with $serviceWorks }}
 <h2>{{ T "our-works" }}</h2>
