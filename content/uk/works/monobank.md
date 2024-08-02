@@ -13,7 +13,7 @@ contributors:
 - Влад Плотніков
 - Руслана Кручек
 - Артем Баскоєв
-homePageWeight: 2
+homePageWeight: 6
 weight: 2
 draft: false
 type: "work"

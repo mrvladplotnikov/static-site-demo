@@ -67,17 +67,14 @@
 /* support panel end */
 
 /* mobile nav start*/
-.mobile-menu {
-    top: 80px;
-}
 
 .mobile-menu-btn.open {
-    top: 5.218rem;
+    top: 1.218rem;
 }
 
 .mobile-nav {
     top: 80px;
-    z-index: var(--layer-under-menu);
+    z-index: var(--layer-over-menu);
 }
 
 .mobile-nav-home {
@@ -342,11 +339,6 @@
     .hero-social-links-list {
         display: flex;
     }
-
-    .hero>.langs-menu-list {
-        display: flex;
-    }
-
 }
 
 @media (min-width: 62em) {
@@ -354,6 +346,11 @@
         padding: 40px 20px 0;
 
     }
+
+    .hero>.langs-menu-list {
+        display: flex;
+    }
+
 
     .hero-portfolio-link {
         left: 32px;

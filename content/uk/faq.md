@@ -1,4 +1,3 @@
-
 ---
 title: "FAQ"
 layout: "faq"

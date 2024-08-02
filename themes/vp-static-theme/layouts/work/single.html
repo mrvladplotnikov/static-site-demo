@@ -18,7 +18,7 @@
             {{ with .Site.GetPage "/reviews" }}
             {{ if (gt (where .Pages "Params.project" "eq" $projectTitle | len) 0) }}
             <div class="review">
-                <h2 class="section-title">Відгук клієнта</h2>
+                <h2 class="section-title">{{ T "reviews-label" }}</h2>
                 {{ range first 1 (where .Pages "Params.project" "eq" $projectTitle) }}
                 {{- partial "review.html" (dict "context" . "className" "") -}}
                 {{ end }}
@@ -51,7 +51,9 @@
             </a>
 
             <a class="btn portfolio-button no-hover" href="{{ .CurrentSection.RelPermalink }}">
-                <span>Повернутися в портфоліо</span>
+                <span>
+                    {{ T "portfolio-link" }}
+                </span>
             </a>
 
         </div>

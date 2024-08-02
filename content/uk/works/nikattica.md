@@ -13,7 +13,7 @@ developers:
 contributors:
 - Влад Плотніков
 - Руслана Кручек
-homePageWeight:
+homePageWeight: 9
 weight: 10
 draft: true
 type: "work"

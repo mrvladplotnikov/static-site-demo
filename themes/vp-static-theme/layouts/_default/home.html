@@ -84,7 +84,7 @@
     </p>
 
     <a class="btn btn-arrow no-hover" href={{ relLangURL "about" }}>
-      Про нас
+      {{ T "about" }}
     </a>
   </div>
 </div>
@@ -100,7 +100,7 @@
 <!--  works section starts here  -->
 <div class="works-section inline-gap">
   <div class="container">
-    <h2 class="servies-section-title section-title" id="works-title">Вибрані роботи</h2>
+    <h2 class="servies-section-title section-title" id="works-title">{{ T "featured-works" }}</h2>
   </div>
   <div class="works-list grid" role="list" aria-labelledby="works-title">
     {{- range first 10 (.ByParam "homePageWeight") }}
@@ -115,7 +115,7 @@
     {{- end }}
   </div>
   <div class="container t-a-r">
-    <a class="btn btn-arrow no-hover" href={{ relLangURL "portfolio" }}>Портфоліо</a>
+    <a class="btn btn-arrow no-hover" href={{ relLangURL "portfolio" }}>{{ T "portfolio" }}</a>
   </div>
 </div>
 <!--  works section ends here  -->

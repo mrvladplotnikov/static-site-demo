@@ -4,7 +4,7 @@
 {{- $serviceWorks := where $works "Params.services" "intersect" (slice .File.BaseFileName) -}}
 
 {{- with $serviceWorks }}
-<h2>Наші роботи</h2>
+<h2>{{ T "our-works" }}</h2>
 <div class="works-list grid" role="list" aria-labelledby="works-title">
     {{- range first 6 . }}
     <div class="column">

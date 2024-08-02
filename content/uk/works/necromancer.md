@@ -16,7 +16,7 @@ developers:
 - Evoplay Entertainment
 contributors:
 - Влад Плотніков
-- Олександр Фалінськийs
+- Олександр Фалінський
 homePageWeight:
 weight: 31
 draft: true

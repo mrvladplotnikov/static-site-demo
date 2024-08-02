@@ -17,32 +17,39 @@
       <ul>
         <li>
           <a class="mobile-menu-link" href={{ relLangURL "/portfolio" }}>
-            Портфоліо
+            {{ T "portfolio" }}
             <span class="mobile-menu-link-arrow" aria-hidden="true"></span>
           </a>
         </li>
         <li>
           <details>
-            <summary class="mobile-menu-summary vp-hover">Послуги {{- partial "icons/arrow-down.html" . -}}</summary>
+            <summary class="mobile-menu-summary vp-hover">{{ T "services" }} {{- partial "icons/arrow-down.html" . -}}
+            </summary>
             <ul>
-              <li><a class="mobile-menu-link" href={{ relLangURL "/music-composing" }}>Створення музики</a></li>
-              <li><a class="mobile-menu-link" href={{ relLangURL "/audio-branding" }}>Аудіобрендинг</a></li>
-              <li><a class="mobile-menu-link" href={{ relLangURL "/sound-design" }}>Звуковий дизайн</a></li>
-              <li><a class="mobile-menu-link" href={{ relLangURL "/voice-casting" }}>Голосове озвучення</a></li>
+              <li><a class="mobile-menu-link" href={{ relLangURL "/services/music-composing" }}>{{ T "music-composing"
+                  }}</a>
+              </li>
+              <li><a class="mobile-menu-link" href={{ relLangURL "/services/audio-branding" }}>{{ T "audio-branding"
+                  }}</a></li>
+              <li><a class="mobile-menu-link" href={{ relLangURL "/services/sound-design" }}>{{ T "sound-design" }}</a>
+              </li>
+              <li><a class="mobile-menu-link" href={{ relLangURL "/services/voice-casting" }}>{{ T "voice-casting"
+                  }}</a>
+              </li>
             </ul>
           </details>
         </li>
         <li><a class="mobile-menu-link" href={{ relLangURL "/faq" }}>FAQ<span class="mobile-menu-link-arrow"
               aria-hidden="true"></span></a>
         </li>
-        <li><a class="mobile-menu-link" href={{ relLangURL "/about" }}>Про нас<span class="mobile-menu-link-arrow"
-              aria-hidden="true"></span></a></li>
-        <li><a class="mobile-menu-link" href={{ relLangURL "/our-values" }}>Наші цінності<span
+        <li><a class="mobile-menu-link" href={{ relLangURL "/about" }}>{{ T "about" }}<span
               class="mobile-menu-link-arrow" aria-hidden="true"></span></a></li>
-        <li><a class="mobile-menu-link" href={{ relLangURL "/reviews" }}>Відгуки<span class="mobile-menu-link-arrow"
-              aria-hidden="true"></span></a></li>
-        <li><a class="mobile-menu-link" href={{ relLangURL "/press-kit" }}>Прес-кит<span class="mobile-menu-link-arrow"
-              aria-hidden="true"></span></a></li>
+        <li><a class="mobile-menu-link" href={{ relLangURL "/our-values" }}>{{ T "our-values" }}<span
+              class="mobile-menu-link-arrow" aria-hidden="true"></span></a></li>
+        <li><a class="mobile-menu-link" href={{ relLangURL "/reviews" }}>{{ T "reviews" }}<span
+              class="mobile-menu-link-arrow" aria-hidden="true"></span></a></li>
+        <li><a class="mobile-menu-link" href={{ relLangURL "/press-kit" }}>{{ T "press-kit" }}<span
+              class="mobile-menu-link-arrow" aria-hidden="true"></span></a></li>
       </ul>
     </nav>
     {{- partial "langs-list-h.html" .context -}}

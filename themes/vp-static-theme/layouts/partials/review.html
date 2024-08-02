@@ -13,8 +13,8 @@
         <p>{{ .context.Summary }}</p>
         {{ end }}
         {{ if .context.Truncated }}
-        <button class="review-text-more" id="review-modal-open"
-            data-parent="{{ .context.Title }}"><span>Більше</span></button>
+        <button class="review-text-more" id="review-modal-open" data-parent="{{ .context.Title }}"><span>{{ T
+                "more"}}</span></button>
         <div class="review-modal hidden" id="review-modal" data-parent="{{ .context.Title }}">
             <div class="review-modal-content">
                 <button class="review-modal-btn" id="review-modal-close">

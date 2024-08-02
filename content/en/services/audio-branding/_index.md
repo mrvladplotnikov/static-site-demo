@@ -5,28 +5,28 @@ slug: audio-branding
 type: service
 ---
 
-{{< details "1" "Знайомство" >}}
-Кожен проєкт ми починаємо з віртуальної зустрічі, на якій дізнаємося основну інформацію про вашу гру та визначаємося з попереднім списком аудіоасетів, які нам потрібно буде створити.
+{{< details "1" "Getting to know each other" >}}
+We start each project with a virtual meeting, during which we gather basic information about your game and decide on a preliminary list of audio assets that we will need to create. 
 
-Окрім цього ми обговорюємо, як буде побудований процес роботи, адже для нас важливо збігатися з клієнтом у загальному баченні співпраці.
+We also discuss how the work process will go, as we need to ensure that we are on the same wavelength regarding the overall vision of cooperation.
 
-Якщо ви не можете ділитися інформацією про проєкт без NDA, то на початку спілкування ми підписуємо необхідні документи.
+If you can't share information about the project without an NDA, we will sign the necessary documents beforehand.
 {{< /details >}}
-{{< details "2" "Юридичні формальності" >}}
-Ми уточнюємо обсяг проєкту, кількість і порядок платежів, підписуємо з вами договір і отримуємо аванс. Докладніше про фінансові та юридичні питання ви можете прочитати в нашому [FAQ](/faq).
+{{< details "2" "Legal formalities" >}}
+We clarify the project scope, the payments' quantity, and order, sign a contract with you, and receive an advance payment. Learn more about financial and legal matters in our [FAQ](/faq).
 {{< /details >}}
-{{< details "3" "Препродакшн" >}}
-Цей етап — без перебільшення найважливіший у всьому проєкті, а тому дуже часто і найдовший. Проте за роки роботи ми переконалися, що без якісної підготовки діла не буде (зато буде багато правок і втраченого часу та нервів).
+{{< details "3" "Pre-production" >}}
+This stage is, without exaggeration, the most important in the entire project and, therefore, often the longest. Over the years of work, we learned that without proper preparation, nothing will work out (and there will be a lot of edits, lost time, and nerves).
 
-Відправна точка — це, звичайно, бриф, завдяки якому ми дізнаємося більше про ваш бренд, його цінності, аудиторію, конкурентів тощо. І, найголовніше, визначаємо список бажаних та небажаних асоціацій, які має формувати ваш майбутній аудіо бренд.
+Of course, the starting point is the brief, thanks to which we learn more details about your brand, its values, audience, competitors, etc. Most importantly, we define a list of desirable and undesirable associations that your future audio brand should evoke.
 
-Далі ми проводимо дослідження, яке покликане зібрати інформацію про аудіальні коди та кліше вашої ніші, а також очікування та уподобання цільової аудиторії. Завдяки цьому ми насамперед формуємо розуміння, як аудіо бренд допомагатиме вам диференціюватися.
+Next, we conduct research to gather information about the audio codes and clichés of your niche, as well as the expectations and preferences of the target audience. Thanks to this, we primarily form an understanding of how the audio brand will help you differentiate.
 
-Отримавши всю необхідну інформацію ми складаємо технічне завдання та починаємо формувати [аудіальну концепцію](/faq). Також ми підбираємо [аудіальні мудборди](/faq), щоби якомога раніше продемонструвати вам креативний вектор і визначитися зі спільним баченням.
+Having all the necessary information, we create a technical task and start forming [the audio concept](/faq). We also compile [audio mood boards](/faq) to show you the creative vector and establish a shared vision as early as possible.
 
-Після listening party (певно, найвеселіша для клієнтів частина співпраці) ми разом із вами фіксуємо креативні рамки проєкту та фіналізуємо його аудіальну концепцію.
+After the listening party (the clients' favourite part!), we jointly specify the project's creative framework and finalize its audio concept.
 {{< /details >}}
-{{< details "4" "Продакшн" >}}
+{{< details "4" "Production" >}}
 Ну що ж, нарешті ми з вами дісталися моменту, коли власне і розпочинається робота над аудіо!
 
 Перш за все ми створюємо декілька демо [аудіо-ДНК](/faq) — основи звучання вашого аудіо бренду. Ці демо в різний спосіб втілюють ідеї, висвітлені в аудіальній концепції, та допомагають відшукати ідеальну формулу поєдання різних елементів, яка спрацює для вашої аудиторії.

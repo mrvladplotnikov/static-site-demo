@@ -18,7 +18,7 @@ contributors:
 - Олександр Фалінський
 - Марія Марченко
 - Руслана Кручек
-homePageWeight:
+homePageWeight: 7
 weight: 17
 draft: true
 type: "work"
