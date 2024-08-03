@@ -368,7 +368,7 @@ body.has-modal {
 }
 
 
-@media (min-width: 65.125rem) {
+@media (min-width: 67.5rem) {
   .mobile-nav {
     display: none;
   }
@@ -596,7 +596,7 @@ body.has-modal {
   right: calc(-5px);
 }
 
-@media (min-width: 65.125rem) {
+@media (min-width: 67.5rem) {
   .horizontal-menu-container {
     display: grid;
   }
