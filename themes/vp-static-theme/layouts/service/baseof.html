@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}">
+
+<head>
+  {{- partial "head.html" . -}}
+  <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="/css/services.css" />
+</head>
+
+<body>
+
+  {{- partial "horizontal-nav.html" . -}}
+  {{- partial "mobile-nav.html" (dict "context" . "className" "") -}}
+
+  <div class="audio-inner top-space service-page-content">
+    {{- block "sidebar" . }}{{ end -}}
+
+    <div class="audio-content small-container inline-gap">
+      <div class="audio-top-content-inside">
+        <img class="box-image box-top-left" src="/images/services/box-with-dots.svg" alt="" role="presentation"
+          aria-hidden="true">
+        <img class="box-image box-top-right" src="/images/services/box-with-dots.svg" alt="" role="presentation"
+          aria-hidden="true">
+        <img class="box-image box-bottom-left" src="/images/services/box-with-dots.svg" alt="" role="presentation"
+          aria-hidden="true">
+        <img class="box-image box-bottom-right" src="/images/services/box-with-dots.svg" alt="" role="presentation"
+          aria-hidden="true">
+        {{- block "heading" . }}{{ end -}}
+      </div>
+    </div>
+
+    <div class="audio-content small-container inline-gap service-page-sections">
+      {{- block "main" . }}{{ end -}}
+
+      {{- $serviceName := slice .File.ContentBaseName -}}
+
+      {{- $reviews := where .Site.RegularPages ".Type" "review" -}}
+      {{- $serviceReviews := where $reviews "Params.services" "intersect" $serviceName -}}
+
+      {{- with $serviceReviews }}
+      <div class="service-section">
+        <h2>Відгуки клієнтів</h2>
+        <div class="slider">
+          <ul class="swiper-wrapper">
+            {{ range first 10 . }}
+            {{- partial "review.html" (dict "context" . "className" "swiper-slide") -}}
+            {{ end }}
+          </ul>
+        </div>
+        {{- partial "arrow-button.html" . -}}
+      </div>
+      {{- end }}
+
+      {{- partial "contact-us-email.html" . -}}
+      {{- partial "footer.html" . -}}
+    </div>
+  </div>
+
+  <div data-modal-root=""></div>
+  <script defer src="/js/swiper-bundle.min.js"></script>
+  <script defer type="module" src="/js/main.js"></script>
+  <script defer type="module" src="/js/service.js"></script>
+  <script defer type="module" src="/js/details.js"></script>
+  <script defer type="module" src="/js/slider.js"></script>
+</body>
+
+</html>

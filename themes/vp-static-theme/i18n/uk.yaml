@@ -1,0 +1,37 @@
+portfolio: Портфоліо
+categories:
+  one: Категорія
+  other: Категорії
+services:
+  one: Послуга
+  other: Послуги
+genres: 
+  one: Жанр
+  other: Жанри
+platforms:
+  one: Платформа
+  other: Платформи
+developers: 
+  one: Розробник
+  other: Розробники
+contributors: Робота над проєктом
+prev-work-link: Попередня робота
+next-work-link: Наступна робта
+portfolio-link: Повернутися в портфоліо
+reviews-label: Відгук клієнта
+more: Більше
+reset-filter: Скинути фільтри
+about: Про нас
+about-description: Ми –– українська аудіоагенція, яка створює знакове звучання для ігор, брендів та застосунків. Ми розробляємо унікальне аудіо, щоби допомогти нашим клієнтам закарбувати їхній образ у головах і серцях аудиторії
+music-composing: Створення музики
+audio-branding: Аудіобрендинг
+sound-design: Звуковий дизайн
+voice-casting: Голосове звучання
+our-services: Наші послуги
+featured-works: Вибрані роботи
+our-values: Наші цінності
+our-values-big-text: Ми допомагаємо продуктам стати важливою частиною життя їхніх користувачів.
+reviews: Відгуки
+press-kit: Прес-кит
+our-works: Наші роботи
+language-list: Список мов

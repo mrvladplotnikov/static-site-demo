@@ -1,0 +1,37 @@
+portfolio: Portfolio
+categories:
+  one: Category
+  other: Categories
+services:
+  one: Service
+  other: Services
+genres: 
+  one: Genre
+  other: Genres
+platforms:
+  one: Platform
+  other: Platforms
+developers: 
+  one: Developer
+  other: Developers
+contributors: Work on the project
+prev-work-link: Previous case
+next-work-link: Next case
+portfolio-link: Back to portfolio
+reviews-label: Customer testimonial
+more: More
+reset-filter: Reset filters
+about: About us
+about-description: We are a Ukrainian audio agency that crafts impactful sound for games, brands, and apps. We develop unique audio to make our clients' products secure a place in the minds and hearts of their audiences.
+music-composing: Music Composing
+audio-branding: Audio Branding
+sound-design: Sound Design
+voice-casting: Voice Casting
+our-services: Our services
+featured-works: Featured Works
+our-values: Our Values
+our-values-big-text: We help products become significant parts of their users' lives.
+reviews: Reviews
+press-kit: Press kit
+our-works: Our Works
+language-list: List of languages
