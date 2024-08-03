@@ -1,0 +1,20 @@
+{{- $serviceName := slice .File.ContentBaseName -}}
+
+{{- $works := where .Site.RegularPages ".Type" "work" -}}
+{{- $serviceWorks := where $works "Params.services" "intersect" $serviceName -}}
+
+{{- with $serviceWorks }}
+<h2>{{ T "our-works" }}</h2>
+<div class="works-list grid" role="list" aria-labelledby="works-title">
+    {{- range first 6 . }}
+    <div class="column">
+        <a class="works-list-item no-hover grid-item" href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
+            {{- with resources.GetMatch .Params.image }}
+            <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
+            {{- end }}
+            <h4 class="works-list-item-title grid-item-title">{{ .Title }}</h4>
+        </a>
+    </div>
+    {{- end }}
+</div>
+{{- end }}
