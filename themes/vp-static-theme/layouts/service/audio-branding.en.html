@@ -1,0 +1,119 @@
+{{ define "sidebar" }}
+
+{{- partial "service-sidebar.html" (
+dict "title" .Title "quote" `In today’s world, brands must now treat the sound with the same care and discipline as they
+do their graphic standards and visual brand-building. If you’re stuck in the visual-only branding world, you are
+competing with one hand tied behind your back.` "author"
+"Laurence Minsky, Colleen Fahey "
+) -}}
+{{ end }}
+
+{{ define "heading" }}
+<h3 class="audio-content-title">What happens when you combine audio and branding? (Yep, you guessed it)</h3>
+<p>Audio branding is the process of creating and managing a system of music and sounds that conveys a brand's meaning at
+    every point of contact with the audience.</p>
+<p>It is as essential a part of branding as creating a visual identity. But in this case, the main tools are music,
+    sounds, and voice.</p>
+<p>Even when you don't think about it, your brand already communicates with your audience through audio. The question is
+    how effectively you manage it.</p>
+<p>After all, you stick to your own fonts and colors, so why not do the same with audio? Because it's the sonic identity
+    that makes people instantly recognize your brand, even if they haven't seen it yet.</p>
+{{ end }}
+
+{{ define "main" }}
+<div class="service-section">
+    <h2 class="what-we-do-title section-title">What do we do?</h2>
+    <p>We create:</p>
+    <ul class="what-we-do-list">
+        <li class="what-we-do-container">
+            <img src="/images/services/strategy-icon.svg" alt="">
+            <h4>Audio strategies for brands</h4>
+        </li>
+        <li class="what-we-do-container">
+            <img src="/images/services/jingles-icon.svg" alt="">
+            <h4>Audio logos and jingles</h4>
+        </li>
+        <li class="what-we-do-container">
+            <img src="/images/services/advertising-icon.svg" alt="">
+            <h4>Audio advertising and brand music</h4>
+        </li>
+        <li class="what-we-do-container">
+            <img src="/images/services/app-icon.svg" alt="">
+            <h4>Sonic identities for apps</h4>
+        </li>
+        <li class="what-we-do-container">
+            <img src="/images/services/speaker-icon.svg" alt="">
+            <h4>Other audio touchpoints</h4>
+        </li>
+    </ul>
+    <p>Each audio brand is unique, as the brand itself. Each business has its own needs, and there is no universal
+        formula for the audio brand. Therefore, depending on the brand's tasks and needs, we create a personal audio
+        brand strategy and elements for each project. </p>
+</div>
+
+<div class="service-section">
+    {{- partial "service-works.html" . -}}
+</div>
+
+<div class="service-section">
+    <h2>What is the process like?</h2>
+    <p>Over the past years, we have developed a clear and compelling cooperation scheme that makes the creative process
+        fast, exciting, and, most importantly, predictable. It allows us to co-create with you a product that your
+        audience will love and remember.</p>
+    {{ .Content }}
+</div>
+
+<div class="our-prices service-section">
+    <h2>Our prices</h2>
+    <h3>Basic audio brand | $8500 | 3.5 months</h3>
+    <ul class="our-prices-list">
+        <li>in-depth briefing;</li>
+        <li>niche, competitors, and target audience analysis;</li>
+        <li>technical task creation;</li>
+        <li>audio concept development;</li>
+        <li>audio DNA creation and testing;</li>
+        <li>audio logo creation;</li>
+        <li>brand track creation (in the form of «construction bricks»);</li>
+        <li>audio style guide development.</li>
+    </ul>
+    <h3>Audio logo | $5300 | 2 months</h3>
+    <ul class="our-prices-list">
+        <li>in-depth briefing;</li>
+        <li>niche, competitors, and target audience analysis;</li>
+        <li>audio concept development;</li>
+        <li>audio DNA creation and testing;</li>
+        <li>audio logo creation;</li>
+        <li>audio style guide development.</li>
+    </ul>
+    <h3>Sonic identity for an app | $2400 + $220/sound | 2 months</h3>
+    <ul class="our-prices-list">
+        <li>in-depth briefing;</li>
+        <li>niche, competitors, and target audience analysis;</li>
+        <li>technical task creation;</li>
+        <li>audio concept development;</li>
+        <li>audio DNA creation and testing;</li>
+        <li>app sounds creation;</li>
+        <li>audio style guide development.</li>
+    </ul>
+    <h3>UX sound design for an app prototype | $250/sound | 1 month</h3>
+    <ul class="our-prices-list">
+        <li>in-depth briefing;</li>
+        <li>niche, competitors, and target audience analysis;</li>
+        <li>technical task creation;</li>
+        <li>audio concept development;</li>
+        <li>app sounds creation.</li>
+    </ul>
+    <h3>YouTube/Podcast projects | $4000 | 2 months</h3>
+    <ul class="our-prices-list">
+        <li>main branded track (two demos);</li>
+        <li>audio logo;</li>
+        <li>basic branded music library — adaptations of the main track;</li>
+        <li>basic audio elements: intro, outro, cutaway.</li>
+    </ul>
+    <p>As we have already mentioned, there is no universal set of audio brand elements. Therefore, the packages above
+        are likely not fully meet your current needs, and that's okay.</p>
+    <p><a href="mailto:connect@vp-production.com">Get in touch with us</a> and together, we will determine an ideal
+        formula for your future audio brand and help you with the project budgeting. 🙌
+    </p>
+</div>
+{{ end }}
