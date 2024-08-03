@@ -1,0 +1,63 @@
+{{ define "css" }}
+<link rel="stylesheet" href="/css/work.css" />
+{{ end }}
+
+{{ define "main" }}
+{{- partial "horizontal-nav.html" . -}}
+{{- partial "mobile-nav.html" (dict "context" . "className" "") -}}
+
+<div class="work-page">
+    <div class="small-container inline-gap top-space-medium">
+
+        {{- partial "work-metadata.html" . -}}
+
+        <div class="work-content">
+            {{- .Content -}}
+
+            {{ $projectTitle := .Title }}
+            {{ with .Site.GetPage "/reviews" }}
+            {{ if (gt (where .Pages "Params.project" "eq" $projectTitle | len) 0) }}
+            <div class="review">
+                <h2 class="section-title">{{ T "reviews-label" }}</h2>
+                {{ range first 1 (where .Pages "Params.project" "eq" $projectTitle) }}
+                {{- partial "review.html" (dict "context" . "className" "") -}}
+                {{ end }}
+            </div>
+            {{ end }}
+            {{ end }}
+
+        </div>
+    </div>
+</div>
+
+<div class="work-nav">
+    <div class="navigation-inner small-container inline-gap">
+        <div class="navigation-items">
+
+            <a class="previous-item navigation-item no-hover no-line {{ if not .NextInSection }}navigation-item-disabled{{ end }}"
+                {{ if .NextInSection }}href="{{ .NextInSection.RelPermalink }}" {{ end }}>
+                {{- partial "icons/arrow-left.html" . -}}
+                <span class="navigation-label">
+                    {{ T "prev-work-link" }}
+                </span>
+            </a>
+
+            <a class="next-item navigation-item no-hover no-line {{ if not .PrevInSection }}navigation-item-disabled{{ end }}"
+                {{ if .PrevInSection }}href="{{ .PrevInSection.RelPermalink }}" {{ end }}>
+                <span class="navigation-label">
+                    {{ T "next-work-link" }}
+                </span>
+                {{- partial "icons/arrow-left.html" . -}}
+            </a>
+
+            <a class="btn portfolio-button no-hover" href="{{ .CurrentSection.RelPermalink }}">
+                <span>
+                    {{ T "portfolio-link" }}
+                </span>
+            </a>
+
+        </div>
+    </div>
+</div>
+
+{{ end }}

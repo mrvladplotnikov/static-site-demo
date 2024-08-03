@@ -1,15 +1,14 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-categories: 
-- app
-- brand
-services: 
-- music-composing
-- audio-branding
-- sound-design
-image: "/images/dummy-works/{{ .Name }}.webp"
-draft: false
+image:
+categories:
+services:
+genres:
+platforms:
+developers:
+contributors:
+homePageWeight:
+draft: true
+type: "work"
 ---
-
-test post
