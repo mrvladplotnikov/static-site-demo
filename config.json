@@ -2,32 +2,141 @@
   "baseURL": "https://vp-production.com/",
   "title": "VP Production",
   "theme": "vp-static-theme",
-  "defaultContentLanguage": "uk",
-  "defaultContentLanguageInSubdir": false,
+  "disableKinds": [
+    "rss"
+  ],
   "taxonomies": {
-    "category": "categories",
     "service": "services"
   },
+  "defaultContentLanguage": "uk",
   "languages": {
     "uk": {
-      "contentDir": "content",
+      "contentDir": "content/uk",
       "languageCode": "uk",
-      "languageDirection": "ltr",
       "languageName": "Українська",
-      "title": "VP Production",
-      "params": {
-        "wight": 1
-      }
+      "menus": {
+        "main": [
+          {
+            "name": "Портфоліо",
+            "pageRef": "/works",
+            "weight": 10
+          },
+          {
+            "name": "Послуги",
+            "pageRef": "/services",
+            "weight": 20
+          },
+          {
+            "name": "Створення музики",
+            "pageRef": "/services/music-composing",
+            "parent": "Послуги",
+            "weight": 1
+          },
+          {
+            "name": "Аудіобрендинг",
+            "pageRef": "/services/audio-branding",
+            "parent": "Послуги",
+            "weight": 2
+          },
+          {
+            "name": "Звуковий дизайн",
+            "pageRef": "/services/sound-design",
+            "parent": "Послуги",
+            "weight": 3
+          },
+          {
+            "name": "Голосове озвучення",
+            "pageRef": "/services/voice-casting",
+            "parent": "Послуги",
+            "weight": 4
+          },
+          {
+            "name": "FAQ",
+            "pageRef": "/faq",
+            "weight": 30
+          },
+          {
+            "name": "Про нас",
+            "pageRef": "/about",
+            "weight": 40
+          },
+          {
+            "name": "Наші цінності",
+            "pageRef": "/our-values",
+            "weight": 50
+          },
+          {
+            "name": "Відгуки",
+            "pageRef": "/reviews",
+            "weight": 60
+          }
+        ]
+      },
+      "weight": 1
     },
     "en": {
       "contentDir": "content/en",
       "languageCode": "en",
-      "languageDirection": "ltr",
-      "languageName": "Англійська",
-      "title": "VP Production",
-      "params": {
-        "wight": 2
-      }
+      "languageName": "English",
+      "menus": {
+        "main": [
+          {
+            "name": "Portfolio",
+            "pageRef": "/works",
+            "weight": 10
+          },
+          {
+            "name": "Services",
+            "pageRef": "/services",
+            "weight": 20
+          },
+          {
+            "name": "Music composing",
+            "pageRef": "/services/music-composing",
+            "parent": "Services",
+            "weight": 1
+          },
+          {
+            "name": "Audio branding",
+            "pageRef": "/services/audio-branding",
+            "parent": "Services",
+            "weight": 2
+          },
+          {
+            "name": "Sound design",
+            "pageRef": "/services/sound-design",
+            "parent": "Services",
+            "weight": 3
+          },
+          {
+            "name": "Voice casting",
+            "pageRef": "/services/voice-casting",
+            "parent": "Services",
+            "weight": 4
+          },
+          {
+            "name": "FAQ",
+            "pageRef": "/faq",
+            "weight": 30
+          },
+          {
+            "name": "About",
+            "pageRef": "/about",
+            "weight": 40
+          },
+          {
+            "name": "Our values",
+            "pageRef": "/our-values",
+            "weight": 50
+          },
+          {
+            "name": "Reviews",
+            "pageRef": "/reviews",
+            "weight": 60
+          }
+        ]
+      },
+      "weight": 2
     }
   }
 }

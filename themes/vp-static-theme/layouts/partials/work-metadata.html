@@ -1,0 +1,82 @@
+<div class="work-metadata">
+    <div class="work-picture">
+        {{ with resources.GetMatch .Params.image }}
+        <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
+        {{ end }}
+    </div>
+    <div class="work-summary">
+        <h1 class="page-title work-title">{{ .Title }}</h1>
+        <ul>
+            {{ with .GetTerms "services" }}
+            <li>
+                <b>{{ T "services" 1 }}:</b>
+                <ul>
+                    {{ range $i, $e := . }}
+                    <li>
+                        {{ if $i }},{{ end }}
+                        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </li>
+            {{ end }}
+
+            {{ with .Params.genres }}
+            <li>
+                <b>{{ T "genres" 1 }}:</b>
+                <ul>
+                    {{ range $i, $e := . }}
+                    <li>
+                        {{ if $i }},{{ end }}
+                        <span>{{ $e }}</span>
+                    </li>
+                    {{ end }}
+                </ul>
+            </li>
+            {{ end }}
+
+            {{ with .Params.platforms }}
+            <li>
+                <b>{{ T "platforms" 1 }}:</b>
+                <ul>
+                    {{ range $i, $e := . }}
+                    <li>
+                        {{ if $i }},{{ end }}
+                        <span>{{ $e }}</span>
+                    </li>
+                    {{ end }}
+                </ul>
+            </li>
+            {{ end }}
+
+            {{ with .Params.developers }}
+            <li>
+                <b>{{ T "developers" 1 }}:</b>
+                <ul>
+                    {{ range $i, $e := . }}
+                    <li>
+                        {{ if $i }},{{ end }}
+                        <span>{{ $e }}</span>
+                    </li>
+                    {{ end }}
+                </ul>
+            </li>
+            {{ end }}
+
+            {{ with .Params.contributors }}
+            <li>
+                <b>{{ T "contributors" }}:</b>
+                <ul>
+                    {{ range $i, $e := . }}
+                    <li>
+                        {{ if $i }},{{ end }}
+                        <span>{{ $e }}</span>
+                    </li>
+                    {{ end }}
+                </ul>
+            </li>
+            {{ end }}
+        </ul>
+
+    </div>
+</div>

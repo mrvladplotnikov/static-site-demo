@@ -1,0 +1,4 @@
+---
+title: Відгуки
+type: review
+---
