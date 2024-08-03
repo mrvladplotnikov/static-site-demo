@@ -1,0 +1,35 @@
+{{ $imageURL := .Get 0 }}
+{{ $imageAlt := .Get 1 }}
+{{ $imageSize := .Get 2 }}
+{{ $imageScaledSize := .Get 3 }}
+
+{{ with resources.GetMatch $imageURL }}
+<picture>
+    {{ if $imageSize }}
+    {{ $imageSize = (cond (gt $imageSize .Width) .Width $imageSize) }}
+    {{ else }}
+    {{ $imageSize = .Width }}
+    {{ end }}
+
+    {{ if $imageScaledSize }}
+    {{ $imageScaledSize = (cond (gt $imageScaledSize .Width) .Width $imageScaledSize) }}
+    {{ else }}
+    {{ $imageScaledSize = (cond (gt (mul (int $imageSize) 2) .Width) .Width (mul (int $imageSize) 2)) }}
+    {{ end }}
+
+
+    {{ with .Resize (printf "%dx webp" $imageScaledSize) }}
+    <source srcset="{{ .RelPermalink }} 2x" type="image/webp">
+    {{ end }}
+    {{ with .Resize (printf "%dx" $imageScaledSize) }}
+    <source srcset="{{ .RelPermalink }} 2x" type="{{ .MediaType.Type }}">
+    {{ end }}
+
+    {{ with .Resize (printf "%dx webp" $imageSize) }}
+    <source srcset="{{ .RelPermalink }}" type="image/webp">
+    {{ end }}
+    {{ with .Resize (printf "%dx" $imageSize) }}
+    <img loading="lazy" src="{{ .RelPermalink }}" alt="{{ $imageAlt }}">
+    {{ end }}
+</picture>
+{{ end }}

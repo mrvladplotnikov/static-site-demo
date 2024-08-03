@@ -1,0 +1,10 @@
+<details class="vp-details">
+    {{- with .Get 2 }}
+    <summary id="{{ . }}">
+        {{- else -}}
+        <summary>
+            {{- end }}
+            <span class="list-number">{{ .Get 0 }}.</span> <span class="label">{{ .Get 1 }}</span>
+        </summary>
+        <div class=answer>{{ .Inner | markdownify }}</div>
+</details>
