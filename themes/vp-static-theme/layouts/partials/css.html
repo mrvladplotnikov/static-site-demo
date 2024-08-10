@@ -1,0 +1,9 @@
+{{ if hugo.IsDevelopment }}
+{{ with . | fingerprint }}
+<link rel="stylesheet" href="{{ .RelPermalink }}" />
+{{ end }}
+{{ else }}
+{{ with . | minify | fingerprint }}
+<link rel="stylesheet" href="{{ .RelPermalink }}" />
+{{ end }}
+{{ end }}

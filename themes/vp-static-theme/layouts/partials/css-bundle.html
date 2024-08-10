@@ -1,0 +1,8 @@
+{{- $reset := resources.Get "css/reset.css" -}}
+{{- $typography := resources.Get "css/typography.css" -}}
+{{- $button := resources.Get "css/button.css" -}}
+{{- $main := resources.Get "css/main.css" -}}
+
+{{- with slice $reset $typography $button $main | resources.Concat "css/bundle.css" }}
+{{- partial "css.html" . -}}
+{{- end }}

@@ -2,9 +2,11 @@
 <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
 {{- end }}
 
-{{- define "css" }}
-<link rel="stylesheet" href="/css/reviews-page.css" />
-{{- end }}
+{{ define "css" }}
+{{ with resources.Get "css/reviews-page.css" }}
+{{- partial "css.html" . -}}
+{{ end }}
+{{ end }}
 
 {{- define "main" }}
 {{- partial "horizontal-nav.html" . -}}
@@ -38,8 +40,12 @@
 {{- end }}
 
 {{- define "jsbeforemain" }}
-<script defer src="/js/swiper-bundle.min.js"></script>
+{{ with resources.Get "js/swiper-bundle.min.js" }}
+<script defer src="{{ .RelPermalink }}"></script>
+{{ end }}
 {{- end }}
-{{- define "js" }}
-<script defer type="module" src="/js/slider.js"></script>
-{{- end }}
+{{ define "js" }}
+{{ with resources.Get "js/slider.js" }}
+{{- partial "js.html" . -}}
+{{ end }}
+{{ end }}

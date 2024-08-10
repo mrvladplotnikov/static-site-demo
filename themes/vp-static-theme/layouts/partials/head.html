@@ -8,9 +8,11 @@
 {{- end }}
 
 {{ if isset .Params "tags" }}
-<meta name="keywords" content="{{ with .Params.tags }}{{ delimit . " , " }}{{ end }}">
+{{ with .Params.tags }}
+{{ $tags := delimit . "," }}
+<meta name="keywords" content="{{ $tags }}">
+{{ end }}
 {{ end -}}
 
 <meta name="theme-color" content="#000000">
 <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
-<link rel="stylesheet" href="/css/main.css" />

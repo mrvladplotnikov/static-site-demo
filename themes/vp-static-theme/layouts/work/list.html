@@ -1,8 +1,22 @@
 {{ define "cssbeforemain" }}
-<link rel="stylesheet" href="/css/slimselect.css" />
+{{ with resources.Get "css/slimselect.css" }}
+<link rel="stylesheet" href="{{ .RelPermalink }}" />
+{{ end }}
 {{ end }}
 {{ define "css" }}
-<link rel="stylesheet" href="/css/portfolio.css" />
+{{ with resources.Get "css/portfolio.css" }}
+{{- partial "css.html" . -}}
+{{ end }}
+{{ end }}
+
+{{ define "jsbeforemain" }}
+{{ with resources.Get "js/slimselect.min.js" }}
+<script defer src="{{ .RelPermalink }}"></script>
+{{ end }}
+
+{{ with resources.Get "js/portfolio.js" }}
+{{- partial "js.html" . -}}
+{{ end }}
 {{ end }}
 
 {{ define "main" }}
@@ -92,11 +106,4 @@
         {{- end }}
     </div>
 </div>
-{{ end }}
-
-{{ define "jsbeforemain" }}
-<script defer src="/js/slimselect.min.js"></script>
-{{ end }}
-{{ define "js" }}
-<script defer type="module" src="/js/portfolio.js"></script>
 {{ end }}

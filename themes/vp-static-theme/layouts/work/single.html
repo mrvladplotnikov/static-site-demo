@@ -1,5 +1,7 @@
 {{ define "css" }}
-<link rel="stylesheet" href="/css/work.css" />
+{{ with resources.Get "css/work.css" }}
+{{- partial "css.html" . -}}
+{{ end }}
 {{ end }}
 
 {{ define "main" }}

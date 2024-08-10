@@ -1,5 +1,7 @@
 {{ define "css" }}
-<link rel="stylesheet" href="/css/home.css" />
+{{ with resources.Get "css/home.css" }}
+{{- partial "css.html" . -}}
+{{ end }}
 {{ end }}
 
 {{ define "main" }}
@@ -127,5 +129,7 @@
 {{ end }}
 
 {{ define "js" }}
-<script async type="module" src="/js/home.js"></script>
+{{ with resources.Get "js/home.js" }}
+{{- partial "js.html" . -}}
+{{ end }}
 {{ end }}

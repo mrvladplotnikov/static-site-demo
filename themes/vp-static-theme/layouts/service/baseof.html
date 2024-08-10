@@ -3,8 +3,36 @@
 
 <head>
   {{- partial "head.html" . -}}
-  <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="/css/services.css" />
+
+  {{ with resources.Get "css/swiper-bundle.min.css" }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}" />
+  {{ end }}
+
+  {{- partial "css-bundle.html" . -}}
+
+  {{ with resources.Get "css/services.css" }}
+  {{- partial "css.html" . -}}
+  {{ end }}
+
+  {{ with resources.Get "js/swiper-bundle.min.js" }}
+  <script src="{{ .RelPermalink }}"></script>
+  {{ end }}
+
+  {{ with resources.Get "js/main.js" }}
+  {{- partial "js.html" . -}}
+  {{ end }}
+
+  {{ with resources.Get "js/service.js" }}
+  {{- partial "js.html" . -}}
+  {{ end }}
+
+  {{ with resources.Get "js/details.js" }}
+  {{- partial "js.html" . -}}
+  {{ end }}
+
+  {{ with resources.Get "js/slider.js" }}
+  {{- partial "js.html" . -}}
+  {{ end }}
 </head>
 
 <body>
@@ -57,11 +85,6 @@
   </div>
 
   <div data-modal-root=""></div>
-  <script defer src="/js/swiper-bundle.min.js"></script>
-  <script defer type="module" src="/js/main.js"></script>
-  <script defer type="module" src="/js/service.js"></script>
-  <script defer type="module" src="/js/details.js"></script>
-  <script defer type="module" src="/js/slider.js"></script>
 </body>
 
 </html>
