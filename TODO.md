@@ -9,9 +9,10 @@
 - [ ] change nav menu for servies 
 - [ ] change youtube player
 - [ ] add scroll to id on faq page
-- [ ] fix vp icons on our values page
+- [x] fix vp icons on our values page
 - [ ] add Listeners' reviews
 - [ ] sync seo attrs
+- [ ] hide contact us section on few pages
 
 
 

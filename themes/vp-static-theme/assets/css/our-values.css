@@ -1,29 +1,23 @@
 .values-section,
 .first-section {
     position: relative;
-    padding: 145px 15px;
+    padding-block: 145px;
 }
 
-.first-section h2 {
+.first-section .values-title {
     margin-top: 27px;
     margin-bottom: 27px;
     font-size: 32px;
-    line-height: 39px;
+    line-height: 1.2;
     text-transform: uppercase;
     font-weight: 700;
 }
 
-.values-container h2 {
-    line-height: 27px;
+.values-container .values-title {
+    line-height: 1.2;
     font-size: 22px;
     font-weight: 700;
 }
-
-.vp-back {
-    background-color: var(--clr-dark);
-}
-
-
 
 @media (min-width: 768px) {
 
@@ -31,33 +25,23 @@
     .first-section {
         padding: 185px 80px;
     }
-
-
 }
 
 @media (min-width:992px) {
 
     .values-section,
     .first-section {
-        padding: 250px 15px;
+        padding-block: 250px;
     }
 
-    .inner {
-        max-width: 992px;
-    }
-
-    .first-section h2 {
+    .first-section .values-title {
         font-size: 70px;
         font-weight: 800;
-        line-height: 122px
     }
 
-    .values-container h2 {
-        line-height: 85px;
+    .values-container .values-title {
         font-size: 70px;
     }
-
-
 }
 
 @media (min-width:1200px) {
@@ -77,7 +61,7 @@
 }
 
 @media (min-width:1920px) {
-    .first-section h2 {
+    .first-section .values-title {
         font-size: 100px;
     }
 }
@@ -87,45 +71,44 @@
     overflow-y: hidden;
 }
 
-.vp-back::before {
-    background-image: url(/images/our-values/v-icon.svg);
-    width: 104.09px;
-    height: 130px;
+.vp-back {
+    background-color: var(--clr-dark);
+    position: relative;
+}
+
+.vp-back::before,
+.vp-back::after {
+    width: 115px;
+    height: 132px;
     background-repeat: no-repeat;
     background-size: contain;
     content: "";
-    left: 15px;
     position: absolute;
+}
+
+.vp-back::before {
     top: 0;
+    left: 1rem;
     transform: translateY(-40%);
+    background-image: url(/images/our-values/v-icon.svg);
 }
 
 .vp-back::after {
     bottom: 0;
-    background-image: url(/images/our-values/p-icon.svg);
-    width: 104.09px;
-    height: 130px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    content: "";
-    position: absolute;
-    right: 15px;
+    right: 1rem;
     transform: translateY(50%);
+    background-image: url(/images/our-values/p-icon.svg);
 }
 
 @media (min-width:992px) {
     .vp-back::before {
         width: 300px;
         height: 345px;
-        left: 15px;
-        top: 0;
     }
 
     .vp-back::after {
         width: 275px;
         height: 340px;
-        bottom: 0;
-        right: 15px;
     }
 }
 
