@@ -41,6 +41,10 @@
     color: #017ec1;
 }
 
+.support-button a:hover {
+    background-color: #e4bc14;
+}
+
 @media (min-width: 48em) {
     .support-text {
         font-size: 18px;

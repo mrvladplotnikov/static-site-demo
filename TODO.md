@@ -1,5 +1,5 @@
 - [ ] add ru lang
-- [ ] fix hover on support banner
+- [x] fix hover on support banner
 - [ ] reorder items on home page section 3 and about page
 - [ ] add mailto links
 - [ ] add template form
