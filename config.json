@@ -1,5 +1,5 @@
 {
-  "baseURL": "https://vp-production.com/",
+  "baseURL": "https://vp-production.com",
   "title": "VP Production",
   "theme": "vp-static-theme",
   "disableKinds": [
@@ -72,7 +72,12 @@
           }
         ]
       },
-      "weight": 1
+      "weight": 1,
+      "params": {
+        "hiddenLangs": [
+          "ru"
+        ]
+      }
     },
     "en": {
       "contentDir": "content/en",
@@ -136,7 +141,79 @@
           }
         ]
       },
-      "weight": 2
+      "weight": 2,
+      "params": {
+        "hiddenLangs": [
+          "ru"
+        ]
+      }
+    },
+    "ru": {
+      "contentDir": "content/ru",
+      "languageCode": "ru",
+      "languageName": "Русский",
+      "menus": {
+        "main": [
+          {
+            "name": "Портфолио",
+            "pageRef": "/works",
+            "weight": 10
+          },
+          {
+            "name": "Услуги",
+            "pageRef": "/services",
+            "weight": 20
+          },
+          {
+            "name": "Создание музыки",
+            "pageRef": "/services/music-composing",
+            "parent": "Услуги",
+            "weight": 1
+          },
+          {
+            "name": "Аудиобрендинг",
+            "pageRef": "/services/audio-branding",
+            "parent": "Услуги",
+            "weight": 2
+          },
+          {
+            "name": "Звуковой дизайн",
+            "pageRef": "/services/sound-design",
+            "parent": "Услуги",
+            "weight": 3
+          },
+          {
+            "name": "Голосовое озвучивание",
+            "pageRef": "/services/voice-casting",
+            "parent": "Услуги",
+            "weight": 4
+          },
+          {
+            "name": "FAQ",
+            "pageRef": "/faq",
+            "weight": 30
+          },
+          {
+            "name": "О нас",
+            "pageRef": "/about",
+            "weight": 40
+          },
+          {
+            "name": "Наши ценности",
+            "pageRef": "/our-values",
+            "weight": 50
+          },
+          {
+            "name": "Отзывы",
+            "pageRef": "/reviews",
+            "weight": 60
+          }
+        ]
+      },
+      "weight": 3,
+      "params": {
+        "hiddenLangs": []
+      }
     }
   }
 }

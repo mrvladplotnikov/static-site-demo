@@ -3,11 +3,13 @@
 {{- with .Page.AllTranslations }}
 <nav class="langs-menu-list">
     {{- range . }}
+    {{- if not (in $.Site.Params.hiddenLangs .Language.LanguageCode) }}
     <a {{ if eq $pageLang .Lang }}aria-current="page" {{ end }} title="{{ .Language.LanguageName }}"
         href="{{ .RelPermalink }}" lang="{{ .Language.LanguageCode }}" hreflang="{{ .Language.LanguageCode }}">
         {{ .Language.LanguageCode }}
     </a>
     <span role="presentation" aria-hidden="true">/</span>
+    {{- end }}
     {{- end }}
 </nav>
 {{- end }}

@@ -1,4 +1,4 @@
-- [ ] add ru lang
+- [x] add ru lang support 
 - [x] fix hover on support banner
 - [ ] reorder items on home page section 3 and about page
 - [ ] add mailto links
@@ -13,6 +13,7 @@
 - [ ] add Listeners' reviews
 - [ ] sync seo attrs
 - [ ] hide contact us section on few pages
+- [ ] update ru pages  
 
 
 

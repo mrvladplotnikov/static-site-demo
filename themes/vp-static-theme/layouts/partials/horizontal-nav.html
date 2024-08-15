@@ -10,12 +10,14 @@
       <button class="vp-hover" type="button">/<span>{{ .Page.Lang }}</span>/</button>
       <ul class="dropdown-options lang-options">
         {{- range .Page.Translations }}
+        {{- if not (in $.Site.Params.hiddenLangs .Language.LanguageCode) }}
         <li>
           <a title="{{ .Language.LanguageName }}" href="{{ .Permalink | relURL }}" lang="{{ .Language.LanguageCode }}"
             hreflang="{{ .Language.LanguageCode }}">
             {{ .Language.LanguageCode }}
           </a>
         </li>
+        {{- end }}
         {{- end }}
       </ul>
     </div>
