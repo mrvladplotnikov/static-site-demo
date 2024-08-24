@@ -1,19 +1,19 @@
 {{- $page := . -}}
 <div id="mobile-nav" class="mobile-menu">
-  <a href={{ relLangURL "/" }} aria-label="Головна сторінка" class="mobile-menu-logo">
-    <img src="/images/header-logo.svg" alt="" width="33" height="33">
+  <a href={{ relLangURL "/" }} aria-label={{ T "home-page-link" }} class="mobile-menu-logo">
+    <img src="/images/header-logo.svg" alt="{{ .Title }}" width="33" height="33">
   </a>
 
   <button type="button" id="mobile-menu-button" class="mobile-menu-button" aria-expanded="false" aria-haspopup="dialog"
-    aria-controls="mobile-menu-dialog" aria-label="Відкрити навігаційне меню сайту">
+    aria-controls="mobile-menu-dialog" aria-label={{ T "nav-menu-button" }}>
     <span class="mobile-menu-button-line" aria-hidden="true"></span>
     <span class="mobile-menu-button-line" aria-hidden="true"></span>
     <span class="mobile-menu-button-line" aria-hidden="true"></span>
   </button>
 
 
-  <div id="mobile-menu-dialog" role="dialog" aria-modal="true" class="mobile-menu-dialog"
-    aria-label="Меню навігації по сайту" data-modal-till="768px" inert>
+  <div id="mobile-menu-dialog" role="dialog" aria-modal="true" class="mobile-menu-dialog" aria-label={{
+    T "mobile-menu-dialog" }} data-modal-till="768px" inert>
 
     {{- with index .Site.Menus "main" }}
     <nav class="mobile-menu-nav" aria-label="Список сторінок">
@@ -47,6 +47,9 @@
 {{- else if $page.HasMenuCurrent .Menu .}}
 {{- $attrs = merge $attrs (dict "aria-current" "true") }}
 {{- end }}
+{{- if .Params -}}
+{{- $attrs = merge $attrs .Params }}
+{{- end }}
 {{- $name := .Name }}
 {{- with .Identifier }}
 {{- with T . }}
@@ -56,7 +59,7 @@
 {{- with .Children }}
 <li>
   <details>
-    <summary class="mobile-menu-summary">Послуги {{- partial "icons/arrow-down.html" . -}}</summary>
+    <summary class="mobile-menu-summary">{{ $name }} {{- partial "icons/arrow-down.html" . -}}</summary>
     <ul role="list">
       {{- partial "inline/mobile-menu/walk.html" (dict "page" $page "menuEntries" .) }}
     </ul>

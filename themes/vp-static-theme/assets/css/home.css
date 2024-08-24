@@ -69,9 +69,14 @@
 /* mobile nav start*/
 .mobile-menu {
     display: grid;
-    z-index: var(--layer-over-menu);
+    z-index: var(--layer-menu);
     /* top panel height */
     top: 3.75rem;
+}
+
+
+.mobile-menu:not(.scrolled) {
+    left: unset;
 }
 
 .mobile-menu:not(.scrolled) .mobile-menu-logo {
@@ -210,9 +215,10 @@
 .hero>.langs-menu-list {
     display: none;
 
-    z-index: var(--layer-menu);
     font-size: 1.375rem;
     line-height: 1;
+
+    z-index: var(--layer-under-menu);
 }
 
 .hero-portfolio-link {
@@ -381,7 +387,6 @@
         /* top panel height + padding */
         top: calc(70px + 2.375rem + 0.5rem);
         left: 1rem;
-        z-index: calc(var(--layer-menu) + 20);
     }
 
 

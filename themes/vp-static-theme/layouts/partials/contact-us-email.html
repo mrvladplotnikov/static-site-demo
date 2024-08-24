@@ -2,17 +2,18 @@
 <div class="contact-us-section inline-gap">
     <div class="small-container">
         <h2 class="section-title contact-us-section-title">
-            Напишіть нам
+            {{ T "contact-section-title" }}
         </h2>
 
         <div class="contact-us-section-details">
-            Розкажіть нам про свій проєкт, продукт або ідею. Запитайте пораду або отримайте повноцінну безплатну
-            консультацію. Дізнайтеся вартість, уточніть важливе питання, та що завгодно! Ми будемо раді з вами
-            познайомитися
-            й допомогти.
-            <a class="no-external-icon contact-us-section-mail" href="mailto:connect@vp-production.com">
-                connect@vp-production.com
+            <p>{{ T "contact-section-description-start" }} <a href="/">{{ T "free-consultation" }}</a>. {{ T
+                "contact-section-description-end" }}</p>
+
+            {{- with .Site.Params.email }}
+            <a class="no-external-icon contact-us-section-mail" href="mailto:{{ . }}">
+                {{ . }}
             </a>
+            {{- end }}
         </div>
 
         <ul class="contact-us-section-soc-links" role="list">
@@ -22,7 +23,7 @@
                     target="_blank" rel="noopener noreferrer nofollow">
                     {{ $SocialLink.icon }}
                     <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCA0MiAzOCI+CiAgPGRlZnMvPgogIDxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0yMi42IDBMNDIgMTkgMjIuNiAzOGwtMS44LTEuOCAxNi4yLTE2SDB2LTIuNWgzN0wyMC44IDEuOCAyMi42IDB6Ii8+Cjwvc3ZnPgo="
-                        width="22" height="22" alt="" role="presentation" aria-hidden="true">
+                        width="22" height="22" alt="" aria-hidden="true">
                 </a>
             </li>
             {{ end }}
