@@ -10,7 +10,7 @@
 
 {{- define "main" }}
 {{- partial "horizontal-nav.html" . -}}
-{{- partial "mobile-nav.html" (dict "context" . "className" "") -}}
+{{- partial "mobile-nav.html" . -}}
 
 <div class="inline-gap small-container top-space-medium">
     <h1 class="page-title-large">{{ .Title }}</h1>

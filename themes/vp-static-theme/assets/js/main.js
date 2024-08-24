@@ -31,6 +31,12 @@ const dialogHandler = (target, targetLabel) => {
 
     container.classList.add("open");
     container.removeAttribute("inert");
+
+    const modalBoundary = container.dataset.modalTill;
+
+    if (window.matchMedia(`(max-width: ${modalBoundary})`).matches) {
+      document.querySelector("body").classList.add('modal-open');
+    }
   };
 
   const closeDialog = () => {
@@ -40,6 +46,8 @@ const dialogHandler = (target, targetLabel) => {
 
     container.classList.remove("open");
     container.setAttribute("inert", true);
+
+    document.querySelector("body").classList.remove('modal-open');
   };
 
   target.addEventListener("click", function (ev) {
@@ -71,7 +79,10 @@ const findMobileMenuDialog = () => {
 
   if (!button) return;
 
-  dialogHandler(button, ["Відкрити навігаційне меню сайту", "Закрити навігаційне меню сайту"]);
+  dialogHandler(
+    button,
+    ["Відкрити навігаційне меню сайту", "Закрити навігаційне меню сайту"]
+  );
 }
 
 /**

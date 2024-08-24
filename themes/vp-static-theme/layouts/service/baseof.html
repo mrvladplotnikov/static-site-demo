@@ -38,7 +38,7 @@
 <body>
 
   {{- partial "horizontal-nav.html" . -}}
-  {{- partial "mobile-nav.html" (dict "context" . "className" "") -}}
+  {{- partial "mobile-nav.html" . -}}
 
   <div class="audio-inner top-space service-page-content">
     {{- block "sidebar" . }}{{ end -}}

@@ -21,7 +21,7 @@
 
 {{ define "main" }}
 {{- partial "horizontal-nav.html" . -}}
-{{- partial "mobile-nav.html" (dict "context" . "className" "") -}}
+{{- partial "mobile-nav.html" . -}}
 <div class="inline-gap top-space-small">
     <div class="container">
         <h1 class="page-title-large">{{ .Title | title }}</h1>

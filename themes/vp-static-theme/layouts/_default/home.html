@@ -8,40 +8,36 @@
 {{- $works := where .Site.RegularPages ".Type" "work" -}}
 
 <!--  support section starts here  -->
-
 <div class="ukraine-support-panel">
   <div class="support-flag">
-    <img src="/images/home/flag.svg" alt="Ukraine">
+    <img src="/images/home/flag.svg" alt="Ukraine" width="95px" height="56px">
   </div>
-  <div class="support-text">
-    help Ukraine withstand russian aggression
-  </div>
-  <div class="support-button">
-    <a class="no-line no-external-icon no-hover" target="_blank" rel="nofollow noindex"
-      href="https://supportukrainenow.org/">
-      help
-    </a>
-  </div>
+  <div class="support-text">help Ukraine withstand russian aggression</div>
+  <a class="no-line no-external-icon no-hover support-link" target="_blank" rel="nofollow noindex"
+    href="https://supportukrainenow.org/">
+    help
+  </a>
 </div>
-
 <!--  support section ends here  -->
 
+{{- partial "mobile-nav.html" . -}}
+{{- partial "horizontal-nav.html" . -}}
+
 <!--  hero section starts here  -->
-<div class="hero">
+<div class="hero inline-gap">
   {{- partial "langs-list-h.html" . -}}
-  {{- partial "horizontal-nav.html" . -}}
-  {{- partial "mobile-nav.html" (dict "context" . "className" "mobile-nav-home") -}}
-  {{- partial "icons/hero-logo.html" . -}}
+
+  <img class="hero-logo" src="/images/home/hero-logo.svg" alt="{{ .Title }}">
+  <img class="hero-logo-bg" src="/images/home/hero-logo-bg.svg" alt="{{ .Title }}">
 
   {{ if $works }}
   <a class="hero-portfolio-link no-hover" href={{ relLangURL "portfolio" }}>
-    <span class="hero-portfolio-link-line"></span><span>
-      {{ T "portfolio" }}
-    </span>
+    <span class="hero-portfolio-link-line"></span>
+    <span>{{ T "portfolio" }}</span>
   </a>
   {{ end }}
 
-  <ul class="hero-social-links-list">
+  <ul class="hero-social-links-list" role="list">
     <li>
       <a class="hero-social-link no-external-icon no-hover" href="https://www.facebook.com/vpproduction.audio"
         target="_blank" rel="noopener noreferrer nofollow" aria-label="VP Production Facebook">
@@ -81,19 +77,21 @@
       </picture>
     </div>
   </div>
-  <div class="small-container d-f f-c f-c-h-r">
+  <div class="small-container">
     <p class="about-section-text">{{ T "about-description" }}
     </p>
 
-    <a class="btn btn-arrow no-hover" href={{ relLangURL "about" }}>
-      {{ T "about" }}
-    </a>
+    <div class="about-section-button-container">
+      <a class="btn btn-arrow no-hover" href={{ relLangURL "about" }}>
+        {{ T "about" }}
+      </a>
+    </div>
   </div>
 </div>
 <!--  about section ends here  -->
 
 <!--  why section starts here  -->
-{{- partial "why.html" (dict "h2Text" "Чому ми" "className" "why-section-home") -}}
+{{- partial "why.html" (dict "h2Text" "Чому ми") -}}
 <!--  why section ends here  -->
 
 {{- partial "services.html" . -}}
@@ -102,7 +100,10 @@
 <!--  works section starts here  -->
 <div class="works-section inline-gap">
   <div class="container">
-    <h2 class="servies-section-title section-title" id="works-title">{{ T "featured-works" }}</h2>
+    <h2 class="works-section-title section-title" id="works-title">
+      {{ T "featured-works" }}
+      <a class="btn btn-arrow no-hover" href={{ relLangURL "portfolio" }}>{{ T "portfolio" }}</a>
+    </h2>
   </div>
   <div class="works-list grid" role="list" aria-labelledby="works-title">
     {{- range first 10 (.ByParam "homePageWeight") }}
@@ -116,7 +117,7 @@
     </div>
     {{- end }}
   </div>
-  <div class="container t-a-r">
+  <div class="container">
     <a class="btn btn-arrow no-hover" href={{ relLangURL "portfolio" }}>{{ T "portfolio" }}</a>
   </div>
 </div>
