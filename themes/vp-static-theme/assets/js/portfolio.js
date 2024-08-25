@@ -75,65 +75,58 @@ import Grid from "./shared/grid.js";
         grid.updateGrid(updatedWorks);
     }
 
+    /**
+     * 
+     * @param {{ value: string; }[]} select
+     * @returns {string}
+     */
+    function getSelectValue(select) {
+        if (Array.isArray(select) && select.length > 0) {
+            return select[0].value;
+        }
+
+        return '';
+    }
+
     const worksCategorySelectEl = document.querySelector("#works-category-select");
     const worksServiceSelectEl = document.querySelector("#works-service-select");
-    const worksRestEl = document.querySelector("#works-reset");
 
     if (worksCategorySelectEl && worksServiceSelectEl) {
-        worksCategorySelectEl.value = initialCategory;
-        worksCategorySelectEl.addEventListener('change', (event) => {
-            const category = event.target.value;
-            updateSelectedWorks({ category });
+        const worksCategorySelect = new SlimSelect({
+            select: worksCategorySelectEl,
+            settings: {
+                showSearch: false,
+                allowDeselect: false,
+                hideSelected: true,
+            },
+            events: {
+                afterChange: (value) => {
+                    const category = getSelectValue(value);
+                    updateSelectedWorks({ category });
+                }
+            }
         });
+        worksCategorySelect.setSelected(initialCategory);
 
-        worksServiceSelectEl.value = initialService;
-        worksServiceSelectEl.addEventListener('change', (event) => {
-            const service = event.target.value;
-            updateSelectedWorks({ service });
+        const worksServiceSelect = new SlimSelect({
+            select: worksServiceSelectEl,
+            settings: {
+                showSearch: false,
+                allowDeselect: false,
+                hideSelected: true,
+            },
+            events: {
+                afterChange: (value) => {
+                    const service = getSelectValue(value);
+                    updateSelectedWorks({ service });
+                }
+            }
         });
+        worksServiceSelect.setSelected(initialService);
 
-        worksRestEl.addEventListener('click', () => {
-            // worksCategorySelectEl.value = "";
-            // worksServiceSelectEl.value = "";
-            // updateSelectedWorks({ service: "", category: "" });
+        document.querySelector("#works-reset").addEventListener('click', () => {
             worksCategorySelect.setSelected('');
             worksServiceSelect.setSelected('');
         });
-
     }
-
-    var worksCategorySelect = new SlimSelect({
-        select: '#works-category-select',
-        settings: {
-            showSearch: false,
-            openPosition: 'down',
-            allowDeselect: true,
-            hideSelected: true,
-        },
-        // data: [
-        //     { 'placeholder': true, 'text': 'Категорія', value: '' },
-
-        //     { text: 'brand', html: '<span>brand</span>', value: 'brand' },
-        //     { text: 'gamedev', html: '<span>gamedev</span>', value: 'gamedev' },
-        //     { text: 'theatre', html: '<span>theatre</span>', value: 'theatre' },
-        //     { text: 'video', html: '<span>video</span>', value: 'video' }
-        // ],
-    })
-
-    var worksServiceSelect = new SlimSelect({
-        select: '#works-service-select',
-        settings: {
-            showSearch: false,
-            openPosition: 'down',
-            allowDeselect: true,
-            hideSelected: true,
-        },
-        // data: [
-        //     { 'placeholder': true, 'text': 'Послуга', value: '' },
-        //     { text: 'audio-branding', html: '<span>audio branding</span>', value: 'audio-branding' },
-        //     { text: 'voice-over', html: '<span>voice over</span>', value: 'voice-over' },
-        //     { text: 'sound-design', html: '<span>sound design</span>', value: 'sound-design' },
-        //     { text: 'music-composing', html: '<span>music composing</span>', value: 'music-composing' }
-        // ],
-    })
 })();
