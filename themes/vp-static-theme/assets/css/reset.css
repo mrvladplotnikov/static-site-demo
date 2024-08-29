@@ -19,15 +19,6 @@ video {
     max-width: 100%;
 }
 
-html {
-    color-scheme: dark light;
-    font-size: 100%;
-}
-
-body {
-    min-height: 100vh;
-}
-
 ul,
 ol {
     list-style: none;

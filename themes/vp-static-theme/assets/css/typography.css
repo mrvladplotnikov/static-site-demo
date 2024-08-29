@@ -14,7 +14,6 @@ body p,
 .vp-details .answer {
     font-size: var(--fz-regular);
     font-weight: var(--fw-light);
-    /* margin-block-end: calc(var(--gutter) * 2); */
     margin-block-start: 1em;
     margin-block-end: 1em;
 }
@@ -22,6 +21,10 @@ body p,
 body b {
     color: var(--clr-white);
     font-weight: var(--fw-bolder);
+}
+
+body strong {
+    font-weight: var(--fw-bold);
 }
 
 body a {
@@ -44,22 +47,6 @@ body a[href]:not(:where([href^="#"],
     align-items: center;
 }
 
-/* body a[href]:not(:where([href^="#"],
-        [href^="/"]:not([href^="//"]),
-        [href*="//vp-production.com"],
-        .no-external-icon,
-    ))::after {
-    color: var(--clr-white);
-    display: inline-flex;
-    content: "";
-    background-image: url('/images/external-link.svg');
-    background-repeat: no-repeat;
-    background-position: bottom;
-    width: 1em;
-    height: 0.85em;
-    margin-left: calc(var(--gutter) * 0.25);
-} */
-
 @media (hover: hover) {
 
     html body a:not(.no-hover):hover,
@@ -69,10 +56,6 @@ body a[href]:not(:where([href^="#"],
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-}
-
-body strong {
-    font-weight: var(--fw-bold);
 }
 
 .page-title,
@@ -93,7 +76,7 @@ h1:not([class]) {
 h2:not([class]) {
     font-weight: var(--fw-extra);
     color: var(--clr-white);
-    font-size: var(--fz-large);
+    font-size: 1.5rem;
     line-height: 1.2;
     margin-block-end: 1em;
 }
@@ -107,22 +90,16 @@ h3:not([class]) {
     margin-block-end: 1.2em;
 }
 
-
-
 /* Tabled width */
-@media (width > 48em) {
-    body p {
-        font-size: var(--fz-regular);
-        /* margin-block-end: clamp(calc(var(--gutter) * 1.75), 4vw + 0.2rem, calc(var(--gutter) * 3)); */
-    }
-
+@media (min-width: 768px) {
     .page-title-large {
-        font-size: 5rem;
+        font-size: 3rem;
     }
 
     h2:not([class]),
     .section-title {
-        margin-block-end: clamp(calc(var(--gutter) * 2), 4vw + 1.5rem, 1.25em);
+        font-size: clamp(1.5rem, 1vw + 1.5rem, 4.375rem);
+        margin-block-end: 1.5em;
     }
 
     h3:not([class]),
@@ -131,9 +108,25 @@ h3:not([class]) {
     }
 }
 
-@media (width > 62rem) {
+@media (min-width: 1080px) {
+    body p {
+        font-size: 1.125rem;
+    }
+}
+
+@media (min-width: 1570px) {
+    body p {
+        font-size: 1.375rem;
+    }
+
     .page-title-large {
         font-size: 6.25rem;
+    }
+
+    h2:not([class]),
+    .section-title {
+        font-size: 4.375rem;
+        margin-block-end: 1.2em;
     }
 }
 

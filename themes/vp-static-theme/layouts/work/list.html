@@ -21,14 +21,15 @@
 
 {{ define "main" }}
 {{- partial "horizontal-nav.html" . -}}
-{{- partial "mobile-nav.html" (dict "context" . "className" "") -}}
-<div class="inline-gap top-space-small">
-    <div class="container">
+{{- partial "mobile-nav.html" . -}}
+<div class="top-space-small">
+    <div class="inline-gap container">
         <h1 class="page-title-large">{{ .Title | title }}</h1>
     </div>
 
-    <div class="work-list-controls">
-        <div class="container">
+    <div class="container">
+        <div class="work-list-controls">
+
             {{- $categories := slice -}}
 
             {{- range .Pages }}
@@ -66,14 +67,15 @@
             </div>
             {{- end }}
 
-            <button id="works-reset" type="button" class="control">
+            <button id="works-reset" type="button" class="control control-button">
                 <span class="control-close">{{- partial "icons/close-icon.html" . -}}</span>
                 <span class="control-reset">{{ T "reset-filter" }}</span>
             </button>
+
         </div>
     </div>
 
-    <div class="works-list grid" role="list" aria-labelledby="works-title">
+    <div class="inline-gap works-list grid" role="list" aria-labelledby="works-title">
         {{- range .Pages }}
 
         {{- $categoriesList := slice -}}

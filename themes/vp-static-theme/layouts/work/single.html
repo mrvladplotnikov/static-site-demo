@@ -6,58 +6,134 @@
 
 {{ define "main" }}
 {{- partial "horizontal-nav.html" . -}}
-{{- partial "mobile-nav.html" (dict "context" . "className" "") -}}
+{{- partial "mobile-nav.html" . -}}
 
-<div class="work-page">
-    <div class="small-container inline-gap top-space-medium">
+<div class="top-space-medium">
+    <div class="small-container inline-gap">
+        <div class="work-metadata">
+            <ul class="work-taxonomies" role="list">
+                {{ with .GetTerms "services" }}
+                <li>
+                    <strong>{{ T "services" 1 }}:</strong>
+                    <ul class="work-terms" role="list">
+                        {{ range $i, $e := . }}
+                        <li>
+                            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </li>
+                {{ end }}
 
-        {{- partial "work-metadata.html" . -}}
+                {{ with .Params.genres }}
+                <li>
+                    <strong>{{ T "genres" 1 }}:</strong>
+                    <ul class="work-terms" role="list">
+                        {{ range $i, $e := . }}
+                        <li>
+                            <span>{{ $e }}</span>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </li>
+                {{ end }}
+
+                {{ with .Params.platforms }}
+                <li>
+                    <strong>{{ T "platforms" 1 }}:</strong>
+                    <ul class="work-terms" role="list">
+                        {{ range $i, $e := . }}
+                        <li>
+                            <span>{{ $e }}</span>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </li>
+                {{ end }}
+
+                {{ with .Params.developers }}
+                <li>
+                    <strong>{{ T "developers" 1 }}:</strong>
+                    <ul class="work-terms" role="list">
+                        {{ range $i, $e := . }}
+                        <li>
+                            <span>{{ $e }}</span>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </li>
+                {{ end }}
+
+                {{ with .Params.contributors }}
+                <li>
+                    <strong>{{ T "contributors" }}:</strong>
+                    <ul class="work-terms" role="list">
+                        {{ range $i, $e := . }}
+                        <li>
+                            <span>{{ $e }}</span>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </li>
+                {{ end }}
+            </ul>
+
+            {{ with resources.GetMatch .Params.image }}
+            <div class="work-picture">
+                <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
+            </div>
+            {{ end }}
+
+            <h1 class="section-title work-title">{{ .Title }}</h1>
+        </div>
 
         <div class="work-content">
             {{- .Content -}}
-
-            {{ $projectTitle := .Title }}
-            {{ with .Site.GetPage "/reviews" }}
-            {{ if (gt (where .Pages "Params.project" "eq" $projectTitle | len) 0) }}
-            <div class="review">
-                <h2 class="section-title">{{ T "reviews-label" }}</h2>
-                {{ range first 1 (where .Pages "Params.project" "eq" $projectTitle) }}
-                {{- partial "review.html" (dict "context" . "className" "") -}}
-                {{ end }}
-            </div>
-            {{ end }}
-            {{ end }}
-
         </div>
+
+        {{ $projectTitle := .Title }}
+        {{ with .Site.GetPage "/reviews" }}
+        {{ if (gt (where .Pages "Params.project" "eq" $projectTitle | len) 0) }}
+        <div class="work-review review">
+            <h2 class="section-title">{{ T "reviews-label" }}</h2>
+            {{ range first 1 (where .Pages "Params.project" "eq" $projectTitle) }}
+            {{- partial "review.html" (dict "context" . "className" "") -}}
+            {{ end }}
+        </div>
+        {{ end }}
+        {{ end }}
+
     </div>
-</div>
 
-<div class="work-nav">
-    <div class="navigation-inner small-container inline-gap">
-        <div class="navigation-items">
+    <div class="work-nav inline-gap">
+        <div class="small-container">
+            <div class="navigation-inner">
+                <div class="navigation-items">
 
-            <a class="previous-item navigation-item no-hover no-line {{ if not .NextInSection }}navigation-item-disabled{{ end }}"
-                {{ if .NextInSection }}href="{{ .NextInSection.RelPermalink }}" {{ end }}>
-                {{- partial "icons/arrow-left.html" . -}}
-                <span class="navigation-label">
-                    {{ T "prev-work-link" }}
-                </span>
-            </a>
+                    <a class="previous-item navigation-item no-hover no-line {{ if not .NextInSection }}navigation-item-disabled{{ end }}"
+                        {{ if .NextInSection }}href="{{ .NextInSection.RelPermalink }}" {{ end }}>
+                        {{- partial "icons/arrow-left.html" . -}}
+                        <span class="navigation-label">
+                            {{ T "prev-work-link" }}
+                        </span>
+                    </a>
 
-            <a class="next-item navigation-item no-hover no-line {{ if not .PrevInSection }}navigation-item-disabled{{ end }}"
-                {{ if .PrevInSection }}href="{{ .PrevInSection.RelPermalink }}" {{ end }}>
-                <span class="navigation-label">
-                    {{ T "next-work-link" }}
-                </span>
-                {{- partial "icons/arrow-left.html" . -}}
-            </a>
+                    <a class="next-item navigation-item no-hover no-line {{ if not .PrevInSection }}navigation-item-disabled{{ end }}"
+                        {{ if .PrevInSection }}href="{{ .PrevInSection.RelPermalink }}" {{ end }}>
+                        <span class="navigation-label">
+                            {{ T "next-work-link" }}
+                        </span>
+                        {{- partial "icons/arrow-left.html" . -}}
+                    </a>
 
-            <a class="btn portfolio-button no-hover" href="{{ .CurrentSection.RelPermalink }}">
-                <span>
-                    {{ T "portfolio-link" }}
-                </span>
-            </a>
+                    <a class="btn portfolio-button no-hover" href="{{ .CurrentSection.RelPermalink }}">
+                        <span>
+                            {{ T "portfolio-link" }}
+                        </span>
+                    </a>
 
+                </div>
+            </div>
         </div>
     </div>
 </div>

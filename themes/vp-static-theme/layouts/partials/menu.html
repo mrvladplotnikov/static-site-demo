@@ -12,6 +12,7 @@
 {{- define "partials/inline/menu/walk.html" }}
 {{- $page := .page }}
 {{- range .menuEntries }}
+{{- if not (strings.Contains .Params.rel "external") }}
 {{- $attrs := dict "href" .URL }}
 {{- if $page.IsMenuCurrent .Menu . }}
 {{- $attrs = merge $attrs (dict "class" "active" "aria-current" "page") }}
@@ -39,6 +40,7 @@
         {{ $name }}
     </a>
 </li>
+{{- end }}
 {{- end }}
 {{- end }}
 {{- end }}

@@ -9,6 +9,9 @@
     "service": "services"
   },
   "defaultContentLanguage": "uk",
+  "params": {
+    "email": "connect@vp-production.com"
+  },
   "languages": {
     "uk": {
       "contentDir": "content/uk",
@@ -69,6 +72,15 @@
             "name": "Відгуки",
             "pageRef": "/reviews",
             "weight": 60
+          },
+          {
+            "name": "Прес-кит",
+            "params": {
+              "rel": "external noopener noreferrer nofollow",
+              "target": "_blank"
+            },
+            "url": "https://docs.google.com/document/d/1CiDkZd-EZTz4aClMsCKkoAbuxfearfxthOkynZxPSQo/edit?usp=sharing",
+            "weight": 70
           }
         ]
       },

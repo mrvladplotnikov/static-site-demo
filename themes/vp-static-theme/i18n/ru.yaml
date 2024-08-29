@@ -1,0 +1,47 @@
+portfolio: Портфолио
+categories:
+  one: Категория
+  other: Категории
+services:
+  one: Услуга
+  other: Услуги
+genres: 
+  one: Жанр
+  other: Жанры
+platforms:
+  one: Платформа
+  other: Платформы
+developers: 
+  one: Разработчик
+  other: Разработчики
+contributors: Работа над проектом
+prev-work-link: Предыдущая работа
+next-work-link: Наступна робота
+portfolio-link: Вернуться в портфолио
+reviews-label: Отзыв клиента
+more: Больше
+reset-filter: Сбросить фильтры
+about: О нас
+about-description: Мы — украинское аудиоагентство, которое создает знаковое звучание для игр, брендов и приложений. Мы разрабатываем уникальное аудио, чтобы помочь нашим клиентам запечатлеть их образ в головах и сердцах аудитории.
+music-composing: Создание музыки
+audio-branding: Аудиобрендинг
+sound-design: Звуковой дизайн
+voice-casting: Голосовое звучание
+our-services: Наши услуги
+featured-works: Избранные работы
+our-values: Наши ценности
+our-values-big-text: Мы помогаем продуктам стать важной частью их пользователей.
+reviews: Отзывы
+press-kit: Пресс-кит
+our-works: Наши работы
+language-list: Список языков
+
+home-page-link: Главная страница
+nav-menu-button: Кнопка навигационного меню сайта
+mobile-menu-dialog: Меню навигации по сайту
+
+free-consultation: бесплатную консультацию
+
+contact-section-title: Напишите нам
+contact-section-description-start: Расскажите нам о своем проекте, продукте или идее. Спросите совет или получите полноценный
+contact-section-description-end: Узнайте стоимость, уточните важный вопрос и что угодно! Мы будем рады познакомиться с вами и помочь.

@@ -1,36 +1,35 @@
 <footer class="footer">
     <div class="container inline-gap">
-        <div class="footer-columns">
-            <div class="footer-column">
-                <div>
-                    <a class="footer-logo-link" href={{ relLangURL "/" }}>
-                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzYiIGhlaWdodD0iNzAiIHZpZXdCb3g9IjAgMCA3NiA3MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTc1IDAuNTc2MjA4TDcxLjYzODQgNy41NzA5NEw3MS42MzgxIDcuNTcxNTJMNTkuMjg3IDM0LjA3NjNWMzQuMDc2NEw1Ni4wNDYxIDQxLjA2NTVINDUuNDQwM0g0NS40MDQ5TDQ1LjM4OTcgNDEuMDk4M0wzNi40OTQ3IDYwLjE4OThMMzYuNDk0MiA2MC4xOTA4TDM2LjMxMjggNjAuNTk5NUwzNi4zMTIzIDYwLjYwMDZMMzIuNjM0NCA2OC41TDEgMC41MzkzNzRMOC42MDYyNCAwLjU1NzczM0wzMi41ODM5IDUxLjg1ODFMMzIuNjM0NCA1MS45NjYzTDMyLjY4NSA1MS44NTgxTDM3LjY4NzMgNDEuMTY2OVY0MS4xNjY4TDQwLjk2NDQgMzQuMTQwM0g0OC43MTQ1SDUxLjU1MjJINTEuNTg3Nkw1MS42MDI4IDM0LjEwNzZMNjMuOTkwMyA3LjYwMjkyTDY0LjAyODcgNy41MjA3MUw2My45NDAxIDcuNTIwMTRMNjEuMDQ3OSA3LjUwMTU1SDYxLjA0NzZINTMuNDIzOEw1Ni42NDQ1IDAuNTM5MjU4TDY0LjMzOTggMC41NTc3MzNMNjQuMzM5OSAwLjVMNjQuMzM5OCAwLjU1NzczM0w3NSAwLjU3NjIwOFoiIGZpbGw9IiM3NDc0NzQiIHN0cm9rZT0iYmxhY2siLz4KPC9zdmc+Cg=="
-                            class="footer-logo" alt="Студія звукового дизайну VP Production" loading="lazy" width="76"
-                            height="70">
+        <div class="footer-group">
+            <ul class="footer-soc-links" role="list">
+                {{- range .Site.Data.SocialLinks }}
+                <li>
+                    <a class="footer-soc-link no-external-icon no-hover" target="_blank"
+                        rel="noopener noreferrer nofollow" href="{{ .link }}" title="{{ .title }}">
+                        {{ $path := printf "icons/%s-icon.html" .icon }}
+                        {{- partial $path . -}}
                     </a>
-                </div>
-                <div>
-                    <ul class="footer-soc-links">
-                        {{- range .Site.Data.SocialLinks }}
-                        <li>
-                            <a class="footer-soc-link no-external-icon no-hover" target="_blank"
-                                rel="noopener noreferrer nofollow" href="{{ .link }}" title="{{ .title }}">
-                                {{ $path := printf "icons/%s-icon.html" .icon }}
-                                {{- partial $path . -}}
-                            </a>
-                        </li>
-                        {{- end }}
-                    </ul>
-                    <a class="footer-privacyPolicy-link" href={{ relLangURL "privacy-policy" }}>Privacy Policy</a>
-                </div>
-            </div>
-            <div class="footer-column">
-                <div class="footer-title">Change The Record</div>
-                <div class="footer-sub-title">all rights reserved © VP Production. <span data-current-year>2000</span>
-                </div>
-            </div>
-            <div class="footer-column">
+                </li>
+                {{- end }}
+            </ul>
 
+            <a rel="privacy-policy" class="footer-privacyPolicy-link" href={{ relLangURL "privacy-policy" }}>
+                Privacy Policy
+            </a>
+        </div>
+
+        <div class="footer-group">
+            <a class="footer-logo-link" href={{ relLangURL "/" }}>
+                <img src="/images/monochrom-logo.svg" class="footer-logo" alt="Студія звукового дизайну VP Production"
+                    loading="lazy" width="47" height="43">
+            </a>
+        </div>
+
+        <div class="footer-group">
+            <div class="footer-title">Change The Record</div>
+            <div class="footer-sub-title">
+                all rights reserved © VP Production.
+                <span data-current-year>2000</span>
             </div>
         </div>
     </div>
