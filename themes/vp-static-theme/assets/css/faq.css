@@ -1,27 +1,20 @@
-.vp-details .list-number {
-    display: none;
-}
-
 .box-image {
     display: none;
 }
 
 .faq-content h2 {
-    margin-top: 42px;
-    margin-bottom: 20px;
+    margin-block-start: 2.625rem;
+    margin-block-end: 2.1875rem;
 }
 
-@media (min-width: 576px) {
 
-    .headline-questions {
-        font-size: 40px;
-        font-weight: 700;
-    }
+.vp-details .list-number {
+    display: none;
 }
 
 @media (min-width: 768px) {
     .vp-details .label {
-        padding-left: 50px;
+        padding-inline-start: 50px;
         position: relative;
     }
 
@@ -34,15 +27,11 @@
         height: 1em;
         width: 1em;
     }
-
-    .headline-questions {
-        font-size: 56px;
-    }
 }
 
 @media (min-width: 992px) {
     .vp-details .label {
-        padding-left: 65px;
+        padding-inline-start: 4.0625rem;
     }
 
     .vp-details .label::before {
@@ -66,12 +55,8 @@
     }
 
     .faq-content h2 {
-        margin-top: 128px;
-        margin-bottom: 44px;
+        margin-top: 8rem;
+        margin-bottom: 2.75rem;
     }
 
-
-    .headline-questions {
-        font-size: 70px;
-    }
 }

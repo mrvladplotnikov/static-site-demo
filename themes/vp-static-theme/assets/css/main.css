@@ -1387,19 +1387,7 @@ body.modal-open {
 
 
 /* Details shortcode start */
-.vp-details summary {
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  position: relative;
-  padding-top: 18px;
-  padding-bottom: 18px;
-
-  font-weight: 700;
-}
-
 .vp-details {
-
   border-bottom: 1px solid var(--clr-grey);
 }
 
@@ -1407,10 +1395,14 @@ body.modal-open {
   border-top: 1px solid var(--clr-grey);
 }
 
-.vp-details summary .label {
-  font-size: 1.125rem;
+.vp-details summary {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  padding-block: 1.125rem;
+
   font-weight: 700;
-  flex-grow: 1;
 }
 
 .vp-details summary::after {
@@ -1429,6 +1421,15 @@ body.modal-open {
   border-bottom: 1px solid #585858;
 }
 
+.vp-details summary .label {
+  font-size: 1.125rem;
+  font-weight: 700;
+  flex-grow: 1;
+  color: var(--clr-white);
+  line-height: 1.2;
+  margin-inline-end: 1rem;
+}
+
 .vp-details summary .list-number {
   margin-right: .9375rem;
   font-size: 1.375rem;
@@ -1439,7 +1440,17 @@ body.modal-open {
 }
 
 .vp-details .answer {
-  padding: 15px 35px;
+  padding: 1rem 0;
+  margin-block-end: 0;
+  font-size: var(--fz-regular);
+  font-weight: var(--fw-light);
+}
+
+.vp-details .answer p:first-child {
+  margin-block-start: 0;
+}
+
+.vp-details .answer p:last-child {
   margin-block-end: 0;
 }
 
@@ -1449,13 +1460,20 @@ body.modal-open {
   list-style: inside;
 }
 
-@media (min-width: 992px) {
+
+@media (min-width: 1080px) {
+  .vp-details .answer {
+    font-size: 1.125rem;
+  }
+}
+
+@media (min-width: 1570px) {
   .vp-details summary {
     padding: 2.3125em 1.875em;
   }
 
   .vp-details summary .label {
-    font-size: 32px;
+    font-size: 2rem;
   }
 
   .vp-details summary .list-number {
@@ -1463,7 +1481,8 @@ body.modal-open {
   }
 
   .vp-details .answer {
-    padding: 2.3125em 6.25em;
+    padding-block: 2.3125em;
+    font-size: 1.375rem;
   }
 }
 
@@ -1807,18 +1826,18 @@ body.modal-open {
 /* top-space-medium start */
 
 .top-space-medium {
-  margin-top: 81px;
+  margin-top: 6rem;
 }
 
 @media (min-width: 768px) {
   .top-space-medium {
-    margin-top: 146px;
+    margin-top: 9.125rem;
   }
 }
 
 @media (min-width: 992px) {
   .top-space-medium {
-    margin-top: 216px;
+    margin-top: 12.25rem;
   }
 }
 

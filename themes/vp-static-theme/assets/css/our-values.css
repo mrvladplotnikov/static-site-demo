@@ -2,6 +2,7 @@
 .first-section {
     position: relative;
     padding-block: 145px;
+    color: var(--clr-white);
 }
 
 .first-section .values-title {

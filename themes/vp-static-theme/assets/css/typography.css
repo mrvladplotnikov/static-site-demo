@@ -10,8 +10,7 @@ body {
     line-height: 1.5;
 }
 
-body p,
-.vp-details .answer {
+body p {
     font-size: var(--fz-regular);
     font-weight: var(--fw-light);
     margin-block-start: 1em;

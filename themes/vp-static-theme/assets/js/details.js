@@ -2,7 +2,6 @@ const summary = document.querySelectorAll('summary');
 
 summary.forEach((summaryEl) => {
     summaryEl.addEventListener('click', closeOpenedDetails);
-
 });
 
 function closeOpenedDetails() {
