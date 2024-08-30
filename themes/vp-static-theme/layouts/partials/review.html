@@ -1,36 +1,41 @@
-<li class="review-content {{ .className }}">
-    <div class="person">
-        <a href="{{ .context.Params.link }}" class="no-external-icon no-line no-hover">
-            <img src="{{ .context.Params.image }}" alt="{{ .context.Title }}" loading="lazy">
-            <h3>{{ .context.Title }}, {{ .context.Params.position }}</h3>
-        </a>
-        <h4>{{ .context.Params.company }}</h4>
-    </div>
-    <blockquote class="review-text">
-        {{- if or (in (string .context.RawContent) "\n\n") (in (string .context.RawContent) "\r\n\r\n") }}
-        {{ .context.Summary }}
+<div class="review-item">
+    <a class="review-item-image no-external-icon no-line no-hover" href="{{ .Params.link }}" target="_blank"
+        rel="noopener noreferrer nofollow">
+        <img src="{{ .Params.image }}" width="171" height="171" alt="{{ .Title }}" loading="lazy">
+    </a>
+
+    <a class="review-item-title no-external-icon no-line no-hover" href="{{ .Params.link }}" target="_blank"
+        rel="noopener noreferrer nofollow">
+        <h3>{{ .Title }}, {{ .Params.position }}</h3>
+    </a>
+
+    <h4 class="review-item-company">{{ .Params.company }}</h4>
+
+    <div class="review-text">
+        {{- if or (in (string .RawContent) "\n\n") (in (string .RawContent) "\r\n\r\n") }}
+        {{ .Summary }}
         {{- else }}
-        <p>{{ .context.Summary }}</p>
+        <p>{{ .Summary }}</p>
         {{- end }}
-        {{- if .context.Truncated }}
-        {{- $modalID := replace .context.Title " " "_" | lower -}}
+        {{- if .Truncated }}
+        {{- $modalID := replace .Title " " "_" | lower -}}
         <button class="review-text-more vp-hover" data-modal-id="{{ $modalID }}">
             {{ T "more"}}
         </button>
 
-        <div class="review-modal hidden" data-modal="{{ $modalID }}">
-            <div class="review-modal-content">
-                <button data-modal-close="{{ $modalID }}" class="review-modal-btn" type="button">
+        <div class="modal hidden" data-modal="{{ $modalID }}">
+            <div class="modal-content">
+                <button data-modal-close="{{ $modalID }}" class="modal-close-button" type="button">
                     {{- partial "icons/close-icon.html" -}}
                 </button>
 
-                <div class="review-modal-text">
-                    {{ .context.Content }}
-                    <h3>{{ .context.Title }}, {{ .context.Params.position }}</h3>
-                    <h4>{{ .context.Params.company }}</h4>
+                <div class="modal-text">
+                    {{ .Content }}
+                    <h3>{{ .Title }}, {{ .Params.position }}</h3>
+                    <h4>{{ .Params.company }}</h4>
                 </div>
             </div>
         </div>
         {{- end }}
-    </blockquote>
-</li>
+    </div>
+</div>

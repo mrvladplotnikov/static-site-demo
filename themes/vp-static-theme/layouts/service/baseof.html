@@ -71,7 +71,7 @@
         <div class="slider">
           <ul class="swiper-wrapper">
             {{ range first 10 . }}
-            {{- partial "review.html" (dict "context" . "className" "swiper-slide") -}}
+            <li class="swiper-slide">{{- partial "review.html" . -}}</li>
             {{ end }}
           </ul>
         </div>

@@ -1,0 +1,12 @@
+{{ $r := slice (first .n .s) }}
+
+{{ $t := slice }}
+{{ range $k, $_ := .s | after .n }}
+{{ $t = $t | append . }}
+{{ if or (math.ModBool (add $k 1) $.n) (eq (add $k $.n 1) (len $.s)) }}
+{{ $r = $r | append $t }}
+{{ $t = slice }}
+{{ end }}
+{{ end }}
+
+{{ return $r }}

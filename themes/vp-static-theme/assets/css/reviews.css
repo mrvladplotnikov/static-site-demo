@@ -2,6 +2,19 @@
     display: none;
 }
 
+.slider svg {
+    color: var(--clr-white);
+}
+
+.grid-item {
+    border: none;
+    cursor: pointer;
+}
+
+.grid-item img {
+    height: auto;
+}
+
 @media (min-width: 992px) {
     .box-image {
         display: block;

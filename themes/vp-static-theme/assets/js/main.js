@@ -15,9 +15,8 @@ const clickOutside = (element, event) => {
 
 /**
  * @param {Element | null} target - button element should have "aria-expanded" attribute
- * @param {[string, string]} targetLabel - target aria-label values [0] for open state [1] for closed state
  */
-const dialogHandler = (target, targetLabel) => {
+const dialogHandler = (target) => {
   if (!target) throw Error("Cannot find target element");
 
   const container = document.getElementById(target.getAttribute("aria-controls"));
@@ -27,7 +26,6 @@ const dialogHandler = (target, targetLabel) => {
   const openDialog = () => {
     target.classList.add("open");
     target.setAttribute("aria-expanded", true);
-    target.setAttribute("aria-label", targetLabel[1]);
 
     container.classList.add("open");
     container.removeAttribute("inert");
@@ -42,12 +40,14 @@ const dialogHandler = (target, targetLabel) => {
   const closeDialog = () => {
     target.classList.remove("open");
     target.setAttribute("aria-expanded", false);
-    target.setAttribute("aria-label", targetLabel[0]);
 
     container.classList.remove("open");
     container.setAttribute("inert", true);
 
     document.querySelector("body").classList.remove('modal-open');
+
+    console.log('closeDialog');
+
   };
 
   target.addEventListener("click", function (ev) {
@@ -67,8 +67,9 @@ const dialogHandler = (target, targetLabel) => {
   document.body.addEventListener('click', ev => {
     ev.stopPropagation();
     const isClickedOutsideContainer = clickOutside(container, ev);
+    const isDialogOpen = target.classList.contains("open");
 
-    if (isClickedOutsideContainer && ev.target !== target) {
+    if (isClickedOutsideContainer && isDialogOpen && ev.target !== target) {
       closeDialog();
     }
   });
@@ -79,10 +80,7 @@ const findMobileMenuDialog = () => {
 
   if (!button) return;
 
-  dialogHandler(
-    button,
-    ["Відкрити навігаційне меню сайту", "Закрити навігаційне меню сайту"]
-  );
+  dialogHandler(button);
 }
 
 /**
@@ -163,7 +161,6 @@ const modals = () => {
       const modalID = button.dataset.modalId;
       const modalContent = document.querySelector(`[data-modal="${modalID}"]`);
 
-
       if (!modalContent || !modalRoot) {
         return;
       }
@@ -172,8 +169,10 @@ const modals = () => {
 
       content.querySelector("[data-modal-close]").addEventListener("click", () => {
         modalRoot.replaceChildren();
+        document.querySelector("body").classList.remove("modal-open");
       });
 
+      document.querySelector("body").classList.add("modal-open");
       content.classList.remove("hidden");
       modalRoot.replaceChildren(content);
     })

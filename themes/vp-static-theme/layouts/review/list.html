@@ -1,9 +1,11 @@
 {{- define "cssbeforemain" }}
-<link rel="stylesheet" href="/css/swiper-bundle.min.css" />
+{{ with resources.Get "css/swiper-bundle.min.css" }}
+<link rel="stylesheet" href="{{ .RelPermalink }}" />
+{{ end }}
 {{- end }}
 
 {{ define "css" }}
-{{ with resources.Get "css/reviews-page.css" }}
+{{ with resources.Get "css/reviews.css" }}
 {{- partial "css.html" . -}}
 {{ end }}
 {{ end }}
@@ -11,32 +13,63 @@
 {{- define "main" }}
 {{- partial "horizontal-nav.html" . -}}
 {{- partial "mobile-nav.html" . -}}
+<div class="inline-gap top-space-medium">
+    <div class="small-container">
+        <h1 class="page-title-large">{{ .Title }}</h1>
 
-<div class="inline-gap small-container top-space-medium">
-    <h1 class="page-title-large">{{ .Title }}</h1>
-    <img height="138px" width="148px" class="box-image box-image-first" src="/images/faq/box-with-icons.svg" alt=""
-        role="presentation" aria-hidden="true" loading="lazy">
-    <img height="138px" width="148px" class="box-image box-image-second" src="/images/faq/box-with-icons.svg" alt=""
-        role="presentation" aria-hidden="true" loading="lazy">
-    <div class="clients-section">
-        <h2>Відгуки клієнтів і партнерів</h2>
-
-        {{ with .Pages }}
-        <div class="slider">
-            <ul class="swiper-wrapper">
-                {{ range first 10 . }}
-                {{- partial "review.html" (dict "context" . "className" "swiper-slide") -}}
-                {{ end }}
-            </ul>
-        </div>
-        {{- partial "arrow-button.html" . -}}
-        {{ end }}
+        <img height="138px" width="148px" class="box-image box-image-first" src="/images/faq/box-with-icons.svg" alt=""
+            aria-hidden="true" loading="lazy">
+        <img height="138px" width="148px" class="box-image box-image-second" src="/images/faq/box-with-icons.svg" alt=""
+            aria-hidden="true" loading="lazy">
     </div>
-    <div class="listeners-section">
+
+    {{- with .Pages }}
+    <div class="small-container">
+        <div class="clients-section">
+            <h2>Відгуки клієнтів і партнерів</h2>
+
+            {{- $result := partial "convert-slice-to-slice-of-slices.html" (dict "s" . "n" 10) -}}
+
+            {{- range $result }}
+            <div class="slider">
+                <ul class="swiper-wrapper">
+                    {{ range . }}
+                    <li class="swiper-slide">
+                        {{- partial "review.html" . -}}
+                    </li>
+                    {{ end }}
+                </ul>
+                {{- partial "arrow-button.html" . -}}
+            </div>
+            {{- end }}
+        </div>
+    </div>
+    {{- end }}
+
+    {{- with resources.Match "images/listeners-reviews/*" }}
+    <div class="small-container">
         <h2>Відгуки слухачів</h2>
     </div>
-</div>
 
+    <div class="grid">
+        {{ range . }}
+        {{- $modalID := .RelPermalink -}}
+
+        <button class="grid-item" type="button" data-review-modal-id="{{ $modalID }}">
+            <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" loading="lazy" alt="">
+        </button>
+        {{ end }}
+    </div>
+    {{- end }}
+
+    <div class="modal hidden" data-review-modal="">
+        <div class="modal-content">
+            <button data-modal-close="" class="modal-close-button" type="button">
+                {{- partial "icons/close-icon.html" -}}
+            </button>
+        </div>
+    </div>
+</div>
 {{- end }}
 
 {{- define "jsbeforemain" }}
@@ -46,6 +79,9 @@
 {{- end }}
 {{ define "js" }}
 {{ with resources.Get "js/slider.js" }}
+{{- partial "js.html" . -}}
+{{ end }}
+{{ with resources.Get "js/reviews.js" }}
 {{- partial "js.html" . -}}
 {{ end }}
 {{ end }}

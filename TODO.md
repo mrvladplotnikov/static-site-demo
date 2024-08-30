@@ -8,7 +8,7 @@
 - [ ] change youtube player
 - [ ] add scroll to id on faq page
 - [x] fix vp icons on our values page
-- [ ] add Listeners' reviews
+- [x] add Listeners' reviews
 - [ ] sync seo attrs
 - [ ] hide contact us section on few pages
 - [ ] update ru pages  

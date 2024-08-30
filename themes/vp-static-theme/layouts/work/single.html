@@ -97,7 +97,7 @@
         <div class="work-review review">
             <h2 class="section-title">{{ T "reviews-label" }}</h2>
             {{ range first 1 (where .Pages "Params.project" "eq" $projectTitle) }}
-            {{- partial "review.html" (dict "context" . "className" "") -}}
+            {{- partial "review.html" . -}}
             {{ end }}
         </div>
         {{ end }}
