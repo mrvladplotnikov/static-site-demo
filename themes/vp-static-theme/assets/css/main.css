@@ -1469,7 +1469,7 @@ body.modal-open {
 
 @media (min-width: 1570px) {
   .vp-details summary {
-    padding: 2.3125em 1.875em;
+    padding: 1rem 1.875em;
   }
 
   .vp-details summary .label {
@@ -1481,7 +1481,7 @@ body.modal-open {
   }
 
   .vp-details .answer {
-    padding-block: 2.3125em;
+    padding-block: 2rem;
     font-size: 1.375rem;
   }
 }

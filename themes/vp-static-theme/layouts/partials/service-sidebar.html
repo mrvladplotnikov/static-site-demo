@@ -1,11 +1,13 @@
-<aside class="sidebar sidebar-audio-branding">
-    <h1 class="audio-sidebar-title">{{ .title }}</h1>
-    <figure>
-        <blockquote class="sidebar-blockquote">
-            {{ .quote }}
-        </blockquote>
-    </figure>
-    <figcaption class="sidebar-author">
-        <cite>{{ .author }}</cite>
-    </figcaption>
+<aside class="sidebar inline-gap {{ .className }}">
+    <div class="small-container">
+        <h1 class="sidebar-title">{{ .title }}</h1>
+        <figure>
+            <blockquote class="sidebar-blockquote">
+                {{ .quote }}
+            </blockquote>
+            <figcaption class="sidebar-author">
+                <cite>{{ .author }}</cite>
+            </figcaption>
+        </figure>
+    </div>
 </aside>

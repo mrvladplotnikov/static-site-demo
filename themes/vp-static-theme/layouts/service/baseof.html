@@ -36,52 +36,53 @@
 </head>
 
 <body>
-
-  {{- partial "horizontal-nav.html" . -}}
   {{- partial "mobile-nav.html" . -}}
 
-  <div class="audio-inner top-space service-page-content">
+  <div class="service-page">
     {{- block "sidebar" . }}{{ end -}}
 
-    <div class="audio-content small-container inline-gap">
-      <div class="audio-top-content-inside">
-        <img class="box-image box-top-left" src="/images/services/box-with-dots.svg" alt="" role="presentation"
-          aria-hidden="true">
-        <img class="box-image box-top-right" src="/images/services/box-with-dots.svg" alt="" role="presentation"
-          aria-hidden="true">
-        <img class="box-image box-bottom-left" src="/images/services/box-with-dots.svg" alt="" role="presentation"
-          aria-hidden="true">
-        <img class="box-image box-bottom-right" src="/images/services/box-with-dots.svg" alt="" role="presentation"
-          aria-hidden="true">
+    <div class="first-section inline-gap">
+      <div class="small-container">
+        <img class="box-image box-top-left" src="/images/services/box-with-dots.svg" alt="" aria-hidden="true">
+        <img class="box-image box-top-right" src="/images/services/box-with-dots.svg" alt="" aria-hidden="true">
+        <img class="box-image box-bottom-left" src="/images/services/box-with-dots.svg" alt="" aria-hidden="true">
+        <img class="box-image box-bottom-right" src="/images/services/box-with-dots.svg" alt="" aria-hidden="true">
+
         {{- block "heading" . }}{{ end -}}
       </div>
     </div>
 
-    <div class="audio-content small-container inline-gap service-page-sections">
-      {{- block "main" . }}{{ end -}}
+    {{- block "main" . }}{{ end -}}
 
-      {{- $serviceName := slice .File.ContentBaseName -}}
 
-      {{- $reviews := where .Site.RegularPages ".Type" "review" -}}
-      {{- $serviceReviews := where $reviews "Params.services" "intersect" $serviceName -}}
+    {{- $serviceName := slice .File.ContentBaseName -}}
 
-      {{- with $serviceReviews }}
-      <div class="service-section">
+    {{- $reviews := where .Site.RegularPages ".Type" "review" -}}
+    {{- $serviceReviews := where $reviews "Params.services" "intersect" $serviceName -}}
+
+    {{- with $serviceReviews }}
+    <div class="service-section inline-gap">
+      <div class="container">
         <h2>Відгуки клієнтів</h2>
+      </div>
+
+      <div class="small-container">
         <div class="slider">
           <ul class="swiper-wrapper">
             {{ range first 10 . }}
             <li class="swiper-slide">{{- partial "review.html" . -}}</li>
             {{ end }}
           </ul>
+          {{- partial "arrow-button.html" . -}}
         </div>
-        {{- partial "arrow-button.html" . -}}
       </div>
-      {{- end }}
-
-      {{- partial "contact-us-email.html" . -}}
-      {{- partial "footer.html" . -}}
     </div>
+    {{- end }}
+
+
+    {{- partial "contact-us-email.html" . -}}
+
+    {{- partial "footer.html" . -}}
   </div>
 
   <div data-modal-root=""></div>
