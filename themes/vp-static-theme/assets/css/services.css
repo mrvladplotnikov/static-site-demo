@@ -3,6 +3,10 @@
     background-color: transparent;
 }
 
+.mobile-menu .mobile-menu-logo {
+    display: none;
+}
+
 .service-page {
     display: block;
 }

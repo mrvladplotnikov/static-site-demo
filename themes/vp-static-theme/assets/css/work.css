@@ -74,7 +74,17 @@
     }
 }
 
+@media (min-width: 1080px) {
+    .work-metadata {
+        grid-template-columns: 1fr 250px;
+    }
+}
+
 @media (min-width: 1570px) {
+    .work-metadata {
+        grid-template-columns: 1fr 470px;
+    }
+
     .work-metadata .work-taxonomies {
         font-size: 1.375rem;
     }
