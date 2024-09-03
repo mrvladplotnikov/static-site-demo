@@ -1,5 +1,5 @@
 {
-  "baseURL": "https://vp-production.com",
+  "baseURL": "http://localhost",
   "title": "VP Production",
   "theme": "vp-static-theme",
   "disableKinds": [
