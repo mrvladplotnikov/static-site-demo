@@ -1,1 +1,1 @@
-#Static site repo for VP Production
+#Static site demo
