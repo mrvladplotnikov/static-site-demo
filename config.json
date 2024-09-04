@@ -2,6 +2,7 @@
   "baseURL": "http://localhost",
   "title": "VP Production",
   "theme": "vp-static-theme",
+  "canonifyURLs": true,
   "disableKinds": [
     "rss"
   ],
