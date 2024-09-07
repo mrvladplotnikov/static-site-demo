@@ -1403,6 +1403,8 @@ body.modal-open {
   padding-block: 1.125rem;
 
   font-weight: 700;
+
+  scroll-margin-top: calc(1.125rem + 4.2em);
 }
 
 .vp-details summary::after {
@@ -1431,7 +1433,7 @@ body.modal-open {
 }
 
 .vp-details summary .list-number {
-  margin-right: .9375rem;
+  margin-inline-end: .9375rem;
   font-size: 1.375rem;
   background: var(--gradient);
   -webkit-text-fill-color: transparent;
@@ -1462,6 +1464,10 @@ body.modal-open {
 
 
 @media (min-width: 1080px) {
+  .vp-details summary {
+    scroll-margin-top: calc(1.125rem + 5em);
+  }
+
   .vp-details .answer {
     font-size: 1.125rem;
   }
@@ -1469,7 +1475,7 @@ body.modal-open {
 
 @media (min-width: 1570px) {
   .vp-details summary {
-    padding: 1rem 1.875em;
+    padding: 2rem 1.875em;
   }
 
   .vp-details summary .label {
@@ -1477,7 +1483,7 @@ body.modal-open {
   }
 
   .vp-details summary .list-number {
-    font-size: 3.75rem;
+    font-size: 2.5rem;
   }
 
   .vp-details .answer {

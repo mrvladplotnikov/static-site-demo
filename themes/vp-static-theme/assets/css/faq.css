@@ -7,7 +7,6 @@
     margin-block-end: 2.1875rem;
 }
 
-
 .vp-details .list-number {
     display: none;
 }
@@ -35,7 +34,7 @@
     }
 
     .vp-details .label::before {
-        top: 7px;
+        top: 3px;
         left: 10px;
     }
 
