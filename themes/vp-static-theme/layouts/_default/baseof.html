@@ -21,8 +21,10 @@
 <body>
   {{- block "main" . }}{{ end -}}
 
+  {{- block "footer" . }}
   {{- partial "contact-us-email.html" . -}}
   {{- partial "footer.html" . -}}
+  {{ end -}}
 
   <div data-modal-root=""></div>
 </body>

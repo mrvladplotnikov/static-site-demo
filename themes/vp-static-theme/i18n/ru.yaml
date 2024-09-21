@@ -5,13 +5,13 @@ categories:
 services:
   one: Услуга
   other: Услуги
-genres: 
+genres:
   one: Жанр
   other: Жанры
 platforms:
   one: Платформа
   other: Платформы
-developers: 
+developers:
   one: Разработчик
   other: Разработчики
 contributors: Работа над проектом
@@ -43,5 +43,4 @@ mobile-menu-dialog: Меню навигации по сайту
 free-consultation: бесплатную консультацию
 
 contact-section-title: Напишите нам
-contact-section-description-start: Расскажите нам о своем проекте, продукте или идее. Спросите совет или получите полноценный
-contact-section-description-end: Узнайте стоимость, уточните важный вопрос и что угодно! Мы будем рады познакомиться с вами и помочь.
+contact-section-description-start: Расскажите нам о своем проекте, продукте или идее. Спросите совет или получите полноценную бесплатную консультацию. Узнайте стоимость, уточните важный вопрос и что угодно! Мы будем рады познакомиться с вами и помочь.

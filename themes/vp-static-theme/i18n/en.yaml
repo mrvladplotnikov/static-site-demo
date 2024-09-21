@@ -5,13 +5,13 @@ categories:
 services:
   one: Service
   other: Services
-genres: 
+genres:
   one: Genre
   other: Genres
 platforms:
   one: Platform
   other: Platforms
-developers: 
+developers:
   one: Developer
   other: Developers
 contributors: Work on the project
@@ -43,5 +43,4 @@ mobile-menu-dialog: Navigation menu
 free-consultation: free consultation
 
 contact-section-title: Write to us
-contact-section-description-start: Tell us about your project, product, or idea. Ask for advice, or get a full
-contact-section-description-end: Find out the rates, clarify a vital question, well anything you want! We will be happy to get to know you and help.
+contact-section-description: Tell us about your project, product, or idea. Ask for advice, or get a full free consultation. Find out the rates, clarify a vital question, well anything you want! We will be happy to get to know you and help.
