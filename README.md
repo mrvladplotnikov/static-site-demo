@@ -1,1 +1,1 @@
-#Static site demo
+# Static site demo

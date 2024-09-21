@@ -8,9 +8,23 @@
 {{- partial "horizontal-nav.html" . -}}
 {{- partial "mobile-nav.html" . -}}
 
-<div class="top-space-medium">
+{{- if .Params.workVimeoID }}
+<div class="work-video-bg-container">
+    <div class="work-video-bg">
+      <iframe
+        src="https://player.vimeo.com/video/{{- .Params.workVimeoID -}}?background=1&autoplay=1&loop=1&byline=0&title=0"
+        frameBorder="0"
+        allowFullScreen
+        title="{{ .Title }} - video bg"
+      ></iframe>
+    </div>
+  </div>
+{{- end }}
+
+<div>
     <div class="small-container inline-gap">
-        <div class="work-metadata">
+        {{- if not .Params.workVimeoID }}
+        <div class="work-metadata top-space-medium">
             <ul class="work-taxonomies" role="list">
                 {{ with .GetTerms "services" }}
                 <li>
@@ -86,6 +100,11 @@
 
             <h1 class="section-title work-title">{{ .Title }}</h1>
         </div>
+        {{- end }}
+
+        {{- if .Params.workVimeoID }}
+        <h1 class="section-title work-title">{{ .Title }}</h1>
+        {{- end }}
 
         <div class="work-content">
             {{- .Content -}}
