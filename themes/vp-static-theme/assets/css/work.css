@@ -307,17 +307,20 @@
         padding-block: 3.75rem;
     }
 
+    .navigation-items {
+        align-items: center;
+    }
+
     .navigation-item svg {
         max-width: 2.625rem;
     }
 
-    .previous-item,
-    .next-item {
+    .navigation-label {
         font-size: 1.375rem;
     }
 
     .portfolio-button {
-        font-size: 1.25rem
+        font-size: 1.25rem;
     }
 }
 

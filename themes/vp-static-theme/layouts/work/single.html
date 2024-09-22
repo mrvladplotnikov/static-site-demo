@@ -11,14 +11,11 @@
 {{- if .Params.workVimeoID }}
 <div class="work-video-bg-container">
     <div class="work-video-bg">
-      <iframe
-        src="https://player.vimeo.com/video/{{- .Params.workVimeoID -}}?background=1&autoplay=1&loop=1&byline=0&title=0"
-        frameBorder="0"
-        allowFullScreen
-        title="{{ .Title }} - video bg"
-      ></iframe>
+        <iframe
+            src="https://player.vimeo.com/video/{{- .Params.workVimeoID -}}?background=1&autoplay=1&loop=1&byline=0&title=0"
+            frameBorder="0" allowFullScreen title="{{ .Title }} - video bg"></iframe>
     </div>
-  </div>
+</div>
 {{- end }}
 
 <div>
@@ -126,33 +123,33 @@
 
     <div class="work-nav inline-gap">
         <div class="small-container">
-            <div class="navigation-inner">
-                <div class="navigation-items">
 
-                    <a class="previous-item navigation-item no-hover no-line {{ if not .NextInSection }}navigation-item-disabled{{ end }}"
-                        {{ if .NextInSection }}href="{{ .NextInSection.RelPermalink }}" {{ end }}>
-                        {{- partial "icons/arrow-left.html" . -}}
-                        <span class="navigation-label">
-                            {{ T "prev-work-link" }}
-                        </span>
-                    </a>
+            <div class="navigation-items">
 
-                    <a class="next-item navigation-item no-hover no-line {{ if not .PrevInSection }}navigation-item-disabled{{ end }}"
-                        {{ if .PrevInSection }}href="{{ .PrevInSection.RelPermalink }}" {{ end }}>
-                        <span class="navigation-label">
-                            {{ T "next-work-link" }}
-                        </span>
-                        {{- partial "icons/arrow-left.html" . -}}
-                    </a>
+                <a class="previous-item navigation-item no-hover no-line {{ if not .NextInSection }}navigation-item-disabled{{ end }}"
+                    {{ if .NextInSection }}href="{{ .NextInSection.RelPermalink }}" {{ end }}>
+                    {{- partial "icons/arrow-left.html" . -}}
+                    <span class="navigation-label">
+                        {{ T "prev-work-link" }}
+                    </span>
+                </a>
 
-                    <a class="btn portfolio-button no-hover" href="{{ .CurrentSection.RelPermalink }}">
-                        <span>
-                            {{ T "portfolio-link" }}
-                        </span>
-                    </a>
+                <a class="next-item navigation-item no-hover no-line {{ if not .PrevInSection }}navigation-item-disabled{{ end }}"
+                    {{ if .PrevInSection }}href="{{ .PrevInSection.RelPermalink }}" {{ end }}>
+                    <span class="navigation-label">
+                        {{ T "next-work-link" }}
+                    </span>
+                    {{- partial "icons/arrow-left.html" . -}}
+                </a>
 
-                </div>
+                <a class="btn portfolio-button no-hover" href="{{ .CurrentSection.RelPermalink }}">
+                    <span>
+                        {{ T "portfolio-link" }}
+                    </span>
+                </a>
+
             </div>
+
         </div>
     </div>
 </div>

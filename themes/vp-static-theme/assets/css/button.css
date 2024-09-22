@@ -1,6 +1,6 @@
 .btn {
     cursor: pointer;
-    padding: calc(var(--gutter) * 0.75) calc(var(--gutter) * 1.5);
+    padding: calc(var(--gutter) * 0.5) calc(var(--gutter) * 2);
     font-weight: var(--fw-regular);
     line-height: 1;
     font-size: .875rem;

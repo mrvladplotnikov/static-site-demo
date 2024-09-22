@@ -1,3 +1,11 @@
+.container {
+    position: relative;
+}
+
+.box-image {
+    display: none;
+}
+
 .work-list-controls {
     display: grid;
     grid-template-columns: minmax(8rem, 14.25rem) minmax(10.25rem, 16.625rem) auto;
@@ -24,6 +32,22 @@
 }
 
 @media (min-width: 1080px) {
+    .box-image {
+        display: block;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .box-image-first {
+        top: 40%;
+        right: 30%;
+    }
+
+    .box-image-second {
+        top: -10%;
+        right: 5%;
+    }
+
     .work-list-controls {
         margin-block-end: 2rem;
     }
@@ -35,5 +59,4 @@
     .work-list-controls .control-reset {
         display: inline-block;
     }
-
 }

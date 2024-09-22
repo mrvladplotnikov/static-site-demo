@@ -6,25 +6,29 @@
     <div class="small-container">
         <ul class="servies-list">
             <li>
-                <a class="servies-list-item music-composing-bg no-hover" href={{ relLangURL "/music-composing" }}>
+                {{- $musicComposing := relLangURL "/services/music-composing" -}}
+                <a class="servies-list-item music-composing-bg no-hover" href="{{ $musicComposing }}">
                     <img src="/images/home/piano-icon.svg" alt="" class="servies-list-item-image">
                     <h3 class="servies-list-item-title">{{ T "music-composing" }}</h3>
                 </a>
             </li>
             <li>
-                <a class="servies-list-item audio-branding-bg no-hover" href={{ relLangURL "/audio-branding" }}>
+                {{- $audioBranding := relLangURL "/services/audio-branding" -}}
+                <a class="servies-list-item audio-branding-bg no-hover" href="{{ $audioBranding }}">
                     <img src="/images/home/pulse-icon.svg" alt="" class="servies-list-item-image">
                     <h3 class="servies-list-item-title">{{ T "audio-branding" }}</h3>
                 </a>
             </li>
             <li>
-                <a class="servies-list-item sound-design-bg no-hover" href={{ relLangURL "/sound-design" }}>
+                {{- $soundDesign := relLangURL "/services/sound-design" -}}
+                <a class="servies-list-item sound-design-bg no-hover" href="{{ $soundDesign }}">
                     <img src="/images/home/note-icon.svg" alt="" class="servies-list-item-image">
                     <h3 class="servies-list-item-title">{{ T "sound-design" }}</h3>
                 </a>
             </li>
             <li>
-                <a class="servies-list-item voice-casting-bg no-hover" href={{ relLangURL "/voice-casting" }}>
+                {{- $voiceCasting := relLangURL "/services/voice-castin" -}}
+                <a class="servies-list-item voice-casting-bg no-hover" href="{{ $voiceCasting }}">
                     <img src="/images/home/mic-icon.svg" alt="" class="servies-list-item-image">
                     <h3 class="servies-list-item-title">{{ T "voice-casting" }}</h3>
                 </a>
