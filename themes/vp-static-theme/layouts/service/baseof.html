@@ -61,12 +61,9 @@
     {{- $serviceReviews := where $reviews "Params.services" "intersect" $serviceName -}}
 
     {{- with $serviceReviews }}
-    <div class="service-section inline-gap">
-      <div class="container">
-        <h2>Відгуки клієнтів</h2>
-      </div>
-
+    <div class="service-section service-section-reviews inline-gap">
       <div class="small-container">
+        <h2>Відгуки клієнтів</h2>
         <div class="slider">
           <ul class="swiper-wrapper">
             {{ range first 10 . }}

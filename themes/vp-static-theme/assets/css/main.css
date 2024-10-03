@@ -103,6 +103,8 @@ body .hidden {
   padding-block-start: 1.75rem;
   padding-block-end: .75rem;
   padding-inline: 1rem;
+
+  pointer-events: none; 
 }
 
 @media (min-width: 1570px) {
@@ -113,6 +115,8 @@ body .hidden {
 
 .mobile-menu .mobile-menu-logo {
   grid-column: 1 / 2;
+  justify-self: start;
+  pointer-events: auto;
 }
 
 .mobile-menu-button {
@@ -127,6 +131,8 @@ body .hidden {
 
   grid-column: 2 / 3;
   justify-self: end;
+
+  pointer-events: auto;
 }
 
 .mobile-menu-button-line {
@@ -172,6 +178,7 @@ body .hidden {
 }
 
 .mobile-menu-dialog {
+  pointer-events: auto;
   display: grid;
   grid-template-rows: 1fr min-content min-content;
   gap: 1.75rem;
@@ -202,12 +209,15 @@ body .hidden {
 
 .mobile-menu-nav {
   overflow-x: auto;
-  font-size: 1.25rem;
 }
 
 .mobile-menu-nav ul {
   display: grid;
   gap: 1.75rem;
+}
+
+.mobile-menu-nav ul li {
+  font-size: 1.25rem;
 }
 
 .mobile-menu-nav .mobile-menu-link {
@@ -228,8 +238,11 @@ body .hidden {
 .mobile-menu-nav details ul {
   margin-top: 1.75em;
   margin-left: 1em;
-  font-size: 0.81818em;
   gap: 1.5em;
+}
+
+.mobile-menu-nav details ul li {
+  font-size: 0.81818em;
 }
 
 .mobile-menu-nav .mobile-menu-link,
@@ -315,6 +328,16 @@ body .hidden {
 @media (min-width: 1080px) {
   .mobile-menu {
     display: none;
+    padding-block-start: 1.25rem;
+  }
+
+  .mobile-menu-logo img {
+    width: 54px;
+    height: 50px;
+  }
+
+  .mobile-menu-button {
+    align-self: center;
   }
 }
 
@@ -1191,7 +1214,7 @@ body .hidden {
 
   .review-item .review-text,
   .review-text-more {
-    font-size: 1rem;
+    font-size: 1.125rem;
   }
 }
 
@@ -1443,7 +1466,7 @@ body.modal-open {
 }
 
 .vp-details .answer {
-  padding: 1rem 0;
+  padding: 1rem 2.1875rem;
   margin-block-end: 0;
   font-size: var(--fz-regular);
   font-weight: var(--fw-light);
@@ -1467,15 +1490,6 @@ body.modal-open {
 @media (min-width: 1080px) {
   .vp-details summary {
     scroll-margin-top: calc(1.125rem + 5em);
-  }
-
-  .vp-details .answer {
-    font-size: 1.125rem;
-  }
-}
-
-@media (min-width: 1570px) {
-  .vp-details summary {
     padding: 2rem 1.875em;
   }
 
@@ -1483,12 +1497,17 @@ body.modal-open {
     font-size: 2rem;
   }
 
+  .vp-details .answer {
+    font-size: 1.125rem;
+  }
+
   .vp-details summary .list-number {
     font-size: 2.5rem;
   }
 
   .vp-details .answer {
-    padding-block: 2rem;
+    padding-block: 3.15rem;
+    padding-inline: 4.5rem;
     font-size: 1.375rem;
   }
 }

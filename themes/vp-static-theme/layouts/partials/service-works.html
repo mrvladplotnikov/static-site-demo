@@ -4,11 +4,8 @@
 {{- $serviceWorks := where $works "Params.services" "intersect" $serviceName -}}
 
 {{- with $serviceWorks }}
-<div class="container">
-    <h2 id="works-title">{{ T "our-works" }}</h2>
-</div>
-
 <div class="small-container">
+    <h2 id="works-title">{{ T "our-works" }}</h2>
     <div class="works-list grid" aria-labelledby="works-title">
         {{- range first 6 . }}
         <div class="column">

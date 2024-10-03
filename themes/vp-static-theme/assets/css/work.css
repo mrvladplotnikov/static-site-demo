@@ -190,7 +190,10 @@
 .work-content .inline-image-list {
     display: flex;
     gap: .6em;
+}
 
+.work-content .inline-image-list picture {
+    flex-grow: 1;
 }
 
 .work-content picture img {

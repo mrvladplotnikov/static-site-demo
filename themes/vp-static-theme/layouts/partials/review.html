@@ -12,7 +12,7 @@
     <h4 class="review-item-company">{{ .Params.company }}</h4>
 
     <div class="review-text">
-        {{- if or (in (string .RawContent) "\n\n") (in (string .RawContent) "\r\n\r\n") }}
+        {{- if or (in (string .RawContent) "\n\n") (in (string .RawContent) "\r\n") }}
         {{ .Summary }}
         {{- else }}
         <p>{{ .Summary }}</p>

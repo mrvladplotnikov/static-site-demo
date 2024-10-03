@@ -10,12 +10,18 @@ body {
     line-height: 1.5;
 }
 
+body ul li,
+body ol li,
 body p {
     font-size: var(--fz-regular);
     font-weight: var(--fw-light);
+}
+
+body p {
     margin-block-start: 1em;
     margin-block-end: 1em;
 }
+
 
 body b {
     color: var(--clr-white);
@@ -108,12 +114,16 @@ h3:not([class]) {
 }
 
 @media (min-width: 1080px) {
+    body ul li,
+    body ol li,
     body p {
         font-size: 1.125rem;
     }
 }
 
 @media (min-width: 1570px) {
+    body ul li,
+    body ol li,
     body p {
         font-size: 1.375rem;
     }
