@@ -12,11 +12,13 @@
 }
 
 .work-list-controls .control {
-    padding-block: 1rem;
+    margin-block-start: 1rem;
+    margin-block-end: 1.5rem;
 }
 
 .work-list-controls .control.control-select .ss-values .ss-placeholder {
     padding-inline-start: 0;
+    font-weight: normal;
 }
 
 .work-list-controls .control-button {
@@ -46,10 +48,6 @@
     .box-image-second {
         top: -10%;
         right: 5%;
-    }
-
-    .work-list-controls {
-        margin-block-end: 2rem;
     }
 
     .work-list-controls .control-close {
