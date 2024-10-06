@@ -65,7 +65,6 @@ const dialogHandler = (target) => {
 
   // Adding click outside event listener
   document.body.addEventListener('click', ev => {
-    ev.stopPropagation();
     const isClickedOutsideContainer = clickOutside(container, ev);
     const isDialogOpen = target.classList.contains("open");
 
