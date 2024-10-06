@@ -1,22 +1,21 @@
 {{- $page := . -}}
 <div id="mobile-nav" class="mobile-menu">
-  <a href={{ relLangURL "/" }} aria-label={{ T "home-page-link" }} class="mobile-menu-logo">
+  <a href={{ relLangURL "/" }} class="mobile-menu-logo">
     <img src="/images/header-logo.svg" alt="{{ .Title }}" width="33" height="33">
   </a>
 
   <button type="button" id="mobile-menu-button" class="mobile-menu-button" aria-expanded="false" aria-haspopup="dialog"
-    aria-controls="mobile-menu-dialog" aria-label={{ T "nav-menu-button" }}>
+    aria-controls="mobile-menu-dialog">
     <span class="mobile-menu-button-line" aria-hidden="true"></span>
     <span class="mobile-menu-button-line" aria-hidden="true"></span>
     <span class="mobile-menu-button-line" aria-hidden="true"></span>
   </button>
 
 
-  <div id="mobile-menu-dialog" role="dialog" aria-modal="true" class="mobile-menu-dialog" aria-label={{
-    T "mobile-menu-dialog" }} data-modal-till="768px" inert>
+  <div id="mobile-menu-dialog" role="dialog" aria-modal="true" class="mobile-menu-dialog" data-modal-till="768px" inert>
 
     {{- with index .Site.Menus "main" }}
-    <nav class="mobile-menu-nav" aria-label="Список сторінок">
+    <nav class="mobile-menu-nav">
       <ul role="list">
         {{- partial "inline/mobile-menu/walk.html" (dict "page" $page "menuEntries" .) }}
       </ul>
@@ -24,7 +23,7 @@
     {{- end }}
 
     {{- partial "langs-list-h.html" . -}}
-    <ul class="soc-links-list" aria-label="Посилання на соціальні мережі" role="list">
+    <ul class="soc-links-list" role="list">
       {{ range .Site.Data.SocialLinks }}
       <li>
         <a class="no-external-icon no-hover" href="{{ .link }}" title="{{ .title }}" target="_blank"

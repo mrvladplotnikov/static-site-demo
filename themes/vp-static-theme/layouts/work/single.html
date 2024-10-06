@@ -25,7 +25,7 @@
             <ul class="work-taxonomies" role="list">
                 {{ with .GetTerms "services" }}
                 <li>
-                    <strong>{{ T "services" 1 }}:</strong>
+                    <strong>{{ T "works/service/title" }}:</strong>
                     <ul class="work-terms" role="list">
                         {{ range $i, $e := . }}
                         <li>
@@ -38,7 +38,7 @@
 
                 {{ with .Params.genres }}
                 <li>
-                    <strong>{{ T "genres" 1 }}:</strong>
+                    <strong>{{ T "works/genres/title" }}:</strong>
                     <ul class="work-terms" role="list">
                         {{ range $i, $e := . }}
                         <li>
@@ -51,7 +51,7 @@
 
                 {{ with .Params.platforms }}
                 <li>
-                    <strong>{{ T "platforms" 1 }}:</strong>
+                    <strong>{{ T "works/platforms/title" }}:</strong>
                     <ul class="work-terms" role="list">
                         {{ range $i, $e := . }}
                         <li>
@@ -64,7 +64,7 @@
 
                 {{ with .Params.developers }}
                 <li>
-                    <strong>{{ T "developers" 1 }}:</strong>
+                    <strong>{{ T "works/developers/title" }}:</strong>
                     <ul class="work-terms" role="list">
                         {{ range $i, $e := . }}
                         <li>
@@ -77,7 +77,7 @@
 
                 {{ with .Params.contributors }}
                 <li>
-                    <strong>{{ T "contributors" }}:</strong>
+                    <strong>{{ T "works/contributors/title" }}:</strong>
                     <ul class="work-terms" role="list">
                         {{ range $i, $e := . }}
                         <li>
@@ -111,7 +111,7 @@
         {{ with .Site.GetPage "/reviews" }}
         {{ if (gt (where .Pages "Params.project" "eq" $projectTitle | len) 0) }}
         <div class="work-review review">
-            <h2 class="section-title">{{ T "reviews-label" }}</h2>
+            <h2 class="section-title">{{ T "works/reviews/title" }}</h2>
             {{ range first 1 (where .Pages "Params.project" "eq" $projectTitle) }}
             {{- partial "review.html" . -}}
             {{ end }}
@@ -130,21 +130,21 @@
                     {{ if .NextInSection }}href="{{ .NextInSection.RelPermalink }}" {{ end }}>
                     {{- partial "icons/arrow-left.html" . -}}
                     <span class="navigation-label">
-                        {{ T "prev-work-link" }}
+                        {{ T "work/pagination/prev" }}
                     </span>
                 </a>
 
                 <a class="next-item navigation-item no-hover no-line {{ if not .PrevInSection }}navigation-item-disabled{{ end }}"
                     {{ if .PrevInSection }}href="{{ .PrevInSection.RelPermalink }}" {{ end }}>
                     <span class="navigation-label">
-                        {{ T "next-work-link" }}
+                        {{ T "work/pagination/next" }}
                     </span>
                     {{- partial "icons/arrow-left.html" . -}}
                 </a>
 
                 <a class="btn portfolio-button no-hover" href="{{ .CurrentSection.RelPermalink }}">
                     <span>
-                        {{ T "portfolio-link" }}
+                        {{ T "work/pagination/list" }}
                     </span>
                 </a>
 

@@ -47,7 +47,7 @@
             {{- with ($categories | uniq) }}
             <div class="control-container">
                 <select name="category" id="works-category-select" class="control control-select">
-                    <option disabled selected value="" data-placeholder="true">{{ T "categories" 1 }}</option>
+                    <option disabled selected value="" data-placeholder="true">{{ T "works/category/title" }}</option>
                     {{- range . }}
                     <option value="{{ . }}" data-html="<span>{{ . }}</span>">
                         {{ . }}
@@ -60,7 +60,7 @@
             {{- with .Site.Taxonomies.services }}
             <div class="control-container">
                 <select name="service" id="works-service-select" class="control control-select">
-                    <option disabled selected value="" data-placeholder="true">{{ T "services" 1 }}</option>
+                    <option disabled selected value="" data-placeholder="true">{{ T "works/service/title" }}</option>
                     {{- range . }}
                     {{- $value := replace .Page.LinkTitle " " "-" | lower -}}
                     <option value="{{ $value }}" data-html="<span>{{ .Page.LinkTitle | lower }}</span>">
@@ -73,7 +73,7 @@
 
             <button id="works-reset" type="button" class="control control-button">
                 <span class="control-close">{{- partial "icons/close-icon.html" . -}}</span>
-                <span class="control-reset">{{ T "reset-filter" }}</span>
+                <span class="control-reset">{{ T "general/reset-filters" }}</span>
             </button>
 
         </div>

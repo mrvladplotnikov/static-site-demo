@@ -1,5 +1,5 @@
 ---
-title: Про нас
+title: About us
 layout: about
 type: page
 ---

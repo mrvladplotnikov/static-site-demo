@@ -18,13 +18,13 @@
 <div class="hero inline-gap">
   {{- partial "langs-list-h.html" . -}}
 
-  <img class="hero-logo" src="images/home/hero-logo.svg" alt="">
-  <img class="hero-logo-bg" src="images/home/hero-logo-bg.svg" alt="">
+  <img class="hero-logo" src="/images/home/hero-logo.svg" alt="">
+  <img class="hero-logo-bg" src="/images/home/hero-logo-bg.svg" alt="">
 
   {{ if $works }}
   <a class="hero-portfolio-link no-hover" href={{ relLangURL "portfolio" }}>
     <span class="hero-portfolio-link-line"></span>
-    <span>Портфоліо</span>
+    <span>{{ T "general/works/title" }}</span>
   </a>
   {{ end }}
 
@@ -69,13 +69,12 @@
   </div>
   <div class="small-container">
     <p class="about-section-text">
-      Ми –– українська аудіоагенція, яка створює знакове звучання для ігор, брендів та застосунків. Ми розробляємо
-      унікальне аудіо, щоби допомогти нашим клієнтам закарбувати їхній образ у головах і серцях аудиторії.
+      {{ T "home/about/description" }}
     </p>
 
     <div class="about-section-button-container">
       <a class="btn btn-arrow no-hover" href={{ relLangURL "about" }}>
-        Про нас
+        {{ T "home/about/title" }}
       </a>
     </div>
   </div>
@@ -85,67 +84,80 @@
 <!--  why section starts here  -->
 <div class="why-section inline-gap">
   <div class="container">
-    <h2 class="section-title">Чому ми?</h2>
+    <h2 class="section-title">{{ T "home/features/title" }}</h2>
   </div>
   <div class="small-container">
     <ul class="why-section-list" role="list">
       <li>
         <div class="why-section-list-item">
-          <img src="/images/home/time-icon.svg" alt="Дедлайни — наше все." />
+          <img 
+            src="/images/home/time-icon.svg" 
+            alt={{ T "general/features/feature_1/title" }} 
+          />
           <p>
-            <strong>Дедлайни — то святе.</strong>
-            За 7 років ми зірвали 0 дедлайнів.
+            <strong>{{ T "general/features/feature_1/title" }}</strong>
+            {{ T "general/features/feature_1/description" }}
           </p>
         </div>
       </li>
       <li>
         <div class="why-section-list-item">
-          <img src="/images/home/dialog-icon.svg" alt="Ми спілкуємося простою мовою." />
+          <img 
+            src="/images/home/dialog-icon.svg" 
+            alt={{ T "general/features/feature_2/title" }} 
+          />
           <p>
-            <strong>Ми спілкуємося простою мовою.</strong> Нема потреби опановувати аудіо термінологію, натомість
-            розкажіть нам про почуття та
-            емоції, що має викликати ваш продукт, і ми вас зрозуміємо.
+            <strong>{{ T "general/features/feature_2/title" }}</strong>
+            {{ T "general/features/feature_2/description" }}
           </p>
         </div>
       </li>
       <li>
         <div class="why-section-list-item">
-          <img src="/images/home/idea-icon.svg" alt="" />
+          <img 
+            src="/images/home/idea-icon.svg" 
+            alt={{ T "general/features/feature_3/title" }} 
+          />
           <p>
-            <strong>Створюємо знакове звучання.</strong> Ми детально вивчаємо ваш продукт, аналізуємо ринок і цільову
-            аудиторію,
-            щоби створити звучання, що запам'ятається вашим користувачам.
+            <strong>{{ T "general/features/feature_3/title" }}</strong>
+            {{ T "general/features/feature_3/description" }}
           </p>
         </div>
       </li>
       <li>
         <div class="why-section-list-item">
-          <img src="/images/home/document-icon.svg" alt="Зрозумілий процес роботи." />
+          <img 
+            src="/images/home/document-icon.svg" 
+            alt={{ T "general/features/feature_4/title" }} 
+          />
           <p>
-            <strong>Зрозумілий процес роботи.</strong> Ви легко орієнтуватиметеся в тому, що відбувається на кожному
-            етапі створення аудіо. У
-            цьому допоможуть аудіальні мудборди й спеціальна методика фідбеку.
-          </p>
-        </div>
-      </li>
-
-      <li>
-        <div class="why-section-list-item">
-          <img src="/images/home/audio-icon.svg" alt="" />
-          <p>
-            <strong>Аудиторія + наше аудіо = ❤️.</strong> Наші роботи вже чули мільйони людей і багацько з
-            них були настільки вражені, що написали про нас
-            <a href={{ relLangURL "/reviews" }}>таке.</a>
+            <strong>{{ T "general/features/feature_4/title" }}</strong>
+            {{ T "general/features/feature_4/description" }}
           </p>
         </div>
       </li>
       <li>
         <div class="why-section-list-item">
-          <img src="/images/home/lamp-icon.svg" alt="" />
+          <img 
+            src="/images/home/audio-icon.svg" 
+            alt={{ T "general/features/feature_5/title" }} 
+          />
           <p>
-            <strong>Ми прагнемо значущих зв'язків.</strong> Тому завжди готові вислухати і поділитися ідеями та
-            порадами, навіть якщо ви поки не
-            готові до співпраці.
+            <strong>{{ T "general/features/feature_5/title" }}</strong>
+            {{ printf (T "general/features/feature_5/description") (relLangURL "reviews") | safeHTML  }}
+          </p>
+        </div>
+      </li>
+      <li>
+        <div class="why-section-list-item">
+          <img 
+            src="/images/home/lamp-icon.svg" 
+            alt={{ T "general/features/feature_6/title" }} 
+          />
+          <p>
+            <strong>{{ T "general/features/feature_6/title" }}</strong>
+            {{ T "general/features/feature_6/description" }}
+          </p>
         </div>
       </li>
     </ul>
@@ -160,8 +172,8 @@
 <div class="works-section inline-gap">
   <div class="container">
     <h2 class="works-section-title section-title" id="works-title">
-      {{ T "featured-works" }}
-      <a class="btn btn-arrow no-hover" href={{ relLangURL "portfolio" }}>{{ T "portfolio" }}</a>
+      {{ T "home/works/title" }}
+      <a class="btn btn-arrow no-hover" href={{ relLangURL "portfolio" }}>{{ T "general/works/title" }}</a>
     </h2>
   </div>
   <div class="works-list grid" aria-labelledby="works-title">
@@ -177,7 +189,7 @@
     {{- end }}
   </div>
   <div class="container mobile-portfolio-button-container">
-    <a class="btn btn-arrow no-hover" href={{ relLangURL "portfolio" }}>{{ T "portfolio" }}</a>
+    <a class="btn btn-arrow no-hover" href={{ relLangURL "portfolio" }}>{{ T "general/works/title" }}</a>
   </div>
 </div>
 <!--  works section ends here  -->

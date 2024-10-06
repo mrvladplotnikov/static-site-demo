@@ -1,46 +1,51 @@
-portfolio: Portfolio
-categories:
-  one: Category
-  other: Categories
-services:
-  one: Service
-  other: Services
-genres:
-  one: Genre
-  other: Genres
-platforms:
-  one: Platform
-  other: Platforms
-developers:
-  one: Developer
-  other: Developers
-contributors: Work on the project
-prev-work-link: Previous case
-next-work-link: Next case
-portfolio-link: Back to portfolio
-reviews-label: Customer testimonial
-more: More
-reset-filter: Reset filters
-about: About us
-about-description: We are a Ukrainian audio agency that crafts impactful sound for games, brands, and apps. We develop unique audio to make our clients' products secure a place in the minds and hearts of their audiences.
-music-composing: Music Composing
-audio-branding: Audio Branding
-sound-design: Sound Design
-voice-casting: Voice Casting
-our-services: Our services
-featured-works: Featured Works
-our-values: Our Values
-our-values-big-text: We help products become significant parts of their users' lives.
-reviews: Reviews
-press-kit: Press kit
-our-works: Our Works
-language-list: List of languages
+general/contact/title: Write to us
+general/contact/description: Tell us about your project, product, or idea. Ask for advice, or get a full free consultation. Find out the rates, clarify a vital question, well anything you want! We will be happy to get to know you and help.
 
-home-page-link: Home page
-nav-menu-button: Navigation menu button
-mobile-menu-dialog: Navigation menu
+general/works/title: Portfolio
+general/our-values/title: Our values
 
-free-consultation: free consultation
+general/features/feature_1/title: Deadlines are sacred.
+general/features/feature_1/description: We have missed 0 deadlines in 7 years.
+general/features/feature_3/title: We create iconic audio.
+general/features/feature_3/description: We study your product in detail and analyze the market and target audience to craft audio that builds memories for your users.
+general/features/feature_5/title: Audience + our audio = ❤️.
 
-contact-section-title: Write to us
-contact-section-description: Tell us about your project, product, or idea. Ask for advice, or get a full free consultation. Find out the rates, clarify a vital question, well anything you want! We will be happy to get to know you and help.
+general/features/feature_5/description: Millions have listened to our works, and many were so impressed that they wrote <a rel="nofollow" href="%s">this</a> about us.
+
+general/features/feature_2/title: We're easy to communicate with.
+general/features/feature_2/description: You don't need to master audio terminology! Just tell us about the feelings and emotions your product should evoke, and we'll understand you.
+general/features/feature_4/title: Clear workflow.
+general/features/feature_4/description: You'll easily understand what is happening at each stage of audio creation. Audio mood boards and a unique feedback methodology will help you with this.
+general/features/feature_6/title: We strive for meaningful connections.
+general/features/feature_6/description: That's why we're always ready to listen and share ideas and advice, even if you're not ready to cooperate yet.
+
+general/services/title: Our services
+general/services/music-composing/title: Music Composing
+general/services/audio-branding/title: Audio Branding
+general/services/sound-design/title: Sound Design
+general/services/voice-casting/title: Voice Casting
+
+works/category/title: Category
+works/service/title: Service
+works/genres/title: Genre
+works/platforms/title: Platform
+works/developers/title: Developer
+works/contributors/title: Work on the project
+
+works/reviews/title: Customer testimonial
+
+work/pagination/prev: Previous case
+work/pagination/next: Next case
+work/pagination/list: Back to Portfolio
+
+general/reset-filters: Reset filters
+
+home/about/title: About us
+home/about/description: We are a Ukrainian audio agency that crafts impactful sound for games, brands, and apps. We develop unique audio to make our clients' products secure a place in the minds and hearts of their audiences.
+
+home/features/title: Why us?
+home/works/title: Featured Works
+home/mission/title: We help products become significant parts of their users' lives.
+
+about/subtitle: Small and mighty 💪
+about/description: <p>Без зайвої хвалькуватості, саме такими ми і є, адже ми створюємо знакове звучання, яке формує досвід мільйонів людей.</p><p>Ми глибоко занурюємося в стратегічне бачення наших клієнтів та інтегруємося в їхні команди, щоби співтворити аудіо, яке оселяється в головах і серцях їхньої аудиторії та допомагає продуктам стати важливою частиною їхнього життя.</p><p>А ще ми завжди раді взяти участь у різних колабораціях і тому відкриті до пропозицій і креативних викликів. 🙌</p><p>До речі, партнерський контент ми теж любимо! Тож якщо ви хочете поділитися цікавинками про ігрове аудіо чи аудіобрендинг із вашою аудиторією, або ж написати щось про нас — ось посилання на наш <a rel="nofollow" target="__blank" href="%s">прес-кит</a>.</p>
