@@ -93,6 +93,10 @@
     font-size: inherit;
 }
 
+.team-item h2 {
+    text-transform: uppercase;
+}
+
 .team-item {
     display: grid;
     gap: 1.625rem;

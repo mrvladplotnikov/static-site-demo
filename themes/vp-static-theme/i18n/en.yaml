@@ -48,4 +48,31 @@ home/works/title: Featured Works
 home/mission/title: We help products become significant parts of their users' lives.
 
 about/subtitle: Small and mighty 💪
-about/description: <p>Без зайвої хвалькуватості, саме такими ми і є, адже ми створюємо знакове звучання, яке формує досвід мільйонів людей.</p><p>Ми глибоко занурюємося в стратегічне бачення наших клієнтів та інтегруємося в їхні команди, щоби співтворити аудіо, яке оселяється в головах і серцях їхньої аудиторії та допомагає продуктам стати важливою частиною їхнього життя.</p><p>А ще ми завжди раді взяти участь у різних колабораціях і тому відкриті до пропозицій і креативних викликів. 🙌</p><p>До речі, партнерський контент ми теж любимо! Тож якщо ви хочете поділитися цікавинками про ігрове аудіо чи аудіобрендинг із вашою аудиторією, або ж написати щось про нас — ось посилання на наш <a rel="nofollow" target="__blank" href="%s">прес-кит</a>.</p>
+about/description: <p>Without being too braggy, that's precisely how we are as we create an impactful sound that shapes the experience of millions of people.</p><p>We dive deep into our clients' strategic visions and integrate into their teams to co-create audio that secures a place in the minds and hearts of their audience and helps products become an essential part of their lives.</p><p>We are also always happy to participate in various collaborations and are therefore open to suggestions and creative challenges. 🙌</p><p>By the way, we love partner content, too! So, if you want to share exciting things about game audio or audio branding with your audience or write something about us, here is a link to our <a rel="nofollow" target="__blank" href="%s">press kit</a>.</p>
+
+about/team/title: Our team
+about/features/title: Also
+
+team/member_1/title: Vlad Plotnikov
+team/member_1/position: Co-founder, composer, creative audio producer
+team/member_1/description: "<p><strong>Creates</strong>: video game soundtracks, audio brands.</p><p><strong>Also</strong>: TOTAL-EMPTY frontman, audio mentor, conference speaker, member of the jury of Casual Connect, Global Game Jam Ukraine, and Indie Cup.</p>"
+
+team/member_2/title: Ruslana Kruchek
+team/member_2/position: Co-founder, brand manager, art director
+team/member_2/description: "<p><strong>Responsible for</strong>: the right vector of audio brands and our marketing activities.</p><p><strong>Also</strong>: winemaker, conference speaker, padawan vocalist, lyricist.</p>"
+
+team/member_3/title: Artem Baskoiev
+team/member_3/position: Composer, sound designer
+team/member_3/description: "<p><strong>Creates</strong>: electronic tracks, sound design for animations, video games, and audio brands.</p><p><strong>Also</strong>: author of the Stolen Forest project.</p>"
+
+team/member_4/title: Oleksandr Falinski
+team/member_4/position: Sound designer, composer
+team/member_4/description: "<p><strong>Creates</strong>: video game sound design and soundtracks.</p><p><strong>Also</strong>: father of the daughter, husband of the wife. 😀</p>"
+
+team/member_5/title: Maryna Ovsiuk
+team/member_5/position: SMM/Content Assistant
+team/member_5/description: "<p><strong>Responsible for:</strong> the quality of our social media content, communication with the community, and fantastic ideas.</p><p><strong>Also:</strong> free elf, food and wine passionate, actress.</p>"
+
+team/member_6/title: Appa The Dog
+team/member_6/position: Happiness Manager
+team/member_6/description: "<p><strong>Responsible for:</strong> a good mood, respecting work hours, cute photos and videos.</p><p><strong>Also:</strong> ambient and classical music expert, champion of treats.</p>"

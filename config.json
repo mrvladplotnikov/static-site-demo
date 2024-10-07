@@ -88,7 +88,8 @@
       "params": {
         "hiddenLangs": [
           "ru"
-        ]
+        ],
+        "pressKit": "https://docs.google.com/document/d/1CiDkZd-EZTz4aClMsCKkoAbuxfearfxthOkynZxPSQo/edit?usp=sharing"
       }
     },
     "en": {
@@ -150,6 +151,15 @@
             "name": "Reviews",
             "pageRef": "/reviews",
             "weight": 60
+          },
+          {
+            "name": "Press kit",
+            "params": {
+              "rel": "external noopener noreferrer nofollow",
+              "target": "_blank"
+            },
+            "url": "https://docs.google.com/document/d/1r2qlEuyelg-V-WI4oEcEAiX8QCaPKCVD226dizvdbg8/edit?usp=sharing",
+            "weight": 70
           }
         ]
       },
@@ -157,7 +167,8 @@
       "params": {
         "hiddenLangs": [
           "ru"
-        ]
+        ],
+        "pressKit": "https://docs.google.com/document/d/1r2qlEuyelg-V-WI4oEcEAiX8QCaPKCVD226dizvdbg8/edit?usp=sharing"
       }
     },
     "ru": {
@@ -224,7 +235,8 @@
       },
       "weight": 3,
       "params": {
-        "hiddenLangs": []
+        "hiddenLangs": [],
+        "pressKit": "https://docs.google.com/document/d/10U5qjjd-vP9_w1lnaUoCYNOe7aH8V1R2Y6Ceg-mdCl8/edit?usp=sharing"
       }
     }
   }

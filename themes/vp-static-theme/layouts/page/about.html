@@ -36,7 +36,7 @@
     <div class="small-container">
         <div class="about-section">
             <div class="about-section-description">
-                {{ printf (T "about/description") (relLangURL "reviews") | safeHTML  }}
+                {{ printf (T "about/description") site.Params.pressKit | safeHTML  }}
             </div>
             <div class="about-section-image">
                 <img src="/images/about/icon-logo-vp.svg" alt="">
@@ -48,82 +48,68 @@
 <!-- team section starts here  -->
 <div class="team-section inline-gap">
     <div class="container">
-        <h2 class="servies-section-title section-title">Наша команда</h2>
+        <h2 class="servies-section-title section-title">{{ T "about/team/title" }}</h2>
     </div>
     <div class="team slider">
         <ul class="swiper-wrapper">
             <li class="team-item swiper-slide">
                 <div class="team-img">
-                    <img width="290" height="290" loading="lazy" src="/images/about/vlad.webp" alt="Влад Плотніков">
+                    <img width="290" height="290" loading="lazy" src="/images/about/vlad.webp" alt={{ T "team/member_1/title" }}>
                 </div>
                 <div class="team-info">
-                    <h2 class="section-title">Влад Плотніков</h2>
-                    <h3 class="sub-section-title">Співзасновник, композитор, креативний аудіо продюсер</h3>
-                    <p><strong>Створює:</strong> ігрові саундтреки, аудіо бренди.</p>
-                    <p><strong>Крім цього:</strong> фронтмен гурту TOTAL-EMPTY, аудіо ментор, спікер
-                        локальних
-                        конференцій, член журі Casual Connect, Global Game Jam Ukraine, Indie Cup.</p>
+                    <h2 class="section-title">{{ T "team/member_1/title" }}</h2>
+                    <h3 class="sub-section-title">{{ T "team/member_1/position" }}</h3>
+                    {{ T "team/member_1/description" | safeHTML }}
                 </div>
             </li>
             <li class="team-item swiper-slide">
                 <div class="team-img">
-                    <img width="290" height="290" loading="lazy" src="/images/about/ruslana.webp" alt="Руслана Кручек">
+                    <img width="290" height="290" loading="lazy" src="/images/about/ruslana.webp" alt={{ T "team/member_2/title" }}>
                 </div>
                 <div class="team-info">
-                    <h2 class="section-title">Руслана Кручек</h2>
-                    <h3 class="sub-section-title">Співзасновниця, бренд-менеджер, арт-директор</h3>
-                    <p><strong>Відповідає за:</strong> правильний вектор аудіо брендів і наші власні маркетингові
-                        заходи.</p>
-                    <p><strong>Крім цього:</strong> винороб, спікер конференцій, вокаліст-падаван, лірицист.</p>
-                </div>
-            </li>
-            <li class="team-item swiper-slide">
-                <div class="team-img team-img-top">
-                    <img width="290" height="290" loading="lazy" src="/images/about/artyom.webp" alt="Аретем Баскоєв">
-                </div>
-                <div class="team-info">
-                    <h2 class="section-title">Аретем Баскоєв</h2>
-                    <h3 class="sub-section-title">Композитор, звуковий дизайнер</h3>
-                    <p><strong>Створює:</strong> електронні треки, звуковий дизайн для анімацій, ігор й аудіо
-                        брендів.</p>
-                    <p><strong>Крім цього:</strong> автор проєкту Stolen Forest.</p>
+                    <h2 class="section-title">{{ T "team/member_2/title" }}</h2>
+                    <h3 class="sub-section-title">{{ T "team/member_2/position" }}</h3>
+                    {{ T "team/member_2/description" | safeHTML }}
                 </div>
             </li>
             <li class="team-item swiper-slide">
                 <div class="team-img">
-                    <img width="290" height="290" loading="lazy" src="/images/about/sasha.webp"
-                        alt="Олександр Фалінський">
+                    <img width="290" height="290" loading="lazy" src="/images/about/artyom.webp" alt={{ T "team/member_3/title" }}>
                 </div>
                 <div class="team-info">
-                    <h2 class="section-title">Олександр Фалінський</h2>
-                    <h3 class="sub-section-title">Звуковий дизайнер, композитор</h3>
-                    <p><strong>Створює:</strong> звуковий дизайн для ігор, ігрові саундтреки.</p>
-                    <p><strong>Крім цього:</strong> батько дочки, чоловік дружини. 😀</p>
+                    <h2 class="section-title">{{ T "team/member_3/title" }}</h2>
+                    <h3 class="sub-section-title">{{ T "team/member_3/position" }}</h3>
+                    {{ T "team/member_3/description" | safeHTML }}
                 </div>
             </li>
             <li class="team-item swiper-slide">
                 <div class="team-img">
-                    <img width="290" height="290" loading="lazy" src="/images/about/maryna.webp" alt="Марина Овсюк">
+                    <img width="290" height="290" loading="lazy" src="/images/about/sasha.webp" alt={{ T "team/member_4/title" }}>
                 </div>
                 <div class="team-info">
-                    <h2 class="section-title">Марина Овсюк</h2>
-                    <h3 class="sub-section-title">SMM/Контент асистент</h3>
-                    <p><strong>Відповідає за:</strong> якість нашого контенту в соцмережах, спілкування з ком’юніті
-                        та круті ідеї.</p>
-                    <p><strong>Крім цього:</strong> вільний ельф, пристрасна поціновувачка їжі та вина, акторка.</p>
+                    <h2 class="section-title">{{ T "team/member_4/title" }}</h2>
+                    <h3 class="sub-section-title">{{ T "team/member_4/position" }}</h3>
+                    {{ T "team/member_4/description" | safeHTML }}
                 </div>
             </li>
             <li class="team-item swiper-slide">
                 <div class="team-img">
-                    <img width="290" height="290" loading="lazy" src="/images/about/appa.webp" alt="Аппа">
+                    <img width="290" height="290" loading="lazy" src="/images/about/maryna.webp" alt={{ T "team/member_5/title" }}>
                 </div>
                 <div class="team-info">
-                    <h2 class="section-title">Аппа</h2>
-                    <h3 class="sub-section-title">Happiness Manager</h3>
-                    <p><strong>Відповідає за:</strong> створення гарного настрою, дотримання робочого розкладу,
-                        мімімішні світлини та відео.</p>
-                    <p><strong>Крім цього:</strong> експерт із ембієнту та класичної музики, чемпіон із пошуку
-                        смаколиків.</p>
+                    <h2 class="section-title">{{ T "team/member_5/title" }}</h2>
+                    <h3 class="sub-section-title">{{ T "team/member_5/position" }}</h3>
+                    {{ T "team/member_5/description" | safeHTML }}
+                </div>
+            </li>
+            <li class="team-item swiper-slide">
+                <div class="team-img">
+                    <img width="290" height="290" loading="lazy" src="/images/about/appa.webp" alt={{ T "team/member_6/title" }}>
+                </div>
+                <div class="team-info">
+                    <h2 class="section-title">{{ T "team/member_6/title" }}</h2>
+                    <h3 class="sub-section-title">{{ T "team/member_6/position" }}</h3>
+                    {{ T "team/member_6/description" | safeHTML }}
                 </div>
             </li>
         </ul>
@@ -137,68 +123,81 @@
 <!--  why section starts here  -->
 <div class="why-section inline-gap">
     <div class="container">
-        <h2 class="section-title">А ще</h2>
+        <h2 class="section-title">{{ T "about/features/title" }}</h2>
     </div>
     <div class="small-container">
         <ul class="why-section-list" role="list">
             <li>
-                <div class="why-section-list-item">
-                    <img src="/images/home/time-icon.svg" alt="Дедлайни — наше все." />
-                    <p>
-                        <strong>Дедлайни — то святе</strong>
-                        За 7 років ми зірвали 0 дедлайнів.
-                    </p>
-                </div>
+              <div class="why-section-list-item">
+                <img 
+                  src="/images/home/time-icon.svg" 
+                  alt={{ T "general/features/feature_1/title" }} 
+                />
+                <p>
+                  <strong>{{ T "general/features/feature_1/title" }}</strong>
+                  {{ T "general/features/feature_1/description" }}
+                </p>
+              </div>
             </li>
             <li>
-                <div class="why-section-list-item">
-                    <img src="/images/home/dialog-icon.svg" alt="Ми спілкуємося простою мовою." />
-                    <p>
-                        <strong>Ми спілкуємося простою мовою
-                        </strong> Нема потреби опановувати аудіо термінологію, натомість розкажіть нам про почуття та
-                        емоції, що має викликати ваш продукт, і ми вас зрозуміємо.
-                    </p>
-                </div>
+              <div class="why-section-list-item">
+                <img 
+                  src="/images/home/dialog-icon.svg" 
+                  alt={{ T "general/features/feature_2/title" }} 
+                />
+                <p>
+                  <strong>{{ T "general/features/feature_2/title" }}</strong>
+                  {{ T "general/features/feature_2/description" }}
+                </p>
+              </div>
             </li>
             <li>
-                <div class="why-section-list-item">
-                    <img src="/images/home/idea-icon.svg" alt="" />
-                    <p>
-                        <strong>Створюємо знакове звучання</strong> Ми детально вивчаємо ваш продукт, аналізуємо ринок і
-                        цільову аудиторію,
-                        щоби створити звучання, що запам'ятається вашим користувачам.
-                    </p>
-                </div>
+              <div class="why-section-list-item">
+                <img 
+                  src="/images/home/idea-icon.svg" 
+                  alt={{ T "general/features/feature_3/title" }} 
+                />
+                <p>
+                  <strong>{{ T "general/features/feature_3/title" }}</strong>
+                  {{ T "general/features/feature_3/description" }}
+                </p>
+              </div>
             </li>
             <li>
-                <div class="why-section-list-item">
-                    <img src="/images/home/document-icon.svg" alt="Зрозумілий процес роботи." />
-                    <p>
-                        <strong>Зрозумілий процес роботи
-                        </strong> Ви легко орієнтуватиметеся в тому, що відбувається на кожному етапі створення аудіо. У
-                        цьому допоможуть аудіальні мудборди й спеціальна методика фідбеку.
-                    </p>
-                </div>
-            </li>
-
-            <li>
-                <div class="why-section-list-item">
-                    <img src="/images/home/audio-icon.svg" alt="" />
-                    <p>
-                        <strong>Аудиторія + наше аудіо = ❤️.</strong> Наші роботи вже чули мільйони людей і багацько з
-                        них були настільки вражені, що написали про нас
-                        <a href={{ relLangURL "/reviews" }}>таке.</a>
-                    </p>
-                </div>
+              <div class="why-section-list-item">
+                <img 
+                  src="/images/home/document-icon.svg" 
+                  alt={{ T "general/features/feature_4/title" }} 
+                />
+                <p>
+                  <strong>{{ T "general/features/feature_4/title" }}</strong>
+                  {{ T "general/features/feature_4/description" }}
+                </p>
+              </div>
             </li>
             <li>
-                <div class="why-section-list-item">
-                    <img src="/images/home/lamp-icon.svg" alt="" />
-                    <p>
-                        <strong>Ми прагнемо значущих зв'язків
-                        </strong>Тому завжди готові вислухати і поділитися ідеями та порадами, навіть якщо ви поки не
-                        готові до співпраці.
-                </div>
+              <div class="why-section-list-item">
+                <img 
+                  src="/images/home/audio-icon.svg" 
+                  alt={{ T "general/features/feature_5/title" }} 
+                />
+                <p>
+                  <strong>{{ T "general/features/feature_5/title" }}</strong>
+                  {{ printf (T "general/features/feature_5/description") (relLangURL "reviews") | safeHTML  }}
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="why-section-list-item">
+                <img 
+                  src="/images/home/lamp-icon.svg" 
+                  alt={{ T "general/features/feature_6/title" }} 
+                />
+                <p>
+                  <strong>{{ T "general/features/feature_6/title" }}</strong>
+                  {{ T "general/features/feature_6/description" }}
+                </p>
+              </div>
             </li>
         </ul>
     </div>
