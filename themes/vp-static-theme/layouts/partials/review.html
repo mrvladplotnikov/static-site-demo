@@ -20,7 +20,7 @@
         {{- if .Truncated }}
         {{- $modalID := replace .Title " " "_" | lower -}}
         <button class="review-text-more vp-hover" data-modal-id="{{ $modalID }}">
-            {{ T "more"}}
+            {{ T "general/review/read_more" }}
         </button>
 
         <div class="modal hidden" data-modal="{{ $modalID }}">

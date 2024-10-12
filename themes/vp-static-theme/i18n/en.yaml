@@ -25,6 +25,8 @@ general/services/audio-branding/title: Audio Branding
 general/services/sound-design/title: Sound Design
 general/services/voice-casting/title: Voice Casting
 
+general/review/read_more: More
+
 works/category/title: Category
 works/service/title: Service
 works/genres/title: Genre
@@ -76,3 +78,5 @@ team/member_5/description: "<p><strong>Responsible for:</strong> the quality of 
 team/member_6/title: Appa The Dog
 team/member_6/position: Happiness Manager
 team/member_6/description: "<p><strong>Responsible for:</strong> a good mood, respecting work hours, cute photos and videos.</p><p><strong>Also:</strong> ambient and classical music expert, champion of treats.</p>"
+
+service/works/title: Our works

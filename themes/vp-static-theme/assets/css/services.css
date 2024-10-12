@@ -1,6 +1,5 @@
 .mobile-menu {
     display: grid;
-    background-color: transparent;
 }
 
 .service-page {
@@ -68,6 +67,7 @@
 
     padding-block-start: 6.5rem;
     padding-block-end: 7.8125rem;
+    margin-block-end: 2.5rem;
 }
 
 .box-image {
@@ -254,6 +254,20 @@
         font-size: 1.125rem;
     }
 }
+
+.service-section .small-container>h3 {
+    font-size: var(--fz-regular);
+    margin-block-start: 2em;
+    margin-block-end: 1em;
+}
+
+@media (min-width: 1080px) {
+    .service-section .small-container>h3 {
+        font-size: 1.375rem;
+    }
+}
+
+
 
 /* Out prcies section start */
 .our-prices p:first-child {

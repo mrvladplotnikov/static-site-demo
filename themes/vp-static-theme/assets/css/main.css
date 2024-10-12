@@ -1144,7 +1144,7 @@ body .hidden {
 }
 
 .review-item .review-text p::after {
-  content: '\201D';
+  content: '\201C';
 }
 
 .review-item .review-text {
@@ -1281,6 +1281,7 @@ body.modal-open {
 }
 
 .modal-text h3 {
+  margin-block-start: 1.5em;
   font-size: 1.125rem;
 }
 
@@ -1292,6 +1293,13 @@ body.modal-open {
   }
 
   .modal-text h3 {
+    font-size: 1.375rem;
+  }
+}
+
+@media (min-width: 1080px) {
+  .modal-text p,
+  .modal-text h4 {
     font-size: 1.375rem;
   }
 }

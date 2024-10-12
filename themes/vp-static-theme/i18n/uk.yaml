@@ -23,6 +23,8 @@ general/services/audio-branding/title: Аудіобрендинг
 general/services/sound-design/title: Звуковий дизайн
 general/services/voice-casting/title: Голосове звучання
 
+general/review/read_more: Більше
+
 works/category/title: Категорія
 works/service/title: Послуга
 works/genres/title: Жанр
@@ -74,3 +76,5 @@ team/member_5/description: "<p><strong>Responsible for:</strong> the quality of 
 team/member_6/title: Appa The Dog
 team/member_6/position: Happiness Manager
 team/member_6/description: "<p><strong>Responsible for:</strong> a good mood, respecting work hours, cute photos and videos.</p><p><strong>Also:</strong> ambient and classical music expert, champion of treats.</p>"
+
+service/works/title: Наші роботи
