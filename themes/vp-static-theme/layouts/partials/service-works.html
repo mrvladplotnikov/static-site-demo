@@ -8,14 +8,12 @@
     <h2 id="works-title">{{ T "service/works/title" }}</h2>
     <div class="works-list grid" aria-labelledby="works-title">
         {{- range first 6 . }}
-        <div class="column">
-            <a class="works-list-item no-hover grid-item" href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
-                {{- with resources.GetMatch .Params.image }}
-                <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
-                {{- end }}
-                <h4 class="works-list-item-title grid-item-title">{{ .Title }}</h4>
-            </a>
-        </div>
+        <a class="no-hover grid-item" href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
+            {{- with resources.GetMatch .Params.image }}
+            <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
+            {{- end }}
+            <h4 class="grid-item-title">{{ .Title }}</h4>
+        </a>
         {{- end }}
     </div>
 </div>

@@ -2,10 +2,7 @@ import Grid from "./shared/grid.js";
 import { throttle } from "./shared/throttle.js";
 
 new Grid(document.querySelector('.grid'), document.querySelectorAll('.grid-item'), 2).init({
-    '(max-width: 42em)': 2,
-    '(min-width: 42em)': 3,
-    '(min-width: 60em)': 4,
-    '(min-width: 81em)': 5,
+    '(min-width: 1696px)': 5,
 });
 
 const desktopMenu = document.querySelector("#horizontal-nav");

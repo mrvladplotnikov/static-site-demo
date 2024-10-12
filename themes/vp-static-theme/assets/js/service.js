@@ -5,7 +5,6 @@ const gridItemEl = document.querySelectorAll('.grid-item');
 
 if (gridEl && gridItemEl) {
     new Grid(gridEl, gridItemEl, 2).init({
-        '(max-width: 42em)': 2,
-        '(min-width: 42em)': 3,
+        '(min-width: 1696px)': 3,
     });
 }

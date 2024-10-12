@@ -124,6 +124,12 @@
     height: 100%;
 }
 
+@media (min-width: 550px) {
+    .service-section .grid {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
 @media (min-width: 1080px) {
     .service-page {
         display: grid;

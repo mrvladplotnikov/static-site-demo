@@ -573,32 +573,34 @@ body .hidden {
 /* grid start */
 .grid {
   position: relative;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 
   max-width: 120rem;
   margin-inline: auto;
-}
 
-.grid .column {
-  flex: 1;
-
-  display: flex;
-  flex-direction: column;
-
-}
-
-.grid {
   gap: 0.7rem;
 }
 
-.grid .column {
-  gap: 1rem;
+@media (min-width: 550px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
-.grid .column>* {
-  position: relative;
-  overflow: hidden;
+@media (min-width: 992px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
+
+@media (min-width: 1300px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+
 
 .grid-item {
   position: relative;
@@ -640,6 +642,16 @@ body .hidden {
   font-weight: 700;
 }
 
+.grid-item-hidden {
+  display: none;
+}
+
+@media (min-width: 672px) {
+  .grid-item .grid-item-title {
+    font-size: 1.375rem;
+  }
+}
+
 @media only screen and (min-width: 1080px) and (hover: hover) and (pointer: fine) {
   .grid-item .grid-item-title {
     position: absolute;
@@ -660,25 +672,21 @@ body .hidden {
 
 }
 
-.grid-item-hidden {
-  display: none;
-}
-
-@media (min-width: 672px) {
-  .grid {
-    gap: 0.7rem;
-  }
-  
-  .grid .column {
-    gap: 1rem;
-  }
-  
-  .grid-item .grid-item-title {
-    font-size: 1.375rem;
-  }
-}
-
 @media (min-width: 1696px) {
+  .grid .column {
+    flex: 1;
+  
+    display: flex;
+    flex-direction: column;
+  
+    gap: 1rem;
+  
+  }
+  
+  .grid .column>* {
+    position: relative;
+    overflow: hidden;
+  }
 
   .grid .column>*,
   .grid .column:nth-child(odd)>*:nth-child(even),

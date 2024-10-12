@@ -59,6 +59,8 @@ class Grid {
   }
 
   generateColumns() {
+    console.log('generateColumns');
+    
     this.clearGrid();
     this.sortDataPerColumn();
 

@@ -36,10 +36,7 @@ import Grid from "./shared/grid.js";
     const filteredIWorks = filterWorks(gridItemsEl, initialCategory, initialService);
 
     const grid = new Grid(gridEl, filteredIWorks, 2).init({
-        '(max-width: 42em)': 2,
-        '(min-width: 42em)': 3,
-        '(min-width: 60em)': 4,
-        '(min-width: 81em)': 5,
+        '(min-width: 1696px)': 5,
     });
 
     /**

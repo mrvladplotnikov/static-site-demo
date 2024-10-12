@@ -79,7 +79,7 @@
         </div>
     </div>
 
-    <div class="inline-gap works-list grid" role="list" aria-labelledby="works-title">
+    <div class="inline-gap works-list grid">
         {{- range .Pages }}
 
         {{- $categoriesList := slice -}}
@@ -99,16 +99,13 @@
         {{- $workTitle := .Title -}}
         {{- $categories := delimit $categoriesList "," -}}
         {{- $services := delimit $servicesList "," -}}
-
-        <div class="column">
-            <a class="works-list-item no-hover grid-item" href="{{ .RelPermalink }}" aria-label="{{ $workTitle }}"
-                data-categories="{{ $categories }}" data-services="{{ $services }}">
-                {{ with resources.GetMatch .Params.image }}
-                <img loading="lazy" src="{{ .RelPermalink }}" alt="{{ $workTitle }}" />
-                {{ end }}
-                <h4 class="works-list-item-title grid-item-title">{{ $workTitle }}</h4>
-            </a>
-        </div>
+        <a class="no-hover grid-item" href="{{ .RelPermalink }}" aria-label="{{ $workTitle }}"
+            data-categories="{{ $categories }}" data-services="{{ $services }}">
+            {{ with resources.GetMatch .Params.image }}
+            <img loading="lazy" src="{{ .RelPermalink }}" alt="{{ $workTitle }}" />
+            {{ end }}
+            <h4 class="grid-item-title">{{ $workTitle }}</h4>
+        </a>
         {{- end }}
     </div>
 </div>
