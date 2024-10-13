@@ -12,7 +12,7 @@
     <h4 class="review-item-company">{{ .Params.company }}</h4>
 
     <div class="review-text">
-        {{ .Summary }}
+        <p>{{ .Summary | plainify | htmlUnescape | chomp }}</p>
         {{- if .Truncated }}
         {{- $modalID := replace .Title " " "_" | lower -}}
         <button class="review-text-more vp-hover" data-modal-id="{{ $modalID }}">
