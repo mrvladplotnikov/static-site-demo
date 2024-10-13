@@ -12,11 +12,7 @@
     <h4 class="review-item-company">{{ .Params.company }}</h4>
 
     <div class="review-text">
-        {{- if or (in (string .RawContent) "\n\n") (in (string .RawContent) "\r\n") }}
         {{ .Summary }}
-        {{- else }}
-        <p>{{ .Summary }}</p>
-        {{- end }}
         {{- if .Truncated }}
         {{- $modalID := replace .Title " " "_" | lower -}}
         <button class="review-text-more vp-hover" data-modal-id="{{ $modalID }}">
