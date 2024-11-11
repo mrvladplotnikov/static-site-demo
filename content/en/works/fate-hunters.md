@@ -25,7 +25,7 @@ type: "work"
 
 Fate Hunters is a hardcore mix of card strategy and roguelike adventure. In this game, you need to explore and conquer the mysterious tower, face fearsome enemies, sacrifice your own life for the sake of unimaginable treasures and, of course, fight the mysterious Master.
 
-You can download the game {{<link_blank "ось here" "https://store.steampowered.com/app/920680/Fate_Hunters/">}}.
+You can download the game {{%link_blank "ось here" "https://store.steampowered.com/app/920680/Fate_Hunters/"%}}.
 
 ## Sound concept
 
@@ -37,7 +37,7 @@ In that theme, the whole sound is orchestral with just a hint of rock. The battl
 
 During our work, we’ve found some inspiration in the Bloodborne soundtrack.
 
-{{<image "images/fate-hunters/fh1.jpg" "Banner" >}}
+{{%image "images/fate-hunters/fh1.jpg" "Banner" %}}
 
 ## Challenge
 
@@ -51,8 +51,8 @@ After some time spent in experiments, we finally found the perfect balance, and 
 
 ### You can listen to the soundtrack for the Fate Hunters game below:
 
-{{<yt "NpJgXDWKHJM" "Fate Hunters Video">}}
+{{%yt "NpJgXDWKHJM" "Fate Hunters Video"%}}
 
 ### And here you can watch how the music sounds in the context of the gameplay:
 
-{{<yt "WaqHy4mdR38" "Fate Hunters Video">}}
+{{%yt "WaqHy4mdR38" "Fate Hunters Video"%}}

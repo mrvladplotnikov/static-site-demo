@@ -28,7 +28,7 @@ The company is preparing for the launch of the 3D Full-Body Motion Capture Suit 
 
 This suit will be of interest to animators, game developers, video and film directors, roboticists, and other technology and media industries’ specialists. 
 
-{{<link_blank "mSuit" "https://msuit.one/">}} excels over similar products thanks to precise tracking of movements and position, intuitive and simple use, automatic sensor calibration, as well as its cost. Depending on the configuration, this product will be affordable to both indie developers and bigger players.
+{{%link_blank "mSuit" "https://msuit.one/"%}} excels over similar products thanks to precise tracking of movements and position, intuitive and simple use, automatic sensor calibration, as well as its cost. Depending on the configuration, this product will be affordable to both indie developers and bigger players.
 
 ## Sound concept
 
@@ -40,7 +40,7 @@ To achieve the right sound, we mixed synths and modern elements that emphasize t
 
 We wanted to express the idea that Carpe Diem Solutions opens a world of technology that used to be inaccessible and seemed something distant and unattainable to ordinary people. Moreover, while some elements (such as the audio logo) sound simple, there is a kind of «open finale», which symbolizes the space for opportunities that the brand promises.
 
-{{<image "images/carpe-diem-solutions/cds1.jpg" "Logo" >}}
+{{%image "images/carpe-diem-solutions/cds1.jpg" "Logo" %}}
 
 ## Challenge
 
@@ -62,16 +62,16 @@ During our work on the Carpe Diem Solutions audio brand, we developed such eleme
 
 You can listen to and watch them below:
 
-{{<raw_html>}}
+{{%raw_html%}}
 <iframe loading="lazy" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/938814724&amp;color=%23f23b0d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
-{{</raw_html>}}
+{{%/raw_html%}}
 
-{{<yt "gfXF2B8WUbo" "Carpe Diem Solutions Video">}}
+{{%yt "gfXF2B8WUbo" "Carpe Diem Solutions Video"%}}
 
-{{<yt "VY8O9HcF5wo" "Carpe Diem Solutions Video">}}
+{{%yt "VY8O9HcF5wo" "Carpe Diem Solutions Video"%}}
 
 ### And here are the first two videos that started our collaboration with the CDS team:
 
-{{<yt "1I3P_VcZCqE" "Carpe Diem Solutions Video">}}
+{{%yt "1I3P_VcZCqE" "Carpe Diem Solutions Video"%}}
 
-{{<yt "vVQs6vO4IhI" "Carpe Diem Solutions Video">}}
+{{%yt "vVQs6vO4IhI" "Carpe Diem Solutions Video"%}}

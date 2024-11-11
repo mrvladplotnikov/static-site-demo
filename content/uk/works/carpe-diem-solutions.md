@@ -28,7 +28,7 @@ Carpe Diem Solutions — це R&D компанія, яка розробляє п
 
 Цей костюм буде цікавий аніматорам, ігровим розробникам, відео- та кінорежисерам, роботобудівникам і іншим представникам технологічної та медійної індустрій.
 
-{{<link_blank "mSuit" "https://msuit.one/">}} перевершує аналогічні продукти завдяки точному відстеженню переміщень і розташування в приміщенні, інтуїтивності використання, автоматичного калібрування датчиків і до того ж завдяки своїй вартості. Залежно від комплектації, цей продукт буде доступний як інді-розробникам, так і більш великим гравцям.
+{{%link_blank "mSuit" "https://msuit.one/"%}} перевершує аналогічні продукти завдяки точному відстеженню переміщень і розташування в приміщенні, інтуїтивності використання, автоматичного калібрування датчиків і до того ж завдяки своїй вартості. Залежно від комплектації, цей продукт буде доступний як інді-розробникам, так і більш великим гравцям.
 
 ## Концепція звучання
 
@@ -40,7 +40,7 @@ Carpe Diem Solutions — це R&D компанія, яка розробляє п
 
 Ми прагнули висловити ідею, що Carpe Diem Solutions відкриває для звичайних людей світ технологій, які раніше були недоступні і здавалися чимось далеким і недосяжним. Ба більше, незважаючи на те, що звучання деяких елементів (наприклад, аудіо логотипу) просте, там присутня подоба «відкритого фіналу», що символізує простір для можливостей, що його обіцяє бренд, і який кожен користувач зможе наповнити сам.
 
-{{<image "images/carpe-diem-solutions/cds1.jpg" "Logo" >}}
+{{%image "images/carpe-diem-solutions/cds1.jpg" "Logo" %}}
 
 ## Челлендж
 
@@ -62,16 +62,16 @@ Carpe Diem Solutions — це R&D компанія, яка розробляє п
 
 Послухати й подивитися їх ви можете нижче:
 
-{{<raw_html>}}
+{{%raw_html%}}
 <iframe loading="lazy" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/938814724&amp;color=%23f23b0d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
-{{</raw_html>}}
+{{%/raw_html%}}
 
-{{<yt "gfXF2B8WUbo" "Carpe Diem Solutions Video">}}
+{{%yt "gfXF2B8WUbo" "Carpe Diem Solutions Video"%}}
 
-{{<yt "VY8O9HcF5wo" "Carpe Diem Solutions Video">}}
+{{%yt "VY8O9HcF5wo" "Carpe Diem Solutions Video"%}}
 
 ### А ось і перші два ролики, з яких і почалась наша співпраця з командою CDS:
 
-{{<yt "1I3P_VcZCqE" "Carpe Diem Solutions Video">}}
+{{%yt "1I3P_VcZCqE" "Carpe Diem Solutions Video"%}}
 
-{{<yt "vVQs6vO4IhI" "Carpe Diem Solutions Video">}}
+{{%yt "vVQs6vO4IhI" "Carpe Diem Solutions Video"%}}

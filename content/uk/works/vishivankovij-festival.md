@@ -31,10 +31,10 @@ type: "work"
 
 Композиція є дуже динамічною й це повною мірою відображає суть людей, які пов’язані з фестивалем. Вони енергійні, сповнені сил, ідей і любові.
 
-{{<inline_image_list>}}
-{{<image "images/vishivankovij-festival/vf1.jpg" "Photo" >}}
-{{<image "images/vishivankovij-festival/vf2.jpg" "Photo" >}}
-{{</inline_image_list>}}
+{{%inline_image_list%}}
+{{%image "images/vishivankovij-festival/vf1.jpg" "Photo" %}}
+{{%image "images/vishivankovij-festival/vf2.jpg" "Photo" %}}
+{{%/inline_image_list%}}
 
 ## Челлендж
 
@@ -46,14 +46,14 @@ type: "work"
 
 Але не в нашому випадку. Адже створений гімн не просто відображає все те, чим є Вишиванковий фестиваль, він ще і встановлений у команди організаторів на дзвінках і будильниках. 🙂
 
-А ще нашим персональним челленджем стали кілька невеликих інтерв’ю про співпрацю з фестивалем. Почитати можна {{<link_blank "тут" "">}}.
+А ще нашим персональним челленджем стали кілька невеликих інтерв’ю про співпрацю з фестивалем. Почитати можна {{%link_blank "тут" ""%}}.
 
 ## Результат
 
 Послухати офіційний гімн Вишиванковий фестивалю й ембієнт для зони ярмарку можна нижче:
 
-{{<yt "LOpqCN4DOkg" "Vishivankovij Festival Video">}}
+{{%yt "LOpqCN4DOkg" "Vishivankovij Festival Video"%}}
 
-{{<raw_html>}}
+{{%raw_html%}}
 <iframe loading="lazy" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/579890934&amp;color=%23f23b0d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
-{{</raw_html>}}
+{{%/raw_html%}}

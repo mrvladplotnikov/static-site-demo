@@ -24,7 +24,7 @@ A wooden sculpture of a man swimming in the desert against dust storms will symb
 
 We knew most of the team working on Merman since the [Carpe Diem Solutions](/works/carpe-diem-solutions) projects, so we were happy to help them and compose some music for a video presentation of their art object.
 
-{{<image "images/merman/mrm1.jpg" "Photo" >}}
+{{%image "images/merman/mrm1.jpg" "Photo" %}}
 
 ## Sound concept
 
@@ -36,10 +36,10 @@ The final track is based on electronic textures, with layered on top of it live 
 
 The very idea of the track is inspired and in many ways echoes the concept of the art object: it has a lot of emotions, a sharp sense of the past and dust that clouds the one’s mind and prevents moving forward; the struggle and finally the culmination at the moment when the sculpture burns down and symbolically frees the person from all the restrictions.
 
-{{<inline_image_list>}}
-{{<image "images/merman/mrm2.jpg" "Photo" >}}
-{{<image "images/merman/mrm3.jpg" "Photo" >}}
-{{</inline_image_list>}}
+{{%inline_image_list%}}
+{{%image "images/merman/mrm2.jpg" "Photo" %}}
+{{%image "images/merman/mrm3.jpg" "Photo" %}}
+{{%/inline_image_list%}}
 
 ## Challenge
 
@@ -51,4 +51,4 @@ Such supersonic speed is a direct consequence of the great relationship and trus
 
 ### Take a look at the presentation of the Merman art object for the Burning Man Festival featuring our music below:
 
-{{<yt "WnyjpzR3-O4" "Merman Video">}}
+{{%yt "WnyjpzR3-O4" "Merman Video"%}}

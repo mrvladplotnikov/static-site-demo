@@ -27,7 +27,7 @@ Coral Isle 2 is a Facebook farming game about travelers who survive a plane cras
 
 The most exciting part is that the sequel of the Coral Isle game was co-created with its community, as the developers used players’ ideas and put them into the game.
 
-You can play Coral Isle 2 {{<link_blank "here" "https://coralisle2.quartsoft.com/uk/">}}.
+You can play Coral Isle 2 {{%link_blank "here" "https://coralisle2.quartsoft.com/uk/"%}}.
 
 ## Sound concept
 
@@ -43,7 +43,7 @@ For this purpose, we chose instruments such as marimba, various wood percussions
 
 Considering that the music plays all the time during the game session, we’ve made it dynamic so that the loop won’t sound way too repetitive.
 
-{{<image "images/coral-isle-2-tropical-stories/ci1.png" "Banner" >}}
+{{%image "images/coral-isle-2-tropical-stories/ci1.png" "Banner" %}}
 
 ## Challenge
 
@@ -55,4 +55,4 @@ However, in the end, it all went smoothly, as we know how audio DNA works and ho
 
 ### You can listen to the soundtrack for the game Coral Isle 2: Tropical Stories below:
 
-{{<yt "wja4Zd84uFg" "Coral Isle 2: Tropical Stories Video">}}
+{{%yt "wja4Zd84uFg" "Coral Isle 2: Tropical Stories Video"%}}

@@ -27,7 +27,7 @@ If you like text quests, then you will love the Look Right. This interactive cha
 
 What starts as an innocent virtual tour around the city of Odesa will turn out to be something much darker and will tickle your nerves. Your guide, a real girl, will get in trouble, and her salvation will depend on you. What will you do?
 
-You can start your tour right {{<link_blank "here" "https://apps.apple.com/ua/app/look-right-escape-the-game/id1148161536">}}.
+You can start your tour right {{%link_blank "here" "https://apps.apple.com/ua/app/look-right-escape-the-game/id1148161536"%}}.
 
 ## Sound concept
 
@@ -37,7 +37,7 @@ In the first case, Vlad used the real sounds of Odesa streets: the buzzing crowd
 
 He experimented extensively with different synths and sound samples to create an oppressive atmosphere of horror and achieve the desired ambient sound.
 
-{{<image "images/look-right/lr1.jpg" "Screenshot" >}}
+{{%image "images/look-right/lr1.jpg" "Screenshot" %}}
 
 ## Challenge
 
@@ -49,8 +49,8 @@ Also, we had to make the background ambient saturated with emotions but, at the 
 
 ### Listen to the full Look Right soundtrack below:
 
-{{<yt "F-lt-gQa0Q0" "Look Right Video">}}
+{{%yt "F-lt-gQa0Q0" "Look Right Video"%}}
 
 ### You can check the sound in the context of the gameplay by watching  the video:
 
-{{<yt "4DrRnl0DjsQ" "Look Right Video">}}
+{{%yt "4DrRnl0DjsQ" "Look Right Video"%}}

@@ -23,7 +23,7 @@ monobank is a product of a collaboration of the Universal Bank and the Fintech B
 
 In 2019, the number of monobank users exceeded 1.3 million, and the total amount of money they used was 112 billion hryvnias. Mono is an actively developing project with the most convenient mobile application on the market.
 
-{{<image "images/monobank/mb1.png" "Photo" >}}
+{{%image "images/monobank/mb1.png" "Photo" %}}
 
 ## Sound concept
 
@@ -37,7 +37,7 @@ It was clear that the sounds needed to be exclusively organic as the human brain
 
 We conducted a series of experiments with the meowing and purring of a real cat, then added some sound effects like a cash register and wooden percussion instruments to them. Our main goal was to make notification sounds functional and at the same time, cozy-like. It seems that everything worked out. 🙂
 
-{{<image "images/monobank/mb2.jpg" "Photo" >}}
+{{%image "images/monobank/mb2.jpg" "Photo" %}}
 
 ## Challenge
 
@@ -57,9 +57,9 @@ For the first iteration of the project, we’ve created five notification sounds
 
 ### You can listen to them below:
 
-{{<raw_html>}}
+{{%raw_html%}}
 <iframe loading="lazy" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/582091059&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
-{{</raw_html>}}
+{{%/raw_html%}}
 
 ## Space Invader
 
@@ -77,7 +77,7 @@ Fun fact: after the release, there was a bug in the game, and the sound couldn�
 
 ### You can listen to what we’ve created below:
 
-{{<yt "_XM24EYVVAM" "monobank Video">}}
+{{%yt "_XM24EYVVAM" "monobank Video"%}}
 
 ## Sausage Cat
 
@@ -93,4 +93,4 @@ As a result, the music adds fun and cartoonish mood, as well as emphasizes the l
 
 ### Listen to how everything works in the context of gameplay below:
 
-{{<yt "BiYtJb1uurI" "monobank Video">}}
+{{%yt "BiYtJb1uurI" "monobank Video"%}}

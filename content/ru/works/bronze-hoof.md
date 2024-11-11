@@ -27,7 +27,7 @@ Bronze Hoof is an antique-style hardcore arcade game. It is genuinely hardcore i
 
 The main character is a centaur who tirelessly runs into the distance with «fire and sword», or instead, with fire and arrows, cuts down all petty evil and frightening bosses.
 
-{{<image "images/bronze-hoof/bh1.jpg" "Screenshot" >}}
+{{%image "images/bronze-hoof/bh1.jpg" "Screenshot" %}}
 
 ## Sound concept
 
@@ -39,7 +39,7 @@ The instruments of the orchestra intentionally do not sound too «lively.» It i
 
 The main soundtrack task is to help the player feel his or her coolness even more while passing each level. The primary mission of the sound effects is to maintain the general atmosphere of the game.
 
-{{<image "images/bronze-hoof/bh2.jpg" "Screenshot" >}}
+{{%image "images/bronze-hoof/bh2.jpg" "Screenshot" %}}
 
 ## Challenge
 
@@ -49,14 +49,14 @@ Besides, portals were on random positions on a level, and this did not allow us 
 
 As a result, we had to adjust the arrangement to each level’s design to avoid sharp breaks in the melody.
 
-That is why music is best evaluated in the context of the game. You need to see (or rather hear) for yourself how it works together with the gameplay. To do this, you can {{<link_blank "download the game" "">}} or watch a video with the passage of all levels below.
+That is why music is best evaluated in the context of the game. You need to see (or rather hear) for yourself how it works together with the gameplay. To do this, you can {{%link_blank "download the game" ""%}} or watch a video with the passage of all levels below.
 
 ## Result
 
 ### Music in the context of gameplay:
 
-{{<yt "KvkxgtwrxpM" "Bronze Hoof Video">}}
+{{%yt "KvkxgtwrxpM" "Bronze Hoof Video"%}}
 
 ### The full Bronze Hoof soundtrack:
 
-{{<yt "L1uLt1mapLc" "Bronze Hoof Video">}}
+{{%yt "L1uLt1mapLc" "Bronze Hoof Video"%}}

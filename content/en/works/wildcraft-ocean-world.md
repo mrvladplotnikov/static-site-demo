@@ -26,9 +26,9 @@ type: "work"
 
 The Ocean World is a game mode that was added to the [WildCraft](wildcraft), a wildlife simulator game, in the massive update of 2021. This game world is quite different from the regular one, and the players get a chance to try themselves in the role of a Dolphin or Shark.
 
-You can check out the underwater world by downloading the game {{<link_blank "here" "https://play.google.com/store/apps/details?id=com.turborocketgames.wildcraft&pli=1" >}}.
+You can check out the underwater world by downloading the game {{%link_blank "here" "https://play.google.com/store/apps/details?id=com.turborocketgames.wildcraft&pli=1" %}}.
 
-{{<image "images/wildcraft-ocean-world/ow1.jpeg" "Screenshot" >}}
+{{%image "images/wildcraft-ocean-world/ow1.jpeg" "Screenshot" %}}
 
 ## Sound concept
 
@@ -36,10 +36,10 @@ It has been almost five years since we started working with the WildCraft team. 
 
 However, the Ocean World is practically a game within a game, so we had to step up our audio game. Thus, we’ve created a totally new audio concept for this new world.
 
-{{<inline_image_list>}}
-{{<image "images/wildcraft-ocean-world/ow2.jpeg" "Screenshot" >}}
-{{<image "images/wildcraft-ocean-world/ow3.jpeg" "Screenshot" >}}
-{{</inline_image_list>}}
+{{%inline_image_list%}}
+{{%image "images/wildcraft-ocean-world/ow2.jpeg" "Screenshot" %}}
+{{%image "images/wildcraft-ocean-world/ow3.jpeg" "Screenshot" %}}
+{{%/inline_image_list%}}
 
 First of all, we’ve studied the preferences and habits of the target audience, as well as main competitors and best practice underwater games. It helped us find a few much-needed insights and define which niche clichés to avoid.
 
@@ -49,15 +49,15 @@ While we were creating the soundtrack for WildCraft: Ocean World, we kept in min
 
 As for sound design, we concentrated on exaggerated realism but kept everything soothing, lively, and not harsh. For example, bubbles accompany almost all sounds of emotion/communication. The number and size of the bubbles depend on the size of the fish or animal.
 
-{{<inline_image_list>}}
-{{<image "images/wildcraft-ocean-world/ow4.jpeg" "Screenshot" >}}
-{{<image "images/wildcraft-ocean-world/ow5.jpeg" "Screenshot" >}}
-{{</inline_image_list>}}
+{{%inline_image_list%}}
+{{%image "images/wildcraft-ocean-world/ow4.jpeg" "Screenshot" %}}
+{{%image "images/wildcraft-ocean-world/ow5.jpeg" "Screenshot" %}}
+{{%/inline_image_list%}}
 
-{{<inline_image_list>}}
-{{<image "images/wildcraft-ocean-world/ow6.jpeg" "Screenshot" >}}
-{{<image "images/wildcraft-ocean-world/ow7.jpeg" "Screenshot" >}}
-{{</inline_image_list>}}
+{{%inline_image_list%}}
+{{%image "images/wildcraft-ocean-world/ow6.jpeg" "Screenshot" %}}
+{{%image "images/wildcraft-ocean-world/ow7.jpeg" "Screenshot" %}}
+{{%/inline_image_list%}}
 
 ## Challenge
 
@@ -71,25 +71,25 @@ For fishes/animals that don’t sound in the real world (such as sharks, barracu
 
 Overall, it was such a fun collaboration, and boy, oh boy, the audience loves the result!
 
-{{<inline_image_list>}}
-{{<image "images/wildcraft-ocean-world/ow8.jpg" "Screenshot" >}}
-{{<image "images/wildcraft-ocean-world/ow9.jpg" "Screenshot" >}}
-{{</inline_image_list>}}
+{{%inline_image_list%}}
+{{%image "images/wildcraft-ocean-world/ow8.jpg" "Screenshot" %}}
+{{%image "images/wildcraft-ocean-world/ow9.jpg" "Screenshot" %}}
+{{%/inline_image_list%}}
 
-{{<inline_image_list>}}
-{{<image "images/wildcraft-ocean-world/ow10.jpg" "Screenshot" >}}
-{{<image "images/wildcraft-ocean-world/ow11.jpg" "Screenshot" >}}
-{{</inline_image_list>}}
+{{%inline_image_list%}}
+{{%image "images/wildcraft-ocean-world/ow10.jpg" "Screenshot" %}}
+{{%image "images/wildcraft-ocean-world/ow11.jpg" "Screenshot" %}}
+{{%/inline_image_list%}}
 
-{{<inline_image_list>}}
-{{<image "images/wildcraft-ocean-world/ow12.jpg" "Screenshot" >}}
-{{<image "images/wildcraft-ocean-world/ow13.jpg" "Screenshot" >}}
-{{</inline_image_list>}}
+{{%inline_image_list%}}
+{{%image "images/wildcraft-ocean-world/ow12.jpg" "Screenshot" %}}
+{{%image "images/wildcraft-ocean-world/ow13.jpg" "Screenshot" %}}
+{{%/inline_image_list%}}
 
-Listen to the full WildCraft: Ocean World soundtrack by following the {{<link_blank "link" "https://ampl.ink/ZMXz5">}} or in the playlist below:
+Listen to the full WildCraft: Ocean World soundtrack by following the {{%link_blank "link" "https://ampl.ink/ZMXz5"%}} or in the playlist below:
 
-{{<yt "5-7AEqI3LRo" "Wildcraft:Ocean World Video">}}
+{{%yt "5-7AEqI3LRo" "Wildcraft:Ocean World Video"%}}
 
 Also, check out the gameplay video:
 
-{{<yt "4CVBqotN8gk" "Wildcraft:Ocean World Video">}}
+{{%yt "4CVBqotN8gk" "Wildcraft:Ocean World Video"%}}
