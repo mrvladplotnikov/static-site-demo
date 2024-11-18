@@ -30,12 +30,12 @@ Apart from creating beautiful habitats for the animals from different biomes, yo
 
 And yes, you can also design and decorate your zoo to make it truly unique!
 
-You can play the game by following this {{<link_blank "link" "">}}.
+You can play the game by following this {{%link_blank "link" ""%}}.
 
-{{<inline_image_list>}}
-{{<image "images/animal-garden/ag1.jpg" "Screenshot" >}}
-{{<image "images/animal-garden/ag2.jpg" "Screenshot" >}}
-{{</inline_image_list>}}
+{{%inline_image_list%}}
+{{%image "images/animal-garden/ag1.jpg" "Screenshot" %}}
+{{%image "images/animal-garden/ag2.jpg" "Screenshot" %}}
+{{%/inline_image_list%}}
 
 ## Sound concept
 
@@ -45,16 +45,16 @@ We wanted the music to be melodic and storytelling and lead players into the fun
 
 We didn’t want this theme to be too background-y as it is a meaningful part of the game, but we also didn’t want to draw attention away from the gameplay. So that’s why it is very dynamic and thus not too repetitive, so it stays fresh and eventually kind of melts away during the long game sessions.
 
-{{<inline_image_list>}}
-{{<image "images/animal-garden/ag3.jpg" "Screenshot" >}}
-{{<image "images/animal-garden/ag4.jpg" "Screenshot" >}}
-{{</inline_image_list>}}
+{{%inline_image_list%}}
+{{%image "images/animal-garden/ag3.jpg" "Screenshot" %}}
+{{%image "images/animal-garden/ag4.jpg" "Screenshot" %}}
+{{%/inline_image_list%}}
 
 When it comes to the sound design, we aimed to create a comforting experience for players. Our priority was to give them a sensation of crafting and taking care of animals. Jingles were designed to grab players’ attention, inform and reward them for various actions. At the same time, it was essential to differentiate various game events using sound effects and jingles to ease the understanding of the gameplay.
 
 Much effort has been made to sound design characters’ animations because the developers wanted them as lively as possible.
 
-{{<image "images/animal-garden/ag5.jpg" "Screenshot" >}}
+{{%image "images/animal-garden/ag5.jpg" "Screenshot" %}}
 
 ## Challenge
 
@@ -66,8 +66,8 @@ It all went smoothly, though, as it wasn’t our first rodeo with the Turbo Rock
 
 ### Listen to the Animal Garden: Zoo and Farm main theme below:
 
-{{<yt "xHuiuIpn_Xw" "Animal Garden Video">}}
+{{%yt "xHuiuIpn_Xw" "Animal Garden Video"%}}
 
 ### You can check the gameplay with music and sound design by watching the following video:
 
-{{<yt "tgS_YmjO_uk" "Animal Garden Video">}}
+{{%yt "tgS_YmjO_uk" "Animal Garden Video"%}}

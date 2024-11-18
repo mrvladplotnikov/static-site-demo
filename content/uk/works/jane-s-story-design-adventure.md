@@ -27,7 +27,7 @@ type: "work"
 
 Проходьте рівні, заробляйте бали й разом із Джейн декоруйте прекрасні будинки, готелі й ресторани по всьому світу. Використовуйте своє дизайнерське бачення на максимум і цікаво проведіть час.
 
-Завантажити гру можна для {{<link_blank "Android" "">}}.
+Завантажити гру можна для {{%link_blank "Android" ""%}}.
 
 ## Концепція звучання
 
@@ -39,10 +39,10 @@ type: "work"
 
 Звукові ефекти для гри ми створили в тональність музики, щоб усе звучало гармонійно. Звуки зробили дуже акуратними, з огляду на те, що вони часто мають накладатися один на одний.
 
-{{<inline_image_list>}}
-{{<image "images/jane-s-story-design-adventure/js1.jpeg" "Screenshot" >}}
-{{<image "images/jane-s-story-design-adventure/js2.jpeg" "Screenshot" >}}
-{{</inline_image_list>}}
+{{%inline_image_list%}}
+{{%image "images/jane-s-story-design-adventure/js1.jpeg" "Screenshot" %}}
+{{%image "images/jane-s-story-design-adventure/js2.jpeg" "Screenshot" %}}
+{{%/inline_image_list%}}
 
 ## Челлендж
 
@@ -54,8 +54,8 @@ type: "work"
 
 ### Послухати повний саундтрек до гри Jane’s Story ви можете нижче:
 
-{{<yt "McHy6ytzKUU" "Jane’s Story: Design Adventure Video">}}
+{{%yt "McHy6ytzKUU" "Jane’s Story: Design Adventure Video"%}}
 
 ### Оцінити звуковий дизайн можна за відео:
 
-{{<yt "J0Nn0hvs5Ys" "Jane’s Story: Design Adventure Video">}}
+{{%yt "J0Nn0hvs5Ys" "Jane’s Story: Design Adventure Video"%}}

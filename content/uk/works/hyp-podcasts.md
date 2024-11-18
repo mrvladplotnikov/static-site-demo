@@ -28,7 +28,7 @@ type: "work"
 
 Саме тому з’явилися подкасти HYP — джерело інформації для молоді про Європейський корпус солідарності, програму Erasmus+, молодіжні обміни, приклади волонтерського досвіду та подорожей. Ці подкасти також допомагають створити спільноту людей, які мають спільні цінності і відкриті для міжкультурної мобільності.
 
-{{<image "images/hyp-podcasts/hp1.jpeg" "Logo" >}}
+{{%image "images/hyp-podcasts/hp1.jpeg" "Logo" %}}
 
 ## Концепція звучання
 
@@ -50,13 +50,13 @@ type: "work"
 
 Ви можете прослухати цей набір нижче:
 
-{{<raw_html>}}
+{{%raw_html%}}
 <iframe loading="lazy" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1266827038&amp;color=%23f23b0d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>
-{{</raw_html>}}
+{{%/raw_html%}}
 
-І, звісно, обов’язково послухайте {{<link_blank "власне подкасти" "https://podcasters.spotify.com/pod/show/hyppodcasts">}}, ось один із них:
+І, звісно, обов’язково послухайте {{%link_blank "власне подкасти" "https://podcasters.spotify.com/pod/show/hyppodcasts"%}}, ось один із них:
 
-{{<raw_html>}}
+{{%raw_html%}}
 <iframe loading="lazy" src="https://anchor.fm/hyppodcasts/embed/episodes/ESC--A-Volunteering-Experience-Germany--Croatia-e15lpbf" height="200px" width="100%" frameborder="0" scrolling="no"></iframe>
-{{</raw_html>}}
+{{%/raw_html%}}
 

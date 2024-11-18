@@ -53,28 +53,38 @@ about/description: <p>Так мы описываем наше аудиоаген
 about/team/title: Наша команда
 about/features/title: И еще
 
-team/member_1/title: Vlad Plotnikov
-team/member_1/position: Co-founder, composer, creative audio producer
-team/member_1/description: "<p><strong>Creates</strong>: video game soundtracks, audio brands.</p><p><strong>Also</strong>: TOTAL-EMPTY frontman, audio mentor, conference speaker, member of the jury of Casual Connect, Global Game Jam Ukraine, and Indie Cup.</p>"
+team/member_1/title: Влад Плотников
+team/member_1/position: Сооснователь, композитор, креативный аудиопродюсер
+team/member_1/description: "<p><strong>Создаёт</strong>: игровые саундтреки, аудио бренды.</p><p><strong>Кроме этого</strong>: фронтмен группы TOTAL-EMPTY, аудио ментор, спикер локальных конференций, член жюри Casual Connect, Global Game Jam Ukraine, Indie Cup.</p>"
 
-team/member_2/title: Ruslana Kruchek
-team/member_2/position: Co-founder, brand manager, art director
-team/member_2/description: "<p><strong>Responsible for</strong>: the right vector of audio brands and our marketing activities.</p><p><strong>Also</strong>: winemaker, conference speaker, padawan vocalist, lyricist.</p>"
+team/member_2/title: Руслана Кручек
+team/member_2/position: Соосновательница, бренд-менеджер, арт-директор
+team/member_2/description: "<p><strong>Отвечает за</strong>: правильный вектор аудио брендов и наши собственные маркетинговые мероприятия.</p><p><strong>Кроме этого</strong>: винодел, спикер конференций, вокалист-падаван, лирицист.</p>"
 
-team/member_3/title: Artem Baskoiev
-team/member_3/position: Composer, sound designer
-team/member_3/description: "<p><strong>Creates</strong>: electronic tracks, sound design for animations, video games, and audio brands.</p><p><strong>Also</strong>: author of the Stolen Forest project.</p>"
+team/member_3/title: Артём Баскоев
+team/member_3/position: Композитор, звуковой дизайнер
+team/member_3/description: "<p><strong>Создаёт</strong>: электронные треки, звуковой дизайн для анимаций, игр и аудио брендов.</p><p><strong>Кроме этого</strong>: автор проекта Stolen Forest.</p>"
 
-team/member_4/title: Oleksandr Falinski
-team/member_4/position: Sound designer, composer
-team/member_4/description: "<p><strong>Creates</strong>: video game sound design and soundtracks.</p><p><strong>Also</strong>: father of the daughter, husband of the wife. 😀</p>"
+team/member_4/title: Александр Фалинский
+team/member_4/position: Звуковой дизайнер, композитор
+team/member_4/description: "<p><strong>Создаёт</strong>: звуковой дизайн для игр, игровые саундтреки.</p><p><strong>Кроме этого</strong>: отец дочери, муж жены. 😀</p>"
 
-team/member_5/title: Maryna Ovsiuk
-team/member_5/position: SMM/Content Assistant
-team/member_5/description: "<p><strong>Responsible for:</strong> the quality of our social media content, communication with the community, and fantastic ideas.</p><p><strong>Also:</strong> free elf, food and wine passionate, actress.</p>"
+team/member_5/title: Марина Овсюк
+team/member_5/position: SMM/Контент ассистент
+team/member_5/description: "<p><strong>Отвечает за:</strong> качество нашего контента в соцсетях, общение с комьюнити и крутые идеи.</p><p><strong>Кроме этого:</strong> свободный эльф, страстная поклонница еды и вина, актриса.</p>"
 
-team/member_6/title: Appa The Dog
+team/member_6/title: Аппа
 team/member_6/position: Happiness Manager
-team/member_6/description: "<p><strong>Responsible for:</strong> a good mood, respecting work hours, cute photos and videos.</p><p><strong>Also:</strong> ambient and classical music expert, champion of treats.</p>"
+team/member_6/description: "<p><strong>Отвечает за:</strong> создание хорошего настроения, соблюдение рабочего расписания, мимимишные фото и видео.</p><p><strong>Кроме этого:</strong> эксперт по эмбиенту и классической музыке, чемпион по поиску вкусняшек.</p>"
 
 service/works/title: Наши работы
+
+our-values/section_1: Мы знаем, что только в сотворении появляются культовые вещи.
+our-values/section_2: Мы верим, что звук — это природный способ коммуникации, а мы лишь придаём ему нужную форму и вектор.
+our-values/section_3: Мы — фанаты системного подхода, в котором всегда есть место креативности.
+our-values/section_4: Мы верим в силу открытого, искреннего общения.
+our-values/section_5: Мы ценим людей и человеческие отношения.
+our-values/section_6: Мы знаем, что каждый из нас способен изменить мир, но только вместе мы можем действительно добиться перемен.
+
+reviews/title_1: Отзывы клиентов и партнёров
+reviews/title_2: Отзывы слушателей

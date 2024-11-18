@@ -1,6 +1,5 @@
 ---
-title: "Our values"
-layout: "our-values"
-url: "/our-values"
-type: "page"
+title: Наші цінності
+layout: our-values
+type: page
 ---

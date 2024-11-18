@@ -27,7 +27,7 @@ Coral Isle 2: Tropical Stories — гра від QuartSoft, з якими ми �
 
 Найдивовижніше, що цей сіквел гри Coral Isle був створений разом із її спільнотою, адже розробники зібрали безліч ідей гравців і додали їх у гру.
 
-Грати в Coral Isle 2 можна {{<link_blank "тут" "https://coralisle2.quartsoft.com/uk/">}}.
+Грати в Coral Isle 2 можна {{%link_blank "тут" "https://coralisle2.quartsoft.com/uk/"%}}.
 
 ## Концепція звучання
 
@@ -43,7 +43,7 @@ Coral Isle 2: Tropical Stories — гра від QuartSoft, з якими ми �
 
 З огляду на те, що музика грає весь час ігрової сесії, ми зробили її досить динамічною, щоби в циклі вона не звучала аж надто нав’язливо.
 
-{{<image "images/coral-isle-2-tropical-stories/ci1.png" "Banner" >}}
+{{%image "images/coral-isle-2-tropical-stories/ci1.png" "Banner" %}}
 
 ## Челлендж
 
@@ -55,4 +55,4 @@ Coral Isle 2: Tropical Stories — гра від QuartSoft, з якими ми �
 
 ### Саундтрек до гри Coral Isle 2: Tropical Stories ви можете послухати нижче:
 
-{{<yt "wja4Zd84uFg" "Coral Isle 2: Tropical Stories Video">}}
+{{%yt "wja4Zd84uFg" "Coral Isle 2: Tropical Stories Video"%}}

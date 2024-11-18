@@ -27,7 +27,7 @@ Do you want to immerse yourself in the dark atmosphere of the Warlock rituals? T
 
 If you like slot games, then Necromancer will pleasantly surprise you with its gameplay mechanics, interface design, and full implementation of the VR format.
 
-You can try the game {{<link_blank "here" "https://demo2.evoplay.games/games/necromancer.php">}}.
+You can try the game {{%link_blank "here" "https://demo2.evoplay.games/games/necromancer.php"%}}.
 
 ## Sound concept
 
@@ -37,12 +37,12 @@ The music as a whole is not too dynamic, but it can not be called “just backgr
 
 The inspiration was the soundtrack for the Interstellar movie. Perhaps because of the organ, but this is not 100% sure. 🙂
 
-{{<image "images/necromancer/nm1.jpg" "Screenshot" >}}
+{{%image "images/necromancer/nm1.jpg" "Screenshot" %}}
 
-{{<inline_image_list>}}
-{{<image "images/necromancer/nm2.jpg" "Screenshot" >}}
-{{<image "images/necromancer/nm3.png" "Screenshot" >}}
-{{</inline_image_list>}}
+{{%inline_image_list%}}
+{{%image "images/necromancer/nm2.jpg" "Screenshot" %}}
+{{%image "images/necromancer/nm3.png" "Screenshot" %}}
+{{%/inline_image_list%}}
 
 ## Challenge
 
@@ -52,8 +52,8 @@ In this project, the most challenging moment for us was the stage of the search 
 
 ### You can listen to the complete soundtrack for Necromancer below:
 
-{{<yt "3P9JY6JiJm0" "Necromancer Video">}}
+{{%yt "3P9JY6JiJm0" "Necromancer Video"%}}
 
 ### You can see how the audio works in the context of gameplay in the video below:
 
-{{<yt "JSMDG0r6xZU" "Necromancer Video">}}
+{{%yt "JSMDG0r6xZU" "Necromancer Video"%}}

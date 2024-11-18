@@ -32,10 +32,10 @@ type: "work"
 
 Тож, як тільки ми зрозуміли наше головне завдання, розпочалася наша захоплююча співпраця.
 
-{{<inline_image_list>}}
-{{<image "images/pumb-online/po1.jpg" "Screenshot" >}}
-{{<image "images/pumb-online/po2.jpg" "Screenshot" >}}
-{{</inline_image_list>}}
+{{%inline_image_list%}}
+{{%image "images/pumb-online/po1.jpg" "Screenshot" %}}
+{{%image "images/pumb-online/po2.jpg" "Screenshot" %}}
+{{%/inline_image_list%}}
 
 ## Брифінг і аудіальний рісерч ніші
 
@@ -73,9 +73,9 @@ type: "work"
 
 Після тестування ми фіналізували аудіо-ДНК, залучивши до роботи вокалістку Інну Францескевич, яка власне й додала ще більше людяності звучанню.
 
-{{<raw_html>}}
+{{%raw_html%}}
 <iframe loading="lazy" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1176942838&amp;color=%23f23b0d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>
-{{</raw_html>}}
+{{%/raw_html%}}
 
 ## Адаптації аудіо-ДНК
 
@@ -99,9 +99,9 @@ type: "work"
 - негативні сповіщення;
 - default звук.
 
-{{<raw_html>}}
+{{%raw_html%}}
 <iframe loading="lazy" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1176942820&amp;color=%23f23b0d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>
-{{</raw_html>}}
+{{%/raw_html%}}
 
 ### Музика утримання на лінії
 
@@ -109,9 +109,9 @@ type: "work"
 
 Тож цю адаптацію аудіо-ДНК ми створили досить динамічною, вмістивши в неї якомога більше елементів брендового звучання. Вона повністю транслює обіцянку бренду та за нею цікаво спостерігати.
 
-{{<raw_html>}}
+{{%raw_html%}}
 <iframe loading="lazy" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1176942802&amp;color=%23f23b0d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>
-{{</raw_html>}}
+{{%/raw_html%}}
 
 ## Результат
 
@@ -121,6 +121,6 @@ type: "work"
 
 У плейлисті нижче ви можете прослухати всі аудіобрендингові ассети, які ми створили для продукту ПУМБ Online.
 
-{{<raw_html>}}
+{{%raw_html%}}
 <iframe loading="lazy" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1362534490&amp;color=%23f23b0d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>
-{{</raw_html>}}
+{{%/raw_html%}}

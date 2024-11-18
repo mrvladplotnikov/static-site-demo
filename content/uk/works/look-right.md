@@ -27,7 +27,7 @@ type: "work"
 
 Те, що почнеться як невинна віртуальна екскурсія Одесою, виявиться чимось більш зловісним і точно полоскоче ваші нерви. Ваш екскурсовод, реальна дівчина, потрапить у біду та її порятунок буде залежати тільки від вас. Що будете робити?
 
-Почати свій тур можна прямо {{<link_blank "тут" "https://apps.apple.com/ua/app/look-right-escape-the-game/id1148161536">}}.
+Почати свій тур можна прямо {{%link_blank "тут" "https://apps.apple.com/ua/app/look-right-escape-the-game/id1148161536"%}}.
 
 ## Концепція звучання
 
@@ -37,7 +37,7 @@ type: "work"
 
 А ось щоби створити гнітючу атмосферу хоррора й домогтися потрібного звучання ембієнту, він багато експериментував із різними синтами та звуковими семплами.
 
-{{<image "images/look-right/lr1.jpg" "Screenshot" >}}
+{{%image "images/look-right/lr1.jpg" "Screenshot" %}}
 
 ## Челлендж
 
@@ -49,8 +49,8 @@ type: "work"
 
 ### Послухати повний саундтрек Look Right можна нижче:
 
-{{<yt "F-lt-gQa0Q0" "Look Right Video">}}
+{{%yt "F-lt-gQa0Q0" "Look Right Video"%}}
 
 ### Оцінити звук у контексті геймплею можна за відео:
 
-{{<yt "4DrRnl0DjsQ" "Look Right Video">}}
+{{%yt "4DrRnl0DjsQ" "Look Right Video"%}}

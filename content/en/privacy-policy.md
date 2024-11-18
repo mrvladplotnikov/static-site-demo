@@ -19,7 +19,7 @@ Please, read Our Privacy Policy carefully. This Privacy Policy will help You to 
 
 By using the Website, You accept this Privacy Policy and methods of processing Your Personal data. If You do not agree with all of the terms and conditions of this Privacy Policy, You should cease any and all access or use of Our Website. If You use the Website on behalf of an entity (such as Your employer), You represent and We assume, that You are an authorized person of such individual or entity to accept this Privacy Policy on such individual’s or entity’s behalf.
 
-If You want to know what Your Personal Data We collect, or want to update, change or delete Your Personal data, or if You become aware of cases of unauthorized access to Personal data of third parties, please contact Us via email: {{<site_email>}}.
+If You want to know what Your Personal Data We collect, or want to update, change or delete Your Personal data, or if You become aware of cases of unauthorized access to Personal data of third parties, please contact Us via email: [{{% site_email %}}](mailto:{{% site_email %}}).
 
 For purposes of this Privacy Policy, the following terms have the meanings ascribed to them below:
 
@@ -27,7 +27,7 @@ For purposes of this Privacy Policy, the following terms have the meanings ascri
 
 **Website** – the website [https://vp-production.com](https://vp-production.com) means all its content and links;
 
-**Data Controller, Owner** – Company, PPE POTNIKOV VLADISLAV VOLODYMYROVYCH, which determines the purposes and means of the processing of Personal data. Contact email: {{<site_email>}}.
+**Data Controller, Owner** – Company, PPE POTNIKOV VLADISLAV VOLODYMYROVYCH, which determines the purposes and means of the processing of Personal data. Contact email: [{{% site_email %}}](mailto:{{% site_email %}}).
 
 **Data Processor** – means a natural or legal person, which processes personal data on behalf of the Controller, specified in this Privacy Policy;
 
@@ -153,13 +153,13 @@ You can always provide Us with a request for removal / replacement / request all
 
 You have certain rights with respect to Your Personal Data, including those set forth below.  
 
-For more information about these rights, or to submit a request, please email  {{<site_email>}}.
+For more information about these rights, or to submit a request, please email  [{{% site_email %}}](mailto:{{% site_email %}}).
 
 1. **Access to Your Personal Data**. You can request more information about the Personal Data We hold about You and request a copy of such Personal Data. 
 2. **Rectification / change Your Personal Data**. If you believe that any Personal Data We are holding about You is incorrect or incomplete, You can request that We correct or amend Personal Data by emailing Us. 
 3. **Right to erasure**. You may request that We erase Your Personal Data without undue delay. Within 30 (thirty) days from Your request for deletion of information, Company removes all the information it possesses about You.
 
-Please contact Us at {{<site_email>}}.
+Please contact Us at [{{% site_email %}}](mailto:{{% site_email %}}).
 
 4. **Withdrawal of Consent**. If We are processing your Personal Data based on Your consent (as indicated at the time of collection of such data), You have the right to withdraw Your consent at any time. 
 5. **Right to Objection**. You can contact Us to let Us know that You object to further use or disclosure of Your Personal Data for certain purposes, such as specified in cl.1.3. this Privacy Policy. 
@@ -168,7 +168,7 @@ Please contact Us at {{<site_email>}}.
 
 ## Age Limitations
 
-We do not collect Personal Data from children under 16 without prior parental consent deliberately. If We learn that We have collected Personal Information from a child under the age of 16 without prior parental consent, We will remove such Personal Data from Our database as soon as possible. If You know that We may have received Personal Data from a minor child, please contact Us at {{<site_email>}}.
+We do not collect Personal Data from children under 16 without prior parental consent deliberately. If We learn that We have collected Personal Information from a child under the age of 16 without prior parental consent, We will remove such Personal Data from Our database as soon as possible. If You know that We may have received Personal Data from a minor child, please contact Us at [{{% site_email %}}](mailto:{{% site_email %}}).
 
 ## Change of Data Controller
 
@@ -192,6 +192,6 @@ All disputes arising out of or in connection with this Privacy Policy shall be f
 
 ## Contact Us
 
-If You have any questions or concerns about Our Privacy Policy please keep Us informed via email: {{<site_email>}}.
+If You have any questions or concerns about Our Privacy Policy please keep Us informed via email: [{{% site_email %}}](mailto:{{% site_email %}}).
 
 This Privacy Policy relates solely to this Website, if not stated otherwise within this document.
