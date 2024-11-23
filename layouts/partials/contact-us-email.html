@@ -1,0 +1,40 @@
+<!-- contact-us-section starts here -->
+<div class="contact-us-section inline-gap">
+    <div class="small-container">
+        <h2 class="section-title contact-us-section-title">
+            {{ T "general/contact/title" }}
+        </h2>
+
+        <div class="contact-us-section-details">
+            <p>{{ T "general/contact/description" }}</p>
+
+            {{- with .Site.Params.email }}
+            <a class="no-external-icon contact-us-section-mail" href="mailto:{{ . }}">
+                {{ . }}
+            </a>
+            {{- end }}
+        </div>
+
+        <ul class="contact-us-section-soc-links" role="list">
+            {{ range $SocialLink := .Site.Data.SocialLinks }}
+            <li>
+                <a class="no-external-icon no-hover" href="{{ $SocialLink.link }}" title="{{ $SocialLink.title }}"
+                    target="_blank" rel="noopener noreferrer nofollow">
+                    {{ $SocialLink.icon }}
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 42 38" aria-hidden="true">
+                        <path fill="url(#a)" d="M22.6 0 42 19 22.6 38l-1.8-1.8 16.2-16H0v-2.5h37L20.8 1.8 22.6 0z" />
+                        <defs>
+                            <linearGradient id="a" x1="0" x2="41.1" y1="19" y2="19" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#F3461B" />
+                                <stop offset="1" stop-color="#0DA6F2" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </a>
+            </li>
+            {{ end }}
+        </ul>
+
+    </div>
+</div>
+<!-- contact-us-section ends here -->

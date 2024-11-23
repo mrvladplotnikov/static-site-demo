@@ -1,0 +1,41 @@
+<footer class="footer">
+    <div class="container inline-gap">
+        <div class="footer-group">
+            <ul class="footer-soc-links" role="list">
+                {{- range .Site.Data.SocialLinks }}
+                <li>
+                    <a class="footer-soc-link no-external-icon no-hover" target="_blank"
+                        rel="noopener noreferrer nofollow" href="{{ .link }}" title="{{ .title }}">
+                        {{ $path := printf "icons/%s-icon.html" .icon }}
+                        {{- partial $path . -}}
+                    </a>
+                </li>
+                {{- end }}
+            </ul>
+
+            {{- $pageLink := relLangURL "privacy-policy" -}}
+            {{- if eq .Page.Lang "ru" }}
+            {{ $pageLink = "/privacy-policy" }}
+            {{- end -}}
+
+            <a rel="privacy-policy" class="footer-privacyPolicy-link" href="{{ $pageLink }}">
+                Privacy Policy
+            </a>
+        </div>
+
+        <div class="footer-group">
+            {{- $homePage := relLangURL "/" -}}
+            <a class="footer-logo-link" href="{{ $homePage }}">
+                <img src="/images/monochrom-logo.svg" class="footer-logo" alt="Студія звукового дизайну VP Production"
+                    loading="lazy" width="47" height="43">
+            </a>
+        </div>
+
+        <div class="footer-group">
+            <div class="footer-title">Change The Record</div>
+            <div class="footer-sub-title">
+                all rights reserved &copy; VP Production. {{ dateFormat "2006" now }}
+            </div>
+        </div>
+    </div>
+</footer>

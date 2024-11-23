@@ -1,7 +1,12 @@
 {
   "baseURL": "http://localhost",
   "title": "VP Production",
-  "theme": "vp-static-theme",
+  "imaging": {
+    "bgColor": "#000",
+    "hint": "picture",
+    "quality": 85,
+    "resampleFilter": "box"
+  },
   "disableKinds": [
     "rss"
   ],
@@ -9,6 +14,7 @@
     "service": "services"
   },
   "defaultContentLanguage": "uk",
+  "defaultContentLanguageInSubdir": false,
   "params": {
     "email": "connect@vp-production.com"
   },

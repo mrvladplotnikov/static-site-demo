@@ -1,0 +1,25 @@
+<div id="horizontal-nav" class="horizontal-menu-container" aria-label="Меню навігації по сайту">
+  <a href={{ relLangURL "/" }} aria-label="Головна сторінка">
+    <img src="/images/header-logo.svg" alt="" width="55" height="50">
+  </a>
+
+  <div class="horizontal-menu">
+    {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+
+    <div class="dropdown">
+      <button class="vp-hover" type="button">/<span>{{ .Page.Lang }}</span>/</button>
+      <ul class="dropdown-options lang-options">
+        {{- range .Page.Translations }}
+        {{- if not (in $.Site.Params.hiddenLangs .Language.LanguageCode) }}
+        <li>
+          <a title="{{ .Language.LanguageName }}" href="{{ .Permalink | relURL }}" lang="{{ .Language.LanguageCode }}"
+            hreflang="{{ .Language.LanguageCode }}">
+            {{ .Language.LanguageCode }}
+          </a>
+        </li>
+        {{- end }}
+        {{- end }}
+      </ul>
+    </div>
+  </div>
+</div>

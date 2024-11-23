@@ -1,0 +1,92 @@
+general/contact/title: Write to us
+general/contact/description: Tell us about your project, product, or idea. Ask for advice, or get a full free consultation. Find out the rates, clarify a vital question, well anything you want! We will be happy to get to know you and help.
+
+general/works/title: Portfolio
+general/our-values/title: Our values
+
+general/features/feature_1/title: Deadlines are sacred.
+general/features/feature_1/description: We have missed 0 deadlines in 7 years.
+general/features/feature_3/title: We create iconic audio.
+general/features/feature_3/description: We study your product in detail and analyze the market and target audience to craft audio that builds memories for your users.
+general/features/feature_5/title: Audience + our audio = ❤️.
+
+general/features/feature_5/description: Millions have listened to our works, and many were so impressed that they wrote <a rel="nofollow" href="%s">this</a> about us.
+
+general/features/feature_2/title: We're easy to communicate with.
+general/features/feature_2/description: You don't need to master audio terminology! Just tell us about the feelings and emotions your product should evoke, and we'll understand you.
+general/features/feature_4/title: Clear workflow.
+general/features/feature_4/description: You'll easily understand what is happening at each stage of audio creation. Audio mood boards and a unique feedback methodology will help you with this.
+general/features/feature_6/title: We strive for meaningful connections.
+general/features/feature_6/description: That's why we're always ready to listen and share ideas and advice, even if you're not ready to cooperate yet.
+
+general/services/title: Our services
+general/services/music-composing/title: Music Composing
+general/services/audio-branding/title: Audio Branding
+general/services/sound-design/title: Sound Design
+general/services/voice-casting/title: Voice Casting
+
+general/review/read_more: More
+
+works/category/title: Category
+works/service/title: Service
+works/genres/title: Genre
+works/platforms/title: Platform
+works/developers/title: Developer
+works/contributors/title: Work on the project
+
+works/reviews/title: Customer testimonial
+
+work/pagination/prev: Previous case
+work/pagination/next: Next case
+work/pagination/list: Back to Portfolio
+
+general/reset-filters: Reset filters
+
+home/about/title: About us
+home/about/description: We are a Ukrainian audio agency that crafts impactful sound for games, brands, and apps. We develop unique audio to make our clients' products secure a place in the minds and hearts of their audiences.
+
+home/features/title: Why us?
+home/works/title: Featured Works
+home/mission/title: We help products become significant parts of their users' lives.
+
+about/subtitle: Small and mighty 💪
+about/description: <p>Without being too braggy, that's precisely how we are as we create an impactful sound that shapes the experience of millions of people.</p><p>We dive deep into our clients' strategic visions and integrate into their teams to co-create audio that secures a place in the minds and hearts of their audience and helps products become an essential part of their lives.</p><p>We are also always happy to participate in various collaborations and are therefore open to suggestions and creative challenges. 🙌</p><p>By the way, we love partner content, too! So, if you want to share exciting things about game audio or audio branding with your audience or write something about us, here is a link to our <a rel="nofollow" target="__blank" href="%s">press kit</a>.</p>
+
+about/team/title: Our team
+about/features/title: Also
+
+team/member_1/title: Vlad Plotnikov
+team/member_1/position: Co-founder, composer, creative audio producer
+team/member_1/description: "<p><strong>Creates</strong>: video game soundtracks, audio brands.</p><p><strong>Also</strong>: TOTAL-EMPTY frontman, audio mentor, conference speaker, member of the jury of Casual Connect, Global Game Jam Ukraine, and Indie Cup.</p>"
+
+team/member_2/title: Ruslana Kruchek
+team/member_2/position: Co-founder, brand manager, art director
+team/member_2/description: "<p><strong>Responsible for</strong>: the right vector of audio brands and our marketing activities.</p><p><strong>Also</strong>: winemaker, conference speaker, padawan vocalist, lyricist.</p>"
+
+team/member_3/title: Artem Baskoiev
+team/member_3/position: Composer, sound designer
+team/member_3/description: "<p><strong>Creates</strong>: electronic tracks, sound design for animations, video games, and audio brands.</p><p><strong>Also</strong>: author of the Stolen Forest project.</p>"
+
+team/member_4/title: Oleksandr Falinski
+team/member_4/position: Sound designer, composer
+team/member_4/description: "<p><strong>Creates</strong>: video game sound design and soundtracks.</p><p><strong>Also</strong>: father of the daughter, husband of the wife. 😀</p>"
+
+team/member_5/title: Maryna Ovsiuk
+team/member_5/position: SMM/Content Assistant
+team/member_5/description: "<p><strong>Responsible for:</strong> the quality of our social media content, communication with the community, and fantastic ideas.</p><p><strong>Also:</strong> free elf, food and wine passionate, actress.</p>"
+
+team/member_6/title: Appa The Dog
+team/member_6/position: Happiness Manager
+team/member_6/description: "<p><strong>Responsible for:</strong> a good mood, respecting work hours, cute photos and videos.</p><p><strong>Also:</strong> ambient and classical music expert, champion of treats.</p>"
+
+service/works/title: Our works
+
+our-values/section_1: We know that only co-creation leads to iconic things.
+our-values/section_2: We believe that sound is a natural way of communication, and we only shape and vector it.
+our-values/section_3: We are fans of a systematic approach that always has enough room for creativity.
+our-values/section_4: We believe in the power of open, sincere communication.
+our-values/section_5: We value people and human relationships.
+our-values/section_6: We know that each of us can change the world, but only together can we truly make a difference.
+
+reviews/title_1: Customer and partners' testimonials
+reviews/title_2: Listeners' reviews

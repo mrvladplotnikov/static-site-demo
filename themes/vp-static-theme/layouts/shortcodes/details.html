@@ -1,7 +1,0 @@
-<details class="vp-details">
-    <summary {{- with .Get 2 }} id="{{- . -}}" {{- end }}>
-        <span class="list-number">{{ .Get 0 }}.</span>
-        <span class="label">{{ .Get 1 }}</span>
-    </summary>
-    <div class="answer">{{ .Inner | markdownify }}</div>
-</details>

@@ -1,0 +1,46 @@
+{{ define "css" }}
+{{ with resources.Get "css/our-values.css" }}
+{{- partial "css.html" . -}}
+{{ end }}
+{{ end }}
+
+{{ define "main" }}
+{{- partial "horizontal-nav.html" . -}}
+{{- partial "mobile-nav.html" . -}}
+
+<div class="values-content">
+    <div class="first-section">
+        <div class="small-container inline-gap">
+            <h2 class="values-title">{{ T "our-values/section_1" }}</h2>
+        </div>
+    </div>
+
+    <div class="values-container">
+        <div class="values-section vp-back">
+            <div class="small-container inline-gap">
+                <h2 class="values-title">{{ T "our-values/section_2" }}</h2>
+            </div>
+        </div>
+        <div class="values-section">
+            <div class="small-container inline-gap">
+                <h2 class="values-title">{{ T "our-values/section_3" }}</h2>
+            </div>
+        </div>
+        <div class="values-section vp-back">
+            <div class="small-container inline-gap">
+                <h2 class="values-title">{{ T "our-values/section_4" }}</h2>
+            </div>
+        </div>
+        <div class="values-section">
+            <div class="small-container inline-gap">
+                <h2 class="values-title">{{ T "our-values/section_5" }}</h2>
+            </div>
+        </div>
+        <div class="values-section vp-back">
+            <div class="small-container inline-gap">
+                <h2 class="values-title">{{ T "our-values/section_6" }}</h2>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

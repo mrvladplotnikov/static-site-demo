@@ -1,0 +1,37 @@
+<div class="review-item">
+    <a class="review-item-image no-external-icon no-line no-hover" href="{{ .Params.link }}" target="_blank"
+        rel="noopener noreferrer nofollow">
+        <img src="{{ .Params.image }}" width="171" height="171" alt="{{ .Title }}" loading="lazy">
+    </a>
+
+    <a class="review-item-title no-external-icon no-line no-hover" href="{{ .Params.link }}" target="_blank"
+        rel="noopener noreferrer nofollow">
+        <h3>{{ .Title }}, {{ .Params.position }}</h3>
+    </a>
+
+    <h4 class="review-item-company">{{ .Params.company }}</h4>
+
+    <div class="review-text">
+        <p>{{ .Summary | plainify | htmlUnescape | chomp }}</p>
+        {{- if .Truncated }}
+        {{- $modalID := replace .Title " " "_" | lower -}}
+        <button class="review-text-more vp-hover" data-modal-id="{{ $modalID }}">
+            {{ T "general/review/read_more" }}
+        </button>
+
+        <div class="modal hidden" data-modal="{{ $modalID }}">
+            <div class="modal-content">
+                <button data-modal-close="{{ $modalID }}" class="modal-close-button" type="button">
+                    {{- partial "icons/close-icon.html" -}}
+                </button>
+
+                <div class="modal-text">
+                    {{ .Content }}
+                    <h3>{{ .Title }}, {{ .Params.position }}</h3>
+                    <h4>{{ .Params.company }}</h4>
+                </div>
+            </div>
+        </div>
+        {{- end }}
+    </div>
+</div>

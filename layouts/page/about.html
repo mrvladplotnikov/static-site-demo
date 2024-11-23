@@ -1,0 +1,221 @@
+{{- define "cssbeforemain" }}
+{{ with resources.Get "css/swiper-bundle.min.css" }}
+<link rel="stylesheet" href="{{ .RelPermalink }}" />
+{{ end }}
+{{- end }}
+
+{{ define "css" }}
+{{ with resources.Get "css/about.css" }}
+{{- partial "css.html" . -}}
+{{ end }}
+{{ end }}
+
+
+{{ define "main" }}
+{{- partial "horizontal-nav.html" . -}}
+{{- partial "mobile-nav.html" . -}}
+
+<div class="inline-gap top-space-small">
+    <div class="small-container">
+        <h1 class="page-title-large about-page-title">
+            {{ .Title }}
+        </h1>
+    </div>
+
+    <img height="110px" width="111px" class="about-section-box-image box-image box-image-first" src="/images/faq/box-with-icons.svg" alt=""
+        aria-hidden="true">
+    <img height="110px" width="111px" class="about-section-box-image box-image box-image-second" src="/images/faq/box-with-icons.svg" alt=""
+        aria-hidden="true">
+
+    <div class="container">
+        <h2 class="section-title about-section-title">
+            {{ T "about/subtitle" }}
+        </h2>
+    </div>
+
+    <div class="small-container">
+        <div class="about-section">
+            <div class="about-section-description">
+                {{ printf (T "about/description") site.Params.pressKit | safeHTML  }}
+            </div>
+            <div class="about-section-image">
+                <img src="/images/about/icon-logo-vp.svg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- team section starts here  -->
+<div class="team-section inline-gap">
+    <div class="container">
+        <h2 class="servies-section-title section-title">{{ T "about/team/title" }}</h2>
+    </div>
+    <div class="team slider">
+        <ul class="swiper-wrapper">
+            <li class="team-item swiper-slide">
+                <div class="team-img">
+                    <img width="290" height="290" loading="lazy" src="/images/about/vlad.webp" alt={{ T "team/member_1/title" }}>
+                </div>
+                <div class="team-info">
+                    <h2 class="section-title">{{ T "team/member_1/title" }}</h2>
+                    <h3 class="sub-section-title">{{ T "team/member_1/position" }}</h3>
+                    {{ T "team/member_1/description" | safeHTML }}
+                </div>
+            </li>
+            <li class="team-item swiper-slide">
+                <div class="team-img">
+                    <img width="290" height="290" loading="lazy" src="/images/about/ruslana.webp" alt={{ T "team/member_2/title" }}>
+                </div>
+                <div class="team-info">
+                    <h2 class="section-title">{{ T "team/member_2/title" }}</h2>
+                    <h3 class="sub-section-title">{{ T "team/member_2/position" }}</h3>
+                    {{ T "team/member_2/description" | safeHTML }}
+                </div>
+            </li>
+            <li class="team-item swiper-slide">
+                <div class="team-img">
+                    <img width="290" height="290" loading="lazy" src="/images/about/artyom.webp" alt={{ T "team/member_3/title" }}>
+                </div>
+                <div class="team-info">
+                    <h2 class="section-title">{{ T "team/member_3/title" }}</h2>
+                    <h3 class="sub-section-title">{{ T "team/member_3/position" }}</h3>
+                    {{ T "team/member_3/description" | safeHTML }}
+                </div>
+            </li>
+            <li class="team-item swiper-slide">
+                <div class="team-img">
+                    <img width="290" height="290" loading="lazy" src="/images/about/sasha.webp" alt={{ T "team/member_4/title" }}>
+                </div>
+                <div class="team-info">
+                    <h2 class="section-title">{{ T "team/member_4/title" }}</h2>
+                    <h3 class="sub-section-title">{{ T "team/member_4/position" }}</h3>
+                    {{ T "team/member_4/description" | safeHTML }}
+                </div>
+            </li>
+            <li class="team-item swiper-slide">
+                <div class="team-img">
+                    <img width="290" height="290" loading="lazy" src="/images/about/maryna.webp" alt={{ T "team/member_5/title" }}>
+                </div>
+                <div class="team-info">
+                    <h2 class="section-title">{{ T "team/member_5/title" }}</h2>
+                    <h3 class="sub-section-title">{{ T "team/member_5/position" }}</h3>
+                    {{ T "team/member_5/description" | safeHTML }}
+                </div>
+            </li>
+            <li class="team-item swiper-slide">
+                <div class="team-img">
+                    <img width="290" height="290" loading="lazy" src="/images/about/appa.webp" alt={{ T "team/member_6/title" }}>
+                </div>
+                <div class="team-info">
+                    <h2 class="section-title">{{ T "team/member_6/title" }}</h2>
+                    <h3 class="sub-section-title">{{ T "team/member_6/position" }}</h3>
+                    {{ T "team/member_6/description" | safeHTML }}
+                </div>
+            </li>
+        </ul>
+        {{- partial "arrow-button.html" . -}}
+    </div>
+</div>
+
+<!-- team section end here -->
+{{- partial "services.html" . -}}
+
+<!--  why section starts here  -->
+<div class="why-section inline-gap">
+    <div class="container">
+        <h2 class="section-title">{{ T "about/features/title" }}</h2>
+    </div>
+    <div class="small-container">
+        <ul class="why-section-list" role="list">
+            <li>
+              <div class="why-section-list-item">
+                <img 
+                  src="/images/home/time-icon.svg" 
+                  alt={{ T "general/features/feature_1/title" }} 
+                />
+                <p>
+                  <strong>{{ T "general/features/feature_1/title" }}</strong>
+                  {{ T "general/features/feature_1/description" }}
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="why-section-list-item">
+                <img 
+                  src="/images/home/dialog-icon.svg" 
+                  alt={{ T "general/features/feature_2/title" }} 
+                />
+                <p>
+                  <strong>{{ T "general/features/feature_2/title" }}</strong>
+                  {{ T "general/features/feature_2/description" }}
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="why-section-list-item">
+                <img 
+                  src="/images/home/idea-icon.svg" 
+                  alt={{ T "general/features/feature_3/title" }} 
+                />
+                <p>
+                  <strong>{{ T "general/features/feature_3/title" }}</strong>
+                  {{ T "general/features/feature_3/description" }}
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="why-section-list-item">
+                <img 
+                  src="/images/home/document-icon.svg" 
+                  alt={{ T "general/features/feature_4/title" }} 
+                />
+                <p>
+                  <strong>{{ T "general/features/feature_4/title" }}</strong>
+                  {{ T "general/features/feature_4/description" }}
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="why-section-list-item">
+                <img 
+                  src="/images/home/audio-icon.svg" 
+                  alt={{ T "general/features/feature_5/title" }} 
+                />
+                <p>
+                  <strong>{{ T "general/features/feature_5/title" }}</strong>
+                  {{ printf (T "general/features/feature_5/description") (relLangURL "reviews") | safeHTML  }}
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="why-section-list-item">
+                <img 
+                  src="/images/home/lamp-icon.svg" 
+                  alt={{ T "general/features/feature_6/title" }} 
+                />
+                <p>
+                  <strong>{{ T "general/features/feature_6/title" }}</strong>
+                  {{ T "general/features/feature_6/description" }}
+                </p>
+              </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--  why section ends here  -->
+
+<!-- big text section starts here -->
+{{- partial "big-text-section.html" -}}
+<!-- big text section ends here -->
+{{ end }}
+
+{{- define "jsbeforemain" }}
+{{ with resources.Get "js/swiper-bundle.min.js" }}
+<script defer src="{{ .RelPermalink }}"></script>
+{{ end }}
+{{- end }}
+{{ define "js" }}
+{{ with resources.Get "js/slider.js" }}
+{{- partial "js.html" . -}}
+{{ end }}
+{{ end }}
