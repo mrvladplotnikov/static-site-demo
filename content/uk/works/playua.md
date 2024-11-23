@@ -34,7 +34,7 @@ PlayUA — це українське розважальне інтернет-в�
 
 Партії бандури й сопілки відсилають до того, що бренд — суто український. А ось елементи симфонічного оркестру — це данина поваги культовим оркестровим саундтрекам ігрової та кіноіндустрії.
 
-{{<image "images/playua/pu1.jpg" "Banner" >}}
+{{%image "images/playua/pu1.jpg" "Banner" %}}
 
 ## Челлендж
 
@@ -57,24 +57,24 @@ PlayUA — це українське розважальне інтернет-в�
 
 ### Прослухати їх всі ви можете нижче:
 
-{{<raw_html>}}
+{{%raw_html%}}
 <iframe loading="lazy" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/786416052&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
-{{</raw_html>}}
+{{%/raw_html%}}
 
 ### А ось і приклади використання деяких елементів аудіо бренду:
 
 #### Аудіо логотип і варіації бренд-треку
 
-{{<yt "JIHpzy7CuGU" "PlayUa Video">}}
+{{%yt "JIHpzy7CuGU" "PlayUa Video"%}}
 
 #### Трек для подкастів
 
-{{<yt "etHNrNXKIY4" "PlayUa Video">}}
+{{%yt "etHNrNXKIY4" "PlayUa Video"%}}
 
 #### Трек для рубрики з відео-рев’ю
 
-{{<yt "Fgghy0zVyJs" "PlayUa Video">}}
+{{%yt "Fgghy0zVyJs" "PlayUa Video"%}}
 
 #### Сповіщення для Twitch
 
-{{<yt "Rma56gMADuw" "PlayUa Video">}}
+{{%yt "Rma56gMADuw" "PlayUa Video"%}}

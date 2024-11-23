@@ -41,10 +41,10 @@ We also produced a voice-over for all AR elements in Ukrainian, English, and Rus
 
 And later, it turned out that the WeeSee animals moved to the TATTon.me application together with all the audio assets we had created! And thanks to the fact that they migrated all together, everything looks and sounds just like it should. 🙂
 
-{{<inline_image_list>}}
-{{<image "images/tatton-me/tom1.jpg" "Photo" >}}
-{{<image "images/tatton-me/tom2.jpg" "Logo" >}}
-{{</inline_image_list>}}
+{{%inline_image_list%}}
+{{%image "images/tatton-me/tom1.jpg" "Photo" %}}
+{{%image "images/tatton-me/tom2.jpg" "Logo" %}}
+{{%/inline_image_list%}}
 
 ## Challenge
 
@@ -54,4 +54,4 @@ This project has become one of the most measured and calm in our practice. But t
 
 You can listen to the main melody of the TATTon.me app below. There, you will also find an alternative electronic version of the track, which we created as an experiment in case the brand decides to attract an older child audience.
 
-{{<yt "CcGvD_gdLII" "TATTon.me Video">}}
+{{%yt "CcGvD_gdLII" "TATTon.me Video"%}}

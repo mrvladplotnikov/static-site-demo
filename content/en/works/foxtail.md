@@ -27,7 +27,7 @@ The main character of the game is the fox Leah, who goes on a long and challengi
 
 She will do this for the great noble goal that doesn’t allow her to retreat or surrender.
 
-The game is still in the stage of development, but you can download it and play the first few chapters {{<link_blank "here" "https://store.steampowered.com/app/581360/FoxTail/">}}.
+The game is still in the stage of development, but you can download it and play the first few chapters {{%link_blank "here" "https://store.steampowered.com/app/581360/FoxTail/"%}}.
 
 ## Sound concept
 At the beginning of the cooperation, the developer wanted the soundtrack to convey the atmosphere of old pixel games. Therefore, we created the very first sketches of the main theme in this style, inspired by the soundtrack of The Legend of Kyrandia.
@@ -36,15 +36,15 @@ But already at first listening along with the picture, it became clear that the 
 
 We continued to experiment and, in trying to find the right sound, even managed to get into orchestral music. As a result, we stopped somewhere in the middle. 🙂 The soundtrack to FoxTail includes flute and other woodwind instruments, harp, percussion, and in the main theme, there is even a guitar. But they intentionally do not sound too «lively» for the music to harmonize with the visuals of the game.
 
-{{<inline_image_list>}}
-{{<image "images/foxtail/work-1.1.jpg" "Screenshot" >}}
-{{<image "images/foxtail/work-1.2.jpg" "Screenshot" >}}
-{{</inline_image_list>}}
+{{%inline_image_list%}}
+{{%image "images/foxtail/work-1.1.jpg" "Screenshot" %}}
+{{%image "images/foxtail/work-1.2.jpg" "Screenshot" %}}
+{{%/inline_image_list%}}
 
-{{<inline_image_list>}}
-{{<image "images/foxtail/work-1.3.jpg" "Screenshot" >}}
-{{<image "images/foxtail/work-1.4.jpg" "Screenshot" >}}
-{{</inline_image_list>}}
+{{%inline_image_list%}}
+{{%image "images/foxtail/work-1.3.jpg" "Screenshot" %}}
+{{%image "images/foxtail/work-1.4.jpg" "Screenshot" %}}
+{{%/inline_image_list%}}
 
 ## Challenge
 
@@ -54,20 +54,20 @@ People don’t like changes too much, and that’s okay. Especially since the pr
 
 In the end, everything turned out more than successful. The audience initially divided in the opinion; however, over time, after the release of the second chapter, there became less and less negative reviews. We even personally saw cases when players changed their minds. 🙂
 
-Later on, the audience liked the soundtrack so much that we started receiving requests for its release. That’s why we released the album with music for the first three chapters. It is available on all {{<link_blank "streaming platforms" "https://li.sten.to/foxtailost">}} as well as below on this page. You can also download it in the highest quality on Bandcamp and Steam.
+Later on, the audience liked the soundtrack so much that we started receiving requests for its release. That’s why we released the album with music for the first three chapters. It is available on all {{%link_blank "streaming platforms" "https://li.sten.to/foxtailost"%}} as well as below on this page. You can also download it in the highest quality on Bandcamp and Steam.
 
 This project once again proved to us how important it is to create music that does a little more than just be beautiful and suitable. How important it is to reveal the characters and the story itself with its help. After all, this is what helps to create an emotional attachment for players.
 
 By the way, our co-founder Vlad tells more about the story behind the FoxTail soundtrack in this video:
 
-{{<yt "nwqCzcQYQcM" "FoxTail Video">}}
+{{%yt "nwqCzcQYQcM" "FoxTail Video"%}}
 
 ## Result
 
 ### You can listen to the soundtrack to FoxTail’s first three chapters below:
 
-{{<yt "zAWD8-ZzH3A" "FoxTail Video">}}
+{{%yt "zAWD8-ZzH3A" "FoxTail Video"%}}
 
 ### Gameplay video of FoxTail’s released chapters:
 
-{{<yt "352oLQQc73Y" "FoxTail Video">}}
+{{%yt "352oLQQc73Y" "FoxTail Video"%}}

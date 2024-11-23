@@ -23,7 +23,7 @@ We’ve worked on this short opening video for casual game Kitten Match together
 
 In the animated video, a lonely kitten walking in the middle of snowy winter finds a warm home and family. Moreover, this moment of joyful reunion means the start of a fantastic journey for the player.
 
-{{<image "images/kitten-match/km1.jpg" "Screenshot" >}}
+{{%image "images/kitten-match/km1.jpg" "Screenshot" %}}
 
 ## Sound concept
 
@@ -37,10 +37,10 @@ In terms of sound, we intentionally made it close and «dry», just like in old 
 
 We created a sound design with an emphasis on realism and maintaining the overall atmosphere.
 
-{{<inline_image_list>}}
-{{<image "images/kitten-match/km2.jpg" "Screenshot" >}}
-{{<image "images/kitten-match/km3.jpg" "Screenshot" >}}
-{{</inline_image_list>}}
+{{%inline_image_list%}}
+{{%image "images/kitten-match/km2.jpg" "Screenshot" %}}
+{{%image "images/kitten-match/km3.jpg" "Screenshot" %}}
+{{%/inline_image_list%}}
 
 ## Challenge
 
@@ -54,6 +54,6 @@ However, we were so happy to finally get back to work on the animation that we d
 
 You can watch the video and listen to how the final result sounds below:
 
-{{<raw_html>}}
+{{%raw_html%}}
 <iframe loading="lazy" src="https://player.vimeo.com/video/377578511" width="100%" height="100%" allowfullscreen="" frameborder="0" scrolling="no" title="vimeo-player"></iframe>
-{{</raw_html>}}
+{{%/raw_html%}}

@@ -30,9 +30,9 @@ type: "work"
 
 Вам доведеться постійно робити вибір і хто знає, до чого він вас приведе. Але поки ви будете дотримуватися балансу між чотирма ресурсами — Корабель, Команда, Золото і Слава — ваше пригода буде тривати!
 
-Грати в цю піратську RPG у дусі Reigns можна на {{<link_blank "PC" "https://store.steampowered.com/app/1244380/Pirates_Pirates/">}}.
+Грати в цю піратську RPG у дусі Reigns можна на {{%link_blank "PC" "https://store.steampowered.com/app/1244380/Pirates_Pirates/"%}}.
 
-{{<image "images/pirates-pirates/pp1.jpg" "Banner" >}}
+{{%image "images/pirates-pirates/pp1.jpg" "Banner" %}}
 
 ## Концепція звучання
 
@@ -48,10 +48,10 @@ type: "work"
 
 З огляду на механіку гри, де ви просто свайпаєте картки вліво або вправо, «жвавість» усього процесу створюється саме завдяки ігровим звукам і артам.
 
-{{<inline_image_list>}}
-{{<image "images/pirates-pirates/pp2.jpeg" "Banner" >}}
-{{<image "images/pirates-pirates/pp3.jpeg" "Banner" >}}
-{{</inline_image_list>}}
+{{%inline_image_list%}}
+{{%image "images/pirates-pirates/pp2.jpeg" "Banner" %}}
+{{%image "images/pirates-pirates/pp3.jpeg" "Banner" %}}
+{{%/inline_image_list%}}
 
 ## Челлендж
 
@@ -67,8 +67,8 @@ type: "work"
 
 ### Послухати повний саундтрек до гри Pirates? Pirates! ви можете нижче:
 
-{{<yt "y_T3cZHYbiM" "Pirates? Pirates! Video">}}
+{{%yt "y_T3cZHYbiM" "Pirates? Pirates! Video"%}}
 
 ### Оцінити, як працює аудіо в контексті гри, ви можете, подивившись відео:
 
-{{<yt "4aEG7A9JSk4" "Pirates? Pirates! Video">}}
+{{%yt "4aEG7A9JSk4" "Pirates? Pirates! Video"%}}

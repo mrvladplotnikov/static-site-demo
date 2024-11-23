@@ -21,9 +21,9 @@ type: "work"
 
 Nikattica is a Ukrainian YouTube channel where gaming blogger Veronika Rohova talks about… video games, of course 🙂 Her videos are full of exciting content and exceptional aesthetics, making her channel stand out from the crowd. 
 
-If you don’t believe video games are art, we recommend you {{<link_blank "follow the link" "https://www.youtube.com/@Nikattica">}} and watch this incredibly talented creator. And for those who share this belief, there are like-minded people and many fascinating stories not only from video games but also from books and movies on Nikattica’s channel.
+If you don’t believe video games are art, we recommend you {{%link_blank "follow the link" "https://www.youtube.com/@Nikattica"%}} and watch this incredibly talented creator. And for those who share this belief, there are like-minded people and many fascinating stories not only from video games but also from books and movies on Nikattica’s channel.
 
-{{<image "images/nikattica/n1.jpg" "Photo" >}}
+{{%image "images/nikattica/n1.jpg" "Photo" %}}
 
 ## Sound concept
 
@@ -33,7 +33,7 @@ Most creators in this niche have masculine sound (which is logical because they 
 
 Nikattica’s content is different from most of her fellow creators, so it was clear that we had to find a new unique sound.
 
-{{<image "images/nikattica/n2.jpg" "Photo" >}}
+{{%image "images/nikattica/n2.jpg" "Photo" %}}
 
 As always, we focused on a list of associations the audience should form while watching the video. We wanted to embody the idea that games are art (which is an essential idea of the channel), combine it with feelings of comfort and inspiration, and at the same time, pay tribute to the classics of games, animation, and cinema.
 
@@ -41,7 +41,7 @@ For that, we chose a mix of classical and lo-fi elements and instruments, added 
 
 The result is an elegant and modern audio brand that captivates the viewer and, at the same time, allows them to relax and have a good time.
 
-{{<yt "wCRw5SQZJzU" "Nikattica Video">}}
+{{%yt "wCRw5SQZJzU" "Nikattica Video"%}}
 
 ## Challenge
 
@@ -51,7 +51,7 @@ Our initial idea was to create a few tiny audio assets for Nikattica, such as so
 
 However, it is even better because Veronika can easily scale her sound to meet new needs while maintaining integrity and thoughtfulness.
 
-{{<image "images/nikattica/n3.jpg" "Photo" >}}
+{{%image "images/nikattica/n3.jpg" "Photo" %}}
 
 ## Result
 
@@ -63,8 +63,8 @@ For the Nikattica YouTube channel, we created the following audio brand elements
 
 You can listen to the result in below:
 
-{{<yt "E6mVCq5JAJo" "Nikattica Video">}}
+{{%yt "E6mVCq5JAJo" "Nikattica Video"%}}
 
 And, of course, watch Nikattica’s video to hear the final product in context!
 
-{{<yt "CZaG8atquy4" "Nikattica Video">}}
+{{%yt "CZaG8atquy4" "Nikattica Video"%}}

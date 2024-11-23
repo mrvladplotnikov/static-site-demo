@@ -23,7 +23,7 @@ type: "work"
 
 В анімаційному ролику самотнє кошеня посеред сніжної зими знаходить теплу домівку та сім’ю. Ба більше, цей момент радісної зустрічі означає, що для гравця починається велика подорож.
 
-{{<image "images/kitten-match/km1.jpg" "Screenshot" >}}
+{{%image "images/kitten-match/km1.jpg" "Screenshot" %}}
 
 ## Концепція звучання
 
@@ -37,10 +37,10 @@ type: "work"
 
 Звуковий дизайн ми робили з упором на реалізм і підтримання загальної атмосфери.
 
-{{<inline_image_list>}}
-{{<image "images/kitten-match/km2.jpg" "Screenshot" >}}
-{{<image "images/kitten-match/km3.jpg" "Screenshot" >}}
-{{</inline_image_list>}}
+{{%inline_image_list%}}
+{{%image "images/kitten-match/km2.jpg" "Screenshot" %}}
+{{%image "images/kitten-match/km3.jpg" "Screenshot" %}}
+{{%/inline_image_list%}}
 
 ## Челлендж
 
@@ -54,6 +54,6 @@ type: "work"
 
 Подивитися та послухати, як звучить фінальний результат, ви можете нижче:
 
-{{<raw_html>}}
+{{%raw_html%}}
 <iframe loading="lazy" src="https://player.vimeo.com/video/377578511" width="100%" height="100%" allowfullscreen="" frameborder="0" scrolling="no" title="vimeo-player"></iframe>
-{{</raw_html>}}
+{{%/raw_html%}}

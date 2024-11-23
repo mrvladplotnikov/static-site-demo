@@ -31,10 +31,10 @@ Perfect Match — мультиплеєрна аркада про художни�
 
 Кожна перемога даватиме вам змогу розвивати свого персонажа, підбирати нові скіни й експериментувати з фонами.
 
-{{<inline_image_list>}}
-{{<image "images/perfect-match/pm1.jpg" "Screenshot" >}}
-{{<image "images/perfect-match/pm2.jpg" "Screenshot" >}}
-{{</inline_image_list>}}
+{{%inline_image_list%}}
+{{%image "images/perfect-match/pm1.jpg" "Screenshot" %}}
+{{%image "images/perfect-match/pm2.jpg" "Screenshot" %}}
+{{%/inline_image_list%}}
 
 ## Концепція звучання
 
@@ -48,17 +48,17 @@ Perfect Match — мультиплеєрна аркада про художни�
 
 Звуковий дизайн ми розробляли в тій же концепції, що й саундтрек. Зосередилися на органічних звуках і «теплих» інструментах, щоби зробити дизайн гри більш тактильним і допомогти гравцеві перейнятися загальною атмосферою.
 
-{{<inline_image_list>}}
-{{<image "images/perfect-match/pm3.jpg" "Screenshot" >}}
-{{<image "images/perfect-match/pm4.jpg" "Screenshot" >}}
-{{</inline_image_list>}}
+{{%inline_image_list%}}
+{{%image "images/perfect-match/pm3.jpg" "Screenshot" %}}
+{{%image "images/perfect-match/pm4.jpg" "Screenshot" %}}
+{{%/inline_image_list%}}
 
 ## Результат
 
 Саундтрек до гри Perfect Match ви можете послухати нижче:
 
-{{<yt "TqEGqeE_uik" "Perfect Match Video">}}
+{{%yt "TqEGqeE_uik" "Perfect Match Video"%}}
 
 А щоб оцінити, як музика і звуковий дизайн працюють у контексті гри, перегляньте це відео:
 
-{{<yt "sZKGp7wTBAA" "Perfect Match Video">}}
+{{%yt "sZKGp7wTBAA" "Perfect Match Video"%}}

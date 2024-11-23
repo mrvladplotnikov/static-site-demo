@@ -30,9 +30,9 @@ You will explore islands with wild jungles, board other ships, and fight with sa
 
 You will have to make lots of choices, and no one knows where they will lead you. But as long as you keep the balance between the four resources — Ship, Crew, Treasury, and Fame — your adventure will continue!
 
-You can play this Reigns-inspired pirate RPG on {{<link_blank "PC" "https://store.steampowered.com/app/1244380/Pirates_Pirates/">}}.
+You can play this Reigns-inspired pirate RPG on {{%link_blank "PC" "https://store.steampowered.com/app/1244380/Pirates_Pirates/"%}}.
 
-{{<image "images/pirates-pirates/pp1.jpg" "Banner" >}}
+{{%image "images/pirates-pirates/pp1.jpg" "Banner" %}}
 
 ## Sound concept
 
@@ -48,10 +48,10 @@ The sound design in this project is close to realism. Its main task is to inform
 
 Given the mechanics of the game, where you just swipe cards left or right, it’s the game sounds and art that create the feeling of «liveliness» of the whole process.
 
-{{<inline_image_list>}}
-{{<image "images/pirates-pirates/pp2.jpeg" "Banner" >}}
-{{<image "images/pirates-pirates/pp3.jpeg" "Banner" >}}
-{{</inline_image_list>}}
+{{%inline_image_list%}}
+{{%image "images/pirates-pirates/pp2.jpeg" "Banner" %}}
+{{%image "images/pirates-pirates/pp3.jpeg" "Banner" %}}
+{{%/inline_image_list%}}
 
 ## Challenge
 
@@ -67,8 +67,8 @@ This approach helped us to convey the difference between exploration of the worl
 
 ### You can listen to the full Pirates? Pirates! game soundtrack below:
 
-{{<yt "y_T3cZHYbiM" "Pirates? Pirates! Video">}}
+{{%yt "y_T3cZHYbiM" "Pirates? Pirates! Video"%}}
 
 ### To see how the audio works in the context of the game, you can watch the video:
 
-{{<yt "4aEG7A9JSk4" "Pirates? Pirates! Video">}}
+{{%yt "4aEG7A9JSk4" "Pirates? Pirates! Video"%}}

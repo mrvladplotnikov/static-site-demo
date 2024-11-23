@@ -26,9 +26,9 @@ type: "work"
 
 Ocean World — це ігровий режим, який був доданий до гри-симулятора дикої природи [WildCraft]() у масштабному оновленні 2021 року. Цей ігровий світ дуже відрізняється від звичайного світу WildCraft, і в ньому гравці отримують шанс випробувати себе в ролі дельфіна чи акули.
 
-Щоби познайомитися з підводним світом, ви можете завантажити гру {{<link_blank "тут" "https://play.google.com/store/apps/details?id=com.turborocketgames.wildcraft&pli=1" >}}.
+Щоби познайомитися з підводним світом, ви можете завантажити гру {{%link_blank "тут" "https://play.google.com/store/apps/details?id=com.turborocketgames.wildcraft&pli=1" %}}.
 
-{{<image "images/wildcraft-ocean-world/ow1.jpeg" "Screenshot" >}}
+{{%image "images/wildcraft-ocean-world/ow1.jpeg" "Screenshot" %}}
 
 ## Концепція звучання
 
@@ -36,10 +36,10 @@ Ocean World — це ігровий режим, який був доданий �
 
 Однак Ocean World — це практично гра в грі, тому нам довелося покращити й допрацювати й наш підхід до створення аудіо. Тому ми розробили нову звукову концепцію для цього нового світу.
 
-{{<inline_image_list>}}
-{{<image "images/wildcraft-ocean-world/ow2.jpeg" "Screenshot" >}}
-{{<image "images/wildcraft-ocean-world/ow3.jpeg" "Screenshot" >}}
-{{</inline_image_list>}}
+{{%inline_image_list%}}
+{{%image "images/wildcraft-ocean-world/ow2.jpeg" "Screenshot" %}}
+{{%image "images/wildcraft-ocean-world/ow3.jpeg" "Screenshot" %}}
+{{%/inline_image_list%}}
 
 Насамперед, ми вивчили уподобання та звички цільової аудиторії, а також основних конкурентів та найкращі практики звучання підводних ігор. Це допомогло нам знайти кілька вкрай необхідних інсайтів та визначити нішові кліше, яких ми мали уникати.
 
@@ -49,15 +49,15 @@ Ocean World — це ігровий режим, який був доданий �
 
 Що ж до звукового дизайну, тут ми прагнули до перебільшеного реалізму, але водночас стежили, щоби звуки були все ж таки умиротворюючими, живими й не різкими. Наприклад, саме тому бульбашки супроводжують майже всі звуки емоцій/спілкування. Кількість та розмір бульбашок залежать від розміру риби чи тварини.
 
-{{<inline_image_list>}}
-{{<image "images/wildcraft-ocean-world/ow4.jpeg" "Screenshot" >}}
-{{<image "images/wildcraft-ocean-world/ow5.jpeg" "Screenshot" >}}
-{{</inline_image_list>}}
+{{%inline_image_list%}}
+{{%image "images/wildcraft-ocean-world/ow4.jpeg" "Screenshot" %}}
+{{%image "images/wildcraft-ocean-world/ow5.jpeg" "Screenshot" %}}
+{{%/inline_image_list%}}
 
-{{<inline_image_list>}}
-{{<image "images/wildcraft-ocean-world/ow6.jpeg" "Screenshot" >}}
-{{<image "images/wildcraft-ocean-world/ow7.jpeg" "Screenshot" >}}
-{{</inline_image_list>}}
+{{%inline_image_list%}}
+{{%image "images/wildcraft-ocean-world/ow6.jpeg" "Screenshot" %}}
+{{%image "images/wildcraft-ocean-world/ow7.jpeg" "Screenshot" %}}
+{{%/inline_image_list%}}
 
 ## Челлендж
 
@@ -71,25 +71,25 @@ Ocean World — це ігровий режим, який був доданий �
 
 Загалом це була крута співпраця, і, схоже, аудиторії сподобався результат!
 
-{{<inline_image_list>}}
-{{<image "images/wildcraft-ocean-world/ow8.jpg" "Screenshot" >}}
-{{<image "images/wildcraft-ocean-world/ow9.jpg" "Screenshot" >}}
-{{</inline_image_list>}}
+{{%inline_image_list%}}
+{{%image "images/wildcraft-ocean-world/ow8.jpg" "Screenshot" %}}
+{{%image "images/wildcraft-ocean-world/ow9.jpg" "Screenshot" %}}
+{{%/inline_image_list%}}
 
-{{<inline_image_list>}}
-{{<image "images/wildcraft-ocean-world/ow10.jpg" "Screenshot" >}}
-{{<image "images/wildcraft-ocean-world/ow11.jpg" "Screenshot" >}}
-{{</inline_image_list>}}
+{{%inline_image_list%}}
+{{%image "images/wildcraft-ocean-world/ow10.jpg" "Screenshot" %}}
+{{%image "images/wildcraft-ocean-world/ow11.jpg" "Screenshot" %}}
+{{%/inline_image_list%}}
 
-{{<inline_image_list>}}
-{{<image "images/wildcraft-ocean-world/ow12.jpg" "Screenshot" >}}
-{{<image "images/wildcraft-ocean-world/ow13.jpg" "Screenshot" >}}
-{{</inline_image_list>}}
+{{%inline_image_list%}}
+{{%image "images/wildcraft-ocean-world/ow12.jpg" "Screenshot" %}}
+{{%image "images/wildcraft-ocean-world/ow13.jpg" "Screenshot" %}}
+{{%/inline_image_list%}}
 
 Прослухати повний саундтрек до гри WildCraft: Ocean World можна [за посиланням](https://ampl.ink/ZMXz5) або в плейлисті нижче:
 
-{{<yt "5-7AEqI3LRo" "Wildcraft:Ocean World Video">}}
+{{%yt "5-7AEqI3LRo" "Wildcraft:Ocean World Video"%}}
 
 Заразом перегляньте ігроладне відео:
 
-{{<yt "4CVBqotN8gk" "Wildcraft:Ocean World Video">}}
+{{%yt "4CVBqotN8gk" "Wildcraft:Ocean World Video"%}}

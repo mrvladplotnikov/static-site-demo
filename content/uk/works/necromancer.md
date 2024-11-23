@@ -27,7 +27,7 @@ type: "work"
 
 Якщо ви любите слот-ігри, то Necromancer приємно здивує вас своєю механікою ігрового процесу, дизайном інтерфейсу й повноцінною реалізацією VR-формату.
 
-Спробувати гру можна {{<link_blank "тут" "https://demo2.evoplay.games/games/necromancer.php">}}.
+Спробувати гру можна {{%link_blank "тут" "https://demo2.evoplay.games/games/necromancer.php"%}}.
 
 ## Концепція звучання
 
@@ -37,12 +37,12 @@ type: "work"
 
 Натхненням став саундтрек до фільму Інтерстеллар. Можливо, через орган, але це неточно. 🙂
 
-{{<image "images/necromancer/nm1.jpg" "Screenshot" >}}
+{{%image "images/necromancer/nm1.jpg" "Screenshot" %}}
 
-{{<inline_image_list>}}
-{{<image "images/necromancer/nm2.jpg" "Screenshot" >}}
-{{<image "images/necromancer/nm3.png" "Screenshot" >}}
-{{</inline_image_list>}}
+{{%inline_image_list%}}
+{{%image "images/necromancer/nm2.jpg" "Screenshot" %}}
+{{%image "images/necromancer/nm3.png" "Screenshot" %}}
+{{%/inline_image_list%}}
 
 ## Челлендж
 
@@ -52,8 +52,8 @@ type: "work"
 
 ### Послухати повний саундтрек до гри Necromancer можна нижче:
 
-{{<yt "3P9JY6JiJm0" "Necromancer Video">}}
+{{%yt "3P9JY6JiJm0" "Necromancer Video"%}}
 
 ### Подивитися, як звучить аудіо в контексті геймплею, можна у відео нижче:
 
-{{<yt "JSMDG0r6xZU" "Necromancer Video">}}
+{{%yt "JSMDG0r6xZU" "Necromancer Video"%}}
