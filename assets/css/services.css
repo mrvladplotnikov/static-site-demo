@@ -11,6 +11,9 @@
     padding-block-start: 6.75rem;
     padding-block-end: 4.0625rem;
     position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .sidebar-title {
@@ -173,7 +176,7 @@
         line-height: 1.2;
     }
 
-    .service-page .first-section .small-container > h3.audio-content-title {
+    .service-page .first-section .small-container > h3.service-page-title {
         margin-block-end: 2.8125rem;
         font-size: 1.7rem;
         line-height: 1.3;

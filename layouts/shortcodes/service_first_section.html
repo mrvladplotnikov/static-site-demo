@@ -1,0 +1,12 @@
+<div class="first-section inline-gap">
+    <div class="small-container">
+      <img class="box-image box-top-left" src="/images/services/box-with-dots.svg" alt="" aria-hidden="true">
+      <img class="box-image box-top-right" src="/images/services/box-with-dots.svg" alt="" aria-hidden="true">
+      <img class="box-image box-bottom-left" src="/images/services/box-with-dots.svg" alt="" aria-hidden="true">
+      <img class="box-image box-bottom-right" src="/images/services/box-with-dots.svg" alt="" aria-hidden="true">
+      
+      {{- with .Get "title" }}<h3 class="service-page-title">{{ . }}</h3>{{ end -}}
+
+      {{ .Inner | markdownify }}
+    </div>
+</div>

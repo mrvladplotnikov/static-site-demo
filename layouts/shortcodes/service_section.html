@@ -1,0 +1,6 @@
+<div class="service-section inline-gap">
+  <div class="small-container">
+    {{- with .Get "title" }}<h2>{{ . }}</h2>{{ end -}}
+    {{ .Inner | markdownify }}
+  </div>
+</div>

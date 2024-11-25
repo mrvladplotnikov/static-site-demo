@@ -39,18 +39,16 @@
   {{- partial "mobile-nav.html" . -}}
 
   <div class="service-page">
-    {{- block "sidebar" . }}{{ end -}}
-
-    <div class="first-section inline-gap">
+    <aside class="sidebar inline-gap" style="background-image: url({{ .Params.bgImage }});">
       <div class="small-container">
-        <img class="box-image box-top-left" src="/images/services/box-with-dots.svg" alt="" aria-hidden="true">
-        <img class="box-image box-top-right" src="/images/services/box-with-dots.svg" alt="" aria-hidden="true">
-        <img class="box-image box-bottom-left" src="/images/services/box-with-dots.svg" alt="" aria-hidden="true">
-        <img class="box-image box-bottom-right" src="/images/services/box-with-dots.svg" alt="" aria-hidden="true">
-
-        {{- block "heading" . }}{{ end -}}
+          <h1 class="sidebar-title">{{ .Title }}</h1>
+          <figure>
+              <blockquote class="sidebar-blockquote">{{ .Params.quote }}</blockquote>
+              <figcaption class="sidebar-author"><cite>{{ .Params.author }}</cite></figcaption>
+          </figure>
       </div>
-    </div>
+    </aside>
+
 
     {{- block "main" . }}{{ end -}}
 
@@ -63,7 +61,7 @@
     {{- with $serviceReviews }}
     <div class="service-section service-section-reviews inline-gap">
       <div class="small-container">
-        <h2>Відгуки клієнтів</h2>
+        <h2>{{ T "services/reviews/title" }}</h2>
         <div class="slider">
           <ul class="swiper-wrapper">
             {{ range first 10 . }}

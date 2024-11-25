@@ -1,0 +1,4 @@
+<li class="what-we-do-item">
+  {{- with .Get "img" }}<img src="{{ . }}" alt="" width="55" height="55" loading="lazy">{{ end -}}
+  {{- with .Get "title" }}<h4>{{ . }}</h4>{{ end -}}
+</li>
