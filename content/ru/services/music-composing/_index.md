@@ -78,7 +78,6 @@ bgImage: /images/services/music-composing-bg.webp
 {{</details >}}
 {{</service_section>}}
 
-{{<raw_html>}}
 <div class="our-prices service-section inline-gap">
     <div class="small-container">
         <h2>Стоимость</h2>
@@ -155,4 +154,3 @@ bgImage: /images/services/music-composing-bg.webp
         </div>
     </div>
 </div>
-{{</raw_html>}}

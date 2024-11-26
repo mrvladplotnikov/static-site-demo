@@ -35,10 +35,10 @@ type: "work"
 
 Багато звуків для гри були створені за допомогою foley запису.
 
-{{%inline_image_list%}}
-{{%image "images/jing-jing/jj1.png" "Screenshot" %}}
-{{%image "images/jing-jing/jj2.png" "Screenshot" %}}
-{{%/inline_image_list%}}
+{{<inline_image_list >}}
+{{<image "images/jing-jing/jj1.png" "Screenshot"  >}}
+{{<image "images/jing-jing/jj2.png" "Screenshot"  >}}
+{{</inline_image_list >}}
 
 ## Челлендж
 
@@ -50,8 +50,8 @@ type: "work"
 
 ### Саундтрек до гри Jing! Jing! можна послухати нижче:
 
-{{%yt "bVQzi9gHjuk" "Jing! Jing! Video"%}}
+{{<youtube "bVQzi9gHjuk" >}}
 
 ### Оцінити звуковий дизайн можна за відео:
 
-{{%yt "3B2mZS99QKI" "Jing! Jing! Video"%}}
+{{<youtube "3B2mZS99QKI" >}}

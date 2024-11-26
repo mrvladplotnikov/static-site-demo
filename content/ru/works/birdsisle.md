@@ -33,7 +33,7 @@ We’ve chosen ukulele, marimba, various ethnic wind instruments, and percussion
 
 We’ve made all the sound effects in the tonality of the background music so that everything sounds harmonious in the finale. Also, with the developer, we initially divided the sounds into two categories: essential game notifications and sounds that often repeat in the gameplay. We made the latter neutral so they don’t annoy the player.
 
-{{%image "images/birdsisle/bi1.jpg" "Banner" %}}
+{{<image "images/birdsisle/bi1.jpg" "Banner"  >}}
 
 ## Challenge
 
@@ -45,14 +45,14 @@ To do this, we analyzed the project’s target audience and their preferences an
 
 A month after the project ended, the developer informed us that the players’ engagement indicators had grown. Challenge completed!
 
-{{%image "images/birdsisle/bi2.jpg" "Banner" %}}
+{{<image "images/birdsisle/bi2.jpg" "Banner"  >}}
 
 ## Result
 
 ### You can listen to the soundtrack for the game below:
 
-{{%yt "VJvdIXonxZo" "Birdsisle Video"%}}
+{{<youtube "VJvdIXonxZo" >}}
 
 ### You can evaluate the sound design and get an overall impression of the gameplay from the video:
 
-{{%yt "GtYiO0hUFXI" "Birdsisle Video"%}}
+{{<youtube "GtYiO0hUFXI" >}}

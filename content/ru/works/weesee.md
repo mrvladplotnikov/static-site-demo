@@ -32,7 +32,7 @@ The soundtrack should evoke a sense of adventure, travel, and discovery of new t
 
 Vlad has also made the sound effects for the application as vibrant and organic as possible. He designed them to enhance the interactivity of the map and a sense of presence. For example, a wolf that scratches itself with its paw has initially been the sound of Vlad’s beard.
 
-{{%image "images/weesee/ws1.jpg" "Photo" %}}
+{{<image "images/weesee/ws1.jpg" "Photo"  >}}
 
 ## Challenge
 
@@ -44,10 +44,8 @@ Also, almost all sound effects should have sounded good in a loop. Therefore, it
 
 ### You can listen to the soundtrack for the WeeSee app below:
 
-{{%raw_html%}}
 <iframe loading="lazy" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/346578389&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
-{{%/raw_html%}}
 
 ## And here is the map in action:
 
-{{%yt "fNYcHN1WSPk" "WeeSee Video"%}}
+{{<youtube "fNYcHN1WSPk" >}}

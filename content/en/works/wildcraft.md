@@ -28,7 +28,7 @@ WildCraft is a wildlife simulator game. An exciting journey awaits you as a wolf
 
 Explore the vast world, watch the seasons change, find friends, unite with them in families, raise cubs, and protect the family from enemies. Find rare species of animals and discover new opportunities for your pet.
 
-You can download the game {{%link_blank "here" "https://play.google.com/store/apps/details?id=com.turborocketgames.wildcraft"%}}.
+You can download the game [here](https://play.google.com/store/apps/details?id=com.turborocketgames.wildcraft).
 
 ## Sound concept
 
@@ -40,10 +40,10 @@ By the way, we used ethnic instruments to emphasize the game’s connection with
 
 For a combat theme, we accelerated the pace of the soundtrack and added rhythm and powerful percussion, which helps the players get focused before the fight with the enemy, cheers them up, and supports them in the process.
 
-{{%inline_image_list%}}
-{{%image "images/wildcraft/wc1.jpg" "Screenshot" %}}
-{{%image "images/wildcraft/wc2.jpg" "Screenshot" %}}
-{{%/inline_image_list%}}
+{{<inline_image_list >}}
+{{<image "images/wildcraft/wc1.jpg" "Screenshot"  >}}
+{{<image "images/wildcraft/wc2.jpg" "Screenshot"  >}}
+{{</inline_image_list >}}
 
 ## Challenge
 
@@ -65,12 +65,10 @@ The audience liked the new batch of tracks, so we released them as a separate al
 
 You can listen to the Story Mode soundtrack below:
 
-{{%yt "TEs2iWplWUw" "Wildcraft Video"%}}
+{{<youtube "TEs2iWplWUw" >}}
 
 ## Result
 
 ### Listen to the full WildCraft soundtrack below:
 
-{{%raw_html%}}
 <iframe loading="lazy" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/437708517&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
-{{%/raw_html%}}

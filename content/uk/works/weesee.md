@@ -32,7 +32,7 @@ type: "work"
 
 Звукові ефекти для додатка Влад зробив максимально живими й органічними, щоби посилити інтерактивність мапи та відчуття присутності. Наприклад, вовк, який чеше себе лапою, первісно був звуком бороди Влада.
 
-{{%image "images/weesee/ws1.jpg" "Photo" %}}
+{{<image "images/weesee/ws1.jpg" "Photo"  >}}
 
 ## Челлендж
 
@@ -44,10 +44,8 @@ type: "work"
 
 ### Послухати саундтрек для додатка WeeSee можна нижче:
 
-{{%raw_html%}}
 <iframe loading="lazy" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/346578389&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
-{{%/raw_html%}}
 
 ## А ось і мапа в дії:
 
-{{%yt "fNYcHN1WSPk" "WeeSee Video"%}}
+{{<youtube "fNYcHN1WSPk" >}}

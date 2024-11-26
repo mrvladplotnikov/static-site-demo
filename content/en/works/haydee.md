@@ -27,7 +27,7 @@ In this game, you control Haydee, a half-human, half-robot character, searching 
 
 Many consider the sexy protagonist to be the main feature of the game. However, the «cultural shock» will pass in 15 minutes, and you’ll see that the excellent hardcore gameplay is the main reason this game is so awesome.
 
-You can download the game {{%link_blank "here" "https://store.steampowered.com/app/530890/Haydee/"%}}.
+You can download the game [here](https://store.steampowered.com/app/530890/Haydee/).
 
 ## Sound concept
 
@@ -37,10 +37,10 @@ He analyzed the general concept of the game and the gameplay and decided to emph
 
 An interesting fact: the soundtrack is primarily written in Omnisphere. And in the game’s main theme, there is an electric guitar to add some melodies.
 
-{{%inline_image_list%}}
-{{%image "images/haydee/hd1.jpeg" "Screenshot" %}}
-{{%image "images/haydee/hd2.jpg" "Screenshot" %}}
-{{%/inline_image_list%}}
+{{<inline_image_list >}}
+{{<image "images/haydee/hd1.jpeg" "Screenshot"  >}}
+{{<image "images/haydee/hd2.jpg" "Screenshot"  >}}
+{{</inline_image_list >}}
 
 ## Challenge
 
@@ -52,8 +52,8 @@ The sound of each zone had to reflect its distinctive features and, at the same 
 
 ### You can listen to the complete soundtrack for Haydee below:
 
-{{%yt "MdA1lH89ijw" "Haydee Video"%}}
+{{<youtube "MdA1lH89ijw" >}}
 
 ### Haydee gameplay video:
 
-{{%yt "GHr-94gO7pw" "Haydee Video"%}}
+{{<youtube "GHr-94gO7pw" >}}

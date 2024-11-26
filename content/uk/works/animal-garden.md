@@ -30,12 +30,12 @@ type: "work"
 
 І так, ще на вас чекає проєктування та прикрашання власного зоопарку, аби він став по-справжньому унікальним!
 
-Завантажити гру ви можете {{%link_blank "тут" ""%}}.
+Завантажити гру ви можете [тут](/).
 
-{{%inline_image_list%}}
-{{%image "images/animal-garden/ag1.jpg" "Screenshot" %}}
-{{%image "images/animal-garden/ag2.jpg" "Screenshot" %}}
-{{%/inline_image_list%}}
+{{<inline_image_list >}}
+{{<image "images/animal-garden/ag1.jpg" "Screenshot"  >}}
+{{<image "images/animal-garden/ag2.jpg" "Screenshot"  >}}
+{{</inline_image_list >}}
 
 ## Концепція звучання
 
@@ -45,16 +45,16 @@ type: "work"
 
 Ми не хотіли, щоби музика вийшла занадто фоновою, адже це важлива частина гри, але ми також і не хотіли занадто відвертати увагу від ігрового процесу. Тому ми створили головну тему дуже динамічною й не дуже повторюваною. Саме завдяки цьому вона довше зберігає свіжість звучання при відтворенні в циклі під час тривалих ігрових сесій.
 
-{{%inline_image_list%}}
-{{%image "images/animal-garden/ag3.jpg" "Screenshot" %}}
-{{%image "images/animal-garden/ag4.jpg" "Screenshot" %}}
-{{%/inline_image_list%}}
+{{<inline_image_list >}}
+{{<image "images/animal-garden/ag3.jpg" "Screenshot"  >}}
+{{<image "images/animal-garden/ag4.jpg" "Screenshot"  >}}
+{{</inline_image_list >}}
 
 Що стосується звукового дизайну, тут ми, насамперед, прагнули створити для гравців почуття комфорту. Нашою головною метою було дати їм тактильні відчуття крафта й турботи про тварин за допомогою звукових ефектів. А ось у джинглів завдання було інше: привертати увагу гравців, інформувати їх і винагороджувати за різні дії. Крім того, загалом було важливо диференціювати ігрові події за допомогою звукових ефектів і джинглів, щоби гравці легше орієнтувалися в ігровому процесі.
 
 А ще ми гарненько попрацювали над звуковим оформленням персонажів, оскільки розробники хотіли, щоби вони відчувалися якомога більш живими й кумедними.
 
-{{%image "images/animal-garden/ag5.jpg" "Screenshot" %}}
+{{<image "images/animal-garden/ag5.jpg" "Screenshot"  >}}
 
 ## Челлендж
 
@@ -66,8 +66,8 @@ type: "work"
 
 ### Послухайте головну тему «Animal Garden: Зоопарк і Ферма» нижче:
 
-{{%yt "xHuiuIpn_Xw" "Animal Garden Video"%}}
+{{<youtube "xHuiuIpn_Xw" >}}
 
 ### Подивіться відео, щоби дізнатися, як музика і звуки працюють у контексті геймплея:
 
-{{%yt "tgS_YmjO_uk" "Animal Garden Video"%}}
+{{<youtube "tgS_YmjO_uk" >}}

@@ -22,7 +22,7 @@ MAUDAU is an online platform for everyday shopping or, simply, a **market for es
 
 The MAUDAU team strives to turn routine shopping into a fast, high-quality process. You can buy anything on this market: alcohol, food, beauty and health products, and a lot of everything for children and pets. Altogether, MAUDAU is a convenient and easy way to buy all needed non-fun things at a reasonable price without unnecessary headaches.
 
-{{%image "images/maudau/md1.jpg" "Banner" %}}
+{{<image "images/maudau/md1.jpg" "Banner"  >}}
 
 ## Getting Started
 
@@ -38,7 +38,7 @@ Moreover, a distinctive sound could also help the new audience to **recognize** 
 
 So, considering all the above, together with the MAUDAU team, we aimed to create a full-fledged audio brand.
 
-{{%image "images/maudau/md2.jpg" "Banner" %}}
+{{<image "images/maudau/md2.jpg" "Banner"  >}}
 
 ## Briefing and audio research of the niche
 
@@ -52,7 +52,7 @@ Another key feature of the market’s identity was the **focus on authenticity**
 
 After we determined the associations and feelings that the future audio brand should create, as well as its tasks, we moved to the stage of audio analysis of the niche.
 
-{{%image "images/maudau/md3.jpg" "Banner" %}}
+{{<image "images/maudau/md3.jpg" "Banner"  >}}
 
 We analyzed the sound of the list of competitors provided to us by the MAUDAU team. We focused on parsing the audio of their campaigns and social networks.
 
@@ -75,10 +75,10 @@ At the same time, it was clear that perceiving the electronic sound would be eas
 
 Therefore, based on the desired associations and tasks, we hypothesized that **a mix of electronic and jazz elements with organic sounds** (percussion + human voice) should work best.
 
-{{%inline_image_list%}}
-{{%image "images/maudau/md4.jpg" "Banner" %}}
-{{%image "images/maudau/md5.jpg" "Banner" %}}
-{{%/inline_image_list%}}
+{{<inline_image_list >}}
+{{<image "images/maudau/md4.jpg" "Banner"  >}}
+{{<image "images/maudau/md5.jpg" "Banner"  >}}
+{{</inline_image_list >}}
 
 We created several audio mood boards to illustrate our ideas and to decide on the further direction of development.
 
@@ -100,16 +100,16 @@ For MAUDAU, we developed **three different DNA demos**. Each of them explored an
 
 However, all demos had some similar elements, for example, **a unique drum set** (percussion) that we created specifically for MAUDAU. For it, we recorded samples of various items that clients could buy on this online market: a bottle of sparkling wine, an empty wine bottle, glasses, different tableware, toilet paper pack, children’s toys, candles, a bottle of detergent, etc.
 
-{{%yt "-vUg0iP0-vo" "Maudau Video"%}}
+{{<youtube "-vUg0iP0-vo" >}}
 
 This drum set immediately fitted perfectly into the general idea of ​​authenticity of the brand, giving the sound liveliness and **a sense of simplicity and comprehensibility**.
 
 And even though we had no particular questions or doubts about this element of the audio DNA, we still had to decide on all the other components of the sound. 🙂 This meant that **the testing moment had arrived**.
 
-{{%inline_image_list%}}
-{{%image "images/maudau/md6.jpg" "Banner" %}}
-{{%image "images/maudau/md7.jpg" "Banner" %}}
-{{%/inline_image_list%}}
+{{<inline_image_list >}}
+{{<image "images/maudau/md6.jpg" "Banner"  >}}
+{{<image "images/maudau/md7.jpg" "Banner"  >}}
+{{</inline_image_list >}}
 
 We needed to test the effectiveness of our demos. So, together with the MAUDAU team, we reached out to loyal and new online market users and company employees who did not participate in developing the audio brand. In total, **178 respondents** took part in the testing.
 
@@ -131,7 +131,7 @@ By the way, the «authenticity» indicator in the selected version was the highe
 
 After testing, we only had a little to refine this musical «collage» and approve its final sound. You can listen to the result below.
 
-{{%yt "LZGGL45-OTo" "Maudau Video"%}}
+{{<youtube "LZGGL45-OTo" >}}
 
 ## Audio DNA adaptations
 
@@ -151,9 +151,7 @@ Each of them has its own rules and use cases to best complement the brand’s co
 
 You can listen to audio versions of the MAUDAU logo below:
 
-{{%raw_html%}}
 <iframe loading="lazy" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1478410978%3Fsecret_token%3Ds-jdfKgIdvsel&amp;color=%23f23b0d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>
-{{%/raw_html%}}
 
 ### A brand track
 
@@ -169,7 +167,7 @@ We **adapted** each part of the brand track to different needs, creating version
 
 You can listen to how it all sounds below:
 
-{{%yt "KkWIXhA9KXw" "Maudau Video"%}}
+{{<youtube "KkWIXhA9KXw" >}}
 
 ### A commercial
 
@@ -183,7 +181,7 @@ But in the end, we were lucky enough to find a voice that fits perfectly into th
 
 You can listen to what we got below:
 
-{{%yt "qr1J5t3ScKg" "Maudau Video"%}}
+{{<youtube "qr1J5t3ScKg" >}}
 
 ## Result
 
@@ -195,4 +193,4 @@ Most importantly, everything we have created together with the MAUDAU team is ai
 
 You can listen to all current elements of the MAUDAU audio brand in the playlist below:
 
-{{%yt "LZGGL45-OTo" "Maudau Video"%}}
+{{<youtube "LZGGL45-OTo" >}}

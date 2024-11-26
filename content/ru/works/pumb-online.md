@@ -32,10 +32,10 @@ Not least of all, our study of the Ukrainian mobile banking market influenced th
 
 Once we understood our main task, our exciting collaboration began.
 
-{{%inline_image_list%}}
-{{%image "images/pumb-online/po1.jpg" "Screenshot" %}}
-{{%image "images/pumb-online/po2.jpg" "Screenshot" %}}
-{{%/inline_image_list%}}
+{{<inline_image_list >}}
+{{<image "images/pumb-online/po1.jpg" "Screenshot"  >}}
+{{<image "images/pumb-online/po2.jpg" "Screenshot"  >}}
+{{</inline_image_list >}}
 
 ## Briefing and audio research of the niche
 
@@ -73,9 +73,7 @@ When we, along with the PUMB Online team, chose a «winner» among the DNA demos
 
 After the testing, we finalized the audio DNA and invited Inna Frantseskevich, a vocalist whose voice added even more humanity to the sound.
 
-{{%raw_html%}}
 <iframe loading="lazy" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1176942838&amp;color=%23f23b0d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>
-{{%/raw_html%}}
 
 ## Audio DNA adaptations
 
@@ -99,9 +97,7 @@ As a result, we developed the following types of sounds:
 - negative notifications;
 - default sound.
 
-{{%raw_html%}}
 <iframe loading="lazy" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1176942820&amp;color=%23f23b0d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>
-{{%/raw_html%}}
 
 ### On-hold music
 
@@ -109,9 +105,7 @@ We should also talk about the on-hold music. It has an essential task because ex
 
 So we made this adaptation of the audio DNA quite dynamic, incorporating as much as possible brand audio elements. As a result, it fully conveys the brand promise and is exciting to listen to.
 
-{{%raw_html%}}
 <iframe loading="lazy" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1176942802&amp;color=%23f23b0d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>
-{{%/raw_html%}}
 
 ## Result
 
@@ -121,6 +115,4 @@ Of course, this is only the beginning, but clients of PUMB Online can already ha
 
 You can listen to all the audio brand assets that we created for the PUMB Online app in the playlist below.
 
-{{%raw_html%}}
 <iframe loading="lazy" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1362534490&amp;color=%23f23b0d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>
-{{%/raw_html%}}

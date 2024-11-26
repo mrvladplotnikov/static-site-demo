@@ -30,12 +30,12 @@ Forest Song is a story that is full of mysticism and mythical forest creatures. 
 
 Sopilka, bandura, and cimbalom create the needed emotional mood and help convey the feelings of the main characters and the emotions that the original script sought to lay. The orchestra, in its turn, «frames» ethnic instruments and adds depth, scale, and drama to the sound.
 
-{{%inline_image_list%}}
-{{%image "images/prymary/pr1.jpg" "Screenshot" %}}
-{{%image "images/prymary/pr2.jpg" "Screenshot" %}}
-{{%/inline_image_list%}}
+{{<inline_image_list >}}
+{{<image "images/prymary/pr1.jpg" "Screenshot"  >}}
+{{<image "images/prymary/pr2.jpg" "Screenshot"  >}}
+{{</inline_image_list >}}
 
-{{%image "images/prymary/pr3.jpg" "Screenshot" %}}
+{{<image "images/prymary/pr3.jpg" "Screenshot"  >}}
 
 ## Challenge
 
@@ -47,6 +47,6 @@ But everything has turned not so scary because the poetry of the Forest Song is 
 
 ### You can listen to all the compositions for the theatrical play Visions below:
 
-{{%yt "xZDjjWlXCMo" "Prymary Video"%}}
+{{<youtube "xZDjjWlXCMo" >}}
 
-### You can watch some parts of the play {{%link_blank "here" "https://www.facebook.com/tempodesa/videos/651040252021467/"%}}.
+### You can watch some parts of the play [here](https://www.facebook.com/tempodesa/videos/651040252021467/).
