@@ -34,9 +34,7 @@ We’ve learned about this fun cooperative game from a crowdfunding campaign, th
 
 You can immerse yourself in the atmosphere of post-apocalyptic fun by purchasing the game here:
 
-{{%raw_html%}}
 <iframe loading="lazy" src="https://store.steampowered.com/widget/1671310/" frameborder="0" width="100%" height="200"></iframe>
-{{%/raw_html%}}
 
 ## Sound concept
 
@@ -48,15 +46,15 @@ Secondly, the ‘Trash Is Fun’ team permitted us to create music that will not
 
 And thirdly, after analyzing the competitors and best practices of similar co-op games (like ‘Overcooked’), we realized that we had to go towards non-banal solutions. After all, given the background and clichéd music prevalence, it was the only logical decision to qualitatively differentiate the game from other titles and evoke the audience’s affection.
 
-{{%inline_image_list%}}
-{{%image "images/trash-is-fun/tif-gameplay-1.jpg" "Screenshot" %}}
-{{%image "images/trash-is-fun/tif-gameplay-2.jpg" "Screenshot" %}}
-{{%/inline_image_list%}}
+{{<inline_image_list >}}
+{{<image "images/trash-is-fun/tif-gameplay-1.jpg" "Screenshot"  >}}
+{{<image "images/trash-is-fun/tif-gameplay-2.jpg" "Screenshot"  >}}
+{{</inline_image_list >}}
 
-{{%inline_image_list%}}
-{{%image "images/trash-is-fun/tif-gameplay-3.jpg" "Screenshot" %}}
-{{%image "images/trash-is-fun/tif-gameplay-4.jpg" "Screenshot" %}}
-{{%/inline_image_list%}}
+{{<inline_image_list >}}
+{{<image "images/trash-is-fun/tif-gameplay-3.jpg" "Screenshot"  >}}
+{{<image "images/trash-is-fun/tif-gameplay-4.jpg" "Screenshot"  >}}
+{{</inline_image_list >}}
 
 So after analyzing all the info we collected about the game, its audience, and competitors, we developed several audio hypotheses and put together relevant audio mood boards. And together with the developers, we chose the best ideas for the soundtrack.  
 
@@ -66,7 +64,7 @@ Among the compositions included in the mood boards were tracks from the third Cr
 
 After listening, we chose positive and negative references and finally approved the audio concept: pop-rock with elements of orchestral music (but one that would have a toy-ish sound) and nuances of electronic music.
 
-{{%yt "7YRvZ-amIQI" "Trash is fun Video"%}}
+{{<youtube "7YRvZ-amIQI" >}}
 
 ## Challenge
 
@@ -76,10 +74,10 @@ The thing is that each level in this game is divided into segments of 30 seconds
 
 That is why we had to respect a rigid track structure while making music vary throughout the level. And, well, we also had to make all tracks different from each other,  despite the same structure.
 
-{{%inline_image_list%}}
-{{%image "images/trash-is-fun/tif-gameplay-5.jpg" "Screenshot" %}}
-{{%image "images/trash-is-fun/tif-gameplay-6.jpg" "Screenshot" %}}
-{{%/inline_image_list%}}
+{{<inline_image_list >}}
+{{<image "images/trash-is-fun/tif-gameplay-5.jpg" "Screenshot"  >}}
+{{<image "images/trash-is-fun/tif-gameplay-6.jpg" "Screenshot"  >}}
+{{</inline_image_list >}}
 
 It was quite an exercise in creativity, but we managed to nail it! The fact that each level has a rather distinctive setting helped us a lot: snowy Lviv, noir Berlin under the rain, somewhat melancholic Stockholm, etc.
 
@@ -87,10 +85,10 @@ It was quite an exercise in creativity, but we managed to nail it! The fact that
 
 The ‘Trash Is Fun’ soundtrack includes six tracks: the main theme and five gameplay tracks. You can listen to the final result below:
 
-{{%yt "wHuQkaa_Grc" "Trash is fun Video"%}}
+{{<youtube "wHuQkaa_Grc" >}}
 
-Or you can also find this soundtrack  {{%link_blank "on your favorite streaming platform" "https://vldpltnkv.ampl.ink/tif_ost"%}}
+Or you can also find this soundtrack [on your favorite streaming platform](https://vldpltnkv.ampl.ink/tif_os)
 
 We also recommend you check out the gameplay video to understand better how music works in the game context:
 
-{{%yt "EvEgMqasoHk" "Trash is fun Video"%}}
+{{<youtube "EvEgMqasoHk" >}}

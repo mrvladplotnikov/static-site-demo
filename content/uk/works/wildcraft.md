@@ -28,7 +28,7 @@ WildCraft — це гра-симулятор життя диких тварин.
 
 Досліджуйте величезний світ, спостерігайте за зміною сезонів, знаходьте друзів і об’єднуйтеся з ними в сім’ї, вирощуйте дитинчат і захищайте сім’ю від ворогів. Знаходьте рідкісні види тварин і відкривайте нові можливості для свого улюбленця.
 
-Завантажити гру можна {{%link_blank "тут" "https://play.google.com/store/apps/details?id=com.turborocketgames.wildcraft"%}}.
+Завантажити гру можна [тут](https://play.google.com/store/apps/details?id=com.turborocketgames.wildcraft).
 
 ## Концепція звучання
 
@@ -40,10 +40,10 @@ WildCraft — це гра-симулятор життя диких тварин.
 
 Для бойової теми ми прискорили темп саундтреку, додали ритм і потужну перкусію — це допомагає гравцеві зібратися перед поєдинком із противником, підбадьорює й ще більше розпалює його в процесі.
 
-{{%inline_image_list%}}
-{{%image "images/wildcraft/wc1.jpg" "Screenshot" %}}
-{{%image "images/wildcraft/wc2.jpg" "Screenshot" %}}
-{{%/inline_image_list%}}
+{{<inline_image_list >}}
+{{<image "images/wildcraft/wc1.jpg" "Screenshot"  >}}
+{{<image "images/wildcraft/wc2.jpg" "Screenshot"  >}}
+{{</inline_image_list >}}
 
 ## Челлендж
 
@@ -65,12 +65,10 @@ WildCraft — це гра-симулятор життя диких тварин.
 
 Послухати саундтрек до режиму гри Story Mode ви можете нижче:
 
-{{%yt "TEs2iWplWUw" "Wildcraft Video"%}}
+{{<youtube "TEs2iWplWUw" >}}
 
 ## Результат
 
 ### Прослухати повний саундтрек до гри WildCraft нижче:
 
-{{%raw_html%}}
 <iframe loading="lazy" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/437708517&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
-{{%/raw_html%}}

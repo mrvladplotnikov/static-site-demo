@@ -22,7 +22,7 @@ type: "work"
 
 PlayUA is a Ukrainian entertainment internet media. They write about games, the film industry, comics, technologies, and pop culture trends. They publish reviews, analytical articles, author columns, interviews, and reports on the most exciting thematic events.
 
-Exactly at one of these events, Vlad has met and given {{%link_blank "a short interview" "https://www.youtube.com/watch?v=bmJ4SsnLzW4&list=PL4Jc69rq8qm9YofHKywTNcl4er6IjpfZj"%}} to the guys from PlayUA. Later, behind the scenes, they discussed the YouTube channel of the media that lacked an audio identity. So everything turned into cooperation.
+Exactly at one of these events, Vlad has met and given [a short interview](https://www.youtube.com/watch?v=bmJ4SsnLzW4&list=PL4Jc69rq8qm9YofHKywTNcl4er6IjpfZj) to the guys from PlayUA. Later, behind the scenes, they discussed the YouTube channel of the media that lacked an audio identity. So everything turned into cooperation.
 
 ## Sound concept
 
@@ -34,7 +34,7 @@ By the way, the target audience’s musical preferences defined the track’s ar
 
 Sounds of bandura and reed pipe underline that the brand is genuinely Ukrainian. The symphony orchestra elements pay tribute to the iconic orchestral soundtracks from the video games and film industry.
 
-{{%image "images/playua/pu1.jpg" "Banner" %}}
+{{<image "images/playua/pu1.jpg" "Banner"  >}}
 
 ## Challenge
 
@@ -57,24 +57,22 @@ Of course, the brand track «Live, Create, Play» is not a classic audio DNA, bu
 
 ### You can listen all of them below:
 
-{{%raw_html%}}
 <iframe loading="lazy" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/786416052&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
-{{%/raw_html%}}
 
 ### And here are some examples of audio brand elements’ use:
 
 #### Audio logo and brand track variations
 
-{{%yt "JIHpzy7CuGU" "PlayUa Video"%}}
+{{<youtube "JIHpzy7CuGU" >}}
 
 #### Podcast track
 
-{{%yt "etHNrNXKIY4" "PlayUa Video"%}}
+{{<youtube "etHNrNXKIY4" >}}
 
 #### Track for video reviews
 
-{{%yt "Fgghy0zVyJs" "PlayUa Video"%}}
+{{<youtube "Fgghy0zVyJs" >}}
 
 #### Signature Twitch notifications
 
-{{%yt "Rma56gMADuw" "PlayUa Video"%}}
+{{<youtube "Rma56gMADuw" >}}

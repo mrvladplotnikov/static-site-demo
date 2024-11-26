@@ -7,11 +7,11 @@ type: page
 ## Organizational details
 
 {{< details "1" "How do I get started?" >}}
-First of all, we need to get to know your project and you. To do this, you fill out a brief, and we conduct a [free consultation](mailto:{{% site_email %}}) for you. Then, if everything is good, it only remains to prepare the technical task and sign the contract.
+First of all, we need to get to know your project and you. To do this, you fill out a brief, and we conduct a [free consultation](mailto:{{< site_email  >}}) for you. Then, if everything is good, it only remains to prepare the technical task and sign the contract.
 {{< /details >}}
 
 {{< details "2" "What if my project is under the NDA?" >}}
-You can [email us](mailto:{{% site_email %}}), we will sign all the needed documents, and after, we will be able to discuss everything freely.
+You can [email us](mailto:{{< site_email  >}}), we will sign all the needed documents, and after, we will be able to discuss everything freely.
 {{< /details >}}
 
 {{< details "3" "Do you do test tasks?" >}}
@@ -35,7 +35,7 @@ In such a way, both sides have crystal clear results expectations from the very 
 {{< details "5" "How is the rest of the work process organized?" >}}
 The process may vary depending on the chosen service, although the main six stages remain unchanged: acquaintance, legal formalities, pre-production, production, project acceptance, and further support.
 
-You can read in detail the organization of each of our services on the following pages: [music composing]({{% relref "/services/music-composing" %}}), [sound design]({{% relref "/services/sound-design" %}}), [audio branding]({{% relref "/services/audio-branding" %}}) and [voice casting]({{% relref "/services/voice-casting" %}}).
+You can read in detail the organization of each of our services on the following pages: [music composing]({{< relref "/services/music-composing"  >}}), [sound design]({{< relref "/services/sound-design"  >}}), [audio branding]({{< relref "/services/audio-branding"  >}}) and [voice casting]({{< relref "/services/voice-casting"  >}}).
 {{< /details >}}
 
 ## Financial questions
@@ -103,7 +103,7 @@ An audio consultation for a specific project costs €100/hour.
 
 The cost of an audio review is €400.
 
-We also conduct three thirty-minute consultations or lite audio reviews every month for free. [Email us](mailto:{{% site_email %}}) to catch your slot.
+We also conduct three thirty-minute consultations or lite audio reviews every month for free. [Email us](mailto:{{< site_email  >}}) to catch your slot.
 {{< /details >}}
 
 ## Glossary

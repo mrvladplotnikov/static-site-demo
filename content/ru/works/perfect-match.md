@@ -31,10 +31,10 @@ Here you have the opportunity to play as your favorite artist in a pleasant, rel
 
 Each victory will allow you to develop your character, and experiment with new skins and backgrounds.
 
-{{%inline_image_list%}}
-{{%image "images/perfect-match/pm1.jpg" "Screenshot" %}}
-{{%image "images/perfect-match/pm2.jpg" "Screenshot" %}}
-{{%/inline_image_list%}}
+{{<inline_image_list >}}
+{{<image "images/perfect-match/pm1.jpg" "Screenshot"  >}}
+{{<image "images/perfect-match/pm2.jpg" "Screenshot"  >}}
+{{</inline_image_list >}}
 
 ## Sound concept
 
@@ -48,17 +48,17 @@ Regarding the gameplay theme, it appears more cheerful and dynamic, exactly to k
 
 We developed the sound design with the same concept as the soundtrack. We focused on organic sounds and «warm» instruments to make the game design more tactile and help the player feel the overall atmosphere.
 
-{{%inline_image_list%}}
-{{%image "images/perfect-match/pm3.jpg" "Screenshot" %}}
-{{%image "images/perfect-match/pm4.jpg" "Screenshot" %}}
-{{%/inline_image_list%}}
+{{<inline_image_list >}}
+{{<image "images/perfect-match/pm3.jpg" "Screenshot"  >}}
+{{<image "images/perfect-match/pm4.jpg" "Screenshot"  >}}
+{{</inline_image_list >}}
 
 ## Result
 
 You can listen to the Perfect Match soundtrack below:
 
-{{%yt "TqEGqeE_uik" "Perfect Match Video"%}}
+{{<youtube "TqEGqeE_uik">}}
 
 And to check the work of the music and sound design in the game context, please watch this video:
 
-{{%yt "sZKGp7wTBAA" "Perfect Match Video"%}}
+{{<youtube "sZKGp7wTBAA">}}

@@ -28,7 +28,7 @@ The Hellenic Youth Participation aims to promote human rights through non-formal
 
 That’s why the HYP podcasts were created. It is a source for young people to receive information about the European Solidarity Corps, Erasmus+ Programme, Youth Exchanges, examples of volunteering experiences, and traveling abroad. These podcasts also aim to build a community that shares the same values and is open to intercultural mobilities.
 
-{{%image "images/hyp-podcasts/hp1.jpeg" "Logo" %}}
+{{<image "images/hyp-podcasts/hp1.jpeg" "Logo"  >}}
 
 ## Sound concept
 
@@ -52,13 +52,9 @@ For the HYP podcasts, we created an audio set containing intro and outro tracks 
 
 You can listen to the set below:
 
-{{%raw_html%}}
 <iframe loading="lazy" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1266827038&amp;color=%23f23b0d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>
-{{%/raw_html%}}
 
-And finally, be sure to check out {{%link_blank "the podcasts themselves" "https://podcasters.spotify.com/pod/show/hyppodcasts"%}}, here’s one of them:
+And finally, be sure to check out [the podcasts themselves](https://podcasters.spotify.com/pod/show/hyppodcasts), here’s one of them:
 
-{{%raw_html%}}
 <iframe loading="lazy" src="https://anchor.fm/hyppodcasts/embed/episodes/ESC--A-Volunteering-Experience-Germany--Croatia-e15lpbf" height="200px" width="100%" frameborder="0" scrolling="no"></iframe>
-{{%/raw_html%}}
 

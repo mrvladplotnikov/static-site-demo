@@ -30,13 +30,7 @@ We can also compose music for motion graphics, but it mainly intersects with a w
 {{</service_section>}}
 
 {{<service_section title="Our Best Soundtracks">}}
-<div class="iframe-container">
-    <iframe width="100%" height="450" loading="lazy"
-    src="https://www.youtube-nocookie.com/embed/videoseries?si=NBy71eICuvQpmH4E&amp;list=PLeloqO_zTPsvZSj1KQa_NpY_GEFspnCSa"
-    title="YouTube video player" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+{{<youtube "NBy71eICuvQpmH4E" >}}
 {{</service_section>}}
 
 {{<service_section title="What is the process like?">}}
@@ -94,7 +88,6 @@ Below, we'll explain the pipeline, which is typical for composing game soundtrac
 {{</details >}}
 {{</service_section>}}
 
-{{<raw_html>}}
 <div class="our-prices service-section inline-gap">
     <div class="small-container">
         <h2>Вартість</h2>
@@ -169,4 +162,3 @@ Below, we'll explain the pipeline, which is typical for composing game soundtrac
         </div>
     </div>
 </div>
-{{</raw_html>}}

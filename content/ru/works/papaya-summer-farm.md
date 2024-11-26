@@ -26,7 +26,7 @@ Papaya: Summer Farm is a simulation game for Facebook, in which you will find yo
 
 The perfect sandy beach, clear turquoise waters, and incredible exotic birds and animals are already waiting for you. You can build your village, undertake the most exciting adventures and unravel all the island’s secrets.
 
-You can play the game {{%link_blank "here" "https://papaya.quartsoft.com/uk/"%}}.
+You can play the game [here](https://papaya.quartsoft.com/uk/).
 
 ## Sound concept
 
@@ -36,10 +36,10 @@ In this game, the visuals also dictated the style of music: tropical motifs and 
 
 In the track, we avoided the excessive «relaxed vibes» typical in the tropical style and made the composition fast enough and dynamic.
 
-{{%inline_image_list%}}
-{{%image "images/papaya-summer-farm/psf1.png" "Screenshot" %}}
-{{%image "images/papaya-summer-farm/psf2.jpg" "Screenshot" %}}
-{{%/inline_image_list%}}
+{{<inline_image_list >}}
+{{<image "images/papaya-summer-farm/psf1.png" "Screenshot"  >}}
+{{<image "images/papaya-summer-farm/psf2.jpg" "Screenshot"  >}}
+{{</inline_image_list >}}
 
 ## Challenge
 
@@ -53,8 +53,8 @@ The final track is still balancing on the verge of «background-ness» — it is
 
 ### You can listen to the soundtrack for the game Papaya: Summer Farm below:
 
-{{%yt "49lGtLVt9xI" "Papaya: Summer Farm Video"%}}
+{{<youtube "49lGtLVt9xI" >}}
 
 ### You can also watch the game trailer:
 
-{{%yt "USD-8pR2Mes" "Papaya: Summer Farm Video"%}}
+{{<youtube "USD-8pR2Mes" >}}

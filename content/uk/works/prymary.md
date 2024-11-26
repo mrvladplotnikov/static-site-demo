@@ -30,12 +30,12 @@ type: "work"
 
 Сопілка, бандура й цимбали створюють потрібний емоційний настрій, допомагають передати почуття головних героїв і ті відчуття, які прагнув закласти оригінальний сценарій. Оркестр зі свого боку обрамляє етнічні інструменти, додає звучанню глибини, масштабності і драматургії.
 
-{{%inline_image_list%}}
-{{%image "images/prymary/pr1.jpg" "Screenshot" %}}
-{{%image "images/prymary/pr2.jpg" "Screenshot" %}}
-{{%/inline_image_list%}}
+{{<inline_image_list >}}
+{{<image "images/prymary/pr1.jpg" "Screenshot"  >}}
+{{<image "images/prymary/pr2.jpg" "Screenshot"  >}}
+{{</inline_image_list >}}
 
-{{%image "images/prymary/pr3.jpg" "Screenshot" %}}
+{{<image "images/prymary/pr3.jpg" "Screenshot"  >}}
 
 ## Челлендж
 
@@ -47,6 +47,6 @@ type: "work"
 
 ### Прослухати всі композиції для театральної постановки «Примари» можна нижче:
 
-{{%yt "xZDjjWlXCMo" "Prymary Video"%}}
+{{<youtube "xZDjjWlXCMo" >}}
 
-### Подивитися деякі уривки з постановки можна {{%link_blank "тут" "https://www.facebook.com/tempodesa/videos/651040252021467/"%}}.
+### Подивитися деякі уривки з постановки можна [тут](https://www.facebook.com/tempodesa/videos/651040252021467/).

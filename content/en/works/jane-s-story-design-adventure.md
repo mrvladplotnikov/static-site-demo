@@ -27,7 +27,7 @@ Jane is a young novice designer who has to go all the way to a professional with
 
 Go through the levels, earn points, and transform beautiful houses, hotels, and restaurants around the world together with Jane. Use your design vision and have fun.
 
-You can download the game for {{%link_blank "Android" ""%}}.
+You can download the game for Android.
 
 ## Sound concept
 
@@ -39,10 +39,10 @@ We created the soundtrack using acoustic guitar and drums, various string instru
 
 We created sound effects for the game in the tonality of the music so that everything sounds harmonious. Sounds are made very neat, given that they often have to overlap.
 
-{{%inline_image_list%}}
-{{%image "images/jane-s-story-design-adventure/js1.jpeg" "Screenshot" %}}
-{{%image "images/jane-s-story-design-adventure/js2.jpeg" "Screenshot" %}}
-{{%/inline_image_list%}}
+{{<inline_image_list >}}
+{{<image "images/jane-s-story-design-adventure/js1.jpeg" "Screenshot"  >}}
+{{<image "images/jane-s-story-design-adventure/js2.jpeg" "Screenshot"  >}}
+{{</inline_image_list >}}
 
 ## Challenge
 
@@ -54,8 +54,8 @@ The average game session in a game like Jane’s Story lasts long enough, so the
 
 ### You can listen to the full soundtrack to the game Jane’s Story below:
 
-{{%yt "McHy6ytzKUU" "Jane’s Story: Design Adventure Video"%}}
+{{<youtube "McHy6ytzKUU">}}
 
 ### You can check the sound design by watching the video:
 
-{{%yt "J0Nn0hvs5Ys" "Jane’s Story: Design Adventure Video"%}}
+{{<youtube "J0Nn0hvs5Ys">}}

@@ -31,10 +31,10 @@ The sound of the anthem builds on ethnic instruments that symbolize Ukrainian cu
 
 The composition itself is dynamic. It fully reflects the essence of the people who are associated with the festival. They are energetic, full of strength, ideas, and love.
 
-{{%inline_image_list%}}
-{{%image "images/vishivankovij-festival/vf1.jpg" "Photo" %}}
-{{%image "images/vishivankovij-festival/vf2.jpg" "Photo" %}}
-{{%/inline_image_list%}}
+{{<inline_image_list >}}
+{{<image "images/vishivankovij-festival/vf1.jpg" "Photo"  >}}
+{{<image "images/vishivankovij-festival/vf2.jpg" "Photo"  >}}
+{{</inline_image_list >}}
 
 ## Challenge
 
@@ -46,14 +46,12 @@ So it was necessary to find a balance between the values ​​of the festival a
 
 But not in our case. The final anthem does not just reflect everything that the Vyshivankovyy festival is; it is also now on the organizers’ ringtones and alarms. 🙂
 
-Also, our small personal challenge was to do a few small interviews about cooperation with the festival. You can read one of them {{%link_blank "here" ""%}}.
+Also, our small personal challenge was to do a few small interviews about cooperation with the festival. You can read one of them [here](/).
 
 ## Result
 
 You can listen to the official anthem of the Vyshivankovyy festival and the ambient for the fair zone below:
 
-{{%yt "LOpqCN4DOkg" "Vishivankovij Festival Video"%}}
+{{<youtube "LOpqCN4DOkg" >}}
 
-{{%raw_html%}}
 <iframe loading="lazy" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/579890934&amp;color=%23f23b0d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
-{{%/raw_html%}}

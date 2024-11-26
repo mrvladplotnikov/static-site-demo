@@ -31,9 +31,7 @@ Obviously, the female protagonist of the sequel is not inferior to the predecess
 
 You can download the game here:
 
-{{%raw_html%}}
 <iframe loading="lazy" src="https://store.steampowered.com/widget/1444650/" frameborder="0" width="100%" height="190"></iframe>
-{{%/raw_html%}}
 
 ## Sound concept
 
@@ -49,7 +47,7 @@ The music of Haydee II is a mixture of orchestral sound, electronics (in particu
 
 As in the original game, the abandoned complex is divided into zones, and each has its own musical atmosphere. Unlike the first part, these gameplay tracks are more melodic than ambiental. All of them tell stories of the complex’s sections where they sound. And often, the music tells players even more than they can learn from the environment.
 
-{{%image "images/haydee-ii/haydee-ii-1.jpg" "Screenshot" %}}
+{{<image "images/haydee-ii/haydee-ii-1.jpg" "Screenshot"  >}}
 
 Besides «sectional» tracks, there are two other outstanding gameplay compositions: Will It Aid? and The Emergency.
 
@@ -63,10 +61,10 @@ Our team has also created part of the sound design, mainly it was functional sou
 
 Furthermore, the whole complex «talks» with the voice of actress Aimee Smith, with whom our team has been collaborating for the past few years.
 
-{{%inline_image_list%}}
-{{%image "images/haydee-ii/haydee-ii-2.jpg" "Screenshot" %}}
-{{%image "images/haydee-ii/haydee-ii-3.jpg" "Screenshot" %}}
-{{%/inline_image_list%}}
+{{<inline_image_list >}}
+{{<image "images/haydee-ii/haydee-ii-2.jpg" "Screenshot"  >}}
+{{<image "images/haydee-ii/haydee-ii-3.jpg" "Screenshot"  >}}
+{{</inline_image_list >}}
 
 ## Challenge
 
@@ -80,16 +78,16 @@ Besides, we had to listen carefully to all the material to avoid self-repetition
 
 ## Result
 
-Haydee II soundtrack is now released in digital format {{%link_blank "on all major streaming platforms" "https://ampl.ink/wPKLw"%}}and in {{%link_blank "DLC format on Steam" "https://store.steampowered.com/app/1544610/Haydee_2_Soundtrack/"%}}.
+Haydee II soundtrack is now released in digital format [on all major streaming platforms](https://ampl.ink/wPKLw) and in [DLC format on Steam](https://store.steampowered.com/app/1544610/Haydee_2_Soundtrack/).
 
 You can listen to all ten tracks below:
 
-{{%yt "tUqdk44R1ac" "Haydee II Video"%}}
+{{<youtube "tUqdk44R1ac" >}}
 
 Haydee II trailer:
 
-{{%yt "ttgdlucS8fo" "Haydee II Video"%}}
+{{<youtube "ttgdlucS8fo" >}}
 
 Haydee II gameplay video:
 
-{{%yt "l7iB4nHbv5c" "Haydee II Video"%}}
+{{<youtube "l7iB4nHbv5c" >}}

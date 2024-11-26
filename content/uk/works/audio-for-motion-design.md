@@ -28,7 +28,4 @@ workVimeoID: "530259007"
 
 Ознайомитися з деякими з наших робіт ви зможете нижче.
 
-{{%raw_html%}}
-
 <iframe width="100%" height="450" loading="lazy" src="https://www.youtube.com/embed/videoseries?si=BeWcGt7eBUXVGcYz&amp;list=PLkTzVtkdVRI26KajbtEV0XfKHF2_EjI-3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-{{%/raw_html%}}

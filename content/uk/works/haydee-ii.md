@@ -31,9 +31,7 @@ Haydee II — це сиквел хардкорної метроідваніі з
 
 Завантажити гру можна тут:
 
-{{%raw_html%}}
 <iframe loading="lazy" src="https://store.steampowered.com/widget/1444650/" frameborder="0" width="100%" height="190"></iframe>
-{{%/raw_html%}}
 
 ## Концепція звучання
 
@@ -49,7 +47,7 @@ Haydee II — це сиквел хардкорної метроідваніі з
 
 Як і в оригінальній грі, таємничий комплекс поділений на зони, кожна з яких має власну музичну атмосферу. На відміну від першої частини, ці геймплейні треки більше мелодійні, ніж ембіентні. Усі вони оповідають історії секцій комплексу, у яких звучать. І часто музика розповідає гравцеві навіть більше, ніж він може дізнатися з оточення.
 
-{{%image "images/haydee-ii/haydee-ii-1.jpg" "Screenshot" %}}
+{{<image "images/haydee-ii/haydee-ii-1.jpg" "Screenshot"  >}}
 
 Крім «секційних» треків є ще дві особливі геймплейні композиції: Will It Aid? і The Emergency.
 
@@ -63,10 +61,10 @@ Haydee II — це сиквел хардкорної метроідваніі з
 
 А ще, весь комплекс «спілкується» голосом акторки Еймі Сміт, із якою наша команда співпрацює останні кілька років.
 
-{{%inline_image_list%}}
-{{%image "images/haydee-ii/haydee-ii-2.jpg" "Screenshot" %}}
-{{%image "images/haydee-ii/haydee-ii-3.jpg" "Screenshot" %}}
-{{%/inline_image_list%}}
+{{<inline_image_list >}}
+{{<image "images/haydee-ii/haydee-ii-2.jpg" "Screenshot"  >}}
+{{<image "images/haydee-ii/haydee-ii-3.jpg" "Screenshot"  >}}
+{{</inline_image_list >}}
 
 ## Челлендж
 
@@ -80,16 +78,16 @@ Haydee II — це сиквел хардкорної метроідваніі з
 
 ## Результат
 
-Саундтрек Haydee II вийшов у діджитал форматі {{%link_blank "на всіх основних стримінгових платформах" "https://ampl.ink/wPKLw"%}}, а також у вигляді {{%link_blank "DLC в Steam" "https://store.steampowered.com/app/1544610/Haydee_2_Soundtrack/"%}}.
+Саундтрек Haydee II вийшов у діджитал форматі [на всіх основних стримінгових платформах](https://ampl.ink/wPKLw), а також у вигляді [DLC в Steam](https://store.steampowered.com/app/1544610/Haydee_2_Soundtrack/).
 
 Послухати всі десять композицій ви можете нижче:
 
-{{%yt "tUqdk44R1ac" "Haydee II Video"%}}
+{{<youtube "tUqdk44R1ac" >}}
 
 Трейлер Haydee II:
 
-{{%yt "ttgdlucS8fo" "Haydee II Video"%}}
+{{<youtube "ttgdlucS8fo" >}}
 
 Ігроладне відео Haydee II:
 
-{{%yt "l7iB4nHbv5c" "Haydee II Video"%}}
+{{<youtube "l7iB4nHbv5c" >}}

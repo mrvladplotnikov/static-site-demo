@@ -35,10 +35,10 @@ In Jing! Jing! you can play on three different maps, and each has its elements. 
 
 Many sounds for the game were created using foley recordings.
 
-{{%inline_image_list%}}
-{{%image "images/jing-jing/jj1.png" "Screenshot" %}}
-{{%image "images/jing-jing/jj2.png" "Screenshot" %}}
-{{%/inline_image_list%}}
+{{<inline_image_list >}}
+{{<image "images/jing-jing/jj1.png" "Screenshot"  >}}
+{{<image "images/jing-jing/jj2.png" "Screenshot"  >}}
+{{</inline_image_list >}}
 
 ## Challenge
 
@@ -50,8 +50,8 @@ To do this, Vlad made each effect neat, accented, and short while ensuring that 
 
 ### You can listen to the soundtrack for the game Jing! Jing! below:
 
-{{%yt "bVQzi9gHjuk" "Jing! Jing! Video"%}}
+{{<youtube "bVQzi9gHjuk" >}}
 
 ### You can check the sound design by watching the video:
 
-{{%yt "3B2mZS99QKI" "Jing! Jing! Video"%}}
+{{<youtube "3B2mZS99QKI" >}}
