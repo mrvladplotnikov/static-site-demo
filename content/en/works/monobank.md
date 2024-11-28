@@ -19,9 +19,11 @@ draft: false
 type: "work"
 ---
 
-monobank is a product of a collaboration of the Universal Bank and the Fintech Band team, a progressive personal banking tool in the form of a mobile application. monobank positions itself as «the first bank in Ukraine without branches.»
+monobank — a bank in a smartphone — is a product of cooperation between Universal Bank and the Fintech Band team, a progressive personal banking tool in the form of a mobile app.
 
-In 2019, the number of monobank users exceeded 1.3 million, and the total amount of money they used was 112 billion hryvnias. Mono is an actively developing project with the most convenient mobile application on the market.
+In 2024, the number of monobank users exceeded 8.5 million, and the total amount of money they spent was UAH 5.6 trillion.
+
+mono is a project that is constantly evolving and actively communicating with its audience to become better and better.
 
 {{<image "images/monobank/mb1.png" "Photo"  >}}
 
