@@ -1,10 +1,10 @@
 ---
 title: "Ілона Бондар"
-date: 2024-07-16T15:54:39+03:00
-image: /images/reviews/ilona-bondar-avatar.jpg
+date: 2024-11-30
+image: /images/reviews/ilona-bondar.jpg
 services:
 - audio-branding
-position: РО
+position: ex-РО
 company: ПУМБ Online
 project: ПУМБ Online
 link: https://www.facebook.com/ilona.bondar.7

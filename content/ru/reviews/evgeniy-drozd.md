@@ -1,7 +1,7 @@
 ---
 title: "Evgeniy Drozd"
 date: 2024-07-27T16:20:58+03:00
-image: /images/reviews/evgeniy-drozd-avatar.jpg
+image: /images/reviews/drozd.jpg
 services:
 position: Game Producer
 company: QuartSoft

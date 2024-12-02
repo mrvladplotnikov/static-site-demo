@@ -1,10 +1,10 @@
 ---
 title: "Марина Бриль"
-date: 2024-07-27T01:12:13+03:00
-image: /images/reviews/marina-bril-avatar.jpg
+date: 2024-12-01
+image: /images/reviews/marina-bril.jpg
 services:
 - audio-branding
-position: Маркетинг директорка
+position: ex-CMO
 company: MAUDAU
 project: MAUDAU
 link: https://www.linkedin.com/in/marina-bril/

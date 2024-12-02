@@ -1,7 +1,7 @@
 ---
 title: "Ivi Toumasi"
 date: 2024-07-27T05:15:13+03:00
-image: /images/reviews/ivi-toumasi-avatar.jpg
+image: /images/reviews/hyp-client.jpg
 services:
 - music-composing
 - audio-branding

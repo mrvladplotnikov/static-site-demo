@@ -1,7 +1,7 @@
 ---
 title: "Ігор Поспішний"
 date: 2024-07-26T17:32:54+03:00
-image: /images/reviews/igor-pospishnyi-avatar.jpg
+image: /images/reviews/ipospishnyi.jpg
 services:
 - music-composing
 position: Організатор

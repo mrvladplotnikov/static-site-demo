@@ -1,7 +1,7 @@
 ---
 title: "Артем Василенко"
-date: 2024-07-27T16:10:36+03:00
-image: /images/reviews/artem-vasylenko-avatar.jpg
+date: 2022-07-27T16:10:36+03:00
+image: /images/reviews/artyom-vasilenko.jpg
 services:
 - sound-design
 position: Game Producer

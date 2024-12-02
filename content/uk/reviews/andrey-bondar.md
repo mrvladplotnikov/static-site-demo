@@ -1,7 +1,7 @@
 ---
 title: "Андрій Бондар"
-date: 2024-07-27T16:29:11+03:00
-image: /images/reviews/andrey-bondar-avatar.jpg
+date: 2022-07-27T16:29:11+03:00
+image: /images/reviews/andrey-bondar.jpg
 services:
 - sound-design
 - voice-casting

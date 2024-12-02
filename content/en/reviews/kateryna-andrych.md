@@ -1,10 +1,10 @@
 ---
 title: "Kateryna Andrych"
-date: 2024-07-27T04:20:22+03:00
-image: /images/reviews/kateryna-andrych-avatar.jpg
+date: 2023-07-27T04:20:22+03:00
+image: /images/reviews/kandrich.jpg
 services: 
 - voice-casting
-position: Deputy head of the organizing committee
+position: ex-Deputy head of the organizing committee
 company: Vyshivankovyy festival
 project: Vyshivankovyy festival
 link: https://www.facebook.com/katyaandrich

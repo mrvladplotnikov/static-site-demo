@@ -27,7 +27,7 @@ mono is a project that is constantly evolving and actively communicating with it
 
 {{<image "images/monobank/mb1.png" "Photo"  >}}
 
-## Sound concept
+## Signature Notification Sounds
 
 For this project, we created a sound identity for the application. It is one of the varieties of audio brand. In simpler words, system sounds. Specifically, for the first iteration, we’ve created notification sounds.
 

@@ -1,7 +1,7 @@
 ---
 title: "Veronika Rohova"
-date: 2024-07-27T01:47:54+03:00
-image: /images/reviews/veronika-rohova-avatar.png
+date: 2024-11-27
+image: /images/reviews/nika-avatar-1.jpeg
 services:
 position: YouTube Creator
 company: Nikattica

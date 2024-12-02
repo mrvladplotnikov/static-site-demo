@@ -1,7 +1,7 @@
 ---
 title: "Віталій Стецюк"
-date: 2024-07-27T05:04:10+03:00
-image: /images/reviews/vitaly-stetsyuk-avatar.png
+date: 2023-07-27T05:04:10+03:00
+image: /images/reviews/vstetsuk.jpg
 services:
 - audio-branding
 - sound-design

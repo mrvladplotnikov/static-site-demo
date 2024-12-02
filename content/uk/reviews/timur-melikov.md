@@ -1,7 +1,7 @@
 ---
 title: "Тімур Меліков"
-date: 2024-07-27T04:05:17+03:00
-image: /images/reviews/client-avatar.png
+date: 2021-07-27T04:05:17+03:00
+image: /images/reviews/ava-client.jpeg
 services:
 position: Геймдизайнер
 company: Haydee Interactive

@@ -1,7 +1,7 @@
 ---
 title: "Володимир Дученчук"
 date: 2024-07-27T13:48:27+03:00
-image: /images/reviews/vladimir-duchenchuk-avatar.jpg
+image: /images/reviews/vduchenchuk.jpg
 services:
 - voice-casting
 position: CEO/Гейм продюсер

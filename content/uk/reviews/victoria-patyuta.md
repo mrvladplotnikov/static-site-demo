@@ -1,7 +1,7 @@
 ---
 title: "Вікторія Патюта"
-date: 2024-07-27T15:48:13+03:00
-image: /images/reviews/victoria-patyuta-avatar.jpg
+date: 2022-07-27T15:48:13+03:00
+image: /images/reviews/vpanyuta1.jpg
 services:
 position: Режисер
 company: ТЕМП

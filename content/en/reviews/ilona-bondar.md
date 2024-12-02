@@ -1,10 +1,10 @@
 ---
 title: "Ilona Bondar"
-date: 2024-07-16T15:54:39+03:00
-image: /images/reviews/ilona-bondar-avatar.jpg
+date: 2024-11-30
+image: /images/reviews/ilona-bondar.jpg
 services:
 - audio-branding
-position: PO
+position: ex-PO
 company: PUMB Online
 project: First Ukrainian International Bank (PUMB Online)
 link: https://www.facebook.com/ilona.bondar.7

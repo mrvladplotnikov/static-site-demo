@@ -1,7 +1,7 @@
 ---
 title: "Anton Parovchenko"
 date: 2024-07-27T14:53:19+03:00
-image: /images/reviews/anton-parovchenko-avatar.jpg
+image: /images/reviews/aparovchenko.jpg
 services:
 position: Head of Art Office
 company: Skymoons Kyiv

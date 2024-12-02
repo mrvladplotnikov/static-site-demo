@@ -1,7 +1,7 @@
 ---
 title: "Oleksandr Pantak"
 date: 2024-07-27T16:02:09+03:00
-image: /images/reviews/oleksandr-pantak-avatar.jpg
+image: /images/reviews/opantak.jpg
 services:
 - music-composing
 - sound-design

@@ -1,7 +1,7 @@
 ---
 title: "Vladimir Duchenchuk"
-date: 2024-07-27T13:48:27+03:00
-image: /images/reviews/vladimir-duchenchuk-avatar.jpg
+date: 2024-07-27
+image: /images/reviews/vduchenchuk.jpg
 services:
 - voice-casting
 position: CEO/Game Producer

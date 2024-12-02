@@ -1,7 +1,7 @@
 ---
 title: "Timur Melikov"
 date: 2024-07-27T04:05:17+03:00
-image: /images/reviews/client-avatar.png
+image: /images/reviews/ava-client.jpeg
 services:
 position: Game Designer
 company: Haydee Interactive

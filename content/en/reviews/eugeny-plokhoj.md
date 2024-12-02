@@ -1,7 +1,7 @@
 ---
 title: "Eugeny Plokhoj"
-date: 2024-07-27T17:00:47+03:00
-image: /images/reviews/eugeny-plokhoj-avatar.jpg
+date: 2023-07-27T17:00:47+03:00
+image: /images/reviews/eplohoj.jpg
 services:
 - voice-casting
 position: Product Owner, Product Design

@@ -1,7 +1,7 @@
 ---
 title: "Anton Zimin"
 date: 2024-07-26T19:08:00+03:00
-image: /images/reviews/anton-zimin-avatar.jpg
+image: /images/reviews/azimin1.jpg
 services:
 position: Project and Brand Manager
 company: PlayUa

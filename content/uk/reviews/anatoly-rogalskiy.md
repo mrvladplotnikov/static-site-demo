@@ -1,7 +1,7 @@
 ---
 title: "Анатолій Рогальський"
-date: 2024-07-16T15:17:55+03:00
-image: /images/reviews/anatoly-rogalskiy-avatar.png
+date: 2024-12-02
+image: /images/reviews/rogalsky.jpeg
 services:
 - audio-branding
 position: СМО

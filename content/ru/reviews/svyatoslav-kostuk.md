@@ -1,7 +1,7 @@
 ---
 title: "Svyatoslav Kostuk"
 date: 2024-07-27T13:38:31+03:00
-image: /images/reviews/svyatoslav-kostuk-avatar.jpg
+image: /images/reviews/svyat-kostyuk.jpg
 services:
 position: Game Producer
 company: Tower Games

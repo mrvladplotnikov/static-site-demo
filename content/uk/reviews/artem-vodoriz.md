@@ -1,7 +1,7 @@
 ---
 title: "Артем Водоріз"
 date: 2024-07-06T18:13:39+03:00
-image: /images/reviews/artem-vodoriz-avatar.jpg
+image: /images/reviews/vodorez.jpg
 services: 
 - music-composing
 position: Автор

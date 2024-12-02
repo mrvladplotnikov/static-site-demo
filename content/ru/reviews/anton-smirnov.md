@@ -1,7 +1,7 @@
 ---
 title: "Anton Smirnov"
 date: 2024-07-16T18:15:34+03:00
-image: /images/reviews/anton-smirnov-avatar.jpg
+image: /images/reviews/ava-client.jpeg
 services:
 - music-composing
 position: Game designer

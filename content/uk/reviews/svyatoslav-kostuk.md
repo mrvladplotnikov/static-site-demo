@@ -1,7 +1,7 @@
 ---
 title: "Святослав Костюк"
-date: 2024-07-27T13:38:31+03:00
-image: /images/reviews/svyatoslav-kostuk-avatar.jpg
+date: 2022-07-27T13:38:31+03:00
+image: /images/reviews/svyat-kostyuk.jpg
 services:
 position: Гейм продюсер
 company: Tower Games

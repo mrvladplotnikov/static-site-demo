@@ -1,7 +1,7 @@
 ---
 title: "Ilya Safronov"
 date: 2024-07-26T18:18:04+03:00
-image: /images/reviews/ilya-safronov-avatar.jpg
+image: /images/reviews/ilya-safronov.jpg
 services:
 position: Tutor
 company: Martian Teapots
