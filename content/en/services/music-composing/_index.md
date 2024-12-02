@@ -15,7 +15,8 @@ Properly created music is much more than just a complement to the atmosphere of 
 That's why we believe that music for any commercial project should be created with all marketing aspects of the product in mind, not just based on creative intuition.
 {{</service_first_section>}}
 
-{{<service_section title="What are we doing?">}}
+{{%service_section title="What are we doing?"%}}
+
 We compose soundtracks and create music for:
 
 {{<service_what_we_do_list>}}
@@ -27,16 +28,17 @@ We compose soundtracks and create music for:
 {{</service_what_we_do_list>}}
 
 We can also compose music for motion graphics, but it mainly intersects with a well-thought-out sound design, so we advise you to [read more about it here](/en/works/audio-for-motion-design/).
-{{</service_section>}}
+{{%/service_section%}}
 
 {{<service_section title="Our Best Soundtracks">}}
-{{<youtube "NBy71eICuvQpmH4E" >}}
+{{<youtube "4Bf1rYeIQ3w" >}}
 {{</service_section>}}
 
-{{<service_section title="What is the process like?">}}
+{{%service_section title="What is the process like?"%}}
+
 Over the past years, we have developed a clear and compelling cooperation scheme that makes the creative process fast, exciting, and, most importantly, predictable. It allows us to co-create with you a product that your audience will love and remember.
 
-Below, we'll explain the pipeline, which is typical for composing game soundtracks. Although it is very similar to the scheme of creating audio brands, we recommend that you go to the [relevant page]((/en/services/audio-branding/)) if you are interested in branded music.
+Below, we'll explain the pipeline, which is typical for composing game soundtracks. Although it is very similar to the scheme of creating audio brands, we recommend that you go to the [relevant page](/en/services/audio-branding/) if you are interested in branded music.
 
 </br></br>
 
@@ -47,117 +49,109 @@ Below, we'll explain the pipeline, which is typical for composing game soundtrac
 
 Якщо ви не можете ділитися інформацією про проєкт без NDA, то на початку спілкування ми підписуємо необхідні документи.
 {{</details >}}
-{{<details "2" "Юридичні формальності" >}}
-Ми уточнюємо обсяг проєкту, кількість і порядок платежів, підписуємо з вами договір і отримуємо аванс. Докладніше про фінансові та юридичні питання ви можете прочитати в нашому [FAQ](/faq).
+{{<details "2" "Legal formalities" >}}
+We clarify the project scope and the payments' quantity and order, sign a contract with you, and obtain an advance payment. Learn more about financial and legal matters in our [FAQ](/en/faq).
 {{</details >}}
-{{<details "3" "Препродакшн" >}}
-Цей етап — без перебільшення найважливіший у всьому проєкті, а тому дуже часто і найдовший. Проте за роки роботи ми переконалися, що без якісної підготовки діла не буде (зато буде багато правок і втраченого часу та нервів).
+{{<details "3" "Pre-production" >}}
+This stage is, without exaggeration, the most important in the entire project and, therefore, often the longest. Over the years of work, we learned that without proper preparation, nothing will work out (and there will be a lot of edits, lost time, and nerves).
 
-Відправна точка — це, звичайно, бриф, завдяки якому ми дізнаємося більше про ваш бренд, його цінності, аудиторію, конкурентів тощо. І, найголовніше, визначаємо список бажаних та небажаних асоціацій, які має формувати ваш майбутній аудіо бренд.
+Of course, the starting point is the brief, thanks to which we learn more details about your game, its main idea, audience, competitors, etc. Most importantly, we determine the emotions and associations that your future soundtrack should evoke.
 
-Далі ми проводимо дослідження, яке покликане зібрати інформацію про аудіальні коди та кліше вашої ніші, а також очікування та уподобання цільової аудиторії. Завдяки цьому ми насамперед формуємо розуміння, як аудіо бренд допомагатиме вам диференціюватися.
+Next, we conduct research to gather information about the audio codes and clichés of your genre, as well as the expectations and preferences of the target audience. Thanks to this, we primarily form an understanding of how the soundtrack will help you stand out from the crowd.
 
-Отримавши всю необхідну інформацію ми складаємо технічне завдання та починаємо формувати [аудіальну концепцію](/faq). Також ми підбираємо [аудіальні мудборди](/faq), щоби якомога раніше продемонструвати вам креативний вектор і визначитися зі спільним баченням.
+Having all the necessary information, we create a technical task and start forming the [audio concept](/en/faq#Audioconcept) for your game. We also compile [audio mood boards](/en/faq#Audiomoodboard) to show you the creative vector and establish a shared vision as early as possible.
 
-Після listening party (певно, найвеселіша для клієнтів частина співпраці) ми разом із вами фіксуємо креативні рамки проєкту та фіналізуємо його аудіальну концепцію.
+After the listening party (the clients' favourite part!), we jointly specify the project's creative framework and finalize its audio concept.
 {{</details >}}
-{{<details "4" "Продакшн" >}}
-Ну що ж, нарешті ми з вами дісталися моменту, коли власне і розпочинається робота над аудіо.
+{{<details "4" "Production" >}}
+Well, we've finally reached the point where we start working on the audio! 
 
-Перш за все ми створюємо декілька демо [аудіо-ДНК](/faq) — основи звучання вашого аудіо бренду. Ці демо в різний спосіб втілюють ідеї, висвітлені в аудіальній концепції, та допомагають відшукати ідеальну формулу поєдання різних елементів, яка спрацює для вашої аудиторії.
+First, we create a few demos of the main musical theme (or an [audio DNA](/en/faq#AudioDNA), as we usually call it) — the basis of your game's future sound. These demos embody the ideas of the audio concept in different ways and help us find the perfect formula for combining various elements that will work for your audience.
 
-Як і заведено, ми відправляємо демо вам на фідбек (попередньо ознайомивши з дієвою методикою його надання!), щоби зрозуміти, наскільки точно вони влучають у цінності вашого бренду. Проте останнє слово — завжди за аудиторією.
+Next, we send the demos to you for feedback (after sharing a practical methodology for providing it!) to determine how accurately they capture the idea and atmosphere of your game. However, it's the audience who always has the last word.
 
-Саме тому, за можливості, ми разом із вами проводимо тестування на ваших гравцях і вже за його результатами визначаємося з фінальним варіантом головної теми.
+That's why, if possible, we conduct testing on your players together with you, and, based on the results, decide on the final version of the main theme.
 
-Ну а далі — справа техніки. На основі затвердженої аудіо-ДНК ми створюємо всі необхідні аудіоадаптації (геймплейні теми, музику для трейлера, [звуковий дизайн](/services/sound-design) тощо).
-
-Коли всі аудіоасети готові, ми складаємо для вас [аудіо стайлгайд](/), у якому зібрані всі основні правила використання елементів вашого аудіо бренду. 
+And then everything is super easy and quick. Based on the approved audio DNA, we create all the necessary audio adaptations (gameplay themes, trailer music, [sound design](/en/services/sound-design), etc.). 
 {{</details >}}
-{{<details "5" "Приймання проєкту" >}}
-Після всіх погоджень ми висилаємо вам кінцеві файли. Ви імплементуєте композиції у свій проєкт і надаєте нам до нього доступ, щоби ми могли переконатися, що все звучить правильно. Також на цьому етапі буде доречним провести плейтести, щоби перевірити, як треки сприймаються гравцями.
+{{<details "5" "Project acceptance" >}}
+After all the approvals, we send you the final files. You implement the tracks into your project and give us access to it so that we can make sure everything sounds right. It's also a good idea to conduct playtests at this stage to check how players perceive the tracks.
 
-Якщо щось пішло не за планом, ми складаємо список виправлень і стежимо, щоби ви змогли все коректно налаштувати.
+If something goes wrong, we make a list of fixes and ensure you can adjust everything correctly.
 
-Коли все готово й добре звучить, ми з вами підписуємо акт прийому-передачі і ви відправляєте нам фінальну частину оплати.
+When everything is ready and sounds good, we sign an acceptance certificate, and you send us the final part of the payment.
 {{</details >}}
-{{<details "6" "Підтримання" >}}
-Ми любимо стежити за розвитком наших партнерів. Часто після приймання проєкту робота тільки починається й ми завжди готові продовжити співпрацю й додати нового звучання вашій грі. У рамках розробленої аудіальної концепції, звичайно. :)
-
-Для менш комплексних проєктів зі створення музики схема співпраці, звісно, також простіша. Проте основні етапи зажди залишаються незмінними.
+{{<details "6" "Support" >}}
+We like to follow our partners' progress and are always ready to continue cooperating and adapting new audio to your product. Within the initially developed concept framework, of course. :)
 {{</details >}}
-{{</service_section>}}
+{{%/service_section%}}
 
 <div class="our-prices service-section inline-gap">
     <div class="small-container">
-        <h2>Вартість</h2>
-        <h3>Створення музики | $800/хв.</h3>
+        <h2>Our prices</h2>
+        <h3>Music composing | $800/min.</h3>
         <div>
             <p>
-                Мінімальне замовлення — одна хвилина. Це означає, що, якщо вам потрібен трек на 30, 45 або 52
-                секунди, його вартість у будь-якому випадку дорівнюватиме вартості однієї хвилини.</p>
+                The minimum order is one minute. This means that if you need a 30-, 45-, or 52-second track, its cost will still equal the cost of one minute.
+            </p>
             <p>
-                Ми багато експериментували з форматами цін на музику, спостерігали за відгуками наших партнерів і
-                клієнтів, і згодом прийшли до пакетів, які поєднують створення музики та
-                <a href="/services/sound-design">звукового дизайну</a>:
+                We experimented a lot with music pricing formats, gathered feedback from our partners and clients, and eventually came up with packages that combine music composing and <a href="/en/services/sound-design">sound design</a>:
             </p>
         </div>
-        <h3>Озвучення трейлера до інді-гри | $900 | 2 тижні</h3>
+        <h3>Sound for indie game trailer | $900 | 2 weeks</h3>
         <div>
             <ul>
-                <li>створення музики та звукових ефектів;</li>
-                <li><a href="/services/voice-casting">голосове озвучення</a> обговорюється окремо.</li>
+                <li>music composing and sound effects;</li>
+                <li><a href="/en/services/voice-casting">voice-over</a> is negotiated separately.</li>
             </ul>
         </div>
-        <h3>Озвучення ігрового трейлера | $2000 | 2 тижні</h3>
+        <h3>Sound for game trailer | $2000 | 2 weeks</h3>
         <div>
             <ul>
-                <li>створення музики та звукових ефектів;</li>
-                <li><a href="/services/voice-casting">голосове озвучення</a> обговорюється окремо.</li>
+                <li>music composing and sound effects;</li>
+                <li><a href="/en/services/voice-casting">voice-over</a> is negotiated separately.</li>
             </ul>
         </div>
-        <h3>Аудіо для midsize інді гри | $7500 | 3 місяці
-        </h3>
+        <h3>Midsize indie game | $7500 | 3 months</h3>
         <div>
             <ul>
-                <li>3 трека + stems (окремі частини або шари музичного треку);</li>
-                <li>50 звукових ефектів;</li>
-                <li>6 стингерів (коротких музичних фраз);</li>
-                <li>3 ембієнтів (комплексних звуків оточення);</li>
-                <li>детальний брифінг;</li>
-                <li>аналіз ніші, конкурентів та цільової аудиторії;</li>
-                <li>створення технічного завдання;</li>
-                <li>розробка аудіальної концепції;</li>
-                <li>розробка головної теми (аудіо-ДНК) + тестування, якщо можливо;</li>
-                <li>п'ять раундів безкоштовних правок для кожного аудіоасету;</li>
-                <li>права інтелектуальної власності з обмеженнями на перепродаж та додаткову монетизацію;</li>
-                <li>допомога з імплементацією;</li>
-                <li>дистрибуція музики на стрімінгових платформах.</li>
+                <li>3 tracks + stems;</li>
+                <li>50 sound effects;</li>
+                <li>6 stingers (short musical phrases);</li>
+                <li>3 ambients;</li>
+                <li>in-depth briefing;</li>
+                <li>niche, competitors, and target audience analysis;</li>
+                <li>technical task creation;</li>
+                <li>audio concept development;</li>
+                <li>main theme (audio DNA) composing + testing, if possible;</li>
+                <li>five rounds of free edits per asset;</li>
+                <li>intellectual property rights with resale and additional monetization restrictions;</li>
+                <li>help with implementation;</li>
+                <li>music distribution on streaming platforms.</li>
             </ul>
         </div>
-        <h3>Аудіо для прототипу гри | $2200 | 1 місяць</h3>
+        <h3>Game prototype | $2200 | 1 month</h3>
         <div>
             <ul>
-                <li>1 трек + stems (окремі частини або шари музичного треку);</li>
-                <li>10 звукових ефектів;</li>
-                <li>2 стингери (короткі музичні фрази);</li>
-                <li>1 ембієнт (комплексний звук оточення);</li>
-                <li>детальний брифінг;</li>
-                <li>створення технічного завдання;</li>
-                <li>розробка аудіальної концепції;</li>
-                <li>три раунди безкоштовних правок для кожного аудіоасету;</li>
-                <li>права інтелектуальної власності з обмеженнями на перепродаж та додаткову монетизацію;</li>
-                <li>допомога з імплементацією.</li>
+                <li>1 track + stems;</li>
+                <li>10 sound effects;</li>
+                <li>2 stingers (short musical phrases);</li>
+                <li>1 ambient;</li>
+                <li>in-depth briefing;</li>
+                <li>technical task creation;</li>
+                <li>audio concept development;</li>
+                <li>three rounds of free edits per asset;</li>
+                <li>intellectual property rights with resale and additional monetization restrictions;</li>
+                <li>help with implementation.</li>
             </ul>
         </div>
-        <h3>Озвучення прототипу та трейлера (інді) | $3000</h3>
+        <h3>Game prototype + trailer (indie team) | $3000 </h3>
         <div>
             <br>
             <br>
             <p>
-                Якщо пакети вище не повністю відповідають вашим нинішнім потребам,
-                <a href="mailto:connect@vp-production.com">напишіть нам</a> і ми разом
-                визначимося з ідеальною формулою аудіо для вашого проєкта і допоможемо з прорахунком бюджету. 🙌
+                If the packages above don't fully meet your current needs, please
+                <a href="mailto:connect@vp-production.com">get in touch with us</a>, and together, we will determine the ideal audio formula for your project and help you with budgeting. 🙌
             </p>
         </div>
     </div>
