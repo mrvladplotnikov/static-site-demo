@@ -1,7 +1,6 @@
 ---
 title: Music composing
 type: service
-layout: music-composing
 quote: Music is indeed the mediator between the spiritual and the sensual life.
 author: Ludwig van Beethoven
 bgImage: /images/services/music-composing-bg.webp
@@ -43,11 +42,11 @@ Below, we'll explain the pipeline, which is typical for composing game soundtrac
 </br></br>
 
 {{<details "1" "Getting to know each other" >}}
-Кожен проєкт ми починаємо з віртуальної зустрічі, на якій дізнаємося основну інформацію про вашу гру та визначаємося з попереднім списком аудіоасетів, які нам потрібно буде створити.
+We start each project with a virtual meeting, during which we gather basic information about your game and decide on a preliminary list of audio assets that we will need to create. 
 
-Окрім цього ми обговорюємо, як буде побудований процес роботи, адже для нас важливо збігатися з клієнтом у загальному баченні співпраці.
+We also discuss how the work process will go, as we need to ensure that we are on the same wavelength regarding the overall vision of cooperation.
 
-Якщо ви не можете ділитися інформацією про проєкт без NDA, то на початку спілкування ми підписуємо необхідні документи.
+If you can't share information about the project without an NDA, we will sign the necessary documents beforehand.
 {{</details >}}
 {{<details "2" "Legal formalities" >}}
 We clarify the project scope and the payments' quantity and order, sign a contract with you, and obtain an advance payment. Learn more about financial and legal matters in our [FAQ](/en/faq).
@@ -59,14 +58,14 @@ Of course, the starting point is the brief, thanks to which we learn more detail
 
 Next, we conduct research to gather information about the audio codes and clichés of your genre, as well as the expectations and preferences of the target audience. Thanks to this, we primarily form an understanding of how the soundtrack will help you stand out from the crowd.
 
-Having all the necessary information, we create a technical task and start forming the [audio concept](/en/faq#Audioconcept) for your game. We also compile [audio mood boards](/en/faq#Audiomoodboard) to show you the creative vector and establish a shared vision as early as possible.
+Having all the necessary information, we create a technical task and start forming the [audio concept](/en/faq#audio-concept) for your game. We also compile [audio mood boards](/en/faq#audio-mood-board) to show you the creative vector and establish a shared vision as early as possible.
 
 After the listening party (the clients' favourite part!), we jointly specify the project's creative framework and finalize its audio concept.
 {{</details >}}
 {{<details "4" "Production" >}}
 Well, we've finally reached the point where we start working on the audio! 
 
-First, we create a few demos of the main musical theme (or an [audio DNA](/en/faq#AudioDNA), as we usually call it) — the basis of your game's future sound. These demos embody the ideas of the audio concept in different ways and help us find the perfect formula for combining various elements that will work for your audience.
+First, we create a few demos of the main musical theme (or an [audio DNA](/en/faq#audio-dna), as we usually call it) — the basis of your game's future sound. These demos embody the ideas of the audio concept in different ways and help us find the perfect formula for combining various elements that will work for your audience.
 
 Next, we send the demos to you for feedback (after sharing a practical methodology for providing it!) to determine how accurately they capture the idea and atmosphere of your game. However, it's the audience who always has the last word.
 

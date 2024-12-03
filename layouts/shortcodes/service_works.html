@@ -1,0 +1,16 @@
+{{- $serviceName := .Get 0 -}}
+
+{{- $serviceWorks := where (index .Site.Taxonomies.services $serviceName) "Type" "work" }}
+
+{{- with $serviceWorks }}
+<div class="works-list grid">
+    {{- range first 6 . }}
+    <a class="no-hover grid-item" href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
+        {{- with resources.GetMatch .Params.image }}
+        <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
+        {{- end }}
+        <h4 class="grid-item-title">{{ .Title }}</h4>
+    </a>
+    {{- end }}
+</div>
+{{- end }}

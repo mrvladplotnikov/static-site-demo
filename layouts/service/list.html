@@ -50,13 +50,10 @@
     </aside>
 
 
-    {{- block "main" . }}{{ end -}}
+    {{ .Content }}
 
-
-    {{- $serviceName := slice .File.ContentBaseName -}}
-
-    {{- $reviews := where .Site.RegularPages ".Type" "review" -}}
-    {{- $serviceReviews := where $reviews "Params.services" "intersect" $serviceName -}}
+    {{- $serviceName := index (split .Page.Path "/") 2 -}}
+    {{- $serviceReviews := where (index .Site.Taxonomies.services $serviceName) "Type" "review" }}
 
     {{- with $serviceReviews }}
     <div class="service-section service-section-reviews inline-gap">

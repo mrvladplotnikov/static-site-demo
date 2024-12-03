@@ -1,7 +1,6 @@
 ---
 title: Створення музики
 type: service
-layout: music-composing
 quote: Музика – посередник між духовним і чуттєвим життямлюдини.
 author: Людвіг ван Бетховен
 bgImage: /images/services/music-composing-bg.webp
