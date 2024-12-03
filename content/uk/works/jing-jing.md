@@ -17,7 +17,7 @@ contributors:
 - Влад Плотніков
 homePageWeight:
 weight: 30
-draft: true
+draft: false
 type: "work"
 ---
 

@@ -1,9 +1,10 @@
 ---
 title: ПУМБ Online
 date: 2024-07-26T15:54:26+03:00
-image: /images/pumb-online/pumb-online-thumb.webp
+image: /images/pumb-online/pumb new case pic.jpg
 categories:
 - brand
+- app
 services:
 - аудиобрендинг
 genres:
@@ -18,101 +19,106 @@ draft: true
 type: "work"
 ---
 
-PUMB Online is a mobile application of the First Ukrainian International Bank (FUIB, PUMB as transliterated from Ukrainian), one of the TOP 5 largest banks in Ukraine.
+ПУМБ Online – это мобильное приложение Первого Украинского Международного Банка (ПУМБ), который входит в ТОП-5 крупнейших банков Украины.
 
-PUMB Online is literally a bank in a smartphone, not only reliably holds clients’ funds but also helps customers efficiently manage them while saving time.
+Приложение ПУМБ Online – буквально банк в смартфоне, который не только надёжно хранит средства клиентов, но и помогает легче управлять ими, при этом экономя время.
 
-## Getting Started
+## Начало сотрудничества
 
-When the PUMB Online team first approached us, they wanted us to create some sounds for their app. They believed (and not without reason!) that it would help them successfully differentiate themselves from their competitors.
+Когда команда ПУМБ Online впервые обратилась к нам, они хотели, чтобы мы создали несколько звуков для их приложения. Они считали (и не безосновательно!), что это поможет им качественно дифференцироваться от конкурентов.
 
-We studied their needs in detail and realized that a more effective solution would be creating a full-fledged audio brand for PUMB Online. In this case, the app’s sonic identity would become one of the music and sounds system elements that would convey the brand meaning at each touchpoint.
+Мы подробно изучили их потребности и поняли, что более эффективным решением станет создание полноценного аудио бренда для ПУМБ Online. В таком случае звуковая айдентика приложения стала бы одним из элементов системы музыки и звуков, которая транслировала бы смысл бренда в каждой его точке контакта с аудиторией.
 
-Not least of all, our study of the Ukrainian mobile banking market influenced the decision to create an audio brand. We found out that until recently, none of the players had such a systematic approach to the use of audio, and PUMB Online could become the first in this area.
+Не в последнюю очередь на решение о разработке аудио бренда повлияло наше изучение украинского рынка мобильного банкинга. Мы выяснили, что до недавнего времени ни один из игроков не имел подобного системного подхода к использованию аудио, и ПУМБ Online действительно мог бы стать первым в этой области.
 
-Once we understood our main task, our exciting collaboration began.
+Как только мы поняли нашу главную задачу, началось наше увлекательное сотрудничество.
 
 {{<inline_image_list >}}
 {{<image "images/pumb-online/po1.jpg" "Screenshot"  >}}
 {{<image "images/pumb-online/po2.jpg" "Screenshot"  >}}
 {{</inline_image_list >}}
 
-## Briefing and audio research of the niche
+## Брифинг и аудиальный рисёрч ниши
 
-As always, we started our work on the audio brand with a detailed, in-depth briefing. We asked the PUMB Online team about their product, its benefits and points of differentiation, the target audience, their needs, preferences, and expectations, and of course, about the central brand promise that we had to translate into audio. After a few sessions, we were able to form 9 associations to define the audio brand.
+Как и всегда, разработку аудио бренда мы начали с детального глубинного брифинга. Мы расспросили команду ПУМБ Online об их продукте, его преимуществах и точках дифференциации, о целевой аудитории, её потребностях, предпочтениях и ожиданиях, и, конечно же, о главном обещании бренда, которое мы должны были транслировать в звуке. После нескольких сессий мы смогли сформировать 9 понятий-ассоциаций, которые должны были лечь в основу аудио бренда.
 
-After that, we turned to our Ukrainian mobile banking market study once again. We had to understand auditory clichés that would be better to avoid during our work.
+После этого мы ещё раз обратились к результатам изучения украинского рынка мобильного банкинга. Мы должны были понять, каких аудиальных клише лучше было бы избежать во время нашей работы.
 
-Interesting fact: we had some hypotheses about the music and audio clichés of the banking industry, but the real picture turned out to be quite different.
+Интересный факт: у нас были некоторые гипотезы относительно музыкальных и звуковых клише банковской сферы, но реальная картина оказалась совершенно иной.
 
-So far, Ukrainian banks indeed don’t differ much in their auditory communication, but they don’t use any classical orchestral music (as we thought). On the contrary, we heard many pop-rock compositions, tracks with funky guitars, and percussion tracks with lots of claps and clicks. The latter often becomes a simple choice to ease commercial video production.
+Пока что украинские банки действительно мало отличаются друг от друга в своей аудиальной коммуникации, однако они не используют какую-то классическую оркестровую музыку (как мы думали). Напротив, мы услышали немало поп-рок композиций, треков с фанковыми гитарами и жёстко перкуссионных треков с хлопками и щелчками. Последние часто становятся простым выбором для более лёгкого монтажа рекламных роликов.
 
-And, of course, almost all market players constantly use corporate tracks from music stocks, which has long been an obsolete solution.
+Ну и, конечно же, почти все игроки сферы постоянно используют стоковые corporate-треки, которые уже давно являются морально устаревшим решением.
 
-## Audio mood boards and concept
+## Аудиальные мудборды и концепция
 
-All the gathered information helped us preliminarily set specific frames to stay in while creating the audio brand for PUMB Online. Next, we set about creating audio mood boards — playlists that would explore different ways of conveying the necessary associations in musical form and help us clarify the framework of the creative process.
+Вся собранная информация помогла нам предварительно установить определённые рамки, за которые мы не должны были выходить при разработке аудио бренда для ПУМБ Online. После этого мы занялись созданием аудиальных мудбордов — плейлистов, которые продемонстрировали бы разные способы передачи необходимых понятий в музыкальной форме и помогли бы нам уточнить рамки для креативного процесса.
 
-We selected several musical excerpts for each set of 9 associations that the sonic identity was meant to convey. Subsequently, in a session with the PUMB Online team, we listened carefully to each playlist and selected the most relevant to the product excerpts. Along the way, we put together a playlist with musical ideas codenamed «Definitely Not!» — it included tracks that might fit the established associations, but wouldn’t work in the overall context of the brand.
+Мы подобрали несколько музыкальных отрывков для каждого сета 9 понятий-ассоциаций, которые должна была транслировать звуковая идентичность. Впоследствии на сессии с командой ПУМБ Online мы прослушали каждый плейлист и отобрали отрывки, звучавшие наиболее релевантно продукту. Отдельно мы собрали плейлист с музыкальными идеями под кодовым названием "Точно нет!" — туда вошли треки, которые хотя и могли соответствовать установленным понятиям, но не сработали бы в общем контексте бренда.
 
-All these preparation steps helped us to form a preliminary audio concept for PUMB Online. We understood which instruments we would use in our creative process, which arrangement we would need to create, with which harmonies and textures we would experiment. Of course, we didn’t forget about the existing PUMB audio branding asset — the unforgettable «Poomb-poomb-poomb». 🙂
+Все эти этапы подготовки помогли нам сформировать предварительную аудиальную концепцию для ПУМБ Online. Мы поняли, какой набор инструментов мы используем в нашем креативном процессе, какую аранжировку нам необходимо будет создать, с какими гармониями и фактурами мы будем экспериментировать. Конечно же, мы не забыли и об имеющемся аудиобрендинговом ассете ПУМБ — незабываемом «Пумб-пумб-пумб». :)
 
-## Creating and testing the audio DNA
+{{<inline_image_list >}}
+{{<image "images/pumb-online/po4.png" "Screenshot"  >}}
+{{<image "images/pumb-online/po3.png" "Screenshot"  >}}
+{{</inline_image_list >}}
 
-When we started creating the first audio DNA demos, we simultaneously worked on two versions that explored different associations embedded in the brand. Each of the demos had roughly the same set of elements: pianos, synthetic textures, electronic beats, female voice, mid-tempo, and minimalism in the arrangement. But they differed in nuances of mood and «percentages» of inserted ideas.
+## Создание и тестирование аудио-ДНК
 
-We created two versions on purpose to test them directly on the app’s audience. After all, one of the main goals of an audio brand is to improve the user experience, so audience opinion was crucial to us.
+Когда мы начали создавать первые демо аудио-ДНК, мы работали параллельно над двумя вариантами, каждый из которых по-своему раскрывал понятия-ассоциации, заложенные в бренд. В каждой из демок был примерно тот же набор элементов: пиано, синтетические фактуры, электронный бит, женский голос, средний темп и минимализм в аранжировке. Но они отличались друг от друга нюансами настроения и «процентным соотношением» вложенных идей.
 
-Thanks to FUIB’s research lab, we conducted a test using a methodology developed with their experts. The test was conducted on a panel of 20 respondents aged 18-48, living in different cities of Ukraine and actively using mobile banking. Among them were the customers of FUIB and other Ukrainian banks.
+Мы специально сделали два варианта, чтобы протестировать их непосредственно на аудитории приложения. В конце концов, одна из главных задач аудио бренда — улучшать пользовательский опыт, поэтому мнение аудитории было для нас крайне важным.
 
-A primary purpose of the testing was to determine the amount of the necessary ideas and associations that were «read» by the audience. During the tests, respondents were given a list of concepts that would be laid as the basis of the audio brand, followed by several «control» concepts. Some of them were close in meaning to the needed ones for the brand, and some, on the contrary, had undesirable connotations. After listening to the demos (and the two control tracks), respondents were asked to match them with the concepts from the list.
+Благодаря исследовательской лаборатории ПУМБ мы имели возможность провести тестирование по методике, разработанной совместно с их специалистами. Тестирование проводилось на выборке из 20 респондентов в возрасте 18–48 лет, проживавших в разных городах Украины и активно пользовавшихся мобильным банкингом. Среди них были клиенты как ПУМБ, так и других украинских банков.
 
-When processing the results, the audience was conventionally divided into two age groups. The younger audience from the list of 9 necessary associations correctly «read» 7 out of 9 while listening to demo №1 and 9 out of 9 while listening to demo №2. The older audience «read» 8 out of 9 and 7 out of 9 associations, respectively. An association was considered as «read» if it received more than 75% affirmative responses.
+Главной целью тестирования было установить, сколько из необходимых понятий-ассоциаций «считывается» аудиторией. Во время тестов респондентам предоставлялся список понятий, куда помимо тех, которые должны были лечь в основу аудио бренда, мы добавили также ряд «контрольных» понятий. Некоторые из них были близки по значению к необходимым бренду, а некоторые наоборот имели нежелательные коннотации. Респонденты должны были после прослушивания демок (и двух контрольных треков) соотносить их с ассоциациями из списка.
 
-When we, along with the PUMB Online team, chose a «winner» among the DNA demos, we also considered the number of unwanted associations they evoked among some respondents. As a result, we chose the demo №2; as it had more effect on younger audiences, was acceptably effective for older audiences, and had significantly fewer unwanted associations. And, of course, it successfully conveyed the image of a reliable and humane partner bank that cares about the safety and comfort of its customers.
+При обработке результатов аудиторию условно разделили на две группы по возрасту. Младшая аудитория из списка 9 необходимых ассоциаций правильно «считала» 7 из 9 ассоциаций во время прослушивания демо №1 и 9 из 9 ассоциаций во время прослушивания демо №2. Старшая аудитория считала 8 из 9 и 7 из 9 ассоциаций соответственно. Ассоциацию считали «считанной», если она набирала более 75% утвердительных ответов.
 
-After the testing, we finalized the audio DNA and invited Inna Frantseskevich, a vocalist whose voice added even more humanity to the sound.
+Когда мы вместе с командой ПУМБ Online выбирали «победителя» среди демо ДНК, мы также учитывали количество нежелательных ассоциаций, которые они вызвали у части респондентов. В результате мы остановились на демо №2, этот вариант аудио-ДНК был более эффективным для младшей аудитории, приемлемо эффективным для старшей аудитории, а также имел существенно меньшее количество нежелательных ассоциаций. И, конечно же, он удачно транслировал образ надёжного и человечного банка-партнёра, заботящегося о безопасности и спокойствии своих клиентов.
 
-<iframe loading="lazy" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1176942838&amp;color=%23f23b0d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>
+После тестирования мы финализовали аудио-ДНК и привлекли к работе вокалистку Инну Францескевич, чей голос придал ещё больше человечности звучанию.
 
-## Audio DNA adaptations
+{{<youtube "zLrTLIph4JY" >}}
 
-When the audio DNA was finally ready and approved, we began to create its adaptations: the sound identity of the app itself and the on-hold music (for the call center and FUIB telephony in general).
+## Адаптации аудио-ДНК
 
-### Sonic identity of the app
+Когда аудио-ДНК была наконец готова и утверждена, мы приступили к созданию её адаптаций: собственно звуковой айдентики приложения и музыки удержания на линии (для кол-центра и в целом телефонии ПУМБ).
 
-We started the development of the application sounds by setting tasks for each of them. For example, some should build and maintain the correct association for the product. Some (the majority) should also properly inform users and work with their emotions and feelings.
+### Звуковая айдентика приложения
 
-Relying on the task list and the sound that the audio DNA defined, we created two sets of sounds. As in the case of the DNA demo, they differed in conveying specific ideas, their duration, and their use of musical elements.
+Разработку звуков приложения мы начали с того, что установили задачи для каждого из них. Некоторые должны просто выстраивать и поддерживать правильную ассоциацию для продукта, а некоторые (и их было больше) также должны правильно информировать пользователей и работать с их эмоциями и ощущениями.
 
-Again, we tested the sounds on a relevant audience, and they were active users of the app this time. Thus, we not only determined whether the notification sounds matched the brand’s desired associations, but we also monitored how well a particular sound performed the task of informing the user.
+Опираясь на список заданий и звучание, которое определила аудио-ДНК, мы создали два набора звуков. Как и в случае демо ДНК, они отличались способом передачи определённых идей, а также продолжительностью и использованием музыкальных элементов.
 
-Eventually, we selected the most compelling sounds from both sets, and they ended up in the release. During the selection process, the PUMB Online team and we were guided by the respondents’ accuracy in relating the sound to the notification type, what associations it created, and how it met their expectations.
+Мы опять же провели тестирование звуков на соответствующей аудитории, на этот раз это были активные пользователи приложения. Мы не только устанавливали, соответствуют ли звуки уведомлений необходимым бренду ассоциациям, но также следили, насколько лучше тот или иной звук выполняет задачи по информированию пользователя.
 
-As a result, we developed the following types of sounds:
+В конце концов, мы отобрали самые эффективные звуки из обоих наборов и они попали в релиз. При выборе мы с командой ПУМБ Online руководствовались тем, как точно респонденты соотносили звук с типом оповещения, какие ассоциации он создавал и как соответствовал их ожиданиям.
 
-- notification of the receipt of funds;
-- notification of a withdrawal of funds;
-- positive notifications;
-- negative notifications;
-- default sound.
+В итоге мы разработали следующие типы звуков:
 
-<iframe loading="lazy" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1176942820&amp;color=%23f23b0d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>
+- уведомление о поступлении средств;
+- уведомление о списании средств;
+- позитивные уведомления;
+- негативные уведомления;
+- default звук.
 
-### On-hold music
+{{<youtube "1CpW6jtRzxk" >}}
 
-We should also talk about the on-hold music. It has an essential task because exactly this music clients will hear if they have to wait for the critical question solution. Therefore, this track should not just fill the silence. It should work with the emotional state of the client. Moreover, the composition should appeal to the fact that the person will not feel eternal waiting for the answer  (if the music is poorly chosen, this impression is created within ten seconds of waiting).
+### Музыка удержания на линии
 
-So we made this adaptation of the audio DNA quite dynamic, incorporating as much as possible brand audio elements. As a result, it fully conveys the brand promise and is exciting to listen to.
+Отдельно нужно рассказать и о музыке удержания на линии. У неё чрезвычайно важная задача, ведь именно эту музыку услышит клиент, если ему придётся ждать решения какого-то важного для него вопроса. Поэтому этот трек должен не просто заполнять тишину, он должен работать с эмоциональным состоянием клиента. Более того, композиция должна способствовать тому, что человек не будет чувствовать себя так, будто ждёт ответа вечность (при неудачном подборе музыки такое впечатление складывается даже на десятой секунде ожидания).
 
-<iframe loading="lazy" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1176942802&amp;color=%23f23b0d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>
+Так что эту адаптацию аудио-ДНК мы создали достаточно динамичной, вместив в неё как можно больше элементов брендового звучания. Она полностью транслирует обещание бренда и за ней интересно наблюдать.
 
-## Result
+{{<youtube "aoFzk2uGDYY" >}}
 
-Thanks to the joint efforts, PUMB Online became one of the first Ukrainian mobile banking apps that uses a systematic approach in audio communication with its audience.
+## Результат
 
-Of course, this is only the beginning, but clients of PUMB Online can already have a more emotionally meaningful and integral customer experience.
+Благодаря нашим совместным усилиям ПУМБ Online стал одним из первых украинских мобильных банкингов, начавшим использовать системный подход к аудиальной коммуникации со своей аудиторией.
 
-You can listen to all the audio brand assets that we created for the PUMB Online app in the playlist below.
+Конечно, это только начало, но пользователи ПУМБ Online уже могут получить более эмоционально осмысленный и цельный клиентский опыт.
 
-<iframe loading="lazy" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1362534490&amp;color=%23f23b0d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>
+В плейлисте ниже вы можете прослушать все аудиобрендинговые ассеты, которые мы создали для продукта ПУМБ Online.
+
+{{<youtube "playlist?list=PLkTzVtkdVRI0eD8rVuWbjCXIJhh7dU8WB&si=Dbcxk5HyZMAann24" >}}

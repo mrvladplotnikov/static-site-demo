@@ -18,7 +18,7 @@ contributors:
 - Oleksandr Falinski
 homePageWeight:
 weight: 29
-draft: true
+draft: false
 type: "work"
 ---
 

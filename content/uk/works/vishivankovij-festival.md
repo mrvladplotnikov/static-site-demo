@@ -6,8 +6,6 @@ categories:
 - brand
 services:
 - audio-branding
-- voice-casting
-- music-composing
 genres:
 platforms:
 developers:

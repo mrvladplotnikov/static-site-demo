@@ -1,9 +1,10 @@
 ---
 title: ПУМБ Online
 date: 2024-07-26T15:54:26+03:00
-image: /images/pumb-online/pumb-online-thumb.webp
+image: /images/pumb-online/pumb new case pic.jpg
 categories:
 - brand
+- app
 services:
 - audio-branding
 genres:
@@ -56,6 +57,14 @@ type: "work"
 Ми підібрали декілька музичних уривків для кожного сету 9 понять-асоціацій, які має транслювати звукова ідентичність. Згодом на сесії з командою ПУМБ Online ми прослухали кожен плейлист і відібрали уривки, що звучали найбільш релевантно продукту. Окремо ми зібрали плейлист із музичними ідеями під кодовою назвою «Точно ні!» — туди увійшли треки, що, хоч і могли відповідати встановленим поняттям, але не спрацювали б у загальному контексті бренду.
 
 Усі ці етапи підготовки допомогли нам сформувати попередню аудіальну концепцію для ПУМБ Online. Ми зрозуміли, який набір інструментів ми використовуватемо в нашому креативному процесі, яке аранжування нам необхідно буде створити, з якими гармоніями та фактурами ми експерементуватимемо тощо. Звичайно, ми не забули і про наявний аудіобрендинговий ассет ПУМБ — незабутнє «Пумб-пумб-пумб». 🙂
+<br>
+<br>
+<br>
+
+{{<inline_image_list >}}
+{{<image "images/pumb-online/po4.png" "Screenshot"  >}}
+{{<image "images/pumb-online/po3.png" "Screenshot"  >}}
+{{</inline_image_list >}}
 
 ## Створення та тестування аудіо-ДНК
 
@@ -73,7 +82,7 @@ type: "work"
 
 Після тестування ми фіналізували аудіо-ДНК, залучивши до роботи вокалістку Інну Францескевич, яка власне й додала ще більше людяності звучанню.
 
-<iframe loading="lazy" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1176942838&amp;color=%23f23b0d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>
+{{<youtube "zLrTLIph4JY" >}}
 
 ## Адаптації аудіо-ДНК
 
@@ -97,7 +106,7 @@ type: "work"
 - негативні сповіщення;
 - default звук.
 
-<iframe loading="lazy" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1176942820&amp;color=%23f23b0d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>
+{{<youtube "1CpW6jtRzxk" >}}
 
 ### Музика утримання на лінії
 
@@ -105,7 +114,7 @@ type: "work"
 
 Тож цю адаптацію аудіо-ДНК ми створили досить динамічною, вмістивши в неї якомога більше елементів брендового звучання. Вона повністю транслює обіцянку бренду та за нею цікаво спостерігати.
 
-<iframe loading="lazy" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1176942802&amp;color=%23f23b0d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>
+{{<youtube "aoFzk2uGDYY" >}}
 
 ## Результат
 
@@ -115,4 +124,4 @@ type: "work"
 
 У плейлисті нижче ви можете прослухати всі аудіобрендингові ассети, які ми створили для продукту ПУМБ Online.
 
-<iframe loading="lazy" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1362534490&amp;color=%23f23b0d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>
+{{<youtube "playlist?list=PLkTzVtkdVRI0eD8rVuWbjCXIJhh7dU8WB&si=Dbcxk5HyZMAann24" >}}

@@ -1,9 +1,10 @@
 ---
 title: First Ukrainian International Bank (PUMB Online)
 date: 2024-07-26T15:54:26+03:00
-image: /images/pumb-online/pumb-online-thumb.webp
+image: /images/pumb-online/pumb new case pic.jpg
 categories:
 - brand
+- app
 services:
 - audio-branding
 genres:
@@ -57,6 +58,11 @@ We selected several musical excerpts for each set of 9 associations that the son
 
 All these preparation steps helped us to form a preliminary audio concept for PUMB Online. We understood which instruments we would use in our creative process, which arrangement we would need to create, with which harmonies and textures we would experiment. Of course, we didn’t forget about the existing PUMB audio branding asset — the unforgettable «Poomb-poomb-poomb». 🙂
 
+{{<inline_image_list >}}
+{{<image "images/pumb-online/po4.png" "Screenshot"  >}}
+{{<image "images/pumb-online/po3.png" "Screenshot"  >}}
+{{</inline_image_list >}}
+
 ## Creating and testing the audio DNA
 
 When we started creating the first audio DNA demos, we simultaneously worked on two versions that explored different associations embedded in the brand. Each of the demos had roughly the same set of elements: pianos, synthetic textures, electronic beats, female voice, mid-tempo, and minimalism in the arrangement. But they differed in nuances of mood and «percentages» of inserted ideas.
@@ -73,7 +79,7 @@ When we, along with the PUMB Online team, chose a «winner» among the DNA demos
 
 After the testing, we finalized the audio DNA and invited Inna Frantseskevich, a vocalist whose voice added even more humanity to the sound.
 
-<iframe loading="lazy" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1176942838&amp;color=%23f23b0d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>
+{{<youtube "zLrTLIph4JY" >}}
 
 ## Audio DNA adaptations
 
@@ -97,7 +103,7 @@ As a result, we developed the following types of sounds:
 - negative notifications;
 - default sound.
 
-<iframe loading="lazy" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1176942820&amp;color=%23f23b0d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>
+{{<youtube "1CpW6jtRzxk" >}}
 
 ### On-hold music
 
@@ -105,7 +111,7 @@ We should also talk about the on-hold music. It has an essential task because ex
 
 So we made this adaptation of the audio DNA quite dynamic, incorporating as much as possible brand audio elements. As a result, it fully conveys the brand promise and is exciting to listen to.
 
-<iframe loading="lazy" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1176942802&amp;color=%23f23b0d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>
+{{<youtube "aoFzk2uGDYY" >}}
 
 ## Result
 
@@ -115,4 +121,4 @@ Of course, this is only the beginning, but clients of PUMB Online can already ha
 
 You can listen to all the audio brand assets that we created for the PUMB Online app in the playlist below.
 
-<iframe loading="lazy" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1362534490&amp;color=%23f23b0d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false"></iframe>
+{{<youtube "playlist?list=PLkTzVtkdVRI0eD8rVuWbjCXIJhh7dU8WB&si=Dbcxk5HyZMAann24" >}}

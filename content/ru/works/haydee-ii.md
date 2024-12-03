@@ -5,7 +5,7 @@ image: /images/haydee-ii/haydee-ii-thumb.webp
 categories: 
 - gamedev
 services: 
-- аудиобрендинг
+- создание музыки
 - звуковой дизайн
 - voice-casting
 genres:

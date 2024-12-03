@@ -7,7 +7,7 @@ categories:
 services:
   - sound-design
 weight: 14
-draft: true
+draft: false
 type: "work"
 workVimeoID: "530259007"
 ---
