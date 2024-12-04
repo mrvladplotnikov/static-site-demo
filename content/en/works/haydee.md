@@ -1,5 +1,5 @@
 ---
-title: "Haydee"
+title: Haydee
 date: 2024-07-27T02:22:52+03:00
 image: /images/haydee/haydee-thumb.webp
 categories:
@@ -27,7 +27,9 @@ In this game, you control Haydee, a half-human, half-robot character, searching 
 
 Many consider the sexy protagonist to be the main feature of the game. However, the «cultural shock» will pass in 15 minutes, and you’ll see that the excellent hardcore gameplay is the main reason this game is so awesome.
 
-You can download the game [here](https://store.steampowered.com/app/530890/Haydee/).
+*Unfortunately, in 2022, we discovered that one of Haydee’s key developers supported russia’s invasion of Ukraine. Due to his absolutely unacceptable position, we no longer work on this project and do not receive royalties from the soundtrack sales on Steam.* 
+
+*Our team will never cooperate with this developer in the future, and we donate all the funds from the soundtrack monetization on streaming platforms to the needs of the Ukrainian army.*
 
 ## Sound concept
 
@@ -38,8 +40,8 @@ He analyzed the general concept of the game and the gameplay and decided to emph
 An interesting fact: the soundtrack is primarily written in Omnisphere. And in the game’s main theme, there is an electric guitar to add some melodies.
 
 {{<inline_image_list >}}
-{{<image "images/haydee/hd1.jpeg" "Screenshot"  >}}
-{{<image "images/haydee/hd2.jpg" "Screenshot"  >}}
+{{<image "images/haydee/hd1.jpeg" "Haydee"  >}}
+{{<image "images/haydee/hd2.jpg" "Haydee"  >}}
 {{</inline_image_list >}}
 
 ## Challenge

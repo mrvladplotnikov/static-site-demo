@@ -1,12 +1,12 @@
 ---
-title: "Haydee"
+title: Haydee
 date: 2024-07-27T02:22:52+03:00
 image: /images/haydee/haydee-thumb.webp
 categories:
 - gamedev
 services:
-- звуковой дизайн
-- создание музыки
+- sound-design
+- music-composing
 genres:
 - metroidvania
 platforms: 
@@ -21,39 +21,41 @@ draft: true
 type: "work"
 ---
 
-Haydee is a hardcore Metroidvania mixed with a third-person shooter and platformer mechanics.
+Haydee, в русском варианте — Гайде (да читается вот так!) — это хардкорная метроидвания, дополненная механиками платформера и шутера от третьего лица.
 
-In this game, you control Haydee, a half-human, half-robot character, searching for her way out of a strange artificial complex full of traps, pain, and despair. No checkpoints, regeneration, or «X» to win. All items are hidden, inventory is limited, and death awaits everywhere. What could be better? 🙂
+В этой игре ты управляешь Гайде — полу-женщиной полу-роботом в поисках выхода из странного искусственного комплекса, полного ловушек, боли и отчаяния. Никаких чекпоинтов, регенерации или «крафта». Все предметы спрятаны, инвентарь ограничен, повсюду поджидает смерть. Что может быть лучше? 🙂
 
-Many consider the sexy protagonist to be the main feature of the game. However, the «cultural shock» will pass in 15 minutes, and you’ll see that the excellent hardcore gameplay is the main reason this game is so awesome.
+Многие считают главной фишкой игры её протагонистку с пышными формами. На самом же деле «культурный шок» проходит уже за 15 минут игры и на первый план выходит крутой хардкорный геймплей. Он как раз и затягивает.
 
-You can download the game [here](https://store.steampowered.com/app/530890/Haydee/).
+*В 2022 году мы узнали, что один из ключевых разработчиков игры Haydee поддерживает вторжение россии в Украину. Из-за его абсолютно неприемлемой позиции мы больше не имеем ничего общего с этим проектом и не получаем роялти от продаж саундтрека в Steam.*
 
-## Sound concept
+*Наша команда никогда не будет сотрудничать с этим разработчиком в будущем, а все средства от монетизации саундтрека на стриминговых платформах мы отправляем на нужды украинской армии.*
 
-For Vlad, the first «serious» game dev project he worked on was Haydee. Already at that time, he clearly understood that the right music creates the right atmosphere.
+## Концепция звучания
 
-He analyzed the general concept of the game and the gameplay and decided to emphasize the oppressive sound. The sound could make the hard core of the game stand out even more. The result is an atmospheric mix of electronics and ambient, somewhat reminiscent of the Tangerine Dream.
+Для Влада Haydee стала первым «серьёзным» gamedev проектом, над которым он работал. Уже в то время он чётко понимал, что правильная музыка создаёт крутую атмосферу.
 
-An interesting fact: the soundtrack is primarily written in Omnisphere. And in the game’s main theme, there is an electric guitar to add some melodies.
+Он проанализировал общий концепт игры, картинку и сделал упор на гнетущий, давящий звук. Такой, чтобы ещё больше подчёркивал хардкорность игры. Вышла атмосферная смесь электроники и эмбиента, которая чем-то напоминает «Tangerine Dream».
+
+Интересный факт: саундтрек по большей части написан на Omnisphere, а главной теме игры появляется электрогитара, чтобы добавить мелодики.
 
 {{<inline_image_list >}}
-{{<image "images/haydee/hd1.jpeg" "Screenshot"  >}}
-{{<image "images/haydee/hd2.jpg" "Screenshot"  >}}
+{{<image "images/haydee/hd1.jpeg" "Haydee"  >}}
+{{<image "images/haydee/hd2.jpg" "Haydee"  >}}
 {{</inline_image_list >}}
 
-## Challenge
+## Челлендж
 
-In the game, the main character wanders through a mysterious complex divided into different zones. They differ in color, atmosphere, dangers, and, of course, soundtrack.
+В игре главный персонаж бродит по загадочному комплексу, который разбит на разные зоны. Они отличаются по цвету, атмосфере, опасностям и, естественно, саундтреку.
 
-The sound of each zone had to reflect its distinctive features and, at the same time, remain in the general style of the entire game soundtrack. Besides, it was important not to allow musical themes to overlap. It was the main challenge of the project.
+Звучанием каждой зоны нужно было отразить все её отличительные черты и при этом остаться в общей стилистике всего игрового саундтрека. Кроме того, нельзя было допустить, чтобы музыкальные темы пересекались. В этом и состоял главный челлендж проекта.
 
-## Result
+## Результат
 
-### You can listen to the complete soundtrack for Haydee below:
+### Полный саундтрек к игре Haydee вы можете послушать ниже:
 
 {{<youtube "MdA1lH89ijw" >}}
 
-### Haydee gameplay video:
+### Видео геймплея Haydee:
 
 {{<youtube "GHr-94gO7pw" >}}
