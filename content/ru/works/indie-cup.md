@@ -5,8 +5,8 @@ image: /images/indie-cup/ic-thumb.webp
 categories:
 - brand
 services:
-- аудиобрендинг
-- создание музыки
+- audio-branding
+- music-composing
 genres:
 platforms:
 developers:
@@ -19,40 +19,41 @@ draft: false
 type: "work"
 ---
 
-The Indie Cup is the largest contest of indie developers in Eastern Europe. Thanks to it, every year, more than two hundred teams can find publishers and partners or just get a «ticket to the big world».
+Indie Cup — это один из самых масштабных конкурсов инди-разработчиков. Благодаря ему ежегодно более двухсот команд могут найти издателей и партнёров, или же просто получить «пропуск в большой мир».
 
-For five years, more than 900 games from Ukraine, Russia, and Belarus participated in the Cup, and 59 teams won in various categories. In this competition, the winners get prizes from industrial companies and tickets to professional conferences, and the nominees get feedback from industry experts and media. But the most important thing is that each participant of the Indie Cup has a chance to show their project to publishers and attract the attention of players.
+С 2016 года в кубке участвовало более 2500 игр. В этом конкурсе победители получают призы от индустриальных компаний и билеты на профессиональные конференции, а номинанты — отзывы индустриальных экспертов и медиа. Но самое главное — у каждого участника Indie Cup есть шанс показать свой проект издателям и обратить на себя внимание игроков.
 
-You can learn more about the contest [on its official website](https://indiecup.net/).
+Подробнее о конкурсе вы можете узнать [на его официальном сайте](https://indiecup.net/).
 
-## Sound concept
+## Концепция звучания
 
-This year, the Indie Cup team decided to strengthen their media presence, so the Cup needed its own sound that would unite all its audiovisual channels of communication with the audience.
+В этом году команда Indie Cup решила усилить своё медиа присутствие, а потому у кубка появилась потребность в собственном звучании, которое объединило бы его аудиовизуальные каналы коммуникации с аудиторией.
 
-We talked to the organizers, studied the Cup’s communication, and found the central idea that we supposed to embody in the audio brand: «Indie Cup is a catalyst under the influence of which developers, publishers, experts, and services come together and form a structure that opens up new ideas and projects to the world».
+Мы пообщались с организаторами, изучили коммуникацию кубка и нашли основную идею, которую должны были воплотить в аудио бренде: «Indie Cup — это катализатор, под влиянием которого разработчики, издатели, эксперты и сервисы объединяются и формируют структуру, которая открывает миру новые идеи и проекты».
 
-We started developing an audio brand with a brand track, which in this case, can also be considered an audio DNA. We conveyed the central message first of all melodically, not forgetting to add a sense of competition and excitement as we are still talking about the contest. The choice of musical instruments also played an essential role in forming the necessary sound, where each texture symbolizes one of the main elements of the Indie Cup brand.
+Разработку аудио бренда мы начали с бренд-трека, который в этом случае может считаться также аудио-ДНК. Центральный месседж мы передали прежде всего мелодически, не забыв добавить ощущения соревнования и азарта — всё же речь идёт о конкурсе. Важную роль в формировании необходимого звучания также сыграл выбор музыкальных инструментов, где каждая фактура символизирует какой-то из главных элементов бренда Indie Cup.
 
-{{<image "images/indie-cup/ic1.jpg" "Banner"  >}}
+{{<image "images/indie-cup/ic1.jpg" "Indie Cup"  >}}
 
-## Challenge
+## Результат
 
-This time the main challenge for us was the fact that we have been part of this competition for a few years already as we choose the winner in the Best Audio category. That’s why it took us some time to take the position of an observer and to look at the brand unbiased.
+На этот раз главным челленджем для нас стал тот факт, что мы уже несколько лет буквально являемся частью этого конкурса, ведь мы выбираем победителя в номинации Best Audio. Поэтому нам понадобилось некоторое время, чтобы стать в позицию наблюдателя и посмотреть на бренд беспристрастно.
 
-The Indie Cup is, first of all, a diversity of people, where everyone has their own position, their own task, and their personal significance. Organizers, developers, partners, and sponsors, all of them influence the brand in one way or another, and we had to show this in its sound in the right way.
+Indie Cup — это прежде всего разнообразие людей, где каждый имеет свою позицию, свою задачу и свою значимость. Организаторы, разработчики, партнёры, спонсоры — все они так или иначе влияют на бренд, и мы должны были грамотно это воплотить в его звучании.
 
-We made sure that our involvement as partners and good relations with the organizers did not affect our vision and the final result, and everything seems to have worked out. 🙂
+Мы внимательно следили за тем, чтобы наша вовлеченность в качестве партнёров и хорошие отношения с организаторами не повлияли на наше видение и финальный результат, и, кажется, всё получилось. 🙂
 
-## Result
+## Результат
 
-For the Indie Cup audio brand, we have developed the following elements:
+Для аудио бренда Indie Cup мы разработали следующие элементы:
 
-- audio logo;
-- brand track;
-- brand track variations.
+- аудиологотип;
+- бренд-трек;
+- вариации бренд-трека.
 
-### You can watch and listen to what we have created below:
+
+### Посмотреть и послушать, что у нас получилось, вы можете ниже:
 
 {{<youtube "teRVKFmbBoA" >}}
 
-<iframe loading="lazy" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1112971513&amp;color=%23f23b0d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
+{{<youtube "QoEKOFOYHrU" >}}

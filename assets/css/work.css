@@ -164,6 +164,12 @@
     margin-top: 1.5em;
 }
 
+@media (min-width: 768px) {
+    .work-content h3 {
+        font-size: 2rem;
+    }
+}
+
 .work-content h4[id] {
     margin-bottom: 1.5em;
     margin-top: 1.5em;
