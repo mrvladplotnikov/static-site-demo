@@ -19,7 +19,7 @@ contributors:
 - Anna Sharova
 homePageWeight:
 weight: 21
-draft: true
+draft: false
 type: "work"
 ---
 

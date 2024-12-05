@@ -17,7 +17,7 @@ contributors:
 - Vlad Plotnikov
 homePageWeight: 1
 weight: 1
-draft: true
+draft: false
 type: "work"
 ---
 

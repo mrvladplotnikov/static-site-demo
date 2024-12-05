@@ -19,7 +19,7 @@ contributors:
 - Ruslana Kruchek
 homePageWeight:
 weight: 20
-draft: true
+draft: false
 type: "work"
 ---
 
