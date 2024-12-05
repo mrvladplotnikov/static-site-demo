@@ -8,7 +8,7 @@ position: ex-РО
 company: ПУМБ Online
 project: ПУМБ Online
 link: https://www.facebook.com/ilona.bondar.7
-draft: true
+draft: false
 type: "review"
 ---
 

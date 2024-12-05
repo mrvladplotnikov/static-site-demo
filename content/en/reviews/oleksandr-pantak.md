@@ -9,7 +9,7 @@ position: Game Producer
 company: Amrita Studio
 project: Pirates? Pirates!
 link: https://www.facebook.com/tehlexaeterna
-draft: true
+draft: false
 type: "review"
 ---
 

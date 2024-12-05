@@ -8,7 +8,7 @@ position: Organizer
 company: Indie Cup
 project: Indie Cup
 link: https://www.facebook.com/igor.pospishnyi
-draft: true
+draft: false
 type: "review"
 ---
 

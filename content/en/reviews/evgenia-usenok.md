@@ -7,7 +7,7 @@ position: Communication Manager
 company: Reactive Post
 project: Reactive Post
 link: https://reactivepost.org
-draft: true
+draft: false
 type: "review"
 ---
 

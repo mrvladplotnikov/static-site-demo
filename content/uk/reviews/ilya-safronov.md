@@ -7,7 +7,7 @@ position: Тьютор
 company: Martian Teapots
 project: Trash Is Fun
 link: https://www.facebook.com/martianteapot
-draft: true
+draft: false
 type: "review"
 ---
 

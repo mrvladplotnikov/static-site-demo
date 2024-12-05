@@ -7,7 +7,7 @@ position: YouTube кріейторка
 company: Nikattica
 project: Nikattica
 link: https://www.youtube.com/@Nikattica
-draft: true
+draft: false
 type: "review"
 ---
 

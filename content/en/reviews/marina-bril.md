@@ -8,7 +8,7 @@ position: ex-CMO
 company: MAUDAU
 project: MAUDAU
 link: https://www.linkedin.com/in/marina-bril/
-draft: true
+draft: false
 type: "review"
 ---
 

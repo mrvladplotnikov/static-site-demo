@@ -8,7 +8,7 @@ position: ex-Заступник голови оргкомітету
 company: Вишиванковий Фестиваль
 project: Вишиванковий Фестиваль
 link: https://www.facebook.com/katyaandrich
-draft: true
+draft: false
 type: "review"
 ---
 

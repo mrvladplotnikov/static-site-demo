@@ -8,7 +8,7 @@ position: ex-Deputy head of the organizing committee
 company: Vyshivankovyy festival
 project: Vyshivankovyy festival
 link: https://www.facebook.com/katyaandrich
-draft: true
+draft: false
 type: "review"
 ---
 

@@ -8,7 +8,7 @@ position: Гейм дизайнер
 company: Haydee Interactive
 project: Haydee II
 link:
-draft: true
+draft: false
 type: "review"
 ---
 

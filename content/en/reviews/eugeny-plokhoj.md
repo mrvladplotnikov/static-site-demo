@@ -8,7 +8,7 @@ position: Product Owner, Product Design
 company: Capable Bits
 project: Look Right
 link: https://www.facebook.com/plokhoj
-draft: true
+draft: false
 type: "review"
 ---
 

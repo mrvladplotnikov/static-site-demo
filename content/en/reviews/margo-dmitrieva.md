@@ -9,7 +9,7 @@ position: ex-Game Designer
 company: QuartSoft
 project: QuartSoft
 link: https://www.facebook.com/Margaret.Dmitrieva
-draft: true
+draft: false
 type: "review"
 ---
 

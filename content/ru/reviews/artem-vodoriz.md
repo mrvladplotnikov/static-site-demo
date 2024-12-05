@@ -8,7 +8,7 @@ position: Author
 company: Gingertips Game Studio
 project: FoxTail
 link: https://www.facebook.com/artemvodoriz
-draft: true
+draft: false
 type: "review"
 ---
 

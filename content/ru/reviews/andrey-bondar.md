@@ -9,7 +9,7 @@ position: Co-Founder
 company: WeeSee
 project: WeeSee
 link: https://www.facebook.com/andrey.bondar.376
-draft: true
+draft: false
 type: "review"
 ---
 
