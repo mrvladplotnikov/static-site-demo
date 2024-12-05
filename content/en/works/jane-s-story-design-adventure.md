@@ -27,7 +27,7 @@ Jane is a young novice designer who has to go all the way to a professional with
 
 Go through the levels, earn points, and transform beautiful houses, hotels, and restaurants around the world together with Jane. Use your design vision and have fun.
 
-You can download the game for Android.
+You can check out the game [here](https://amrita.studio/our-games/janes-story?lang=en).
 
 ## Sound concept
 

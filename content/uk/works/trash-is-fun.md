@@ -19,7 +19,7 @@ contributors:
 - Влад Плотніков
 - Руслана Кручек
 homePageWeight: 5
-weight: 6
+weight: 5
 draft: false
 type: "work"
 ---

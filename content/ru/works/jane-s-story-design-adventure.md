@@ -23,39 +23,37 @@ draft: false
 type: "work"
 ---
 
-Jane is a young novice designer who has to go all the way to a professional with a worldwide reputation. And you can help her in this challenging but exciting journey!
+Джейн — молодой начинающий дизайнер, которой предстоит пройти путь до профессионала с мировым именем. И вы способны ей помочь в этом непростом, но увлекательном деле!
 
-Go through the levels, earn points, and transform beautiful houses, hotels, and restaurants around the world together with Jane. Use your design vision and have fun.
+Проходите уровни, зарабатывайте баллы и вместе с Джейн преображайте прекрасные дома, отели и рестораны по всему миру. Используйте своё дизайнерское видение на максимум и нескучно проведите время.
 
-You can download the game for Android.
+## Концепция звучания
 
-## Sound concept
+Мы сразу поняли: саундтрек к игре Jane’s Story должен быть, конечно же, про саму Джейн! Поэтому мы создали основную тему, которая проходит лейтмотивом по всему саундтреку к игре.
 
-We immediately understood: the soundtrack to the game Jane’s Story should be, well, about Jane herself! Therefore, we created the main theme, which runs the leitmotif throughout the soundtrack to the game.
+В эту мелодию мы вложили ощущения от персонажа, её истории, её энтузиазм и любовь к работе. Эта тема стала отличной базой, с помощью которой мы сочинили музыку для режима match-3, мета-игры и разных локаций.
 
-In this melody, we have put sensations from the character, her story, her enthusiasm, and her love for work. This theme has become an excellent base with which we composed music for match-3 mode, meta-game, and various locations.
+Звучание саундтрека мы создали, используя акустическую гитару и барабаны, разные струнные инструменты, маримбу и флейту.
 
-We created the soundtrack using acoustic guitar and drums, various string instruments, marimba, and flute.
-
-We created sound effects for the game in the tonality of the music so that everything sounds harmonious. Sounds are made very neat, given that they often have to overlap.
+Звуковые эффекты для игры мы создали в тональность музыке, чтобы всё звучало гармонично. Звуки сделали очень аккуратными, учитывая, что они зачастую должны накладываться друг на друга.
 
 {{<inline_image_list >}}
 {{<image "images/jane-s-story-design-adventure/js1.jpeg" "Screenshot"  >}}
 {{<image "images/jane-s-story-design-adventure/js2.jpeg" "Screenshot"  >}}
 {{</inline_image_list >}}
 
-## Challenge
+## Челлендж
 
-In this project, it was essential for us to find a balance between the emotionality and background soundtrack. Once again. 🙂 Although we do love emotional music, we know that it can quickly bother a player.
+В этом проекте нам в очередной раз важно было найти баланс между эмоциональностью и фоновостью саундтрека. Хоть мы и очень любим эмоциональную музыку, мы знаем, что она может быстро надоесть игроку.
 
-The average game session in a game like Jane’s Story lasts long enough, so the music option with vivid emotion was turned down immediately. Instead, we made a relaxed background track with a few bright accents and alternating patterns to add mood and variety.
+Средняя игровая сессия в игре по типу Jane’s Story длится достаточно долго, поэтому вариант музыки с яркой эмоцией отпал сразу. Вместо этого мы сделали размеренный фоновый трек с несколькими яркими акцентами и сменяющимися рисунками — чтобы добавить настроения и разнообразия.
 
-## Result
+## Результат
 
-### You can listen to the full soundtrack to the game Jane’s Story below:
+### Послушать полный саундтрек к игре Jane’s Story вы можете ниже:
 
 {{<youtube "McHy6ytzKUU" >}}
 
-### You can check the sound design by watching the video:
+### Оценить звуковой дизайн можно по видео:
 
 {{<youtube "J0Nn0hvs5Ys" >}}

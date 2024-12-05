@@ -13,8 +13,8 @@ developers:
 contributors:
 - Vlad Plotnikov
 - Ruslana Kruchek
-homePageWeight: 2
-weight: 5
+homePageWeight: 6
+weight: 6
 draft: false
 type: "work"
 ---

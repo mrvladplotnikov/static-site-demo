@@ -21,20 +21,21 @@ draft: false
 type: "work"
 ---
 
-FoxTail is a classic point-and-click quest. The developer takes inspiration from the old pixel adventures from the mid-90s and creates an atmospheric and spectacular world. *Just like we love it!*
+FoxTail — это классический point-and-click квест. Разработчик вдохновляется старыми пиксельными адвенчурами середины 90-х годов и создаёт атмосферный и захватывающий мир. Прямо как мы любим!
 
-The main character of the game is the fox Leah, who goes on a long and challenging journey: through the maze of mines, mountains, swamps, and a dangerous night forest. She has to conquer her fears and help everyone whom she meets in the way.
+Главная героиня игры — лисичка Лия, которая отправляется в долгое и нелёгкое путешествие: через лабиринты шахт, горы, болота и опасный ночной лес. Ей предстоит побеждать собственные страхи и помогать в этом всем, кто встретится ей на пути.
 
-She will do this for the great noble goal that doesn’t allow her to retreat or surrender.
+Она сделает это ради большой и благой цели, которая не позволит ей отступить или сдаться.
 
-The game is still in the stage of development, but you can download it and play the first few chapters [here](https://store.steampowered.com/app/581360/FoxTail/).
+Игра всё ещё разрабатывается, но скачать её и поиграть в первые несколько глав можно [тут](https://store.steampowered.com/app/581360/FoxTail/).
 
-## Sound concept
-At the beginning of the cooperation, the developer wanted the soundtrack to convey the atmosphere of old pixel games. Therefore, we created the very first sketches of the main theme in this style, inspired by the soundtrack of The Legend of Kyrandia.
+## Концепция звучания
 
-But already at first listening along with the picture, it became clear that the music does not work as it should. Yes, it suited the general concept but did not sufficiently convey the mood of the game and the depth of Leah’s story.
+В начале сотрудничества разработчик хотел, чтобы саундтрек максимально передавал атмосферу старых пиксельных игр. Поэтому самые первые скетчи главной темы мы создавали именно в такой стилистике, вдохновляясь саундтреком игры The Legend of Kyrandia.
 
-We continued to experiment and, in trying to find the right sound, even managed to get into orchestral music. As a result, we stopped somewhere in the middle. 🙂 The soundtrack to FoxTail includes flute and other woodwind instruments, harp, percussion, and in the main theme, there is even a guitar. But they intentionally do not sound too «lively» for the music to harmonize with the visuals of the game.
+Но уже при первом прослушивании вместе с картинкой стало понятно, что музыка не работает так, как нужно. Да, она подходила общей концепции, но не передавала в полной степени настроения игры и глубину истории Лии.
+
+Мы продолжили экспериментировать и в попытках найти нужное звучание успели уйти даже в оркестровую музыку. В итоге остановились где-то посередине. 🙂 В саундтреке к игре FoxTail звучат флейта и другие деревянные духовые инструменты, арфа, перкуссии, а главной теме — даже гитара. Но звучат они намеренно не слишком «живо», чтобы музыка гармонировала с визуалом игры.
 
 {{<inline_image_list >}}
 {{<image "images/foxtail/work-1.1.jpg" "Screenshot"  >}}
@@ -46,28 +47,28 @@ We continued to experiment and, in trying to find the right sound, even managed 
 {{<image "images/foxtail/work-1.4.jpg" "Screenshot"  >}}
 {{</inline_image_list >}}
 
-## Challenge
+## Челлендж
 
-When we started work on the project, there already was music. There was only one chapter published at that time, but it had already managed to win a loyal audience. We understood that as soon as we write the new soundtrack, this will cause at least minimal discontent among the players.
+Когда мы начали работу над проектом, в нём уже была музыка. На тот момент была издана только одна глава, но она уже успела завоевать преданную аудиторию. Мы понимали, что как только мы напишем собственный саундтрек, это вызовет хотя бы минимальное недовольство игроков.
 
-People don’t like changes too much, and that’s okay. Especially since the previous FoxTail soundtrack was pretty good. That is what became the main challenge for us on this project: we needed to write music better than it was before and be ready for an adverse reaction.
+Люди не слишком любят изменения и это нормально. Тем более, что предыдущий саундтрек FoxTail был достаточно хорошим. Именно это и стало для нас главным вызовом на проекте: нам нужно было написать музыку лучше прежней и быть готовыми к негативной реакции.
 
-In the end, everything turned out more than successful. The audience initially divided in the opinion; however, over time, after the release of the second chapter, there became less and less negative reviews. We even personally saw cases when players changed their minds. 🙂
+В итоге всё вышло более чем успешно. Аудитория изначально разделилась в своём мнении, но с течением времени и выходом второй главы, негативных отзывов становилось всё меньше и меньше. Мы даже лично видели случаи, когда игроки меняли своё мнение. 🙂
 
-Later on, the audience liked the soundtrack so much that we started receiving requests for its release. That’s why we released the album with music for the first three chapters. It is available on all [streaming platforms](https://li.sten.to/foxtailost) as well as below on this page. You can also download it in the highest quality on Bandcamp and Steam.
+Впоследствии саундтрек настолько понравился аудитории, что мы начали получать запросы на его отдельный релиз. Поэтому мы и выдали альбом с музыкой к первым трём главам. Он доступен для прослушивания на всех [стриминговых сервисах](https://ffm.to/foxtail_1-3_ost.bio) и ниже на этой странице, а также для скачивания в самом высоком качестве — на Bandcamp и Steam.
 
-This project once again proved to us how important it is to create music that does a little more than just be beautiful and suitable. How important it is to reveal the characters and the story itself with its help. After all, this is what helps to create an emotional attachment for players.
+Это в очередной раз доказало нам, как важно создавать музыку, которая чуть больше, чем красивая и подходящая. Как важно с её помощью раскрывать персонажей и саму историю. Ведь именно это и помогает создать эмоциональную привязку у игроков.
 
-By the way, our co-founder Vlad tells more about the story behind the FoxTail soundtrack in this video:
+Кстати, сооснователь нашего агентства Влад рассказал больше об истории саундтрека FoxTail в этом видео:
 
 {{<youtube "nwqCzcQYQcM" >}}
 
-## Result
+## Результат
 
-### You can listen to the soundtrack to FoxTail’s first three chapters below:
+### Послушать саундтрек к первым трём главам игры FoxTail вы можете ниже:
 
 {{<youtube "zAWD8-ZzH3A" >}}
 
-### Gameplay video of FoxTail’s released chapters:
+### Геймплей вышедших глав FoxTail:
 
-{{<youtube "352oLQQc73Y" >}}
+{{<youtube "UtuGCl5i22cxw" >}}
