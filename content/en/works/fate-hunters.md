@@ -19,7 +19,7 @@ contributors:
 - Artem Baskoev
 homePageWeight:
 weight: 18
-draft: true
+draft: false
 type: "work"
 ---
 

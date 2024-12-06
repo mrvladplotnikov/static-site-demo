@@ -18,9 +18,9 @@ contributors:
 - Vlad Plotnikov
 - Ruslana Kruchek
 - Oleksandr Falinski
-homePageWeight:
-weight: 8
-draft: true
+homePageWeight: 13
+weight: 13
+draft: false
 type: "work"
 ---
 

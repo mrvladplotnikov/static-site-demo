@@ -15,7 +15,7 @@ contributors:
 - Марина Овсюк
 homePageWeight:
 weight: 15
-draft: true
+draft: false
 type: "work"
 ---
 

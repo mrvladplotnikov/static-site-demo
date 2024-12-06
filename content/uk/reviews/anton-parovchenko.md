@@ -7,7 +7,7 @@ position: Head of Art Office
 company: Skymoons Kyiv
 project: Kitten Match (Opening Video)
 link: https://www.facebook.com/anton.parovchenko
-draft: true
+draft: false
 type: "review"
 ---
 

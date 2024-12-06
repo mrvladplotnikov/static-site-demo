@@ -8,7 +8,7 @@ position: Комунікаційниця
 company: Реактивна Пошта
 project: Реактивна Пошта
 link: https://reactivepost.org
-draft: true
+draft: false
 type: "review"
 ---
 

@@ -19,8 +19,8 @@ contributors:
 - Artem Baskoev
 - Mariia Marchenko
 - Ruslana Kruchek
-homePageWeight: 3
-weight: 3
+homePageWeight: 12
+weight: 12
 draft: false
 type: "work"
 ---
@@ -29,13 +29,13 @@ Haydee II is a sequel of the hardcore metroidvania game with a third-person shoo
 
 Obviously, the female protagonist of the sequel is not inferior to the predecessor’s appearance. 🙂 But do not let her curvy appeal mislead you: Haydee II is more complex and serious than it may seem at first sight.
 
-You can download the game here:
+*Unfortunately, in 2022, we discovered that one of Haydee’s key developers supported russia’s invasion of Ukraine. Due to his absolutely unacceptable position, we no longer work on this project and do not receive royalties from the soundtrack sales on Steam.*
 
-<iframe loading="lazy" src="https://store.steampowered.com/widget/1444650/" frameborder="0" width="100%" height="190"></iframe>
+*Our team will never cooperate with this developer in the future, and we donate all the funds from the soundtrack monetization on streaming platforms to the needs of the Ukrainian army.*
 
 ## Sound concept
 
-We were happy to return to work on Haydee after a four years break between [its first part](works/haydee). During that time, we have learned a lot and improved our game audio creation approach.
+We were happy to return to work on Haydee after a four years break between [its first part](/en/works/haydee). During that time, we have learned a lot and improved our game audio creation approach.
 
 From the beginning of the project, we realized that the soundtrack would be much more replete and emotional than the original game. Simply because this time, the game has an embedded narrative.
 
@@ -72,13 +72,13 @@ During sound design, the main challenge was exactly the «unmatch» of sound eff
 
 And in terms of the soundtrack, we had simply to accept all the risks that carried the idea of ​​abandoning generic ambient sound of gameplay tracks in favor of more melodic compositions. 🙂
 
-This tough decision was inspired by the game’s story, the work on the main theme, and the successful experience with [the FoxTail soundtrack](works/foxtail).
+This tough decision was inspired by the game’s story, the work on the main theme, and the successful experience with [the FoxTail soundtrack](/en/works/foxtail).
 
 Besides, we had to listen carefully to all the material to avoid self-repetition. All music had to remain cohesive and, at the same time, reveal the narrative in different ways.
 
 ## Result
 
-Haydee II soundtrack is now released in digital format [on all major streaming platforms](https://ampl.ink/wPKLw) and in [DLC format on Steam](https://store.steampowered.com/app/1544610/Haydee_2_Soundtrack/).
+Haydee II soundtrack is now released in digital format [on all major streaming platforms](https://ffm.to/haydee2.bio).
 
 You can listen to all ten tracks below:
 

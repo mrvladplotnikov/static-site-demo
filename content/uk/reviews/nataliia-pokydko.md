@@ -8,7 +8,7 @@ position: Brand Manager
 company: robota.ua
 project: robota.ua
 link: https://www.linkedin.com/in/nataliia-pokydko-08bb541b7/
-draft: true
+draft: false
 type: "review"
 ---
 

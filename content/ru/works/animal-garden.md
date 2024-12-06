@@ -1,5 +1,5 @@
 ---
-title: "Animal Garden: Зоопарк и Ферма"
+title: "Animal Garden"
 date: 2024-07-27T12:47:16+03:00
 image: /images/animal-garden/animal-garden-thumb.webp
 categories:
@@ -18,9 +18,9 @@ contributors:
 - Александр Фалинский
 - Мария Марченко
 - Руслана Кручек
-homePageWeight: 7
+homePageWeight: 17
 weight: 17
-draft: true
+draft: false
 type: "work"
 ---
 

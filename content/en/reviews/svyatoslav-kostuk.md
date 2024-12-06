@@ -7,7 +7,7 @@ position: Game Producer
 company: Tower Games
 project: Fate Hunters
 link: https://www.facebook.com/profile.php?id=100000779693068
-draft: true
+draft: false
 type: "review"
 ---
 

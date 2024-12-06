@@ -8,7 +8,7 @@ position: CMO
 company: monobank
 project: monobank
 link: https://www.facebook.com/rogalskiya
-draft: true
+draft: false
 type: "review"
 ---
 

@@ -8,7 +8,7 @@ position: ex-PO
 company: PUMB Online
 project: First Ukrainian International Bank (PUMB Online)
 link: https://www.facebook.com/ilona.bondar.7
-draft: true
+draft: false
 type: "review"
 ---
 

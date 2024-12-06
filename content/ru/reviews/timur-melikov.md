@@ -7,7 +7,7 @@ position: Game Designer
 company: Haydee Interactive
 project: Haydee
 link:
-draft: true
+draft: false
 type: "review"
 ---
 

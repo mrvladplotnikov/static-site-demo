@@ -19,7 +19,7 @@ contributors:
 - Артем Баскоєв
 homePageWeight:
 weight: 18
-draft: true
+draft: false
 type: "work"
 ---
 

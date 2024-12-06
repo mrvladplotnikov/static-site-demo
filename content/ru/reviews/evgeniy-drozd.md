@@ -7,7 +7,7 @@ position: Game Producer
 company: QuartSoft
 project: "Coral Isle 2: Tropical Stories"
 link: https://www.facebook.com/drozdevgeniy
-draft: true
+draft: false
 type: "review"
 ---
 

@@ -18,9 +18,9 @@ contributors:
 - Влад Плотніков
 - Руслана Кручек
 - Олександр Фалінський
-homePageWeight:
-weight: 8
-draft: true
+homePageWeight: 13
+weight: 13
+draft: false
 type: "work"
 ---
 

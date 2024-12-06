@@ -9,7 +9,7 @@ position: Project Manager
 company: Hellenic Youth Participation
 project: Подкасти HYP
 link:
-draft: true
+draft: false
 type: "review"
 ---
 

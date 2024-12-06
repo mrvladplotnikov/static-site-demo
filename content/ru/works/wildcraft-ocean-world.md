@@ -20,7 +20,7 @@ contributors:
 - Александр Фалинский
 homePageWeight:
 weight: 8
-draft: true
+draft: false
 type: "work"
 ---
 

@@ -7,7 +7,7 @@ position: Project and Brand Manager
 company: PlayUa
 project: PlayUa
 link: https://www.facebook.com/AtorZN
-draft: true
+draft: false
 type: "review"
 ---
 

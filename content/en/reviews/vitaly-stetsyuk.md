@@ -10,7 +10,7 @@ position: CDO, Co-Founder
 company: Carpe Diem Solutions
 project: Carpe Diem Solutions
 link: https://www.facebook.com/w0rlak
-draft: true
+draft: false
 type: "review"
 ---
 

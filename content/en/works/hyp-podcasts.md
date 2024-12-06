@@ -15,7 +15,7 @@ contributors:
 - Maryna Ovsiuk
 homePageWeight:
 weight: 15
-draft: true
+draft: false
 type: "work"
 ---
 

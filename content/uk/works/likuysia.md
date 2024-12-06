@@ -14,7 +14,7 @@ contributors:
 - Руслана Кручек
 homePageWeight:
 weight: 16
-draft: true
+draft: false
 type: "work"
 ---
 

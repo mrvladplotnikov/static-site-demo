@@ -14,9 +14,9 @@ developers:
 contributors:
 - Влад Плотніков
 - Руслана Кручек
-homePageWeight: 10
-weight: 7
-draft: true
+homePageWeight: 11
+weight: 12
+draft: false
 type: "work"
 ---
 
@@ -57,7 +57,7 @@ PlayUA — це українське розважальне інтернет-в�
 
 ### Прослухати їх всі ви можете нижче:
 
-<iframe loading="lazy" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/786416052&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
+{{<youtube "_o3KaC5uC_U" >}}
 
 ### А ось і приклади використання деяких елементів аудіо бренду:
 

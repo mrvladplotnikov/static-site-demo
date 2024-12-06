@@ -19,7 +19,7 @@ contributors:
 - Олександр Фалінський
 homePageWeight:
 weight: 31
-draft: false
+draft: true
 type: "work"
 ---
 

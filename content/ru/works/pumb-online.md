@@ -13,9 +13,9 @@ developers:
 contributors:
 - Влад Плотников
 - Руслана Кручек
-homePageWeight: 8
-weight: 4
-draft: true
+homePageWeight: 6
+weight: 6
+draft: false
 type: "work"
 ---
 

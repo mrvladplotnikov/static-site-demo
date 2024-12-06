@@ -14,8 +14,8 @@ contributors:
 - Vlad Plotnikov
 - Ruslana Kruchek
 homePageWeight: 9
-weight: 10
-draft: true
+weight: 9
+draft: false
 type: "work"
 ---
 

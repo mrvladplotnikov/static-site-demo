@@ -16,7 +16,7 @@ contributors:
 - Mariia Marchenko
 homePageWeight:
 weight: 28
-draft: true
+draft: false
 type: "work"
 ---
 

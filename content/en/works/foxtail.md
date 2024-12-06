@@ -17,7 +17,7 @@ contributors:
 - Vlad Plotnikov
 homePageWeight: 1
 weight: 1
-draft: true
+draft: false
 type: "work"
 ---
 
@@ -54,7 +54,7 @@ People don’t like changes too much, and that’s okay. Especially since the pr
 
 In the end, everything turned out more than successful. The audience initially divided in the opinion; however, over time, after the release of the second chapter, there became less and less negative reviews. We even personally saw cases when players changed their minds. 🙂
 
-Later on, the audience liked the soundtrack so much that we started receiving requests for its release. That’s why we released the album with music for the first three chapters. It is available on all [streaming platforms](https://li.sten.to/foxtailost) as well as below on this page. You can also download it in the highest quality on Bandcamp and Steam.
+Later on, the audience liked the soundtrack so much that we started receiving requests for its release. That’s why we released the album with music for the first three chapters. It is available on all [streaming platforms](https://ffm.to/foxtail_1-3_ost.bio) as well as below on this page. You can also download it in the highest quality on Bandcamp and Steam.
 
 This project once again proved to us how important it is to create music that does a little more than just be beautiful and suitable. How important it is to reveal the characters and the story itself with its help. After all, this is what helps to create an emotional attachment for players.
 
@@ -70,4 +70,4 @@ By the way, our co-founder Vlad tells more about the story behind the FoxTail so
 
 ### Gameplay video of FoxTail’s released chapters:
 
-{{<youtube "352oLQQc73Y" >}}
+{{<youtube "UtuGCl5i22cxw" >}}
