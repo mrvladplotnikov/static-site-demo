@@ -23,11 +23,11 @@
             aria-hidden="true" loading="lazy">
     </div>
 
-    {{- with .Pages }}
+    {{- with (where .Pages ".Params.hide" "ne" true) }}
     <div class="small-container">
         <div class="clients-section">
             <h2>Відгуки клієнтів і партнерів</h2>
-
+            
             {{- $result := partial "convert-slice-to-slice-of-slices.html" (dict "s" . "n" 10) -}}
 
             {{- range $result }}
