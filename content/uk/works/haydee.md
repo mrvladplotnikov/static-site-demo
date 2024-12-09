@@ -19,6 +19,8 @@ homePageWeight:
 weight: 11
 draft: false
 type: "work"
+aliases:
+- /ru/works/haydee
 ---
 
 Haydee, українською — Гайде (читається саме так!) — це хардкорна метроідванія, доповнена механіками платформера й шутера від третьої особи.

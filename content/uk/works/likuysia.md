@@ -16,6 +16,8 @@ homePageWeight:
 weight: 16
 draft: false
 type: "work"
+aliases:
+- /ru/works/likuysia
 ---
 
 ## Про проєкт

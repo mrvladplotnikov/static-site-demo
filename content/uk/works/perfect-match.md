@@ -21,6 +21,8 @@ homePageWeight:
 weight: 20
 draft: false
 type: "work"
+aliases:
+- /ru/works/perfect-match
 ---
 
 ## Про гру

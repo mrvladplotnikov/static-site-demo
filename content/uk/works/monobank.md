@@ -17,6 +17,8 @@ homePageWeight: 2
 weight: 2
 draft: false
 type: "work"
+aliases:
+- /ru/works/monobank
 ---
 
 monobank — банк у телефоні — продукт співпраці Universal Bank і команди Fintech Band, прогресивний інструмент персонального банкінгу у вигляді мобільного застосунку.

@@ -19,6 +19,8 @@ homePageWeight: 1
 weight: 1
 draft: false
 type: "work"
+aliases:
+- /ru/works/foxtail
 ---
 
 FoxTail — це класичний point-and-click квест. Розробник надихається старими пиксельними адвенчурами середини 90-х років і створює атмосферний і захоплюючий світ. *Усе як ми любимо!*

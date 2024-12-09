@@ -22,6 +22,8 @@ homePageWeight: 15
 weight: 15
 draft: false
 type: "work"
+aliases:
+- /ru/works/animal-garden
 ---
 
 «Animal Garden: Зоопарк і Ферма», як можна здогадатися з назви, це гра про будівництво зоопарку мрії, догляд за тваринами і створення відмінних вражень для відвідувачів.

@@ -21,6 +21,8 @@ homePageWeight:
 weight: 26
 draft: false
 type: "work"
+aliases:
+- /ru/works/jane-s-story-design-adventure
 ---
 
 Джейн — молодий дизайнер-початківець, якій належить пройти шлях до професіонала зі світовим ім’ям. І ви здатні їй допомогти в цій непростій, але захоплюючій справі!

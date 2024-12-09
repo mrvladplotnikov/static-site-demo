@@ -16,6 +16,8 @@ homePageWeight: 4
 weight: 4
 draft: false
 type: "work"
+aliases:
+- /ru/works/maudau
 ---
 
 MAUDAU — це онлайн-платформа для повсякденних покупок, або ж, простими словами, — маркет важливих штук. 

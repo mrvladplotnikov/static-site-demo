@@ -17,6 +17,8 @@ homePageWeight:
 weight: 22
 draft: false
 type: "work"
+aliases:
+- /ru/works/kitten-match
 ---
 
 Над цим невеликим інтро-відео для казуальної гри Kitten Match ми працювали спільно з київським арт підрозділом міжнародної ігрової компанії Skymoons Interactive.

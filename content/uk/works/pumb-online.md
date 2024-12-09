@@ -17,6 +17,8 @@ homePageWeight: 8
 weight: 8
 draft: false
 type: "work"
+aliases:
+- /ru/works/pumb-online
 ---
 
 ПУМБ Online — це мобільний застосунок Першого Українського Міжнародного Банку (ПУМБ), який входить у ТОП-5 найбільших банків України.

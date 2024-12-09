@@ -17,6 +17,8 @@ homePageWeight:
 weight: 15
 draft: false
 type: "work"
+aliases:
+- /ru/works/hyp-podcasts
 ---
 
 ## Про продукт

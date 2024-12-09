@@ -22,6 +22,8 @@ homePageWeight:
 weight: 19
 draft: false
 type: "work"
+aliases:
+- /ru/works/wildcraft
 ---
 
 WildCraft — це гра-симулятор життя диких тварин. У ній на вас чекає захоплююча подорож у ролі вовка, рисі, лисиці або інших мешканців лісів, джунглів і саван.

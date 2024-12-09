@@ -16,6 +16,8 @@ homePageWeight:
 weight: 13
 draft: false
 type: "work"
+aliases:
+- /ru/works/merman
 ---
 
 Merman — це арт-об’єкт, який на фестивалі Burning Man 2021 готується представити українська команда бьорнерів.
