@@ -17,7 +17,8 @@ contributors:
 homePageWeight:
 weight: 28
 draft: false
-type: "work"aliases:
+type: "work"
+aliases:
 - /ru/works/weesee
 ---
 
