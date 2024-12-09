@@ -4,7 +4,7 @@ date: 2023-07-27T04:20:22+03:00
 image: /images/reviews/kandrich.jpg
 services: 
 - voice-casting
-position: ex-Заступник голови оргкомітету
+position: ex-Заступник голови
 company: Вишиванковий Фестиваль
 project: Вишиванковий Фестиваль
 link: https://www.facebook.com/katyaandrich

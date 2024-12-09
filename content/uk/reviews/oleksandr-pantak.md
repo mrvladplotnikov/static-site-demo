@@ -1,6 +1,6 @@
 ---
 title: "Олександр Пантак"
-date: 2022-07-27T16:02:09+03:00
+date: 2022-06-27T16:02:09+03:00
 image: /images/reviews/opantak.jpg
 services:
 - music-composing
