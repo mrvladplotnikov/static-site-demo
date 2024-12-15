@@ -1,0 +1,10 @@
+# Redirect with a 301
+[[redirects]]
+from = "/ru"
+to = "/"
+status = 301
+
+[[redirects]]
+from = "/ru/portfolio"
+to = "/portfolio"
+status = 301

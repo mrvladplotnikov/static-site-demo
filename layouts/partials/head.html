@@ -1,9 +1,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta charset="utf-8" />
 <link rel="canonical" href="{{ .Site.BaseURL }}" />
-<title>{{ if not .IsHome }}{{ .Title | title }} | {{ end }}{{ .Site.Title }}</title>
 
-{{- with .Params.description }}
+{{- with .Params.seoTitle }}
+<title>{{ . | title }}</title>
+{{- else }}
+<title>{{ if not .IsHome }}{{ .Title | title }} | {{ end }}{{ .Site.Title }}</title>
+{{- end }}
+
+{{- with .Params.seoDescription }}
 <meta name="description" content="{{ . }}" />
 {{- end }}
 
