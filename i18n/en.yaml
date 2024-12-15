@@ -44,6 +44,7 @@ general/reset-filters: Reset filters
 
 home/about/title: About us
 home/about/description: We are a Ukrainian audio agency that crafts impactful sound for games, brands, and apps. We develop unique audio to make our clients' products secure a place in the minds and hearts of their audiences.
+home/about/imageAlt: Image about us
 
 home/features/title: Why us?
 home/works/title: Featured Works
