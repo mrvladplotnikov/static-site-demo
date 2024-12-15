@@ -16,4 +16,4 @@ While developing notification sounds for monobank, the guys had the idea to reco
 
 <!--more-->
 
-The team knows its business. There will be no «give and forget» approach; the guys always adjust to the product and complement your solution with the right sound design. Also, they will always prompt the right way if you get lost in the creative process.
+The team knows its business. There will be no «give and forget» approach; the guys always adjust to the product and complement your solution with the right sound design. Also, they will always prompt the right way if you get lost in the creative process!
