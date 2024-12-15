@@ -1936,33 +1936,6 @@ body.modal-open {
 
 /* sidebar-title end */
 
-
-/* service-page-title start*/
-
-.service-page-title {
-  color: var(--clr-white);
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 22px;
-  margin-top: 0;
-  margin-bottom: 32px;
-}
-
-@media (min-width: 992px) {
-  .service-page-title {
-    font-size: 1.7rem;
-    line-height: 1.3
-  }
-}
-
-@media (min-width: 1400px) {
-  .service-page-title {
-    font-size: 2rem;
-  }
-}
-
-/* service-page-title end*/
-
 /* not found page section start */
 .not-found-page {
   display: grid;
@@ -2008,5 +1981,11 @@ body .iframe-container iframe {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+@media (max-width: 550px) {
+  body .iframe-container.mobile-long {
+    padding-bottom: 85%;
+  }
 }
 /* iframe video ends */

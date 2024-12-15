@@ -4,7 +4,7 @@ new Grid(
     document.querySelector('.grid'),
     document.querySelectorAll('.grid-item'),
     1).init({
-        '(max-width: 450px)': 1,
+        '(max-width: 450px)': 2,
         '(min-width: 451px)': 2,
         '(min-width: 501px)': 3,
         '(min-width: 701px)': 5,

@@ -32,12 +32,12 @@ bgImage: /images/services/voice-casting-bg.webp
 За роки роботи ми сформували базу акторів голосового озвучення та вокалістів. Кожен із них — носій найрізноманітніших мов і акцентів, тембрів і інтонацій. У цьому ви можете переконатися самі, плейлисти із прикладами голосів акторів і вокалістів ви знайдете нижче.
 
 <h3>Актори озвучення</h3>
-<div class="iframe-container">
+<div class="iframe-container mobile-long">
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/303617614%3Fsecret_token%3Ds-jgwUQD8Wr0W&color=%23f23b0d&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"></iframe>
 </div>
 
 <h3>Вокалісти</h3>
-<div class="iframe-container">
+<div class="iframe-container mobile-long">
 <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1259357083%3Fsecret_token%3Ds-vWRXTht4Qep&color=%23f23b0d&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"></iframe>
 </div>
 
