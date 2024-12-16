@@ -24,7 +24,8 @@
   "defaultContentLanguageInSubdir": false,
   "params": {
     "email": "connect@vp-production.com",
-    "noIndex": true
+    "noIndex": true,
+    "cookiesAlert": false 
   },
   "languages": {
     "uk": {

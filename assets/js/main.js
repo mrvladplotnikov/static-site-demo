@@ -179,3 +179,27 @@ const modals = () => {
 }
 
 modals();
+
+const cookiesAlertHanlder = () => {
+  const cookiesAlert = document.querySelector("#cookies-alert");
+  const closeButton = document.querySelector("#cookies-alert-close");
+  const applyButton = document.querySelector("#cookies-alert-apply");
+
+  if (!localStorage || !cookiesAlert || !closeButton || !applyButton) return;
+
+  const isAlertHidden = localStorage.getItem('hideCookiesAlert') == 1;
+
+  if (!isAlertHidden) {
+    cookiesAlert.classList.remove('hidden');
+  }
+
+  const hideCookiesAlert = () => {
+    localStorage.setItem('hideCookiesAlert', 1);
+    cookiesAlert.classList.add('hidden');
+  }
+
+  closeButton.addEventListener('click', hideCookiesAlert);
+  applyButton.addEventListener('click', hideCookiesAlert);
+}
+
+cookiesAlertHanlder();
