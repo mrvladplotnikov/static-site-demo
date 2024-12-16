@@ -23,7 +23,8 @@
   "defaultContentLanguage": "uk",
   "defaultContentLanguageInSubdir": false,
   "params": {
-    "email": "connect@vp-production.com"
+    "email": "connect@vp-production.com",
+    "noIndex": true
   },
   "languages": {
     "uk": {

@@ -19,7 +19,9 @@
 {{ end }}
 {{ end -}}
 
+{{- with .Site.Params.noIndex }}
 <meta name="robots" content="noindex">
+{{- end }}
 
 <meta name="theme-color" content="#000000">
 <link rel="icon" type="image/png" href="/images/favicon-32x32.png" />

@@ -3,6 +3,8 @@
 
 <head>
   {{- partial "head.html" . -}}
+  {{- block "meta" . }}{{ end -}}
+  
   {{- block "cssbeforemain" . }}{{ end -}}
 
   {{- partial "css-bundle.html" . -}}
