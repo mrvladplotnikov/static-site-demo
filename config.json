@@ -25,7 +25,7 @@
   "params": {
     "email": "connect@vp-production.com",
     "noIndex": true,
-    "cookiesAlert": false 
+    "cookiesAlert": true 
   },
   "languages": {
     "uk": {
