@@ -4,6 +4,8 @@ type: service
 quote: Музика – посередник між духовним і чуттєвим життямлюдини.
 author: Людвіг ван Бетховен
 bgImage: /images/services/music-composing-bg.webp
+aliases:
+- /ru/services/music-composing
 ---
 
 {{<service_first_section title="Музична мова не має кордонів, і саме це робить її настільки потужною.">}}

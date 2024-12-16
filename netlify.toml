@@ -8,3 +8,23 @@ status = 301
 from = "/ru/portfolio"
 to = "/portfolio"
 status = 301
+
+[[redirects]]
+from = "/ru/faq"
+to = "/faq"
+status = 301
+
+[[redirects]]
+from = "/ru/about"
+to = "/about"
+status = 301
+
+[[redirects]]
+from = "/ru/our-values"
+to = "/our-values"
+status = 301
+
+[[redirects]]
+from = "/ru/reviews"
+to = "/reviews"
+status = 301

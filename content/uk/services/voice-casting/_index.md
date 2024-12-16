@@ -4,6 +4,8 @@ type: service
 quote: Людський голос — найкрасивіший інструмент з усіх, але на ньому найважче грати.
 author: Ріхард Штраус
 bgImage: /images/services/voice-casting-bg.webp
+aliases:
+- /ru/services/voice-casting
 ---
 
 {{<service_first_section title="Голос — не лише найперший, але й найбільш емоційний з усіх музичних інструментів.">}}
